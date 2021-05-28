@@ -1,4 +1,5 @@
-# dmidecode 2.11
+# dmidecode 3.2
+Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 43 structures occupying 1741 bytes.
 Table at 0x000FC550.

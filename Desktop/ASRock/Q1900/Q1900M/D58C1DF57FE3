@@ -1,17 +1,18 @@
-# dmidecode 3.2
-Scanning /dev/mem for entry point.
+# dmidecode 3.3
+# SMBIOS entry point at 0x000f04d0
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-20 structures occupying 1197 bytes.
-Table at 0x000EBD30.
+20 structures occupying 1203 bytes.
+Table at 0x000E9490.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: P1.90A
-	Release Date: 07/02/2018
+	Version: P2.00
+	Release Date: 12/20/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -51,8 +52,8 @@ Base Board Information
 	Product Name: Q1900M
 	Version:                       
 	Serial Number: --
-	Asset Tag: --
-	97946E993916094B22613E03B8339091
+	271882FD79060B21C43F805A2DE81148                       
+	Features:
 		Board is a hosting board
 		Board is replaceable
 	Location In Chassis:                       
@@ -142,7 +143,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM0
@@ -156,8 +157,8 @@ Memory Device
 	Part Number: CT102464BA160B.C16
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 42.264 V
-	Maximum Voltage: 44.041 V
+	Minimum Voltage: 7.576 V
+	Maximum Voltage: 44.051 V
 	Configured Voltage: Unknown
 
 Handle 0x000F, DMI type 20, 35 bytes
@@ -175,7 +176,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM1
@@ -189,7 +190,7 @@ Memory Device
 	Part Number: CT102464BA1339.M16
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 44.465 V
+	Minimum Voltage: 44.475 V
 	Maximum Voltage: Unknown
 	Configured Voltage: Unknown
 
@@ -228,8 +229,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown

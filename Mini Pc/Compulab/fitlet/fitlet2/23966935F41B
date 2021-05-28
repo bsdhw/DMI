@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 # SMBIOS entry point at 0x7a03b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
@@ -12,7 +12,7 @@ BIOS Information
 	Release Date: 09/17/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 5120 kB
+	ROM Size: 5 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -314,7 +314,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -343,8 +343,10 @@ Memory Array Mapped Address
 Handle 0x0029, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: CTNI
-	Specification Version: 2.0	Firmware Revision: 301.9
-	Description: INTEL	Characteristics:
+	Specification Version: 2.0
+	Firmware Revision: 301.9
+	Description: INTEL
+	Characteristics:
 		Family configurable via platform software support
 	OEM-specific Information: 0x00000000
 
@@ -370,8 +372,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous

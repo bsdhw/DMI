@@ -1,8 +1,8 @@
-# dmidecode 3.2
+# dmidecode 3.3
 # SMBIOS entry point at 0xdaa9e000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
-64 structures occupying 2565 bytes.
+64 structures occupying 2590 bytes.
 Table at 0xDAA9C000.
 
 Handle 0x0000, DMI type 134, 16 bytes
@@ -107,8 +107,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 8192 kB
-	Maximum Size: 8192 kB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -132,7 +132,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -152,7 +152,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM1
@@ -172,7 +172,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0
@@ -192,7 +192,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM1
@@ -243,7 +243,7 @@ BIOS Information
 	Release Date: 06/14/2018
 	Address: 0xE0000
 	Runtime Size: 128 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		PNP is supported
@@ -454,15 +454,15 @@ BIOS Language Information
 Handle 0x002D, DMI type 22, 26 bytes
 Portable Battery
 	Location: Rear
-	Manufacturer: <BAD INDEX>
-	Name: <BAD INDEX>
-	Design Capacity: Unknown
-	Design Voltage: Unknown
-	SBDS Version: <BAD INDEX>
+	Manufacturer: SANYO
+	Name: 42T4791
+	Design Capacity: 93240 mWh
+	Design Voltage: 10800 mV
+	SBDS Version: 03.01
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 1980-00-00
-	SBDS Chemistry: <BAD INDEX>
+	SBDS Manufacture Date: 2018-03-16
+	SBDS Chemistry: LION
 	OEM-specific Information: 0x00000000
 
 Handle 0x002E, DMI type 126, 26 bytes
@@ -541,8 +541,8 @@ OEM-specific Type
 		8C 43 37 00 4C 45 4E 4F 56 4F 0B 00 01 53 55 7F
 		E3 DC 13 E2 67 CC 5A D5 AD 73 C9 D4 28 01 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 23 FF 9F 23 9C 30 A2 4D 6F BC 51 0D C8 67 E8
-		B3 01 00
+		00 7E 31 FA 06 EA C8 5F AB 48 01 4F D1 32 9B 8C
+		1A 01 00
 
 Handle 0x0038, DMI type 140, 47 bytes
 OEM-specific Type
