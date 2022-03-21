@@ -1,15 +1,13 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0x6e7b7000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 2.8 present.
-74 structures occupying 3625 bytes.
-Table at 0x6E7B3000.
+Scanning /dev/mem for entry point.
+SMBIOS 3.1.1 present.
+Table at 0x6E7B1000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.3a
-	Release Date: 07/13/2020
+	Version: 1.5
+	Release Date: 05/25/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -396,7 +394,7 @@ System Event Log
 Handle 0x002B, DMI type 133, 12 bytes
 OEM-specific Type
 	Header and Data:
-		85 0C 2B 00 00 20 B2 6C 00 40 00 00
+		85 0C 2B 00 00 10 B2 6C 00 40 00 00
 
 Handle 0x002C, DMI type 16, 23 bytes
 Physical Memory Array
@@ -405,7 +403,7 @@ Physical Memory Array
 	Error Correction Type: Single-bit ECC
 	Maximum Capacity: 1536 GB
 	Error Information Handle: Not Provided
-	Number Of Devices: 4
+	Number Of Devices: 2
 
 Handle 0x002D, DMI type 17, 40 bytes
 Memory Device
@@ -462,7 +460,7 @@ Physical Memory Array
 	Error Correction Type: Single-bit ECC
 	Maximum Capacity: 1536 GB
 	Error Information Handle: Not Provided
-	Number Of Devices: 4
+	Number Of Devices: 2
 
 Handle 0x0032, DMI type 17, 40 bytes
 Memory Device

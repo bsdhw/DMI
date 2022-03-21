@@ -788,7 +788,7 @@ Processor Information
 	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
-	Current Speed: 3400 MHz
+	Current Speed: 3600 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0043
@@ -908,8 +908,8 @@ OEM-specific Type
 		DD 67 4F 00 0E 01 00 00 00 00 00 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
-		09 00 35 10 0D 00 FF FF FF FF FF 0E 00 FF FF FF
+		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
+		FF FF FF FF 0D 00 FF FF FF FF FF 0E 00 FF FF FF
 		FF FF 0F 00 FF FF FF FF FF 10 11 01 03 04 01 01
 		12 00 00 07 03 00 00
 	Strings:

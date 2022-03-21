@@ -254,14 +254,14 @@ BIOS Language Information
 
 Handle 0x0010, DMI type 15, 45 bytes
 System Event Log
-	Area Length: 880 bytes
+	Area Length: 2048 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFF72400
-	Status: Valid, Not Full
-	Change Token: 0x000000B3
+	Status: Valid, Full
+	Change Token: 0x000000FC
 	Header Format: Type 1
 	Supported Log Type Descriptors: 11
 	Descriptor 1: POST memory resize

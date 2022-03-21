@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 # SMBIOS entry point at 0xbfec7000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.4 present.
@@ -194,7 +194,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -229,7 +229,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -281,7 +281,7 @@ BIOS Information
 	Vendor: Apple Inc.
 	Version:     MB52.88Z.0088.B06.0906031930
 	Release Date: 06/03/09
-	ROM Size: 4096 kB
+	ROM Size: 4 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable

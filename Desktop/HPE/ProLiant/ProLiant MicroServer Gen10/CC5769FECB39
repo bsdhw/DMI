@@ -1,9 +1,9 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xddba5000
+# SMBIOS entry point at 0xddb5f000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 73 structures occupying 2340 bytes.
-Table at 0xDDBA2000.
+Table at 0xDDB5C000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -226,7 +226,7 @@ Handle 0x0016, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT1 J107
 	Type: x8 PCI Express 3 x8
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 1
 	Characteristics:

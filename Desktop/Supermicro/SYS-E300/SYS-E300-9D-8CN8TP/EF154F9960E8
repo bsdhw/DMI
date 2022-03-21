@@ -6,8 +6,8 @@ Table at 0x6DFC9000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.4
-	Release Date: 01/06/2021
+	Version: 1.5
+	Release Date: 05/25/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -398,7 +398,7 @@ Physical Memory Array
 	Error Correction Type: Single-bit ECC
 	Maximum Capacity: 1536 GB
 	Error Information Handle: Not Provided
-	Number Of Devices: 4
+	Number Of Devices: 2
 
 Handle 0x002B, DMI type 17, 40 bytes
 Memory Device
@@ -455,7 +455,7 @@ Physical Memory Array
 	Error Correction Type: Single-bit ECC
 	Maximum Capacity: 1536 GB
 	Error Information Handle: Not Provided
-	Number Of Devices: 4
+	Number Of Devices: 2
 
 Handle 0x0030, DMI type 17, 40 bytes
 Memory Device

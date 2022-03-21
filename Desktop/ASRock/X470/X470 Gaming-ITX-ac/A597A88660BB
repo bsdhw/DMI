@@ -123,7 +123,17 @@ Unknown Type
 	Header and Data:
 		2C 09 09 00 FF FF 01 01 00
 
-Handle 0x000A, DMI type 18, 23 bytes
+Handle 0x000A, DMI type 43, 31 bytes
+TPM Device
+	Vendor ID: AMD
+	Specification Version: 2.0
+	Firmware Revision: 3.6
+	Description: AMD
+	Characteristics:
+		Family configurable via platform software support
+	OEM-specific Information: 0x00000000
+
+Handle 0x000B, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -133,24 +143,24 @@ Handle 0x000A, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x000B, DMI type 16, 23 bytes
+Handle 0x000C, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
 	Maximum Capacity: 128 GB
-	Error Information Handle: 0x000A
+	Error Information Handle: 0x000B
 	Number Of Devices: 2
 
-Handle 0x000C, DMI type 19, 31 bytes
+Handle 0x000D, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x003FFFFFFFF
 	Range Size: 16 GB
-	Physical Array Handle: 0x000B
+	Physical Array Handle: 0x000C
 	Partition Width: 2
 
-Handle 0x000D, DMI type 7, 27 bytes
+Handle 0x000E, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1 - Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -166,7 +176,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x000E, DMI type 7, 27 bytes
+Handle 0x000F, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2 - Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -182,7 +192,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x000F, DMI type 7, 27 bytes
+Handle 0x0010, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3 - Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -198,7 +208,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0010, DMI type 4, 48 bytes
+Handle 0x0011, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: AM4
 	Type: Central Processor
@@ -237,9 +247,9 @@ Processor Information
 	Current Speed: 3400 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket AM4
-	L1 Cache Handle: 0x000D
-	L2 Cache Handle: 0x000E
-	L3 Cache Handle: 0x000F
+	L1 Cache Handle: 0x000E
+	L2 Cache Handle: 0x000F
+	L3 Cache Handle: 0x0010
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Unknown
@@ -254,7 +264,7 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x0011, DMI type 18, 23 bytes
+Handle 0x0012, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -264,10 +274,10 @@ Handle 0x0011, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0012, DMI type 17, 84 bytes
+Handle 0x0013, DMI type 17, 84 bytes
 Memory Device
-	Array Handle: 0x000B
-	Error Information Handle: 0x0011
+	Array Handle: 0x000C
+	Error Information Handle: 0x0012
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 8 GB
@@ -299,18 +309,18 @@ Memory Device
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x0013, DMI type 20, 35 bytes
+Handle 0x0014, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x003FFFFFFFF
 	Range Size: 16 GB
-	Physical Device Handle: 0x0012
-	Memory Array Mapped Address Handle: 0x000C
+	Physical Device Handle: 0x0013
+	Memory Array Mapped Address Handle: 0x000D
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0014, DMI type 18, 23 bytes
+Handle 0x0015, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -320,10 +330,10 @@ Handle 0x0014, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0015, DMI type 17, 84 bytes
+Handle 0x0016, DMI type 17, 84 bytes
 Memory Device
-	Array Handle: 0x000B
-	Error Information Handle: 0x0014
+	Array Handle: 0x000C
+	Error Information Handle: 0x0015
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 8 GB
@@ -355,17 +365,17 @@ Memory Device
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x0016, DMI type 20, 35 bytes
+Handle 0x0017, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x003FFFFFFFF
 	Range Size: 16 GB
-	Physical Device Handle: 0x0015
-	Memory Array Mapped Address Handle: 0x000C
+	Physical Device Handle: 0x0016
+	Memory Array Mapped Address Handle: 0x000D
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0017, DMI type 127, 4 bytes
+Handle 0x0018, DMI type 127, 4 bytes
 End Of Table
 

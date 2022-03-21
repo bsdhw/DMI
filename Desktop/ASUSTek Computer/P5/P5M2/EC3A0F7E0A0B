@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.3 present.
 65 structures occupying 2295 bytes.
@@ -11,7 +11,7 @@ BIOS Information
 	Release Date: 07/13/2007
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 1024 kB
+	ROM Size: 1 MB
 	Characteristics:
 		PCI is supported
 		PNP is supported
@@ -155,8 +155,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 8192 kB
-	Maximum Size: 8192 kB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -594,7 +594,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 128 bits
 	Data Width: 128 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_A1
@@ -623,7 +623,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 128 bits
 	Data Width: 128 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_A2
@@ -652,7 +652,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 128 bits
 	Data Width: 128 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_B1
@@ -681,7 +681,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 128 bits
 	Data Width: 128 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_B2

@@ -1,0 +1,433 @@
+# dmidecode 3.3
+# SMBIOS entry point at 0x78757000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.0 present.
+33 structures occupying 1665 bytes.
+Table at 0x78756000.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: INSYDE Corp.
+	Version: V27.01.03
+	Release Date: 02/12/2019
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 3 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		8042 keyboard services are supported (int 9h)
+		Serial services are supported (int 14h)
+		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
+		ACPI is supported
+		USB legacy is supported
+		ATAPI Zip drive boot is supported
+		BIOS boot specification is supported
+		Function key-initiated network boot is supported
+		Targeted content distribution is supported
+	BIOS Revision: 5.4
+	Firmware Revision: 0.0
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: SIEMENS AG
+	Product Name: SIMATIC IPC127E
+	Version: 6AG4021-0AB12-0CA0
+	Serial Number: --
+	UUID: --
+	Wake-up Type: Power Switch
+	SKU Number: SIMATIC IPC127E
+	Family: no information
+
+Handle 0x0002, DMI type 2, 17 bytes
+Base Board Information
+	Manufacturer: SIEMENS AG
+	Product Name: A5E44753980
+	Version: AD
+	Serial Number: --
+	Asset Tag: --
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: no information
+	Chassis Handle: 0x0003
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0003, DMI type 3, 25 bytes
+Chassis Information
+	Manufacturer: SIEMENS AG
+	Type: Notebook
+	Lock: Not Present
+	Version: Chassis Version
+	Serial Number: --
+	Asset Tag: --
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: SKU Number
+
+Handle 0x0004, DMI type 4, 48 bytes
+Processor Information
+	Socket Designation: CPU 1
+	Type: Central Processor
+	Family: Atom
+	Manufacturer: Intel(R) Corporation
+	ID: C9 06 05 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 92, Stepping 9
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Atom(TM) Processor E3940 @ 1.60GHz
+	Voltage: 1.0 V
+	External Clock: 100 MHz
+	Max Speed: 1600 MHz
+	Current Speed: 1600 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: 0x0006
+	L2 Cache Handle: 0x0007
+	L3 Cache Handle: Not Provided
+	Serial Number: --
+	Asset Tag: --
+	Part Number: no information
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+		Multi-Core
+		Execute Protection
+		Enhanced Virtualization
+		Power/Performance Control
+
+Handle 0x0005, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 96 kB
+	Maximum Size: 96 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Data
+	Associativity: Other
+
+Handle 0x0006, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: L1 Cache
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 128 kB
+	Maximum Size: 128 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Instruction
+	Associativity: 8-way Set-associative
+
+Handle 0x0007, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: L2 Cache
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0008, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: US0 11
+	Internal Connector Type: None
+	External Reference Designator: X60
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0009, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: US1 21
+	Internal Connector Type: None
+	External Reference Designator: X60
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000A, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: US2 31
+	Internal Connector Type: None
+	External Reference Designator: X60
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000B, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: US3 41
+	Internal Connector Type: None
+	External Reference Designator: X60
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x000C, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: LAN-1 10/100/1000
+	Internal Connector Type: None
+	External Reference Designator: X1 P1
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x000D, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: LAN-2 10/100/1000
+	Internal Connector Type: None
+	External Reference Designator: X2 P1
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x000E, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: LAN-3 10/100/1000
+	Internal Connector Type: None
+	External Reference Designator: X3 P1
+	External Connector Type: RJ-45
+	Port Type: Network Port
+
+Handle 0x000F, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: DP-1
+	Internal Connector Type: None
+	External Reference Designator: DP-1
+	External Connector Type: Other
+	Port Type: Video Port
+
+Handle 0x0010, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: DVI-D
+	Internal Connector Type: None
+	External Reference Designator: DVI-D
+	External Connector Type: Other
+	Port Type: Video Port
+
+Handle 0x0011, DMI type 12, 5 bytes
+System Configuration Options
+	Option 1: no information
+	Option 2: no information
+
+Handle 0x0012, DMI type 15, 29 bytes
+System Event Log
+	Area Length: 0 bytes
+	Header Start Offset: 0x0000
+	Header Length: 8192 bytes
+	Data Start Offset: 0x2000
+	Access Method: General-purpose non-volatile data functions
+	Access Address: 0x0000
+	Status: Valid, Not Full
+	Change Token: 0x12345678
+	Header Format: OEM-specific
+	Supported Log Type Descriptors: 0
+
+Handle 0x0013, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 16 GB
+	Error Information Handle: No Error
+	Number Of Devices: 2
+
+Handle 0x0014, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: No Error
+	Total Width: 8 bits
+	Data Width: 8 bits
+	Size: 2 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: LPDDR4
+	Type Detail: Synchronous
+	Speed: 2133 MT/s
+	Manufacturer: 0000
+	Serial Number: --
+	Asset Tag: --
+	Part Number:                   
+	Rank: Unknown
+	Configured Memory Speed: 2133 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+
+Handle 0x0015, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x0013
+	Error Information Handle: No Error
+	Total Width: 8 bits
+	Data Width: 8 bits
+	Size: 2 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 1
+	Type: LPDDR4
+	Type Detail: Synchronous
+	Speed: 2133 MT/s
+	Manufacturer: 0000
+	Serial Number: --
+	Asset Tag: --
+	Part Number:                   
+	Rank: Unknown
+	Configured Memory Speed: 2133 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
+
+Handle 0x0016, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
+	Physical Array Handle: 0x0013
+	Partition Width: 4
+
+Handle 0x0017, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0014
+	Memory Array Mapped Address Handle: 0x0016
+	Partition Row Position: Unknown
+	Interleave Position: 1
+	Interleaved Data Depth: 1
+
+Handle 0x0018, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0015
+	Memory Array Mapped Address Handle: 0x0016
+	Partition Row Position: Unknown
+	Interleave Position: 2
+	Interleaved Data Depth: 1
+
+Handle 0x0019, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x001A, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: IGD
+	Type: Video
+	Status: Disabled
+	Type Instance: 1
+	Bus Address: 0000:00:02.0
+
+Handle 0x001B, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: LAN-1
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:01:00.0
+
+Handle 0x001C, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: LAN-2
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 2
+	Bus Address: 0000:02:00.0
+
+Handle 0x001D, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: LAN-3
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 3
+	Bus Address: 0000:03:00.0
+
+Handle 0x001E, DMI type 129, 184 bytes
+OEM-specific Type
+	Header and Data:
+		81 B8 1E 00 FF 0A 05 01 00 00 00 00 00 FF FF 06
+		05 02 00 00 FF 06 05 02 01 00 FF 09 05 02 02 01
+		0D 00 00 FF 06 05 02 04 01 FF 06 05 02 05 01 FF
+		06 05 02 06 00 FF 0A 05 02 07 04 00 00 00 00 FF
+		0E 05 02 08 00 00 00 00 00 00 00 00 00 FF 0C 05
+		02 09 01 6C 00 00 00 00 00 FF 06 05 02 0A 03 FF
+		06 05 02 0C 00 FF 06 05 02 0D 00 FF 06 05 02 0E
+		00 FF 0A 05 03 E0 DC A0 65 77 3A FF 0A 05 03 E0
+		DC A0 65 77 34 FF 0A 05 03 E0 DC A0 65 77 38 FF
+		0A 05 03 00 00 00 00 00 00 FF 10 05 04 00 00 00
+		00 00 00 00 00 00 00 00 00 06 01 01 06 02 02 06
+		03 03 06 04 04 06 05 05
+	Strings:
+		A5E44374676-ES003
+		V27.01.03
+		no information
+		no information
+		no information
+
+Handle 0x001F, DMI type 131, 64 bytes
+OEM-specific Type
+	Header and Data:
+		83 40 1F 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 76 50 72 6F 00 00 00 00
+
+Handle 0xFEFF, DMI type 127, 4 bytes
+End Of Table
+

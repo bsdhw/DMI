@@ -1,15 +1,15 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xdac0a000
+# SMBIOS entry point at 0xdabbc000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 31 structures occupying 1713 bytes.
-Table at 0xDAC07000.
+Table at 0x000EB520.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: P1.10
-	Release Date: 08/15/2019
+	Version: P1.20
+	Release Date: 06/01/2020
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -81,28 +81,18 @@ Chassis Information
 
 Handle 0x0004, DMI type 9, 17 bytes
 System Slot Information
-	Designation: PCIE7
-	Type: x16 PCI Express
-	Current Usage: In Use
-	Length: Long
-	ID: 23
-	Characteristics:
-		3.3 V is provided
-		PME signal is supported
-
-Handle 0x0005, DMI type 9, 17 bytes
-System Slot Information
-	Designation: Ocu1
+	Designation: OCU1
 	Type: x4 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 65
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
+	Bus Address: 0000:00:01.2
 
-Handle 0x0006, DMI type 9, 17 bytes
+Handle 0x0005, DMI type 9, 17 bytes
 System Slot Information
 	Designation: M2_1
 	Type: x4 PCI Express
@@ -113,6 +103,20 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
+	Bus Address: 0000:04:00.0
+
+Handle 0x0006, DMI type 9, 17 bytes
+System Slot Information
+	Designation: PCIE7
+	Type: x16 PCI Express
+	Current Usage: Available
+	Length: Long
+	ID: 23
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		PME signal is supported
+	Bus Address: 0000:00:03.1
 
 Handle 0x0007, DMI type 11, 5 bytes
 OEM Strings
@@ -122,7 +126,7 @@ Handle 0x0008, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0016, DMI type 15, 73 bytes
+Handle 0x000D, DMI type 15, 73 bytes
 System Event Log
 	Area Length: 65535 bytes
 	Header Start Offset: 0x0000
@@ -130,8 +134,8 @@ System Event Log
 	Data Start Offset: 0x0010
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF2A4000
-	Status: Valid, Not Full
-	Change Token: 0x00000004
+	Status: Valid, Full
+	Change Token: 0x00001FF5
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error
@@ -185,7 +189,7 @@ System Event Log
 	Descriptor 25: OEM-specific
 	Data Format 25: OEM-specific
 
-Handle 0x0017, DMI type 18, 23 bytes
+Handle 0x000E, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -195,32 +199,32 @@ Handle 0x0017, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0018, DMI type 16, 23 bytes
+Handle 0x000F, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: Multi-bit ECC
 	Maximum Capacity: 128 GB
-	Error Information Handle: 0x0017
+	Error Information Handle: 0x000E
 	Number Of Devices: 4
 
-Handle 0x0019, DMI type 19, 31 bytes
+Handle 0x0010, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000DFFFFFFF
 	Range Size: 3584 MB
-	Physical Array Handle: 0x0018
+	Physical Array Handle: 0x000F
 	Partition Width: 4
 
-Handle 0x001A, DMI type 19, 31 bytes
+Handle 0x0011, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
 	Ending Address: 0x0101FFFFFFF
 	Range Size: 61952 MB
-	Physical Array Handle: 0x0018
+	Physical Array Handle: 0x000F
 	Partition Width: 4
 
-Handle 0x001B, DMI type 7, 27 bytes
+Handle 0x0012, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1 - Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -236,7 +240,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x001C, DMI type 7, 27 bytes
+Handle 0x0013, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2 - Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -252,7 +256,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x001D, DMI type 7, 27 bytes
+Handle 0x0014, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3 - Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -268,7 +272,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x001E, DMI type 4, 48 bytes
+Handle 0x0015, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: CPU1
 	Type: Central Processor
@@ -307,9 +311,9 @@ Processor Information
 	Current Speed: 2100 MHz
 	Status: Populated, Enabled
 	Upgrade: None
-	L1 Cache Handle: 0x001B
-	L2 Cache Handle: 0x001C
-	L3 Cache Handle: 0x001D
+	L1 Cache Handle: 0x0012
+	L2 Cache Handle: 0x0013
+	L3 Cache Handle: 0x0014
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Unknown
@@ -324,6 +328,141 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
+Handle 0x0016, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x0017, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: 0x0016
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2666 MT/s
+	Manufacturer: Kingston
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9965745-002.A00G    
+	Rank: 2
+	Configured Memory Speed: 1866 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x0018, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x0017
+	Memory Array Mapped Address Handle: 0x0011
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0019, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001A, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: 0x0019
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL A
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2666 MT/s
+	Manufacturer: Kingston
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9965745-002.A00G    
+	Rank: 2
+	Configured Memory Speed: 1866 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x001B, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x001A
+	Memory Array Mapped Address Handle: 0x0011
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x001C, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001D, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000F
+	Error Information Handle: 0x001C
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 16 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2666 MT/s
+	Manufacturer: Kingston
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9965745-002.A00G    
+	Rank: 2
+	Configured Memory Speed: 1866 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+
+Handle 0x001E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
+	Physical Device Handle: 0x001D
+	Memory Array Mapped Address Handle: 0x0011
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
 Handle 0x001F, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
@@ -336,15 +475,15 @@ Handle 0x001F, DMI type 18, 23 bytes
 
 Handle 0x0020, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0018
+	Array Handle: 0x000F
 	Error Information Handle: 0x001F
 	Total Width: 128 bits
 	Data Width: 64 bits
 	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: DIMM 1
-	Bank Locator: P0 CHANNEL A
+	Locator: DIMM 0
+	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2666 MT/s
@@ -364,146 +503,11 @@ Memory Device Mapped Address
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 64 GB
 	Physical Device Handle: 0x0020
-	Memory Array Mapped Address Handle: 0x001A
+	Memory Array Mapped Address Handle: 0x0011
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0022, DMI type 18, 23 bytes
-32-bit Memory Error Information
-	Type: OK
-	Granularity: Unknown
-	Operation: Unknown
-	Vendor Syndrome: Unknown
-	Memory Array Address: Unknown
-	Device Address: Unknown
-	Resolution: Unknown
-
-Handle 0x0023, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0018
-	Error Information Handle: 0x0022
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 16 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM 0
-	Bank Locator: P0 CHANNEL A
-	Type: DDR4
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2666 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: 9965745-002.A00G    
-	Rank: 2
-	Configured Memory Speed: 1866 MT/s
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
-
-Handle 0x0024, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 64 GB
-	Physical Device Handle: 0x0023
-	Memory Array Mapped Address Handle: 0x001A
-	Partition Row Position: Unknown
-	Interleave Position: Unknown
-	Interleaved Data Depth: Unknown
-
-Handle 0x0025, DMI type 18, 23 bytes
-32-bit Memory Error Information
-	Type: OK
-	Granularity: Unknown
-	Operation: Unknown
-	Vendor Syndrome: Unknown
-	Memory Array Address: Unknown
-	Device Address: Unknown
-	Resolution: Unknown
-
-Handle 0x0026, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0018
-	Error Information Handle: 0x0025
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 16 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM 1
-	Bank Locator: P0 CHANNEL B
-	Type: DDR4
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2666 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: 9965745-002.A00G    
-	Rank: 2
-	Configured Memory Speed: 1866 MT/s
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
-
-Handle 0x0027, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 64 GB
-	Physical Device Handle: 0x0026
-	Memory Array Mapped Address Handle: 0x001A
-	Partition Row Position: Unknown
-	Interleave Position: Unknown
-	Interleaved Data Depth: Unknown
-
-Handle 0x0028, DMI type 18, 23 bytes
-32-bit Memory Error Information
-	Type: OK
-	Granularity: Unknown
-	Operation: Unknown
-	Vendor Syndrome: Unknown
-	Memory Array Address: Unknown
-	Device Address: Unknown
-	Resolution: Unknown
-
-Handle 0x0029, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0018
-	Error Information Handle: 0x0028
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 16 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM 0
-	Bank Locator: P0 CHANNEL B
-	Type: DDR4
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2666 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: 9965745-002.A00G    
-	Rank: 2
-	Configured Memory Speed: 1866 MT/s
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
-
-Handle 0x002A, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 64 GB
-	Physical Device Handle: 0x0029
-	Memory Array Mapped Address Handle: 0x001A
-	Partition Row Position: Unknown
-	Interleave Position: Unknown
-	Interleaved Data Depth: Unknown
-
-Handle 0x002B, DMI type 127, 4 bytes
+Handle 0x0022, DMI type 127, 4 bytes
 End Of Table
 

@@ -220,9 +220,9 @@ Inactive
 
 Handle 0x000C, DMI type 11, 5 bytes
 OEM Strings
-	String 1: FRNolEFK-jAM6
-	String 2: rhSjBsMUT5sIQ
-	String 3: kXH1k0fBCHkjD
+	String 1: Yl5kzjd6-HzjP
+	String 2: kQ6U8xq+zSISS
+	String 3: 2kyw4zZYcR6jr
 
 Handle 0x000D, DMI type 12, 5 bytes
 System Configuration Options
@@ -362,7 +362,7 @@ Portable Battery
 	Manufacturer: Panasonic
 	Name: CF-VZSU71
 	Chemistry: Lithium Ion
-	Design Capacity: 68040 mWh
+	Design Capacity: 54430 mWh
 	Design Voltage: 10800 mV
 	SBDS Version: Not Specified
 	Maximum Error: 0%

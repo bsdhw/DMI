@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0x7a8aa000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
-122 structures occupying 6838 bytes.
+121 structures occupying 6810 bytes.
 Table at 0x000E9ED0.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -1222,21 +1222,13 @@ Onboard Device
 
 Handle 0xF03A, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation: Onboard - Sound
-	Type: Sound
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:1f.3
-
-Handle 0xF03B, DMI type 41, 11 bytes
-Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
 	Type Instance: 11
 	Bus Address: 0000:00:1f.4
 
-Handle 0xF03C, DMI type 41, 11 bytes
+Handle 0xF03B, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -1244,7 +1236,7 @@ Onboard Device
 	Type Instance: 12
 	Bus Address: 0000:00:1f.5
 
-Handle 0xF03D, DMI type 41, 11 bytes
+Handle 0xF03C, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Ethernet
 	Type: Ethernet
@@ -1252,10 +1244,10 @@ Onboard Device
 	Type Instance: 2
 	Bus Address: 0000:00:1f.6
 
-Handle 0xF03E, DMI type 205, 89 bytes
+Handle 0xF03D, DMI type 205, 89 bytes
 OEM-specific Type
 	Header and Data:
-		CD 59 3E F0 0C 01 00 00 00 00 A6 00 02 00 FF FF
+		CD 59 3D F0 0C 01 00 00 00 00 A6 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
 		00 FF FF FF FF 00 0B 00 FF FF 00 00 00 0C 00 FF
@@ -1279,12 +1271,12 @@ OEM-specific Type
 		Platform Version
 		Client Silicon Version
 
-Handle 0xF048, DMI type 136, 6 bytes
+Handle 0xF047, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 48 F0 00 00
+		88 06 47 F0 00 00
 
-Handle 0xF049, DMI type 14, 23 bytes
+Handle 0xF048, DMI type 14, 23 bytes
 Group Associations
 	Name: Firmware Version Info
 	Items: 6
@@ -1293,9 +1285,9 @@ Group Associations
 		0x0048 (OEM-specific)
 		0x0049 (OEM-specific)
 		0x004A (OEM-specific)
-		0xF03E (OEM-specific)
+		0xF03D (OEM-specific)
 
-Handle 0xF04A, DMI type 13, 22 bytes
+Handle 0xF049, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 2
@@ -1303,16 +1295,16 @@ BIOS Language Information
 		<BAD INDEX>
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0xF04B, DMI type 14, 8 bytes
+Handle 0xF04A, DMI type 14, 8 bytes
 Group Associations
 	Name: $MEI
 	Items: 1
 		0x0000 (OEM-specific)
 
-Handle 0xF04C, DMI type 203, 106 bytes
+Handle 0xF04B, DMI type 203, 106 bytes
 OEM-specific Type
 	Header and Data:
-		CB 6A 4C F0 01 04 01 45 02 00 90 00 81 10 80 30
+		CB 6A 4B F0 01 04 01 45 02 00 90 06 81 10 86 30
 		00 00 00 00 40 00 00 01 1F 00 00 C9 0B C0 47 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
@@ -1325,6 +1317,6 @@ OEM-specific Type
 		MEI3
 		MEI4
 
-Handle 0xF04D, DMI type 127, 4 bytes
+Handle 0xF04C, DMI type 127, 4 bytes
 End Of Table
 

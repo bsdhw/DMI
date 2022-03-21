@@ -1,6 +1,5 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xcada8f18
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 71 structures occupying 3072 bytes.
 Table at 0x000F2660.
@@ -465,13 +464,13 @@ On Board Device Information
 Handle 0x0028, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Ethernet
-	Status: Disabled
+	Status: Enabled
 	Description: "Intel Gigabit Ethernet Controller"
 
 Handle 0x0029, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Sound
-	Status: Disabled
+	Status: Enabled
 	Description: "Intel(R) High Definition Audio Controller"
 
 Handle 0x002A, DMI type 11, 5 bytes
@@ -650,7 +649,7 @@ Handle 0x003B, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard LAN
 	Type: Ethernet
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
 	Bus Address: 0000:00:19.0
 
@@ -658,7 +657,7 @@ Handle 0x003C, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard Audio
 	Type: Sound
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
 	Bus Address: 0000:00:1b.0
 

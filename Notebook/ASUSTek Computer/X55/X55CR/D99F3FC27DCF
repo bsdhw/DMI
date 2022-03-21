@@ -1,6 +1,5 @@
-# dmidecode 3.2
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.3
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 23 structures occupying 1558 bytes.
 Table at 0x000EBA70.
@@ -12,7 +11,7 @@ BIOS Information
 	Release Date: 05/02/2013
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 6144 kB
+	ROM Size: 6 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -96,9 +95,9 @@ On Board Device 3 Information
 
 Handle 0x0005, DMI type 11, 5 bytes
 OEM Strings
-	String 1: -RCFE8DjZCwMn
-	String 2: B+wEmw7iEBhBY
-	String 3: nWWc2PfNq6Mqs
+	String 1: X6JvmWRm8LXlR
+	String 2: DhgbIqNyFUZ41
+	String 3: Sx+J+UTJ5Ofww
 	String 4: 90N0OA228D28394V458U
 	String 5:  
 	String 6:  
@@ -156,8 +155,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3072 kB
-	Maximum Size: 3072 kB
+	Installed Size: 3 MB
+	Maximum Size: 3 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -213,7 +212,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz
-	Voltage: 9.6 V
+	Voltage: 9.1 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2400 MHz
@@ -237,7 +236,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -290,7 +289,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0

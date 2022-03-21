@@ -1,14 +1,14 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-58 structures occupying 2541 bytes.
-Table at 0xDEB90018.
+58 structures occupying 2468 bytes.
+Table at 0xDEEC3018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: F3
-	Release Date: 05/28/2015
+	Version: F2
+	Release Date: 07/15/2013
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 4 MB
@@ -49,7 +49,7 @@ Handle 0x0002, DMI type 2, 15 bytes
 Base Board Information
 	Manufacturer: Gigabyte Technology Co., Ltd.
 	Product Name: 990FXA-UD3
-	Version: x.x
+	Version: To be filled by O.E.M.
 	Serial Number: --
 	Asset Tag: --
 	Features:
@@ -494,10 +494,6 @@ On Board Device Information
 Handle 0x002A, DMI type 11, 5 bytes
 OEM Strings
 	String 1: To Be Filled By O.E.M.
-	String 2: To Be Filled By O.E.M.
-	String 3: To Be Filled By O.E.M.
-	String 4: To Be Filled By O.E.M.
-	String 5: To Be Filled By O.E.M.
 
 Handle 0x002B, DMI type 12, 5 bytes
 System Configuration Options
@@ -515,8 +511,8 @@ Physical Memory Array
 Handle 0x002D, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 24 GB
 	Physical Array Handle: 0x002C
 	Partition Width: 255
 
@@ -524,25 +520,33 @@ Handle 0x002E, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002C
 	Error Information Handle: Not Provided
-	Total Width: Unknown
+	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: Node0_Dimm0
 	Bank Locator: Node0_Bank0
-	Type: Unknown
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Dimm0_Manufacturer
+	Type: DDR3
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 800 MT/s
+	Manufacturer: Undefined         
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Dimm0_PartNum
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: F3-12800CL9-4
+	Rank: 1
+	Configured Memory Speed: 667 MT/s
 
-Handle 0x002F, DMI type 126, 35 bytes
-Inactive
+Handle 0x002F, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 24 GB
+	Physical Device Handle: 0x002E
+	Memory Array Mapped Address Handle: 0x002D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0030, DMI type 17, 34 bytes
 Memory Device
@@ -563,13 +567,13 @@ Memory Device
 	Asset Tag: --
 	Part Number: 992072 (99707
 	Rank: 2
-	Configured Memory Speed: 800 MT/s
+	Configured Memory Speed: 667 MT/s
 
 Handle 0x0031, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 24 GB
 	Physical Device Handle: 0x0030
 	Memory Array Mapped Address Handle: 0x002D
 	Partition Row Position: Unknown
@@ -580,25 +584,33 @@ Handle 0x0032, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002C
 	Error Information Handle: Not Provided
-	Total Width: Unknown
+	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: Node0_Dimm2
 	Bank Locator: Node0_Bank0
-	Type: Unknown
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Dimm2_Manufacturer
+	Type: DDR3
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 800 MT/s
+	Manufacturer: Undefined         
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Dimm2_PartNum
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: F3-12800CL9-4
+	Rank: 1
+	Configured Memory Speed: 667 MT/s
 
-Handle 0x0033, DMI type 126, 35 bytes
-Inactive
+Handle 0x0033, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 24 GB
+	Physical Device Handle: 0x0032
+	Memory Array Mapped Address Handle: 0x002D
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0034, DMI type 17, 34 bytes
 Memory Device
@@ -619,13 +631,13 @@ Memory Device
 	Asset Tag: --
 	Part Number: 992072 (99707
 	Rank: 2
-	Configured Memory Speed: 800 MT/s
+	Configured Memory Speed: 667 MT/s
 
 Handle 0x0035, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 24 GB
 	Physical Device Handle: 0x0034
 	Memory Array Mapped Address Handle: 0x002D
 	Partition Row Position: Unknown

@@ -271,7 +271,7 @@ Handle 0x0902, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 2
 	Type: x4 PCI Express 3 x4
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 2
 	Characteristics:

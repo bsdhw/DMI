@@ -1,15 +1,15 @@
-# dmidecode 3.2
-# SMBIOS entry point at 0xdca89000
+# dmidecode 3.3
+# SMBIOS entry point at 0xbde16000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.2 present.
-29 structures occupying 1323 bytes.
+SMBIOS 3.3 present.
+30 structures occupying 1245 bytes.
 Table at 0x000E6C70.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
-	Vendor: American Megatrends Inc.
-	Version: 5.14
-	Release Date: 11/19/2019
+	Vendor: American Megatrends International, LLC.
+	Version: 5.17
+	Release Date: 01/27/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -21,6 +21,9 @@ BIOS Information
 		Selectable boot is supported
 		BIOS ROM is socketed
 		EDD is supported
+		Japanese floppy for NEC 9800 1.2 MB is supported (int 13h)
+		Japanese floppy for Toshiba 1.2 MB is supported (int 13h)
+		5.25"/360 kB floppy services are supported (int 13h)
 		5.25"/1.2 MB floppy services are supported (int 13h)
 		3.5"/720 kB floppy services are supported (int 13h)
 		3.5"/2.88 MB floppy services are supported (int 13h)
@@ -28,12 +31,13 @@ BIOS Information
 		8042 keyboard services are supported (int 9h)
 		Serial services are supported (int 14h)
 		Printer services are supported (int 17h)
+		CGA/mono video services are supported (int 10h)
 		ACPI is supported
 		USB legacy is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 5.14
+	BIOS Revision: 5.17
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -187,15 +191,22 @@ Handle 0x000C, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x000D, DMI type 43, 31 bytes
+Handle 0x000D, DMI type 44, 9 bytes
+Unknown Type
+	Header and Data:
+		2C 09 0D 00 FF FF 01 01 00
+
+Handle 0x000E, DMI type 43, 31 bytes
 TPM Device
-	Vendor ID: 
-	Specification Version: 2.0	Firmware Revision: 3.37
-	Description: AMD	Characteristics:
+	Vendor ID: AMD
+	Specification Version: 2.0
+	Firmware Revision: 3.51
+	Description: AMD
+	Characteristics:
 		Family configurable via platform software support
 	OEM-specific Information: 0x00000000
 
-Handle 0x000E, DMI type 18, 23 bytes
+Handle 0x000F, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -205,32 +216,32 @@ Handle 0x000E, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x000F, DMI type 16, 23 bytes
+Handle 0x0010, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
 	Maximum Capacity: 128 GB
-	Error Information Handle: 0x000E
+	Error Information Handle: 0x000F
 	Number Of Devices: 2
-
-Handle 0x0010, DMI type 19, 31 bytes
-Memory Array Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000DFFFFFFF
-	Range Size: 3584 MB
-	Physical Array Handle: 0x000F
-	Partition Width: 1
 
 Handle 0x0011, DMI type 19, 31 bytes
 Memory Array Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x0021FFFFFFF
-	Range Size: 4608 MB
-	Physical Array Handle: 0x000F
+	Starting Address: 0x00000000000
+	Ending Address: 0x000BFFFFFFF
+	Range Size: 3 GB
+	Physical Array Handle: 0x0010
 	Partition Width: 1
 
-Handle 0x0012, DMI type 7, 27 bytes
+Handle 0x0012, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x0023FFFFFFF
+	Range Size: 5 GB
+	Physical Array Handle: 0x0010
+	Partition Width: 1
+
+Handle 0x0013, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1 - Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -246,14 +257,14 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x0013, DMI type 7, 27 bytes
+Handle 0x0014, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2 - Cache
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3072 kB
-	Maximum Size: 3072 kB
+	Installed Size: 3 MB
+	Maximum Size: 3 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -262,14 +273,14 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x0014, DMI type 7, 27 bytes
+Handle 0x0015, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3 - Cache
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 32768 kB
-	Maximum Size: 32768 kB
+	Installed Size: 32 MB
+	Maximum Size: 32 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -278,7 +289,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0015, DMI type 4, 48 bytes
+Handle 0x0016, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: AM4
 	Type: Central Processor
@@ -317,9 +328,9 @@ Processor Information
 	Current Speed: 3800 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket AM4
-	L1 Cache Handle: 0x0012
-	L2 Cache Handle: 0x0013
-	L3 Cache Handle: 0x0014
+	L1 Cache Handle: 0x0013
+	L2 Cache Handle: 0x0014
+	L3 Cache Handle: 0x0015
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Unknown
@@ -334,7 +345,7 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x0016, DMI type 18, 23 bytes
+Handle 0x0017, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -344,10 +355,10 @@ Handle 0x0016, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0017, DMI type 17, 84 bytes
+Handle 0x0018, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x000F
-	Error Information Handle: 0x0016
+	Array Handle: 0x0010
+	Error Information Handle: 0x0017
 	Total Width: Unknown
 	Data Width: Unknown
 	Size: No Module Installed
@@ -367,19 +378,8 @@ Memory Device
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: Unknown
-	Memory Technology: Unknown
-	Memory Operating Mode Capability: Unknown
-	Firmware Version: Unknown
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
-Handle 0x0018, DMI type 18, 23 bytes
+Handle 0x0019, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -389,13 +389,13 @@ Handle 0x0018, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0019, DMI type 17, 84 bytes
+Handle 0x001A, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x000F
-	Error Information Handle: 0x0018
+	Array Handle: 0x0010
+	Error Information Handle: 0x0019
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
@@ -403,7 +403,7 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2400 MT/s
-	Manufacturer: Unknown
+	Manufacturer: Corsair
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK8GX4M1A2400C16   
@@ -412,28 +412,17 @@ Memory Device
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 3, Hex 0x9E
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 8 GB
-	Cache Size: None
-	Logical Size: None
 
-Handle 0x001A, DMI type 20, 35 bytes
+Handle 0x001B, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x001FFFFFFFF
 	Range Size: 8 GB
-	Physical Device Handle: 0x0019
-	Memory Array Mapped Address Handle: 0x0011
+	Physical Device Handle: 0x001A
+	Memory Array Mapped Address Handle: 0x0012
 	Partition Row Position: Unknown
 
-Handle 0x001B, DMI type 13, 22 bytes
+Handle 0x001C, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 2
@@ -441,6 +430,6 @@ BIOS Language Information
 		zh|CN|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x001C, DMI type 127, 4 bytes
+Handle 0x001D, DMI type 127, 4 bytes
 End Of Table
 

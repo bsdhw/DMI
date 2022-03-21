@@ -1,5 +1,6 @@
 # dmidecode 3.3
-Scanning /dev/mem for entry point.
+# SMBIOS entry point at 0x000f04c0
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 97 structures occupying 3528 bytes.
 Table at 0x000EB8B0.
@@ -392,7 +393,7 @@ Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI1
 	Type: 32-bit PCI
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 4
 	Characteristics:

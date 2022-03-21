@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0x8ad3b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.4 present.
-61 structures occupying 2783 bytes.
+61 structures occupying 2800 bytes.
 Table at 0x8AD34000.
 
 Handle 0x0000, DMI type 4, 35 bytes
@@ -16,7 +16,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2325 MHz
+	Current Speed: 2328 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0002
@@ -101,7 +101,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2334 MHz
+	Current Speed: 2338 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0007
@@ -186,7 +186,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2337 MHz
+	Current Speed: 2335 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x000C
@@ -271,7 +271,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2339 MHz
+	Current Speed: 27019 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0011
@@ -357,18 +357,18 @@ Physical Memory Array
 Handle 0x0015, DMI type 130, 186 bytes
 OEM-specific Type
 	Header and Data:
-		82 BA 15 00 16 00 00 00 B0 00 92 10 0B 03 04 21
-		02 09 03 52 01 08 0A 00 FE 00 69 78 69 30 69 11
-		18 81 60 09 3C 3C 00 F0 83 01 00 00 00 00 00 00
+		82 BA 15 00 16 00 00 00 B0 00 92 10 0B 03 03 19
+		00 09 03 52 01 08 0C 00 3E 00 69 78 69 30 69 11
+		20 89 00 05 3C 3C 00 F0 83 05 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 0F 11 05 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8C
-		26 00 20 42 00 00 00 00 9C 2A 54 49 4D 45 54 45
-		43 2D 53 44 33 2D 31 36 30 30 20 20 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80
+		AD 01 11 31 61 2A 00 12 B0 CF 48 4D 54 33 35 31
+		53 36 42 46 52 38 43 2D 48 39 20 20 4E 30 80 AD
+		00 54 44 31 38 4E 34 38 38 37 32 4C 59 31 01 03
+		02 04 02 03 00 02 00 00 00 00
 
 Handle 0x0016, DMI type 17, 27 bytes
 Memory Device
@@ -376,34 +376,34 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: Unknown
 	Data Width: Unknown
-	Size: 8 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: 0x8C26
+	Speed: 1333 MT/s
+	Manufacturer: 0x80AD
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 0x54494D455445432D5344332D313630302020
+	Part Number: 0x484D54333531533642465238432D48392020
 
 Handle 0x0017, DMI type 130, 186 bytes
 OEM-specific Type
 	Header and Data:
-		82 BA 17 00 18 00 00 00 B0 00 92 10 0B 03 04 21
-		02 09 03 52 01 08 0A 00 FE 00 69 78 69 30 69 11
-		18 81 60 09 3C 3C 00 F0 83 01 00 00 00 00 00 00
+		82 BA 17 00 18 00 00 00 B0 00 92 10 0B 03 03 19
+		00 09 03 52 01 08 0C 00 3E 00 69 78 69 30 69 11
+		20 89 00 05 3C 3C 00 F0 83 05 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 0F 11 05 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 8C
-		26 00 20 42 00 00 00 00 9C 2A 54 49 4D 45 54 45
-		43 2D 53 44 33 2D 31 36 30 30 20 20 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80
+		AD 01 11 31 62 59 C2 45 B0 CF 48 4D 54 33 35 31
+		53 36 42 46 52 38 43 2D 48 39 20 20 4E 30 80 AD
+		00 54 44 31 38 4E 34 38 38 37 32 4C 59 31 01 03
+		02 04 02 03 00 02 00 00 00 00
 
 Handle 0x0018, DMI type 17, 27 bytes
 Memory Device
@@ -411,32 +411,32 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: Unknown
 	Data Width: Unknown
-	Size: 8 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: 0x8C26
+	Speed: 1333 MT/s
+	Manufacturer: 0x80AD
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 0x54494D455445432D5344332D313630302020
+	Part Number: 0x484D54333531533642465238432D48392020
 
 Handle 0x0019, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0014
 	Partition Width: 0
 
 Handle 0x001A, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Apple Inc.
-	Version: 135.0.0.0.0
-	Release Date: 06/13/2019
+	Version: MM51.88Z.0077.B15.1610201614
+	Release Date: 10/20/2016
 	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
@@ -731,7 +731,7 @@ OEM-specific Type
 Handle 0x003B, DMI type 128, 88 bytes
 OEM-specific Type
 	Header and Data:
-		80 58 3B 00 04 00 00 00 37 F5 0D D0 3F FF 1F FF
+		80 58 3B 00 04 00 00 00 37 F5 01 D0 37 FF 03 F0
 		02 00 00 03 00 00 00 00 00 00 99 FF FF FF B8 FF
 		00 00 B9 FF FF FF BB FF 00 00 BC FF FF FF E5 FF
 		00 00 ED FF FF FF EF FF 00 00 00 00 00 00 00 00

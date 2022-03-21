@@ -734,7 +734,7 @@ System Information
 	Version:                       
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Other
+	Wake-up Type: AC Power Restored
 	SKU Number: S26361-Kxxx-Vyyy
 	Family: ESPRIMO-FTS
 
@@ -957,7 +957,7 @@ Group Associations
 Handle 0x0058, DMI type 219, 81 bytes
 OEM-specific Type
 	Header and Data:
-		DB 51 58 00 01 03 01 45 02 00 94 06 81 10 89 30
+		DB 51 58 00 01 03 01 45 02 00 90 06 81 10 80 30
 		04 00 00 00 40 68 00 00 00 00 00 00 00 00 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

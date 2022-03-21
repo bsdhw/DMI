@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 99 structures occupying 3817 bytes.
@@ -160,8 +160,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1024 kB
-	Maximum Size: 1024 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -176,8 +176,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 10240 kB
-	Maximum Size: 10240 kB
+	Installed Size: 10 MB
+	Maximum Size: 10 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -703,7 +703,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0-DIMM1
@@ -734,7 +734,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0-DIMM2
@@ -765,7 +765,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0-DIMM3
@@ -796,7 +796,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0-DIMM4

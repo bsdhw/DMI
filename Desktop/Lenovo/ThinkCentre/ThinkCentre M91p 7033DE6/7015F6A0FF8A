@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 103 structures occupying 3876 bytes.
@@ -153,8 +153,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Varies With Memory Address
 	Location: Internal
-	Installed Size: 1024 kB
-	Maximum Size: 1024 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -169,8 +169,8 @@ Cache Information
 	Configuration: Disabled, Not Socketed, Level 3
 	Operational Mode: Unknown
 	Location: Internal
-	Installed Size: 6144 kB
-	Maximum Size: 6144 kB
+	Installed Size: 6 MB
+	Maximum Size: 6 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -369,7 +369,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM0
@@ -443,7 +443,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM2
@@ -484,7 +484,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM3
@@ -1058,7 +1058,7 @@ OEM-specific Type
 Handle 0x0061, DMI type 134, 16 bytes
 OEM-specific Type
 	Header and Data:
-		86 10 61 00 00 4A 10 00 00 4E 00 00 00 03 01 02
+		86 10 61 00 00 4A 10 00 00 4E 00 00 00 00 01 02
 	Strings:
 		TPM INFO
 		System Reserved

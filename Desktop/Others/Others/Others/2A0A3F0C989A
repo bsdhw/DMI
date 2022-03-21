@@ -1,0 +1,163 @@
+# dmidecode 3.3
+Scanning /dev/mem for entry point.
+SMBIOS 2.4 present.
+13 structures occupying 543 bytes.
+Table at 0x000EB01F.
+
+Handle 0x0000, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: American Megatrends Inc.
+	Version: 5.12
+	Release Date: 02/04/2021
+	Address: 0xE8000
+	Runtime Size: 96 kB
+	ROM Size: 64 kB
+	Characteristics:
+		PCI is supported
+		EDD is supported
+		Targeted content distribution is supported
+	BIOS Revision: 4.13
+
+Handle 0x0100, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Default string
+	Product Name: Default string
+	Version: Default string
+	Serial Number: --
+	UUID: --
+	Wake-up Type: Power Switch
+	SKU Number: Not Specified
+	Family: Not Specified
+
+Handle 0x0200, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: Default string
+	Product Name: Default string
+	Version: Default string
+	Serial Number: --
+	Asset Tag: --
+	Features:
+		Board is a hosting board
+		Board is replaceable
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0300
+	Type: Motherboard
+	Contained Object Handles: 0
+
+Handle 0x0300, DMI type 3, 21 bytes
+Chassis Information
+	Manufacturer: Xen
+	Type: Other
+	Lock: Not Present
+	Version: Not Specified
+	Serial Number: --
+	Asset Tag: --
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: Unknown
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: Unspecified
+	Contained Elements: 0
+
+Handle 0x0401, DMI type 4, 35 bytes
+Processor Information
+	Socket Designation: CPU 1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: E9 06 08 00 FF FB CB 1F
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2712 MHz
+	Current Speed: 2712 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: Not Provided
+	L2 Cache Handle: Not Provided
+	L3 Cache Handle: Not Provided
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Not Specified
+
+Handle 0x0402, DMI type 4, 35 bytes
+Processor Information
+	Socket Designation: CPU 2
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: E9 06 08 00 FF FB CB 1F
+	Version: Not Specified
+	Voltage: Unknown
+	External Clock: Unknown
+	Max Speed: 2712 MHz
+	Current Speed: 2712 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: Not Provided
+	L2 Cache Handle: Not Provided
+	L3 Cache Handle: Not Provided
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Not Specified
+
+Handle 0x0B00, DMI type 11, 5 bytes
+OEM Strings
+	String 1: Xen
+	String 2: MS_VM_CERT/SHA1/bdbeb6e0a816d43fa6d3fe8aaef04c2bad9d3e3d
+	String 3: Default string
+
+Handle 0x1000, DMI type 16, 15 bytes
+Physical Memory Array
+	Location: Other
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 4092 MB
+	Error Information Handle: Not Provided
+	Number Of Devices: 1
+
+Handle 0x1100, DMI type 17, 27 bytes
+Memory Device
+	Array Handle: 0x1000
+	Error Information Handle: 0x0000
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4092 MB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 0
+	Bank Locator: Not Specified
+	Type: RAM
+	Type Detail: None
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Not Specified
+
+Handle 0x1300, DMI type 19, 15 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x000FFBFFFFF
+	Range Size: 4092 MB
+	Physical Array Handle: 0x1000
+	Partition Width: 1
+
+Handle 0x1400, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x000FFBFFFFF
+	Range Size: 4092 MB
+	Physical Device Handle: 0x1100
+	Memory Array Mapped Address Handle: 0x1300
+	Partition Row Position: 1
+
+Handle 0x2000, DMI type 32, 11 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x7F00, DMI type 127, 4 bytes
+End Of Table
+

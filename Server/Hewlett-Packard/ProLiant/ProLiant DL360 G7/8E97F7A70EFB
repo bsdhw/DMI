@@ -55,8 +55,8 @@ Chassis Information
 	Version: Not Specified
 	Serial Number: --
 	Asset Tag: --
-	93EE3508EC5652A6369A7DC6C82AAA3C
-	Power Supply State: Critical
+	F41CD6153DF9A03E5FB730CF14D557D5
+	Power Supply State: Safe
 	Thermal State: Warning
 	Security Status: Unknown
 	OEM Information: 0x00000000
@@ -798,7 +798,7 @@ Inactive
 
 Handle 0x2000, DMI type 32, 11 bytes
 System Boot Information
-	Status: Firmware-detected hardware failure
+	Status: No errors detected
 
 Handle 0x2600, DMI type 38, 18 bytes
 IPMI Device Information

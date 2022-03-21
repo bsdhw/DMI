@@ -1,7 +1,7 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-84 structures occupying 3627 bytes.
+84 structures occupying 3626 bytes.
 Table at 0x000ED010.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -627,11 +627,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Xeon(R) CPU E3-1285L v4 @ 3.40GHz
+	Version: Intel(R) Xeon(R) CPU E3-1285 v4 @ 3.50GHz
 	Voltage: 1.2 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
-	Current Speed: 3400 MHz
+	Current Speed: 3500 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x003F

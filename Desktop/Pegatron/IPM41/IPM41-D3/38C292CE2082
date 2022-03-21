@@ -1,7 +1,7 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
-39 structures occupying 1587 bytes.
+39 structures occupying 1581 bytes.
 Table at 0x000FC160.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -11,7 +11,7 @@ BIOS Information
 	Release Date: 08/11/2010
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 1024 kB
+	ROM Size: 1 MB
 	Characteristics:
 		ISA is supported
 		PCI is supported
@@ -42,8 +42,8 @@ BIOS Information
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
-	Manufacturer: PCMIX
-	Product Name: PCMIX
+	Manufacturer: Pegatron
+	Product Name: Pegatron
 	Version:  
 	Serial Number: --
 	CE8FC6889854A7B1A3CF9DE01341B9EA
@@ -73,7 +73,7 @@ Chassis Information
 	Lock: Not Present
 	Version:  
 	Serial Number: --
-	Asset Tag: --
+	271882FD79060B21C43F805A2DE81148  
 	Boot-up State: Safe
 	Power Supply State: Safe
 	Thermal State: Safe
@@ -161,8 +161,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -321,7 +321,7 @@ Memory Device
 	Error Information Handle: 0x0014
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM0
@@ -360,7 +360,7 @@ Memory Device
 	Error Information Handle: 0x0017
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2048 MB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2

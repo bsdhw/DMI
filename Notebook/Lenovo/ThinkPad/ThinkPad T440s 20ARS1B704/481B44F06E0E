@@ -1,8 +1,8 @@
-# dmidecode 3.2
+# dmidecode 3.3
 # SMBIOS entry point at 0xbcc0e000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-60 structures occupying 2483 bytes.
+61 structures occupying 2508 bytes.
 Table at 0xBCC0D000.
 
 Handle 0x0000, DMI type 4, 42 bytes
@@ -115,8 +115,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 4096 kB
-	Maximum Size: 4096 kB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Asynchronous
 	Installed SRAM Type: Asynchronous
@@ -140,7 +140,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: Chip
 	Set: None
 	Locator: ChannelA
@@ -161,7 +161,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0
@@ -336,7 +336,7 @@ System Slot Information
 Handle 0x0020, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Description: IBM Embedded Security hardware
 
 Handle 0x0021, DMI type 12, 5 bytes
@@ -412,7 +412,7 @@ OEM-specific Type
 Handle 0x002A, DMI type 134, 16 bytes
 OEM-specific Type
 	Header and Data:
-		86 10 2A 00 00 53 54 4D 20 01 01 00 00 03 01 02
+		86 10 2A 00 00 53 54 4D 20 01 01 00 00 00 01 02
 	Strings:
 		TPM INFO
 		System Reserved
@@ -473,14 +473,14 @@ BIOS Information
 
 Handle 0x0030, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 866 bytes
+	Area Length: 1202 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x00000035
+	Change Token: 0x0000004A
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error
@@ -495,8 +495,8 @@ System Event Log
 Handle 0x0031, DMI type 140, 67 bytes
 OEM-specific Type
 	Header and Data:
-		8C 43 31 00 4C 45 4E 4F 56 4F 0B 00 01 1D 93 B5
-		73 70 9F 28 AA 81 E0 78 C3 0D 03 BE 33 01 00 0A
+		8C 43 31 00 4C 45 4E 4F 56 4F 0B 00 01 2C F3 F8
+		FE 2C 63 F5 23 A2 0D 7E D1 E4 0C E5 8A 01 00 0A
 		07 BD 43 97 19 45 9E DD AD 3C 28 E6 BF 38 21 01
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00
@@ -537,30 +537,36 @@ OEM-specific Type
 Handle 0x0037, DMI type 140, 19 bytes
 OEM-specific Type
 	Header and Data:
-		8C 13 37 00 4C 45 4E 4F 56 4F 0B 05 01 00 00 00
+		8C 13 37 00 4C 45 4E 4F 56 4F 0B 05 01 01 00 00
 		00 00 00
 
-Handle 0x0038, DMI type 24, 5 bytes
+Handle 0x0038, DMI type 140, 23 bytes
+OEM-specific Type
+	Header and Data:
+		8C 17 38 00 4C 45 4E 4F 56 4F 0B 06 01 8A 13 04
+		00 00 00 00 00 00 00
+
+Handle 0x0039, DMI type 24, 5 bytes
 Hardware Security
 	Power-On Password Status: Disabled
 	Keyboard Password Status: Not Implemented
 	Administrator Password Status: Disabled
 	Front Panel Reset Status: Not Implemented
 
-Handle 0x0039, DMI type 132, 7 bytes
+Handle 0x003A, DMI type 132, 7 bytes
 OEM-specific Type
 	Header and Data:
-		84 07 39 00 01 C0 36
+		84 07 3A 00 01 C0 36
 
-Handle 0x003A, DMI type 140, 15 bytes
+Handle 0x003B, DMI type 140, 15 bytes
 ThinkPad Embedded Controller Program
 	Version ID: GJHT30WW
 	Release Date: 08/28/2019
 
-Handle 0x003B, DMI type 140, 43 bytes
+Handle 0x003C, DMI type 140, 43 bytes
 OEM-specific Type
 	Header and Data:
-		8C 2B 3B 00 4C 45 4E 4F 56 4F 0B 08 01 FF FF FF
+		8C 2B 3C 00 4C 45 4E 4F 56 4F 0B 08 01 FF FF FF
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF FF FF FF
 

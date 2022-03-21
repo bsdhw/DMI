@@ -439,7 +439,7 @@ On Board Device Information
 Handle 0x0A03, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Description: Intel(R) High Definition Audio Controller
 
 Handle 0x0B00, DMI type 11, 5 bytes
@@ -462,7 +462,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFE01000
 	Status: Valid, Not Full
-	Change Token: 0x0000002D
+	Change Token: 0x0000002E
 	Header Format: Type 1
 	Supported Log Type Descriptors: 3
 	Descriptor 1: POST error
@@ -525,7 +525,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_2
@@ -533,10 +533,10 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 800 MT/s
-	Manufacturer: 7F7F7F7FCD000000
+	Manufacturer: FFFFFFFFFFFFFFFF
 	Serial Number: --
 	Asset Tag: --
-	Part Number: F2-8500CL5-2GBPK  
+	Part Number:                   
 
 Handle 0x1103, DMI type 17, 27 bytes
 Memory Device
@@ -560,35 +560,25 @@ Memory Device
 Handle 0x1300, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FDFFFFFF
-	Range Size: 4064 MB
+	Ending Address: 0x0007EFFFFFF
+	Range Size: 2032 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 1
 
 Handle 0x1400, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FDFFFFFF
-	Range Size: 4064 MB
+	Ending Address: 0x0007EFFFFFF
+	Range Size: 2032 MB
 	Physical Device Handle: 0x1100
 	Memory Array Mapped Address Handle: 0x1300
 	Partition Row Position: 1
-	Interleave Position: 1
-	Interleaved Data Depth: 1
 
 Handle 0x1401, DMI type 126, 19 bytes
 Inactive
 
-Handle 0x1402, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000FDFFFFFF
-	Range Size: 4064 MB
-	Physical Device Handle: 0x1102
-	Memory Array Mapped Address Handle: 0x1300
-	Partition Row Position: 1
-	Interleave Position: 2
-	Interleaved Data Depth: 1
+Handle 0x1402, DMI type 126, 19 bytes
+Inactive
 
 Handle 0x1403, DMI type 126, 19 bytes
 Inactive
@@ -654,9 +644,9 @@ OEM-specific Type
 Handle 0x8300, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 00 83 3F 00 00 00 00 00 10 2E 0F 00 00 00
+		83 40 00 83 35 00 00 00 00 00 10 2E 07 00 00 00
 		F8 00 14 3A 00 00 00 00 0D 00 00 00 02 00 05 00
-		0F 04 32 00 03 00 01 02 C8 00 DE 10 00 00 00 00
+		0F 04 32 00 01 00 01 02 C8 00 DE 10 00 00 00 00
 		00 00 00 00 DF 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x8800, DMI type 136, 6 bytes

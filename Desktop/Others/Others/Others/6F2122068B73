@@ -785,7 +785,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
-	Voltage: 1.0 V
+	Voltage: 0.9 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
 	Current Speed: 3100 MHz

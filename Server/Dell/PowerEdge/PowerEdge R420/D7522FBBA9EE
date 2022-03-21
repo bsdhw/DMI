@@ -1,9 +1,9 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xb89b1000
+# SMBIOS entry point at 0xc89b1000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 77 structures occupying 4858 bytes.
-Table at 0xB89B1020.
+Table at 0xC89B1020.
 
 Handle 0xDA00, DMI type 218, 11 bytes
 OEM-specific Type
@@ -116,11 +116,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version:       Intel(R) Xeon(R) CPU E5-2430 v2 @ 2.50GHz
+	Version:      Intel(R) Xeon(R) CPU E5-2430L v2 @ 2.40GHz
 	Voltage: 1.2 V
 	External Clock: 6400 MHz
 	Max Speed: 3600 MHz
-	Current Speed: 2500 MHz
+	Current Speed: 2400 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket LGA1356
 	L1 Cache Handle: 0x0700
@@ -412,7 +412,7 @@ Handle 0x0B00, DMI type 11, 5 bytes
 OEM Strings
 	String 1: Dell System
 	String 2: 5[0000]
-	String 3: 17[1B0B7CCBAEA86C54]
+	String 3: 17[93C39E5B201F1650]
 	String 4: 17[FFFFFFFFFFFFFFFF]
 	String 5: 17[FFFFFFFFFFFFFFFF]
 	String 6: 17[FFFFFFFFFFFFFFFF]
@@ -510,20 +510,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A4 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 1066 MT/s
-	Manufacturer: 00CE00B300CE
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer:             
 	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B2K70DM0-CF8  
-	Rank: 4
-	Configured Memory Speed: 1066 MT/s
+	271882FD79060B21C43F805A2DE81148         
+	Part Number:                   
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1104, DMI type 17, 34 bytes
 Memory Device
@@ -531,20 +531,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 3
 	Locator: DIMM_A5 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 1066 MT/s
-	Manufacturer: 00CE00B300CE
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer:             
 	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B2K70DM0-CF8  
-	Rank: 4
-	Configured Memory Speed: 1066 MT/s
+	271882FD79060B21C43F805A2DE81148         
+	Part Number:                   
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1105, DMI type 17, 34 bytes
 Memory Device
@@ -552,20 +552,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 3
 	Locator: DIMM_A6 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 1066 MT/s
-	Manufacturer: 00CE00B300CE
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer:             
 	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B2K70DM0-CF8  
-	Rank: 4
-	Configured Memory Speed: 1066 MT/s
+	271882FD79060B21C43F805A2DE81148         
+	Part Number:                   
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1106, DMI type 17, 34 bytes
 Memory Device
@@ -696,16 +696,16 @@ Memory Device
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000BFFFFFFF
-	Range Size: 3 GB
+	Ending Address: 0x000CFFFFFFF
+	Range Size: 3328 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 2
 
 Handle 0x1301, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0183FFFFFFF
-	Range Size: 93 GB
+	Ending Address: 0x00C2FFFFFFF
+	Range Size: 45824 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 2
 

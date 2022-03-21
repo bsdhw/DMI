@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0xbf6aef98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-55 structures occupying 2713 bytes.
+55 structures occupying 2665 bytes.
 Table at 0xBF6AD000.
 
 Handle 0x002C, DMI type 218, 11 bytes
@@ -31,7 +31,7 @@ OEM-specific Type
 Handle 0x0003, DMI type 222, 16 bytes
 OEM-specific Type
 	Header and Data:
-		DE 10 03 00 01 10 01 00 21 02 09 07 56 00 00 01
+		DE 10 03 00 01 10 FF FF 00 00 00 00 00 00 00 01
 
 Handle 0x0004, DMI type 225, 25 bytes
 OEM-specific Type
@@ -337,75 +337,12 @@ Handle 0x0024, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
-	Error Correction Type: Multi-bit ECC
+	Error Correction Type: None
 	Maximum Capacity: 32 GB
 	Error Information Handle: No Error
 	Number Of Devices: 4
 
 Handle 0x0025, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x0024
-	Error Information Handle: No Error
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM A2
-	Bank Locator: BANK 0
-	Type: DDR3
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1333 MT/s
-	Manufacturer: 80CE000080CE
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M391B5773DH0-YK0  
-	Rank: Unknown
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0026, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x0024
-	Error Information Handle: No Error
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM A1
-	Bank Locator: BANK 1
-	Type: DDR3
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1333 MT/s
-	Manufacturer: 80CE000080CE
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M391B5773DH0-YK0  
-	Rank: Unknown
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0027, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x0024
-	Error Information Handle: No Error
-	Total Width: 128 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM B2
-	Bank Locator: BANK 2
-	Type: DDR3
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1333 MT/s
-	Manufacturer: 80CE000080CE
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M391B5773DH0-YK0  
-	Rank: Unknown
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0028, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0024
 	Error Information Handle: Not Provided
@@ -414,8 +351,8 @@ Memory Device
 	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
-	Locator: DIMM B1
-	Bank Locator: BANK 3
+	Locator: DIMM A2
+	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Unbuffered (Unregistered)
 	Speed: Unknown
@@ -426,11 +363,74 @@ Memory Device
 	Rank: Unknown
 	Configured Memory Speed: Unknown
 
+Handle 0x0026, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x0024
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM A1
+	Bank Locator: BANK 1
+	Type: DDR3
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 1333 MT/s
+	Manufacturer: 029E00000000
+	Serial Number: --
+	Asset Tag: --
+	Part Number: VS2GB1333D4       
+	Rank: Unknown
+	Configured Memory Speed: 1333 MT/s
+
+Handle 0x0027, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x0024
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM B2
+	Bank Locator: BANK 2
+	Type: DDR3
+	Type Detail: Unbuffered (Unregistered)
+	Speed: Unknown
+	Manufacturer: Not Specified
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Not Specified
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+
+Handle 0x0028, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x0024
+	Error Information Handle: No Error
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM B1
+	Bank Locator: BANK 3
+	Type: DDR3
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 1333 MT/s
+	Manufacturer: 029E00000000
+	Serial Number: --
+	Asset Tag: --
+	Part Number: VS2GB1333D4       
+	Rank: Unknown
+	Configured Memory Speed: 1333 MT/s
+
 Handle 0x0029, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 6 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Array Handle: 0x0024
 	Partition Width: 2
 

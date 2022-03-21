@@ -1,8 +1,9 @@
-# dmidecode 3.2
-Scanning /dev/mem for entry point.
+# dmidecode 3.3
+# SMBIOS entry point at 0x000f04c0
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 54 structures occupying 2229 bytes.
-Table at 0xDE847018.
+Table at 0xBE848018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -11,7 +12,7 @@ BIOS Information
 	Release Date: 01/08/2016
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -151,8 +152,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 8192 kB
-	Maximum Size: 8192 kB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -167,8 +168,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 8192 kB
-	Maximum Size: 8192 kB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -476,7 +477,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM1
@@ -532,7 +533,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM3

@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0xbc938000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-56 structures occupying 2592 bytes.
+56 structures occupying 2594 bytes.
 Table at 0xBC935000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -34,7 +34,6 @@ BIOS Information
 		Targeted content distribution is supported
 		UEFI is supported
 	BIOS Revision: 1.28
-	Firmware Revision: 1.12
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -96,7 +95,7 @@ On Board Device 3 Information
 
 Handle 0x0005, DMI type 11, 5 bytes
 OEM Strings
-	String 1: LENOVO ThinkCentre Embedded Controller -[O4ZCT12A-1.12]-
+	String 1: LENOVO ThinkCentre Embedded Controller -[O4ZCT255.-1.255]-
 	String 2: LENOVO ThinkCentre BIOS Boot Block Revision 1.1C
 	String 3: Lenovo Service Engine Not Supported
 	String 4: INVALID

@@ -256,7 +256,7 @@ On Board Device 5 Information
 	Description: CIR Device
 On Board Device 6 Information
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Description: SD
 On Board Device 7 Information
 	Type: Other
@@ -319,7 +319,7 @@ Handle 0x001F, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  SD
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Type Instance: 1
 	Bus Address: 00ff:00:1f.7
 

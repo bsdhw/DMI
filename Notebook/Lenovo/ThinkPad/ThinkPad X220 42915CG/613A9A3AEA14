@@ -420,13 +420,13 @@ Handle 0x002C, DMI type 22, 26 bytes
 Portable Battery
 	Location: Rear
 	Manufacturer: SANYO
-	Name: 42T4861
-	Design Capacity: 57720 mWh
+	Name: 45N1023
+	Design Capacity: 73260 mWh
 	Design Voltage: 11100 mV
 	SBDS Version: 03.01
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2011-12-11
+	SBDS Manufacture Date: 2021-01-06
 	SBDS Chemistry: LION
 	OEM-specific Information: 0x00000000
 

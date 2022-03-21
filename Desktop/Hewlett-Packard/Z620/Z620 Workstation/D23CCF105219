@@ -718,7 +718,7 @@ Handle 0x003F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 3
 	Type: x4 PCI Express 2 x8
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 3
 	Characteristics:
@@ -1010,7 +1010,7 @@ Memory Device
 	Manufacturer: Hynix Semiconductor 
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT31GR7BFR4C-H9  
+	Part Number: HMT31GR7AFR4C-H9  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
@@ -1099,7 +1099,7 @@ Memory Device
 	Manufacturer: Hynix Semiconductor 
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT31GR7AFR4C-H9  
+	Part Number: HMT31GR7BFR4C-H9  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
@@ -1130,7 +1130,7 @@ Memory Device
 	Manufacturer: Hynix Semiconductor 
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT31GR7BFR4C-H9  
+	Part Number: HMT31GR7AFR4C-H9  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
@@ -1161,7 +1161,7 @@ Memory Device
 	Manufacturer: Hynix Semiconductor 
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT31GR7AFR4C-H9  
+	Part Number: HMT31GR7BFR4C-H9  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 

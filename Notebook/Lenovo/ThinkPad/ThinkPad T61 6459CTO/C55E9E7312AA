@@ -7,8 +7,8 @@ Table at 0x000E0010.
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: 7LETD0WW (2.30 )
-	Release Date: 02/27/2012
+	Version: 7LETC9WW (2.29 )
+	Release Date: 03/18/2011
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 4 MB
@@ -27,7 +27,7 @@ BIOS Information
 		USB legacy is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
-	BIOS Revision: 2.48
+	BIOS Revision: 2.41
 	Firmware Revision: 1.8
 
 Handle 0x0001, DMI type 1, 27 bytes
@@ -73,8 +73,8 @@ Processor Information
 	Type: Central Processor
 	Family: Other
 	Manufacturer: GenuineIntel
-	ID: FB 06 00 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 15, Stepping 11
+	ID: FA 06 00 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 15, Stepping 10
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -104,11 +104,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
-	Voltage: 1.4 V
+	Version: Intel(R) Core(TM)2 Extreme CPU X7900  @ 2.80GHz
+	Voltage: 1.5 V
 	External Clock: 200 MHz
-	Max Speed: 2000 MHz
-	Current Speed: 2000 MHz
+	Max Speed: 2800 MHz
+	Current Speed: 2800 MHz
 	Status: Populated, Enabled
 	Upgrade: None
 	L1 Cache Handle: 0x000A
@@ -145,8 +145,8 @@ Memory Module Information
 	Bank Connections: 0 1
 	Current Speed: 155 ns
 	Type: DIMM SDRAM
-	Installed Size: 2048 MB (Double-bank Connection)
-	Enabled Size: 2048 MB (Double-bank Connection)
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x0009, DMI type 6, 12 bytes
@@ -155,8 +155,8 @@ Memory Module Information
 	Bank Connections: 2 3
 	Current Speed: 155 ns
 	Type: DIMM SDRAM
-	Installed Size: 2048 MB (Double-bank Connection)
-	Enabled Size: 2048 MB (Double-bank Connection)
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x000A, DMI type 7, 19 bytes
@@ -404,7 +404,7 @@ Memory Device
 	Error Information Handle: 0xFF01
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 1
@@ -423,7 +423,7 @@ Memory Device
 	Error Information Handle: 0xFF01
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 2
@@ -449,25 +449,25 @@ Handle 0x002E, DMI type 18, 23 bytes
 Handle 0x002F, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x002B
 	Partition Width: 2
 
 Handle 0x0030, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x002C
 	Memory Array Mapped Address Handle: 0x002F
 	Partition Row Position: 1
 
 Handle 0x0031, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x002D
 	Memory Array Mapped Address Handle: 0x002F
 	Partition Row Position: 1

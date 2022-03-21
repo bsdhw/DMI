@@ -494,8 +494,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 760166 MB
-	Maximum Size: 118 kB
+	Installed Size: 1224 GB
+	Maximum Size: 9507 GB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -510,8 +510,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 693638 MB
-	Maximum Size: 118 kB
+	Installed Size: 1108 GB
+	Maximum Size: 1333 GB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous

@@ -1,15 +1,15 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xdb5bd000
+# SMBIOS entry point at 0xdb5cc000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-68 structures occupying 2602 bytes.
+68 structures occupying 2541 bytes.
 Table at 0x000E6B60.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 5220
-	Release Date: 09/12/2019
+	Version: 5603
+	Release Date: 07/28/2020
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -356,17 +356,17 @@ OEM Strings
 	String 2: Default string
 	String 3: COKE
 	String 4: Default string
-	String 5: FFFFFFFFFFFFF
-	String 6: FFFFFFFFFFFFF
-	String 7: FFFFFFFFFFFFF
+	String 5: Default string
+	String 6: Default string
+	String 7: Default string
 	String 8: Default string
 
 Handle 0x0027, DMI type 12, 5 bytes
 System Configuration Options
-	Option 1: SMI:00B29C05
-	Option 2: DSN:                               .
-	Option 3: DSN:                               .
-	Option 4: DSN:                               .
+	Option 1: Default string
+	Option 2: Default string
+	Option 3: Default string
+	Option 4: Default string
 
 Handle 0x0028, DMI type 32, 20 bytes
 System Boot Information
@@ -498,7 +498,7 @@ Processor Information
 	Voltage: 1.2 V
 	External Clock: 100 MHz
 	Max Speed: 3750 MHz
-	Current Speed: 3600 MHz
+	Current Speed: 3000 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket AM4
 	L1 Cache Handle: 0x002E
@@ -541,13 +541,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2800 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965745-002.A00G    
 	Rank: 2
-	Configured Memory Speed: 2800 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -620,13 +620,13 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2800 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965745-002.A00G    
 	Rank: 2
-	Configured Memory Speed: 2800 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -721,14 +721,14 @@ Handle 0x003F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_3
 	Type: x4 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 2
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:00:1f.7
+	Bus Address: 0000:03:00.0
 
 Handle 0x0040, DMI type 9, 17 bytes
 System Slot Information

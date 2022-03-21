@@ -1,7 +1,7 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-32 structures occupying 1475 bytes.
+32 structures occupying 1481 bytes.
 Table at 0x000EA000.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -301,20 +301,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
-	Form Factor: SODIMM
+	Size: 8 GB
+	Form Factor: DIMM
 	Set: None
 	Locator: ChannelA-DIMM0
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 0215
+	Speed: 1600 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMSO4GX3M1A1333C9 
+	Part Number: M378B1G73DB0-CK0  
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -385,8 +385,8 @@ System Event Log
 Handle 0x0015, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0013
 	Memory Array Mapped Address Handle: 0x0018
 	Partition Row Position: Unknown
@@ -400,27 +400,27 @@ Memory Device
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 4 GB
-	Form Factor: SODIMM
+	Form Factor: DIMM
 	Set: None
 	Locator: ChannelB-DIMM0
 	Bank Locator: BANK 2
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 0215
+	Speed: 1600 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMSO4GX3M1A1333C9 
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Part Number: M378B5173DB0-CK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
 
 Handle 0x0017, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
+	Starting Address: 0x00200000000
+	Ending Address: 0x002FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x0016
 	Memory Array Mapped Address Handle: 0x0018
@@ -431,8 +431,8 @@ Memory Device Mapped Address
 Handle 0x0018, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 12 GB
 	Physical Array Handle: 0x0012
 	Partition Width: 2
 

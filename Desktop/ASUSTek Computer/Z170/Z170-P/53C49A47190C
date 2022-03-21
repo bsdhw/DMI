@@ -1,5 +1,6 @@
-# dmidecode 3.2
-Scanning /dev/mem for entry point.
+# dmidecode 3.3
+# SMBIOS entry point at 0x000f05b0
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 90 structures occupying 4314 bytes.
 Table at 0xA7ED9000.
@@ -669,8 +670,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1024 kB
-	Maximum Size: 1024 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -685,8 +686,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 6144 kB
-	Maximum Size: 6144 kB
+	Installed Size: 6 MB
+	Maximum Size: 6 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -794,7 +795,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_A2
@@ -842,7 +843,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_B2
@@ -1031,7 +1032,7 @@ Group Associations
 Handle 0x0058, DMI type 219, 81 bytes
 OEM-specific Type
 	Header and Data:
-		DB 51 58 00 01 03 01 45 02 00 90 06 03 10 86 00
+		DB 51 58 00 01 03 01 45 02 00 90 06 03 10 80 00
 		00 00 00 00 40 08 00 00 00 00 00 00 00 00 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 FF FF FF FF FF FF FF

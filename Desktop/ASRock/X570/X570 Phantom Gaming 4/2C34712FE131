@@ -1,15 +1,15 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xeddf0000
+# SMBIOS entry point at 0xbde26000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-32 structures occupying 1877 bytes.
+34 structures occupying 1977 bytes.
 Table at 0x000E6CC0.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: P3.20
-	Release Date: 08/11/2020
+	Version: P3.90
+	Release Date: 01/26/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -186,7 +186,7 @@ Handle 0x000E, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
-	Error Correction Type: Multi-bit ECC
+	Error Correction Type: None
 	Maximum Capacity: 128 GB
 	Error Information Handle: 0x000D
 	Number Of Devices: 4
@@ -194,18 +194,18 @@ Physical Memory Array
 Handle 0x000F, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000EFFFFFFF
-	Range Size: 3840 MB
+	Ending Address: 0x000BFFFFFFF
+	Range Size: 3 GB
 	Physical Array Handle: 0x000E
-	Partition Width: 2
+	Partition Width: 4
 
 Handle 0x0010, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0080FFFFFFF
-	Range Size: 28928 MB
+	Ending Address: 0x0083FFFFFFF
+	Range Size: 29 GB
 	Physical Array Handle: 0x000E
-	Partition Width: 2
+	Partition Width: 4
 
 Handle 0x0011, DMI type 7, 27 bytes
 Cache Information
@@ -325,34 +325,34 @@ Handle 0x0016, DMI type 17, 84 bytes
 Memory Device
 	Array Handle: 0x000E
 	Error Information Handle: 0x0015
-	Total Width: 72 bits
+	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
-	Manufacturer: Kingston
+	Speed: 3200 MT/s
+	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9965745-002.A00G    
-	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Part Number: CMK16GX4M2B3200C16  
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 2, Hex 0x98
+	Module Manufacturer ID: Bank 3, Hex 0x9E
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 8 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -381,94 +381,49 @@ Handle 0x0019, DMI type 17, 84 bytes
 Memory Device
 	Array Handle: 0x000E
 	Error Information Handle: 0x0018
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: Unknown
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 1
 	Bank Locator: P0 CHANNEL A
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3200 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Unknown
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: Unknown
-	Memory Operating Mode Capability: Unknown
-	Firmware Version: Unknown
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
-
-Handle 0x001A, DMI type 18, 23 bytes
-32-bit Memory Error Information
-	Type: OK
-	Granularity: Unknown
-	Operation: Unknown
-	Vendor Syndrome: Unknown
-	Memory Array Address: Unknown
-	Device Address: Unknown
-	Resolution: Unknown
-
-Handle 0x001B, DMI type 17, 84 bytes
-Memory Device
-	Array Handle: 0x000E
-	Error Information Handle: 0x001A
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 16 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM 0
-	Bank Locator: P0 CHANNEL B
-	Type: DDR4
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: 9965745-002.A00G    
-	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Part Number: CMK16GX4M2B3200C16  
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 2, Hex 0x98
+	Module Manufacturer ID: Bank 3, Hex 0x9E
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 8 GB
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x001C, DMI type 20, 35 bytes
+Handle 0x001A, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x007FFFFFFFF
 	Range Size: 32 GB
-	Physical Device Handle: 0x001B
+	Physical Device Handle: 0x0019
 	Memory Array Mapped Address Handle: 0x0010
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x001D, DMI type 18, 23 bytes
+Handle 0x001B, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -478,41 +433,108 @@ Handle 0x001D, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x001E, DMI type 17, 84 bytes
+Handle 0x001C, DMI type 17, 84 bytes
 Memory Device
 	Array Handle: 0x000E
-	Error Information Handle: 0x001D
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: Unknown
+	Error Information Handle: 0x001B
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
 	Set: None
-	Locator: DIMM 1
+	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL B
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3200 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Unknown
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: Unknown
-	Memory Operating Mode Capability: Unknown
+	Part Number: CMK16GX4M2B3200C16  
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Unknown
+	Module Manufacturer ID: Bank 3, Hex 0x9E
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: None
+	Volatile Size: 8 GB
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x001F, DMI type 127, 4 bytes
+Handle 0x001D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
+	Physical Device Handle: 0x001C
+	Memory Array Mapped Address Handle: 0x0010
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x001E, DMI type 18, 23 bytes
+32-bit Memory Error Information
+	Type: OK
+	Granularity: Unknown
+	Operation: Unknown
+	Vendor Syndrome: Unknown
+	Memory Array Address: Unknown
+	Device Address: Unknown
+	Resolution: Unknown
+
+Handle 0x001F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x000E
+	Error Information Handle: 0x001E
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM 1
+	Bank Locator: P0 CHANNEL B
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 3200 MT/s
+	Manufacturer: Unknown
+	Serial Number: --
+	Asset Tag: --
+	Part Number: CMK16GX4M2B3200C16  
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: Unknown
+	Module Manufacturer ID: Bank 3, Hex 0x9E
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 8 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0020, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
+	Physical Device Handle: 0x001F
+	Memory Array Mapped Address Handle: 0x0010
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
+
+Handle 0x0021, DMI type 127, 4 bytes
 End Of Table
 

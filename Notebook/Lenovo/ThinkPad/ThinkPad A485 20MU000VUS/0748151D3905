@@ -1,9 +1,9 @@
-# dmidecode 2.12
+# dmidecode 3.3
+# SMBIOS entry point at 0x6a5cd000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
-# SMBIOS implementations newer than version 2.7 are not
-# fully supported by this version of dmidecode.
-62 structures occupying 2348 bytes.
-Table at 0x685E9000.
+62 structures occupying 2338 bytes.
+Table at 0x6A5CB000.
 
 Handle 0x0000, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -27,8 +27,8 @@ Physical Memory Array
 Handle 0x0002, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x0001
 	Partition Width: 2
 
@@ -54,8 +54,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -70,8 +70,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 4096 kB
-	Maximum Size: 4096 kB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -84,9 +84,34 @@ Handle 0x0006, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: FP5
 	Type: Central Processor
-	Family: <OUT OF SPEC>
+	Family: Zen
 	Manufacturer: Advanced Micro Devices, Inc.
 	ID: 10 0F 81 00 FF FB 8B 17
+	Signature: Family 23, Model 17, Stepping 0
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		HTT (Multi-threading)
 	Version: AMD Ryzen 5 PRO 2500U w/ Radeon Vega Mobile Gfx
 	Voltage: 1.2 V
 	External Clock: 100 MHz
@@ -127,29 +152,29 @@ Memory Device
 	Error Information Handle: 0x0007
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8192 MB
+	Size: 16 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL A
-	Type: <OUT OF SPEC>
+	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2667 MHz
-	Manufacturer: Samsung
+	Speed: 2667 MT/s
+	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M471A1K43CB1-CTD    
-	Rank: 1
-	Configured Clock Speed: 2400 MHz
-	Minimum voltage:  1.200 V
-	Maximum voltage:  1.200 V
-	Configured voltage:  1.200 V
+	Part Number:                     
+	Rank: 2
+	Configured Memory Speed: 2400 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 
 Handle 0x0009, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Device Handle: 0x0008
 	Memory Array Mapped Address Handle: 0x0002
 	Partition Row Position: Unknown
@@ -172,29 +197,29 @@ Memory Device
 	Error Information Handle: 0x000A
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 16 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL B
-	Type: <OUT OF SPEC>
+	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2400 MHz
-	Manufacturer: Micron Technology
+	Speed: 2667 MT/s
+	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 4ATF51264HZ-2G3B2   
-	Rank: 1
-	Configured Clock Speed: 2400 MHz
-	Minimum voltage:  1.200 V
-	Maximum voltage:  1.200 V
-	Configured voltage:  1.200 V
+	Part Number:                     
+	Rank: 2
+	Configured Memory Speed: 2400 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 
 Handle 0x000C, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Device Handle: 0x000B
 	Memory Array Mapped Address Handle: 0x0002
 	Partition Row Position: Unknown
@@ -213,7 +238,7 @@ BIOS Information
 	Release Date: 06/03/2019
 	Address: 0xE0000
 	Runtime Size: 128 kB
-	ROM Size: 16384 kB
+	ROM Size: 16 MB
 	Characteristics:
 		PCI is supported
 		PNP is supported
@@ -560,14 +585,14 @@ OEM-specific Type
 
 Handle 0x0030, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 50 bytes
+	Area Length: 66 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x00000002
+	Change Token: 0x00000003
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error
@@ -614,12 +639,9 @@ Built-in Pointing Device
 	Buttons: 2
 
 Handle 0x0036, DMI type 131, 22 bytes
-OEM-specific Type
-	Header and Data:
-		83 16 36 00 01 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 01
-	Strings:
-		TVT-Enablement
+ThinkVantage Technologies
+	Version: 1
+	Diagnostics: No
 
 Handle 0x0037, DMI type 136, 6 bytes
 OEM-specific Type
@@ -651,12 +673,9 @@ OEM-specific Type
 		00 00
 
 Handle 0x003C, DMI type 140, 15 bytes
-OEM-specific Type
-	Header and Data:
-		8C 0F 3C 00 4C 45 4E 4F 56 4F 0B 07 01 01 02
-	Strings:
-		R0WHT54W
-		32/32/2032
+ThinkPad Embedded Controller Program
+	Version ID: R0WHT54W
+	Release Date: 32/32/2032
 
 Handle 0xFEFF, DMI type 127, 4 bytes
 End Of Table

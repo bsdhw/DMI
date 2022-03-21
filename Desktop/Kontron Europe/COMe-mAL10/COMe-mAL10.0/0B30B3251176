@@ -1,0 +1,267 @@
+# dmidecode 3.3
+# SMBIOS entry point at 0x79e9b000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.0 present.
+19 structures occupying 979 bytes.
+Table at 0x79E98000.
+
+Handle 0x0001, DMI type 1, 27 bytes
+System Information
+	Manufacturer: Default string
+	Product Name: Default string
+	Version: Default string
+	Serial Number: --
+	UUID: --
+	Wake-up Type: Power Switch
+	SKU Number: Default string
+	Family: Default string
+
+Handle 0x0003, DMI type 3, 22 bytes
+Chassis Information
+	Manufacturer: Default string
+	Type: Desktop
+	Lock: Not Present
+	Version: Default string
+	Serial Number: --
+	Asset Tag: --
+	Boot-up State: Safe
+	Power Supply State: Safe
+	Thermal State: Safe
+	Security Status: None
+	OEM Information: 0x00000000
+	Height: Unspecified
+	Number Of Power Cords: 1
+	Contained Elements: 0
+	SKU Number: Default string
+
+Handle 0x0008, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x000C
+	Memory Array Mapped Address Handle: 0x000D
+	Partition Row Position: Unknown
+	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x000A, DMI type 32, 20 bytes
+System Boot Information
+	Status: No errors detected
+
+Handle 0x000B, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 1
+
+Handle 0x000C, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x000B
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1866 MT/s
+	Manufacturer: Undefined
+	Serial Number: --
+	Asset Tag: --
+	4776D9C5F6FCD6E78ABCA33413CFBF20                   
+	Rank: Unknown
+	Configured Memory Speed: 1866 MT/s
+	Minimum Voltage: 1.35 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.35 V
+
+Handle 0x000D, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Array Handle: 0x000B
+	Partition Width: 1
+
+Handle 0x000E, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: CPU Internal L1
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 224 kB
+	Maximum Size: 224 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Other
+	Associativity: Other
+
+Handle 0x000F, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: CPU Internal L2
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 16-way Set-associative
+
+Handle 0x0010, DMI type 4, 48 bytes
+Processor Information
+	Socket Designation: SOCKET 0
+	Type: Central Processor
+	Family: Pentium
+	Manufacturer: Intel
+	ID: C9 06 05 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 92, Stepping 9
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Pentium(R) CPU N4200 @ 1.10GHz
+	Voltage: 1.2 V
+	External Clock: 100 MHz
+	Max Speed: 2400 MHz
+	Current Speed: 1100 MHz
+	Status: Populated, Enabled
+	Upgrade: None
+	L1 Cache Handle: 0x000E
+	L2 Cache Handle: 0x000F
+	L3 Cache Handle: Not Provided
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Not Specified
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+
+Handle 0x0011, DMI type 2, 15 bytes
+Base Board Information
+	Manufacturer: Kontron Europe GmbH
+	Product Name: COMe-mAL10
+	Version: 1.0.0
+	Serial Number: --
+	Asset Tag: --
+	Features:
+		Board is removable
+		Board is replaceable
+	Location In Chassis: Not Specified
+	Chassis Handle: 0x0000
+	Type: Processor Module
+	Contained Object Handles: 0
+
+Handle 0x0012, DMI type 160, 13 bytes
+OEM-specific Type
+	Header and Data:
+		A0 0D 12 00 4B 45 55 00 11 01 02 03 04
+	Strings:
+		MAL1
+		10/05/2017
+		MM/DD/YYYY
+		1:AC
+
+Handle 0x0013, DMI type 164, 11 bytes
+OEM-specific Type
+	Header and Data:
+		A4 0B 13 00 4B 45 55 00 10 01 01
+	Strings:
+		00:E0:4B:5F:20:3F
+
+Handle 0x0014, DMI type 0, 24 bytes
+BIOS Information
+	Vendor: Kontron Europe
+	Version: MAL1R115
+	Release Date: 10/25/2019
+	Address: 0xF0000
+	Runtime Size: 64 kB
+	ROM Size: 5 MB
+	Characteristics:
+		PCI is supported
+		BIOS is upgradeable
+		BIOS shadowing is allowed
+		Boot from CD is supported
+		Selectable boot is supported
+		EDD is supported
+		ACPI is supported
+		USB legacy is supported
+		BIOS boot specification is supported
+		UEFI is supported
+	BIOS Revision: 5.12
+
+Handle 0x0015, DMI type 128, 13 bytes
+OEM-specific Type
+	Header and Data:
+		80 0D 15 00 03 00 01 02 03 04 05 06 07
+	Strings:
+		N/A
+		N/A
+		standard
+		efi
+		10/25/2019
+		13:21:10
+		KEM
+
+Handle 0x0016, DMI type 162, 16 bytes
+OEM-specific Type
+	Header and Data:
+		A2 10 16 00 4B 45 4D 44 00 01 80 FF C8 00 00 00
+
+Handle 0x0017, DMI type 161, 28 bytes
+OEM-specific Type
+	Header and Data:
+		A1 1C 17 00 4B 45 55 00 10 00 00 00 00 00 00 00
+		00 00 00 A2 FF FF FF FF FF FF FF FF
+
+Handle 0x0018, DMI type 13, 22 bytes
+BIOS Language Information
+	Language Description Format: Long
+	Installable Languages: 1
+		en|US|iso8859-1
+	Currently Installed Language: en|US|iso8859-1
+
+Handle 0x0019, DMI type 127, 4 bytes
+End Of Table
+

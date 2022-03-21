@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS version fixup (2.33 -> 2.3).
 SMBIOS 2.3 present.
@@ -12,7 +12,7 @@ BIOS Information
 	Release Date: 02/27/2006
 	Address: 0xDC000
 	Runtime Size: 144 kB
-	ROM Size: 1024 kB
+	ROM Size: 1 MB
 	Characteristics:
 		PCI is supported
 		PC Card (PCMCIA) is supported
@@ -107,8 +107,8 @@ Processor Information
 	Version: Intel(R) Pentium(R) M processor
 	Voltage: 1.3 V
 	External Clock: 400 MHz
-	Max Speed: 1700 MHz
-	Current Speed: 1700 MHz
+	Max Speed: 2000 MHz
+	Current Speed: 2000 MHz
 	Status: Populated, Enabled
 	Upgrade: None
 	L1 Cache Handle: 0x000A
@@ -155,8 +155,8 @@ Memory Module Information
 	Bank Connections: 2 3
 	Current Speed: Unknown
 	Type: DIMM SDRAM
-	Installed Size: 512 MB (Double-bank Connection)
-	Enabled Size: 512 MB (Double-bank Connection)
+	Installed Size: 1024 MB (Double-bank Connection)
+	Enabled Size: 1024 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x000A, DMI type 7, 19 bytes
@@ -181,8 +181,8 @@ Cache Information
 	Configuration: Enabled, Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Burst
 	Installed SRAM Type: Burst
@@ -410,7 +410,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 1024 MB
+	Size: 1 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 1
@@ -429,7 +429,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 512 MB
+	Size: 1 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 2
@@ -455,8 +455,8 @@ Handle 0x002F, DMI type 18, 23 bytes
 Handle 0x0030, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0005FFFFFFF
-	Range Size: 1536 MB
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
 	Physical Array Handle: 0x002C
 	Partition Width: 2
 
@@ -472,8 +472,8 @@ Memory Device Mapped Address
 Handle 0x0032, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00040000000
-	Ending Address: 0x0005FFFFFFF
-	Range Size: 512 MB
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 1 GB
 	Physical Device Handle: 0x002E
 	Memory Array Mapped Address Handle: 0x0030
 	Partition Row Position: 1

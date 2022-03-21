@@ -13,8 +13,8 @@ OEM-specific Type
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Dell Inc.
-	Version: 2.11.0
-	Release Date: 12/08/2020
+	Version: 2.12.0
+	Release Date: 05/24/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -40,7 +40,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 2.11
+	BIOS Revision: 2.12
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information

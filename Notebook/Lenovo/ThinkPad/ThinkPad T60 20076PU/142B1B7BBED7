@@ -1,14 +1,14 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
-68 structures occupying 2219 bytes.
+68 structures occupying 2250 bytes.
 Table at 0x000E0010.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: 79ETC1WW (2.01 )
-	Release Date: 09/29/2006
+	Version: 79ETE7WW (2.27 )
+	Release Date: 03/21/2011
 	Address: 0xDC000
 	Runtime Size: 144 kB
 	ROM Size: 2 MB
@@ -27,7 +27,7 @@ BIOS Information
 		USB legacy is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
-	BIOS Revision: 2.1
+	BIOS Revision: 2.39
 	Firmware Revision: 1.7
 
 Handle 0x0001, DMI type 1, 27 bytes
@@ -71,10 +71,40 @@ Handle 0x0006, DMI type 4, 35 bytes
 Processor Information
 	Socket Designation: None
 	Type: Central Processor
-	Family: Unknown
+	Family: Other
 	Manufacturer: GenuineIntel
 	ID: F6 06 00 00 FF FB EB BF
-	Version:   
+	Signature: Type 0, Family 6, Model 15, Stepping 6
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Core(TM)2 CPU         
 	Voltage: 1.4 V
 	External Clock: 167 MHz
 	Max Speed: 2167 MHz
@@ -215,8 +245,13 @@ Inactive
 Handle 0x0012, DMI type 126, 9 bytes
 Inactive
 
-Handle 0x0013, DMI type 126, 9 bytes
-Inactive
+Handle 0x0013, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Available
+	Internal Connector Type: None
+	External Reference Designator: Modem
+	External Connector Type: RJ-11
+	Port Type: Modem Port
 
 Handle 0x0014, DMI type 8, 9 bytes
 Port Connector Information
@@ -511,7 +546,7 @@ OEM-specific Type
 Handle 0x003D, DMI type 135, 18 bytes
 OEM-specific Type
 	Header and Data:
-		87 12 3D 00 54 50 07 01 01 A3 01 00 00 00 01 00
+		87 12 3D 00 54 50 07 01 01 A3 0F 00 00 00 01 00
 		00 00
 
 Handle 0x003E, DMI type 135, 35 bytes
@@ -526,11 +561,11 @@ OEM-specific Type
 	Header and Data:
 		88 06 3F 00 5A 5A
 
-Handle 0x0040, DMI type 137, 26 bytes
+Handle 0x0040, DMI type 137, 28 bytes
 OEM-specific Type
 	Header and Data:
-		89 1A 40 00 0A 01 00 01 01 00 50 57 4D 53 20 49
-		6E 66 6F 72 6D 61 74 69 6F 6E
+		89 1C 40 00 0C 02 00 01 00 00 C0 00 50 57 4D 53
+		20 49 6E 66 6F 72 6D 61 74 69 6F 6E
 
 Handle 0x0041, DMI type 138, 40 bytes
 OEM-specific Type

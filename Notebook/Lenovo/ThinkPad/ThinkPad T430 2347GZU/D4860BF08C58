@@ -2,12 +2,12 @@
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 69 structures occupying 2650 bytes.
-Table at 0xDAE9C000.
+Table at 0xDAA9C000.
 
 Handle 0x0000, DMI type 134, 16 bytes
 OEM-specific Type
 	Header and Data:
-		86 10 00 00 00 53 54 4D 20 01 01 00 00 00 01 02
+		86 10 00 00 00 53 54 4D 20 01 01 00 00 03 01 02
 	Strings:
 		TPM INFO
 		System Reserved
@@ -411,7 +411,7 @@ Inactive
 Handle 0x0029, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Other
-	Status: Disabled
+	Status: Enabled
 	Description: IBM Embedded Security hardware
 
 Handle 0x002A, DMI type 12, 5 bytes
@@ -482,10 +482,10 @@ OEM-specific Type
 Handle 0x0034, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 34 00 35 00 00 00 08 00 00 00 00 00 45 00
+		83 40 34 00 3F 00 00 00 08 00 00 00 00 00 45 00
 		F8 00 55 1E FF FF FF FF 21 00 00 00 01 00 08 00
 		BA 0B 48 00 00 00 00 00 C8 00 02 15 00 00 00 00
-		00 00 00 00 62 00 00 00 76 50 72 6F 00 00 00 00
+		00 00 00 00 66 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x0035, DMI type 135, 74 bytes
 OEM-specific Type

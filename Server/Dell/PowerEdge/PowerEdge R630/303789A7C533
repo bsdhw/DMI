@@ -1028,7 +1028,7 @@ System Power Supply
 	Status: Present, Unknown
 	Type: Unknown
 	Input Voltage Range Switching: Unknown
-	Plugged: Yes
+	Plugged: No
 	Hot Replaceable: Yes
 
 Handle 0x2701, DMI type 39, 22 bytes

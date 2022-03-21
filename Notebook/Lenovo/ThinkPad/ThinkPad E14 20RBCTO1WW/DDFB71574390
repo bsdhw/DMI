@@ -105,8 +105,8 @@ OEM-specific Type
 	Header and Data:
 		DD 36 08 00 07 01 00 09 00 14 30 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 00 00 05 00 FF FF FF 00
-		00 06 00 02 0A 00 00 00 07 00 06 FF FF FF FF 08
-		00 09 FF FF FF FF
+		00 06 00 02 0A 00 00 00 07 00 00 FF FF FF FF 08
+		00 00 FF FF FF FF
 	Strings:
 		Reference Code - CML PCH
 		PCH-CRID Status
@@ -227,7 +227,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
-	Voltage: 0.8 V
+	Voltage: 0.7 V
 	External Clock: 100 MHz
 	Max Speed: 2100 MHz
 	Current Speed: 1600 MHz
