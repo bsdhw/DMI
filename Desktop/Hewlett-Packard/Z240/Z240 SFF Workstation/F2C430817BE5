@@ -605,14 +605,14 @@ Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot3 / X1PCIEXP2
 	Type: x1 PCI Express 3 x1
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 3
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
 		SMBus signal is supported
-	Bus Address: 0000:03:00.0
+	Bus Address: 0000:00:1c.6
 
 Handle 0x003E, DMI type 9, 17 bytes
 System Slot Information
@@ -625,7 +625,7 @@ System Slot Information
 		3.3 V is provided
 		PME signal is supported
 		SMBus signal is supported
-	Bus Address: 0000:04:00.0
+	Bus Address: 0000:03:00.0
 
 Handle 0x003F, DMI type 9, 17 bytes
 System Slot Information

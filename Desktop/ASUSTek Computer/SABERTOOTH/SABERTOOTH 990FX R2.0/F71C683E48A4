@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x000f04c0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.

@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x9b70a000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -619,27 +619,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x003D, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -974,7 +953,7 @@ Group Associations
 Handle 0x0058, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 58 00 01 04 01 55 02 00 90 06 01 85 32 20
+		DB 6A 58 00 01 04 01 55 02 00 90 06 01 85 36 20
 		00 00 00 00 40 00 00 00 00 00 00 00 00 40 00 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

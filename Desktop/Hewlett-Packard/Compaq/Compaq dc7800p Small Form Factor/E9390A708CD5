@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 74 structures occupying 2183 bytes.
@@ -431,7 +431,7 @@ Handle 0x002B, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI1
 	Type: 32-bit PCI
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 1
 	Characteristics:
@@ -556,11 +556,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR2
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: JEDEC ID:
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:  
 
 Handle 0x0038, DMI type 17, 27 bytes
 Memory Device
@@ -575,11 +570,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR2
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: JEDEC ID:
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:  
 
 Handle 0x003A, DMI type 17, 27 bytes
 Memory Device

@@ -2,13 +2,13 @@
 Scanning /dev/mem for entry point.
 SMBIOS 3.0 present.
 13 structures occupying 554 bytes.
-Table at 0xCFE85040.
+Table at 0xCFE83040.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: coreboot
-	Version: v4.14.0.3
-	Release Date: 08/10/2021
+	Version: v4.14.0.5
+	Release Date: 10/11/2021
 	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported

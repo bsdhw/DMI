@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 46 structures occupying 1769 bytes.
@@ -87,7 +87,7 @@ Handle 0x0004, DMI type 4, 40 bytes
 Processor Information
 	Socket Designation: AM3R2
 	Type: Central Processor
-	Family: Athlon II
+	Family: Phenom II
 	Manufacturer: AMD              
 	ID: 53 0F 10 00 FF FB 8B 17
 	Signature: Family 16, Model 5, Stepping 3
@@ -115,7 +115,7 @@ Processor Information
 		SSE (Streaming SIMD extensions)
 		SSE2 (Streaming SIMD extensions 2)
 		HTT (Multi-threading)
-	Version: AMD Athlon(tm) II X3 455 Processor                  
+	Version: AMD Phenom(tm) II X4 B55 Processor                  
 	Voltage: 1.5 V
 	External Clock: 200 MHz
 	Max Speed: 3300 MHz
@@ -128,9 +128,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: To Be Filled By O.E.M.
-	Core Count: 3
-	Core Enabled: 3
-	Thread Count: 3
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 
@@ -140,8 +140,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 384 kB
-	Maximum Size: 384 kB
+	Installed Size: 512 kB
+	Maximum Size: 512 kB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -156,8 +156,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1536 kB
-	Maximum Size: 1536 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst

@@ -1,9 +1,9 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x000f04c0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 20 structures occupying 1241 bytes.
-Table at 0xDDD7A018.
+Table at 0xDDD7D018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -300,7 +300,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFD50000
 	Status: Valid, Not Full
-	Change Token: 0x000000F6
+	Change Token: 0x00000103
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error

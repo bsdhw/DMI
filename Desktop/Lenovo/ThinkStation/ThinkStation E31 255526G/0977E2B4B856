@@ -1,14 +1,14 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-91 structures occupying 3518 bytes.
+91 structures occupying 3506 bytes.
 Table at 0x000ED9D0.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: 9SKT87AUS
-	Release Date: 01/09/2015
+	Version: 9SKT9CAUS
+	Release Date: 12/11/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 4608 kB
@@ -32,7 +32,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 0.87
+	BIOS Revision: 0.6
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -40,7 +40,7 @@ System Information
 	Product Name: 255526G
 	Version: ThinkStation E31
 	Serial Number: --
-	UUID: --
+	80DDF76D26D2091F741E19B96DA27B1D
 	Wake-up Type: Power Switch
 	SKU Number: LENOVO_MT_2555
 	Family: To be filled by O.E.M.
@@ -67,8 +67,8 @@ Chassis Information
 	Lock: Not Present
 	Version: None
 	Serial Number: --
-	Asset Tag: --
-	380AD15AAB729CF25C4397C21C466ACE
+	271882FD79060B21C43F805A2DE81148  
+	Boot-up State: Safe
 	Power Supply State: Safe
 	Thermal State: Safe
 	Security Status: None
@@ -856,13 +856,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0049, DMI type 17, 34 bytes
 Memory Device
@@ -922,8 +915,8 @@ OEM-specific Type
 Handle 0x004F, DMI type 140, 47 bytes
 OEM-specific Type
 	Header and Data:
-		8C 2F 4F 00 4C 45 4E 4F 56 4F 0B 01 01 08 00 DB
-		1C AA 95 18 F6 D2 82 20 98 2B E0 FB 1F 19 3D 00
+		8C 2F 4F 00 4C 45 4E 4F 56 4F 0B 01 01 08 00 2B
+		72 7D A5 44 1E 38 38 96 DD 49 6E CD B4 83 B1 00
 		00 00 00 10 00 10 00 10 01 D0 00 20 01 00 01
 
 Handle 0x0050, DMI type 140, 63 bytes

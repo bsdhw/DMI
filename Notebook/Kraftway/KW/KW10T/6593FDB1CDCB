@@ -1,5 +1,6 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.4
+# SMBIOS entry point at 0xbad26000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 15 structures occupying 967 bytes.
 Table at 0xBAD23000.
@@ -231,7 +232,7 @@ BIOS Language Information
 	Installable Languages: 2
 		en|US|iso8859-1
 		ru|RU|iso8859-5
-	Currently Installed Language: ru|RU|iso8859-5
+	Currently Installed Language: en|US|iso8859-1
 
 Handle 0x0012, DMI type 127, 4 bytes
 End Of Table

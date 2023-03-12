@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 64 structures occupying 2245 bytes.
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 2.79
+	Firmware Revision: 2.80
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -70,8 +70,8 @@ Processor Information
 	Type: Central Processor
 	Family: Xeon
 	Manufacturer: Intel
-	ID: A7 06 02 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 42, Stepping 7
+	ID: A9 06 03 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 58, Stepping 9
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -101,11 +101,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version:  Intel(R) Xeon(R) CPU E31260L @ 2.40GHz         
+	Version:  Intel(R) Xeon(R) CPU E3-1265L V2 @ 2.50GHz     
 	Voltage: 1.4 V
 	External Clock: 100 MHz
 	Max Speed: 4800 MHz
-	Current Speed: 2400 MHz
+	Current Speed: 2500 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x0710
@@ -259,7 +259,7 @@ Port Connector Information
 Handle 0x0901, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
-	Type: x16 PCI Express 2 x16
+	Type: x16 PCI Express 3 x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -300,7 +300,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: 669239-081          
 	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -311,23 +311,23 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: 1
 	Locator: PROC  1 DIMM  2 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 1600 MT/s
 	Manufacturer: UNKNOWN
 	Serial Number: --
 	Asset Tag: --
 	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
+	Minimum Voltage: 1.5 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.5 V
 
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -340,8 +340,8 @@ Memory Array Mapped Address
 Handle 0x1301, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0020BFFFFFF
-	Range Size: 4288 MB
+	Ending Address: 0x0040BFFFFFF
+	Range Size: 12480 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 1
 
@@ -402,9 +402,12 @@ OEM-specific Type
 		          
 
 Handle 0xC200, DMI type 194, 5 bytes
-OEM-specific Type
-	Header and Data:
-		C2 05 00 C2 10
+HP ProLiant Super IO Enable/Disable Indicator
+	Serial Port A: Disabled
+	Serial Port B: Disabled
+	Parallel Port: Disabled
+	Floppy Disk Port: Disabled
+	Virtual Serial Port: Enabled
 
 Handle 0xC300, DMI type 195, 7 bytes
 OEM-specific Type
@@ -436,7 +439,7 @@ OEM-specific Type
 Handle 0xD300, DMI type 211, 7 bytes
 OEM-specific Type
 	Header and Data:
-		D3 07 00 D3 00 04 41
+		D3 07 00 D3 00 04 40
 
 Handle 0xC600, DMI type 198, 11 bytes
 OEM-specific Type
@@ -523,9 +526,8 @@ OEM-specific Type
 		DF 07 00 DF 66 46 70
 
 Handle 0xE000, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 00 E0 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0xE200, DMI type 226, 21 bytes
 OEM-specific Type
@@ -597,7 +599,7 @@ OEM-specific Type
 Handle 0xE801, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 01 E8 01 11 00 00 00 00 00 00 00 00
+		E8 0E 01 E8 01 11 04 00 00 00 DC 05 DC 05
 
 Handle 0x7F00, DMI type 127, 4 bytes
 End Of Table

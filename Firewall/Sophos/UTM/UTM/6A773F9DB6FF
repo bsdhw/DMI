@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 46 structures occupying 1317 bytes.
@@ -154,11 +154,11 @@ Memory Controller Information
 Handle 0x0006, DMI type 6, 12 bytes
 Memory Module Information
 	Socket Designation: A0
-	Bank Connections: 0
+	Bank Connections: 0 1
 	Current Speed: Unknown
 	Type: DIMM
-	Installed Size: 1024 MB (Single-bank Connection)
-	Enabled Size: 1024 MB (Single-bank Connection)
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x0007, DMI type 6, 12 bytes
@@ -174,11 +174,11 @@ Memory Module Information
 Handle 0x0008, DMI type 6, 12 bytes
 Memory Module Information
 	Socket Designation: A2
-	Bank Connections: 4
+	Bank Connections: 4 5
 	Current Speed: Unknown
 	Type: DIMM
-	Installed Size: 1024 MB (Single-bank Connection)
-	Enabled Size: 1024 MB (Single-bank Connection)
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x0009, DMI type 6, 12 bytes
@@ -425,8 +425,8 @@ Memory Device
 	Array Handle: 0x0020
 	Error Information Handle: Not Provided
 	Total Width: 1 bits
-	Data Width: 65476 bits
-	Size: 1 GB
+	Data Width: 65284 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A0
@@ -452,19 +452,14 @@ Memory Device
 	Bank Locator: Bank2/3
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: None
-	Serial Number: --
-	Asset Tag: --
-	Part Number: None
 
 Handle 0x0023, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0020
 	Error Information Handle: Not Provided
 	Total Width: 1 bits
-	Data Width: 65476 bits
-	Size: 1 GB
+	Data Width: 65284 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A2
@@ -490,11 +485,6 @@ Memory Device
 	Bank Locator: Bank6/7
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: None
-	Serial Number: --
-	Asset Tag: --
-	Part Number: None
 
 Handle 0x0025, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -509,16 +499,16 @@ Handle 0x0025, DMI type 18, 23 bytes
 Handle 0x0026, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0021
 	Partition Width: 1
 
 Handle 0x0027, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0003FFFFFFF
-	Range Size: 1 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0022
 	Memory Array Mapped Address Handle: 0x0026
 	Partition Row Position: 1
@@ -534,9 +524,9 @@ Memory Device Mapped Address
 
 Handle 0x0029, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00040000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 1 GB
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0024
 	Memory Array Mapped Address Handle: 0x0026
 	Partition Row Position: 1

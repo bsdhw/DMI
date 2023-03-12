@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0x8ce1d000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-89 structures occupying 4158 bytes.
+89 structures occupying 4160 bytes.
 Table at 0x8CE1A000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -512,7 +512,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -520,11 +520,11 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 1600 MT/s
-	Manufacturer: 075D
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number: GR1600S3V64L11S/4G
-	Rank: 1
+	Part Number: 16KTF2G64HZ-1G6A1 
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.35 V
 	Maximum Voltage: 1.5 V
@@ -557,8 +557,8 @@ Memory Device
 Handle 0x0038, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0035
 	Partition Width: 1
 
@@ -673,8 +673,8 @@ Processor Information
 Handle 0x003D, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0036
 	Memory Array Mapped Address Handle: 0x0038
 	Partition Row Position: Unknown

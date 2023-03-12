@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xbea78000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
@@ -68,7 +68,7 @@ Chassis Information
 	Version: Not Specified
 	Serial Number: --
 	Asset Tag: --
-	380AD15AAB729CF25C4397C21C466ACE
+	Boot-up State: Safe
 	Power Supply State: Safe
 	Thermal State: Safe
 	Security Status: Unknown
@@ -842,7 +842,7 @@ OEM-specific Type
 Handle 0xD200, DMI type 210, 12 bytes
 OEM-specific Type
 	Header and Data:
-		D2 0C 00 D2 00 00 00 03 06 80 04 04
+		D2 0C 00 D2 F8 03 04 03 06 80 04 05
 
 Handle 0xD400, DMI type 212, 127 bytes
 OEM-specific Type
@@ -924,7 +924,7 @@ OEM-specific Type
 Handle 0xDE00, DMI type 222, 16 bytes
 OEM-specific Type
 	Header and Data:
-		DE 10 00 DE 01 08 00 00 20 04 16 04 01 08 00 01
+		DE 10 00 DE 01 08 FF FF 00 00 00 00 00 08 00 01
 
 Handle 0xE000, DMI type 224, 11 bytes
 OEM-specific Type

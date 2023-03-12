@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xcba0d000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -8,8 +8,8 @@ Table at 0xCBA0A000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 5833
-	Release Date: 01/15/2021
+	Version: 5861
+	Release Date: 08/10/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB

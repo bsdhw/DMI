@@ -1,9 +1,9 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0x99b90000
+# SMBIOS entry point at 0x9db90000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-91 structures occupying 4166 bytes.
-Table at 0x99B8D000.
+90 structures occupying 4138 bytes.
+Table at 0x9DB8D000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
@@ -227,14 +227,14 @@ Handle 0x0016, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIE_x16
 	Type: x16 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 0
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:01.0
+	Bus Address: 0000:01:01.0
 
 Handle 0x0017, DMI type 9, 17 bytes
 System Slot Information
@@ -247,7 +247,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:02:1c.3
+	Bus Address: 0000:03:1c.3
 
 Handle 0x0018, DMI type 9, 17 bytes
 System Slot Information
@@ -260,7 +260,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:03:1c.4
+	Bus Address: 0000:04:1c.4
 
 Handle 0x0019, DMI type 9, 17 bytes
 System Slot Information
@@ -815,21 +815,13 @@ Onboard Device
 
 Handle 0x004B, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation: Onboard - Video
-	Type: Video
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:02.0
-
-Handle 0x004C, DMI type 41, 11 bytes
-Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
 	Type Instance: 2
 	Bus Address: 0000:00:08.0
 
-Handle 0x004D, DMI type 41, 11 bytes
+Handle 0x004C, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -837,7 +829,7 @@ Onboard Device
 	Type Instance: 3
 	Bus Address: 0000:00:12.0
 
-Handle 0x004E, DMI type 41, 11 bytes
+Handle 0x004D, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -845,7 +837,7 @@ Onboard Device
 	Type Instance: 4
 	Bus Address: 0000:00:14.0
 
-Handle 0x004F, DMI type 41, 11 bytes
+Handle 0x004E, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -853,7 +845,7 @@ Onboard Device
 	Type Instance: 5
 	Bus Address: 0000:00:14.2
 
-Handle 0x0050, DMI type 41, 11 bytes
+Handle 0x004F, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -861,7 +853,7 @@ Onboard Device
 	Type Instance: 6
 	Bus Address: 0000:00:14.5
 
-Handle 0x0051, DMI type 41, 11 bytes
+Handle 0x0050, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -869,7 +861,7 @@ Onboard Device
 	Type Instance: 7
 	Bus Address: 0000:00:15.0
 
-Handle 0x0052, DMI type 41, 11 bytes
+Handle 0x0051, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -877,7 +869,7 @@ Onboard Device
 	Type Instance: 8
 	Bus Address: 0000:00:16.0
 
-Handle 0x0053, DMI type 41, 11 bytes
+Handle 0x0052, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -885,7 +877,7 @@ Onboard Device
 	Type Instance: 9
 	Bus Address: 0000:00:17.0
 
-Handle 0x0054, DMI type 41, 11 bytes
+Handle 0x0053, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -893,7 +885,7 @@ Onboard Device
 	Type Instance: 10
 	Bus Address: 0000:00:1e.0
 
-Handle 0x0055, DMI type 41, 11 bytes
+Handle 0x0054, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -901,7 +893,7 @@ Onboard Device
 	Type Instance: 11
 	Bus Address: 0000:00:1f.0
 
-Handle 0x0056, DMI type 41, 11 bytes
+Handle 0x0055, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Sound
 	Type: Sound
@@ -909,7 +901,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1f.3
 
-Handle 0x0057, DMI type 41, 11 bytes
+Handle 0x0056, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -917,7 +909,7 @@ Onboard Device
 	Type Instance: 12
 	Bus Address: 0000:00:1f.4
 
-Handle 0x0058, DMI type 41, 11 bytes
+Handle 0x0057, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -925,7 +917,7 @@ Onboard Device
 	Type Instance: 13
 	Bus Address: 0000:00:1f.5
 
-Handle 0x0059, DMI type 221, 89 bytes
+Handle 0x0058, DMI type 221, 89 bytes
 HP BIOS iSCSI NIC PCI and MAC Information
 	NIC 1: PCI device 01:01.4, MAC address 00:FF:FF:FF:FF:FF
 	NIC 2: PCI device 00:00.2, MAC address FF:FF:FF:FF:FF:03
@@ -934,11 +926,11 @@ HP BIOS iSCSI NIC PCI and MAC Information
 	NIC 5: Not Installed
 	NIC 6: Disabled
 	NIC 7: PCI device 00:1f.7, MAC address 0B:00:00:01:00:00
-	NIC 8: PCI device 0c:00.0, MAC address 00:00:09:00:07:11
+	NIC 8: PCI device 0c:00.0, MAC address 00:FF:FF:FF:FF:FF
 	NIC 9: PCI device 00:01.5, MAC address FF:FF:FF:FF:FF:0E
 	NIC 10: Disabled
 
-Handle 0x005A, DMI type 13, 22 bytes
+Handle 0x0059, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 13
@@ -957,13 +949,13 @@ BIOS Language Information
 		zh|CN|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x005B, DMI type 14, 8 bytes
+Handle 0x005A, DMI type 14, 8 bytes
 Group Associations
 	Name: $MEI
 	Items: 1
 		0x0000 (OEM-specific)
 
-Handle 0x005C, DMI type 219, 106 bytes
+Handle 0x005B, DMI type 219, 106 bytes
 HP ProLiant Information
 	Power Features: 0x45010401
 	Omega Features: 0x06900002
@@ -971,12 +963,12 @@ HP ProLiant Information
 		iCRU: No
 		UEFI: No
 
-Handle 0x005D, DMI type 136, 6 bytes
+Handle 0x005C, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 5D 00 00 00
+		88 06 5C 00 00 00
 
-Handle 0x005E, DMI type 14, 23 bytes
+Handle 0x005D, DMI type 14, 23 bytes
 Group Associations
 	Name: Firmware Version Info
 	Items: 6
@@ -985,8 +977,8 @@ Group Associations
 		0x003D (OEM-specific)
 		0x003E (OEM-specific)
 		0x003F (OEM-specific)
-		0x0059 (OEM-specific)
+		0x0058 (OEM-specific)
 
-Handle 0x005F, DMI type 127, 4 bytes
+Handle 0x005E, DMI type 127, 4 bytes
 End Of Table
 

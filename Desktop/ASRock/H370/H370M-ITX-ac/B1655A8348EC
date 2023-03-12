@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x7ea7b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
@@ -356,7 +356,7 @@ Processor Information
 	Voltage: 0.9 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
-	Current Speed: 2893 MHz
+	Current Speed: 2892 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket LGA1151
 	L1 Cache Handle: 0x0013
@@ -540,7 +540,7 @@ Group Associations
 Handle 0x0029, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 29 00 01 04 01 45 02 00 90 06 01 85 32 20
+		DB 6A 29 00 01 04 01 45 02 00 90 06 01 85 36 20
 		00 00 00 00 40 00 00 00 00 00 00 00 00 00 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

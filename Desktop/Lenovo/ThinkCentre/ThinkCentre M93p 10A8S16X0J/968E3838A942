@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xd5f60418
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-103 structures occupying 4114 bytes.
+89 structures occupying 3540 bytes.
 Table at 0xD5EC0018.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -722,16 +722,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0043, DMI type 15, 73 bytes
 System Event Log
@@ -844,16 +834,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0047, DMI type 17, 40 bytes
 Memory Device
@@ -994,104 +974,6 @@ BIOS Language Information
 		zh|CN|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x005D, DMI type 140, 85 bytes
-OEM-specific Type
-	Header and Data:
-		8C 55 5D 00 4C 45 4E 4F 56 4F 0B 00 01 B5 55 18
-		35 41 1F 6A 24 CB 68 2D 67 1C 68 F4 FA 01 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00
-
-Handle 0x005E, DMI type 140, 47 bytes
-OEM-specific Type
-	Header and Data:
-		8C 2F 5E 00 4C 45 4E 4F 56 4F 0B 01 01 09 00 26
-		5B 1E 16 50 2A BA C3 39 72 14 1C 20 30 34 8F 00
-		00 00 00 10 00 10 00 10 01 D0 00 20 01 00 01
-
-Handle 0x005F, DMI type 140, 63 bytes
-OEM-specific Type
-	Header and Data:
-		8C 3F 5F 00 4C 45 4E 4F 56 4F 0B 02 01 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-
-Handle 0x0060, DMI type 140, 17 bytes
-OEM-specific Type
-	Header and Data:
-		8C 11 60 00 4C 45 4E 4F 56 4F 0B 03 01 00 00 00
-		00
-
-Handle 0x0061, DMI type 140, 19 bytes
-OEM-specific Type
-	Header and Data:
-		8C 13 61 00 4C 45 4E 4F 56 4F 0B 04 01 B2 00 4D
-		53 20 00
-
-Handle 0x0062, DMI type 140, 19 bytes
-OEM-specific Type
-	Header and Data:
-		8C 13 62 00 4C 45 4E 4F 56 4F 0B 05 01 06 00 00
-		00 53 55
-
-Handle 0x0063, DMI type 140, 23 bytes
-OEM-specific Type
-	Header and Data:
-		8C 17 63 00 4C 45 4E 4F 56 4F 0B 06 01 00 00 00
-		00 00 00 00 00 00 00
-
-Handle 0x0064, DMI type 140, 85 bytes
-OEM-specific Type
-	Header and Data:
-		8C 55 64 00 4C 45 4E 4F 56 4F 0B 00 01 B5 55 18
-		35 41 1F 6A 24 CB 68 2D 67 1C 68 F4 FA 01 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00
-
-Handle 0x0065, DMI type 140, 47 bytes
-OEM-specific Type
-	Header and Data:
-		8C 2F 65 00 4C 45 4E 4F 56 4F 0B 01 01 09 00 26
-		5B 1E 16 50 2A BA C3 39 72 14 1C 20 30 34 8F 00
-		00 00 00 10 00 10 00 10 01 D0 00 20 01 00 01
-
-Handle 0x0066, DMI type 140, 63 bytes
-OEM-specific Type
-	Header and Data:
-		8C 3F 66 00 4C 45 4E 4F 56 4F 0B 02 01 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-
-Handle 0x0067, DMI type 140, 17 bytes
-OEM-specific Type
-	Header and Data:
-		8C 11 67 00 4C 45 4E 4F 56 4F 0B 03 01 00 00 00
-		00
-
-Handle 0x0068, DMI type 140, 19 bytes
-OEM-specific Type
-	Header and Data:
-		8C 13 68 00 4C 45 4E 4F 56 4F 0B 04 01 B2 00 4D
-		53 20 00
-
-Handle 0x0069, DMI type 140, 19 bytes
-OEM-specific Type
-	Header and Data:
-		8C 13 69 00 4C 45 4E 4F 56 4F 0B 05 01 06 00 00
-		00 53 55
-
-Handle 0x006A, DMI type 140, 23 bytes
-OEM-specific Type
-	Header and Data:
-		8C 17 6A 00 4C 45 4E 4F 56 4F 0B 06 01 00 00 00
-		00 00 00 00 00 00 00
-
-Handle 0x006B, DMI type 127, 4 bytes
+Handle 0x005D, DMI type 127, 4 bytes
 End Of Table
 

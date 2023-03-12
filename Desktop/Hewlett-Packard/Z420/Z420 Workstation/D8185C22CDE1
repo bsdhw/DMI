@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xcbadab98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
@@ -742,13 +742,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x004B, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -773,13 +766,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x004D, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -804,13 +790,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x004F, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -835,13 +814,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0051, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -866,13 +838,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0053, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -897,13 +862,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0055, DMI type 18, 23 bytes
 32-bit Memory Error Information

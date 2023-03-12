@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 71 structures occupying 3458 bytes.
@@ -563,13 +563,6 @@ Memory Device
 	Bank Locator: BANK4
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer04
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber04
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x002C, DMI type 126, 35 bytes
 Inactive
@@ -587,13 +580,6 @@ Memory Device
 	Bank Locator: BANK5
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer05
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber05
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x002E, DMI type 126, 35 bytes
 Inactive
@@ -611,13 +597,6 @@ Memory Device
 	Bank Locator: BANK6
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer06
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber06
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x0030, DMI type 126, 35 bytes
 Inactive
@@ -635,13 +614,6 @@ Memory Device
 	Bank Locator: BANK7
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer07
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber07
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x0032, DMI type 126, 35 bytes
 Inactive
@@ -659,13 +631,6 @@ Memory Device
 	Bank Locator: BANK8
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer08
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber08
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x0034, DMI type 126, 35 bytes
 Inactive
@@ -683,13 +648,6 @@ Memory Device
 	Bank Locator: BANK9
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer09
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber09
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x0036, DMI type 126, 35 bytes
 Inactive
@@ -707,13 +665,6 @@ Memory Device
 	Bank Locator: BANK10
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer10
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber10
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x0038, DMI type 126, 35 bytes
 Inactive
@@ -731,13 +682,6 @@ Memory Device
 	Bank Locator: BANK11
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer11
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber11
-	Rank: Unknown
-	Configured Memory Speed: 1066 MT/s
 
 Handle 0x003A, DMI type 126, 35 bytes
 Inactive
@@ -808,9 +752,8 @@ HP BIOS PXE NIC PCI and MAC Information
 	NIC 2: PCI device 07:00.1, MAC address 78:E3:B5:19:94:65
 
 Handle 0x0042, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 42 00 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0x0043, DMI type 225, 12 bytes
 OEM-specific Type

@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 # SMBIOS entry point at 0x8ad3b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.4 present.
@@ -16,7 +16,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2224 MHz
+	Current Speed: 2223 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0002
@@ -101,7 +101,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2237 MHz
+	Current Speed: 2241 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0007
@@ -186,7 +186,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2231 MHz
+	Current Speed: 2235 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x000C
@@ -271,7 +271,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 45294 MHz
+	Current Speed: 42355 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0011
@@ -356,7 +356,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2231 MHz
+	Current Speed: 2228 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0016
@@ -441,7 +441,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2229 MHz
+	Current Speed: 43459 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x001B
@@ -526,7 +526,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 2231 MHz
+	Current Speed: 2243 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0020
@@ -611,7 +611,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2200 MHz
-	Current Speed: 40459 MHz
+	Current Speed: 40531 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0025
@@ -716,7 +716,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: Unknown
 	Data Width: Unknown
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -751,7 +751,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: Unknown
 	Data Width: Unknown
-	Size: 8192 MB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -777,7 +777,7 @@ BIOS Information
 	Vendor: Apple Inc.
 	Version: 87.0.0.0.0
 	Release Date: 06/13/2019
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable

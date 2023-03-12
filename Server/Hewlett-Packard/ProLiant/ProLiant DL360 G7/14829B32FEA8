@@ -55,9 +55,9 @@ Chassis Information
 	Version: Not Specified
 	Serial Number: --
 	271882FD79060B21C43F805A2DE81148                                 
-	Boot-up State: Safe
+	Boot-up State: Warning
 	Power Supply State: Safe
-	Thermal State: Safe
+	Thermal State: Warning
 	Security Status: Unknown
 	OEM Information: 0x00000000
 	Height: 1 U
@@ -101,11 +101,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Xeon(R) CPU L5630 @ 2.13GHz            
+	Version: Intel(R) Xeon(R) CPU X5660 @ 2.80GHz            
 	Voltage: 1.4 V
 	External Clock: 133 MHz
 	Max Speed: 4800 MHz
-	Current Speed: 2133 MHz
+	Current Speed: 2800 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket LGA1366
 	L1 Cache Handle: 0x0710
@@ -114,9 +114,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Core Count: 4
-	Core Enabled: 2
-	Thread Count: 8
+	Core Count: 6
+	Core Enabled: 3
+	Thread Count: 12
 	Characteristics:
 		64-bit capable
 
@@ -126,43 +126,15 @@ Processor Information
 	Type: Central Processor
 	Family: Xeon
 	Manufacturer: Intel
-	ID: C2 06 02 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 44, Stepping 2
-	Flags:
-		FPU (Floating-point unit on-chip)
-		VME (Virtual mode extension)
-		DE (Debugging extension)
-		PSE (Page size extension)
-		TSC (Time stamp counter)
-		MSR (Model specific registers)
-		PAE (Physical address extension)
-		MCE (Machine check exception)
-		CX8 (CMPXCHG8 instruction supported)
-		APIC (On-chip APIC hardware supported)
-		SEP (Fast system call)
-		MTRR (Memory type range registers)
-		PGE (Page global enable)
-		MCA (Machine check architecture)
-		CMOV (Conditional move instruction supported)
-		PAT (Page attribute table)
-		PSE-36 (36-bit page size extension)
-		CLFSH (CLFLUSH instruction supported)
-		DS (Debug store)
-		ACPI (ACPI supported)
-		MMX (MMX technology supported)
-		FXSR (FXSAVE and FXSTOR instructions supported)
-		SSE (Streaming SIMD extensions)
-		SSE2 (Streaming SIMD extensions 2)
-		SS (Self-snoop)
-		HTT (Multi-threading)
-		TM (Thermal monitor supported)
-		PBE (Pending break enabled)
-	Version: Intel(R) Xeon(R) CPU L5630 @ 2.13GHz            
+	ID: 00 00 00 00 00 00 00 00
+	Signature: Type 0, Family 0, Model 0, Stepping 0
+	Flags: None
+	Version:                                                 
 	Voltage: 1.4 V
-	External Clock: 133 MHz
+	External Clock: 200 MHz
 	Max Speed: 4800 MHz
-	Current Speed: 2133 MHz
-	Status: Populated, Idle
+	Current Speed: Unknown
+	Status: Unpopulated
 	Upgrade: Socket LGA1366
 	L1 Cache Handle: 0x0716
 	L2 Cache Handle: 0x0726
@@ -170,9 +142,6 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Core Count: 4
-	Core Enabled: 2
-	Thread Count: 8
 	Characteristics:
 		64-bit capable
 
@@ -182,7 +151,7 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 128 kB
+	Installed Size: 192 kB
 	Maximum Size: 192 kB
 	Supported SRAM Types:
 		Burst
@@ -195,10 +164,10 @@ Cache Information
 Handle 0x0716, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: Processor 2 Internal L1 Cache
-	Configuration: Enabled, Not Socketed, Level 1
-	Operational Mode: Write Back
+	Configuration: Disabled, Not Socketed, Level 1
+	Operational Mode: Unknown
 	Location: Internal
-	Installed Size: 128 kB
+	Installed Size: 0 kB
 	Maximum Size: 192 kB
 	Supported SRAM Types:
 		Burst
@@ -206,7 +175,7 @@ Cache Information
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Data
-	Associativity: 8-way Set-associative
+	Associativity: Unknown
 
 Handle 0x0720, DMI type 7, 19 bytes
 Cache Information
@@ -214,7 +183,7 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1 MB
+	Installed Size: 1536 kB
 	Maximum Size: 1536 kB
 	Supported SRAM Types:
 		Burst
@@ -227,10 +196,10 @@ Cache Information
 Handle 0x0726, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: Processor 2 Internal L2 Cache
-	Configuration: Enabled, Not Socketed, Level 2
-	Operational Mode: Write Back
+	Configuration: Disabled, Not Socketed, Level 2
+	Operational Mode: Unknown
 	Location: Internal
-	Installed Size: 1 MB
+	Installed Size: 0 kB
 	Maximum Size: 1536 kB
 	Supported SRAM Types:
 		Burst
@@ -238,7 +207,7 @@ Cache Information
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Unknown
-	Associativity: 8-way Set-associative
+	Associativity: Unknown
 
 Handle 0x0730, DMI type 7, 19 bytes
 Cache Information
@@ -259,10 +228,10 @@ Cache Information
 Handle 0x0736, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: Processor 2 Internal L3 Cache
-	Configuration: Enabled, Not Socketed, Level 3
-	Operational Mode: Write Back
+	Configuration: Disabled, Not Socketed, Level 3
+	Operational Mode: Unknown
 	Location: Internal
-	Installed Size: 12 MB
+	Installed Size: 0 kB
 	Maximum Size: 12 MB
 	Supported SRAM Types:
 		Burst
@@ -270,7 +239,7 @@ Cache Information
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Unknown
-	Associativity: 16-way Set-associative
+	Associativity: Unknown
 
 Handle 0x0801, DMI type 8, 9 bytes
 Port Connector Information
@@ -442,20 +411,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 2
 	Locator: PROC 1 DIMM 2D
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1102, DMI type 17, 34 bytes
 Memory Device
@@ -476,7 +445,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: Not Specified
 	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x1103, DMI type 17, 34 bytes
 Memory Device
@@ -505,20 +474,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 5
 	Locator: PROC 1 DIMM 5E
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1105, DMI type 17, 34 bytes
 Memory Device
@@ -539,7 +508,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: Not Specified
 	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x1106, DMI type 17, 34 bytes
 Memory Device
@@ -568,20 +537,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 8
 	Locator: PROC 1 DIMM 8F
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1108, DMI type 17, 34 bytes
 Memory Device
@@ -602,7 +571,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: Not Specified
 	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x1109, DMI type 17, 34 bytes
 Memory Device
@@ -631,20 +600,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 11
 	Locator: PROC 2 DIMM 2D
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x110B, DMI type 17, 34 bytes
 Memory Device
@@ -652,20 +621,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 12
 	Locator: PROC 2 DIMM 3A
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x110C, DMI type 17, 34 bytes
 Memory Device
@@ -694,20 +663,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 14
 	Locator: PROC 2 DIMM 5E
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x110E, DMI type 17, 34 bytes
 Memory Device
@@ -715,20 +684,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 15
 	Locator: PROC 2 DIMM 6B
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x110F, DMI type 17, 34 bytes
 Memory Device
@@ -757,20 +726,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 17
 	Locator: PROC 2 DIMM 8F
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1111, DMI type 17, 34 bytes
 Memory Device
@@ -778,20 +747,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 18
 	Locator: PROC 2 DIMM 9C
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
+	Speed: Unknown
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Rank: 2
-	Configured Memory Speed: 1066 MT/s
+	Rank: Unknown
+	Configured Memory Speed: Unknown
 
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -807,18 +776,13 @@ Inactive
 Handle 0x1302, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0061FFFFFFF
-	Range Size: 20992 MB
+	Ending Address: 0x0031FFFFFFF
+	Range Size: 8704 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 1
 
-Handle 0x1303, DMI type 19, 31 bytes
-Memory Array Mapped Address
-	Starting Address: 0x00620000000
-	Ending Address: 0x00C1FFFFFFF
-	Range Size: 24 GB
-	Physical Array Handle: 0x1001
-	Partition Width: 1
+Handle 0x1303, DMI type 126, 31 bytes
+Inactive
 
 Handle 0x1304, DMI type 126, 31 bytes
 Inactive
@@ -917,22 +881,22 @@ OEM-specific Type
 Handle 0xC500, DMI type 197, 12 bytes
 OEM-specific Type
 	Header and Data:
-		C5 0C 00 C5 00 04 00 01 FF 01 28 00
+		C5 0C 00 C5 00 04 00 01 FF 01 5F 00
 
 Handle 0xC506, DMI type 197, 12 bytes
 OEM-specific Type
 	Header and Data:
-		C5 0C 06 C5 06 04 20 00 FF 02 28 00
+		C5 0C 06 C5 06 04 FF 00 FF 02 00 00
 
 Handle 0xD300, DMI type 211, 7 bytes
 OEM-specific Type
 	Header and Data:
-		D3 07 00 D3 00 04 46
+		D3 07 00 D3 00 04 4C
 
 Handle 0xD306, DMI type 211, 7 bytes
 OEM-specific Type
 	Header and Data:
-		D3 07 06 D3 06 04 46
+		D3 07 06 D3 06 04 00
 
 Handle 0xC600, DMI type 198, 11 bytes
 OEM-specific Type

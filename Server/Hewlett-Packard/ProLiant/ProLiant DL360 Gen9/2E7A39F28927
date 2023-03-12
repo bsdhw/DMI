@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x788fb000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-213 structures occupying 7110 bytes.
+214 structures occupying 7174 bytes.
 Table at 0x788CC000.
 
 Handle 0x0000, DMI type 7, 19 bytes
@@ -90,11 +90,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+	Version: Intel(R) Xeon(R) CPU E5-2609 v3 @ 1.90GHz
 	Voltage: 2.3 V
 	External Clock: 100 MHz
 	Max Speed: 4000 MHz
-	Current Speed: 2400 MHz
+	Current Speed: 1900 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket LGA2011-3
 	L1 Cache Handle: 0x0000
@@ -105,7 +105,7 @@ Processor Information
 	Part Number: Not Specified
 	Core Count: 6
 	Core Enabled: 6
-	Thread Count: 12
+	Thread Count: 6
 	Characteristics:
 		64-bit capable
 		Multi-Core
@@ -212,16 +212,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000A, DMI type 17, 40 bytes
 Memory Device
@@ -236,16 +226,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000B, DMI type 17, 40 bytes
 Memory Device
@@ -260,16 +240,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000C, DMI type 17, 40 bytes
 Memory Device
@@ -284,16 +254,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000D, DMI type 17, 40 bytes
 Memory Device
@@ -308,16 +268,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000E, DMI type 17, 40 bytes
 Memory Device
@@ -332,16 +282,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x000F, DMI type 17, 40 bytes
 Memory Device
@@ -356,16 +296,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0010, DMI type 17, 40 bytes
 Memory Device
@@ -380,16 +310,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0011, DMI type 17, 40 bytes
 Memory Device
@@ -404,16 +324,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0012, DMI type 17, 40 bytes
 Memory Device
@@ -428,16 +338,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0013, DMI type 17, 40 bytes
 Memory Device
@@ -452,16 +352,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0014, DMI type 17, 40 bytes
 Memory Device
@@ -482,7 +372,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: 752369-081
 	Rank: 2
-	Configured Memory Speed: 1866 MT/s
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -500,16 +390,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0016, DMI type 17, 40 bytes
 Memory Device
@@ -524,16 +404,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0017, DMI type 17, 40 bytes
 Memory Device
@@ -548,16 +418,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0018, DMI type 17, 40 bytes
 Memory Device
@@ -572,16 +432,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0019, DMI type 17, 40 bytes
 Memory Device
@@ -596,16 +446,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001A, DMI type 17, 40 bytes
 Memory Device
@@ -620,16 +460,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001B, DMI type 17, 40 bytes
 Memory Device
@@ -644,16 +474,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001C, DMI type 17, 40 bytes
 Memory Device
@@ -668,16 +488,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001D, DMI type 17, 40 bytes
 Memory Device
@@ -692,16 +502,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001E, DMI type 17, 40 bytes
 Memory Device
@@ -716,16 +516,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001F, DMI type 17, 40 bytes
 Memory Device
@@ -740,16 +530,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0020, DMI type 17, 40 bytes
 Memory Device
@@ -764,16 +544,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x0021, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -988,9 +758,12 @@ OEM-specific Type
 		          
 
 Handle 0x0039, DMI type 194, 5 bytes
-OEM-specific Type
-	Header and Data:
-		C2 05 39 00 11
+HP ProLiant Super IO Enable/Disable Indicator
+	Serial Port A: Enabled
+	Serial Port B: Disabled
+	Parallel Port: Disabled
+	Floppy Disk Port: Disabled
+	Virtual Serial Port: Enabled
 
 Handle 0x003A, DMI type 195, 7 bytes
 OEM-specific Type
@@ -1015,9 +788,10 @@ OEM-specific Type
 		C6 0C 3D 00 01 00 00 00 00 00 01 0A
 
 Handle 0x003E, DMI type 199, 16 bytes
-OEM-specific Type
-	Header and Data:
-		C7 10 3E 00 2B 00 00 00 14 20 06 10 F2 06 03 00
+HP ProLiant CPU Microcode Patch Support Info
+	CPU ID: Type 0, Family 6, Model 63, Stepping 2
+		Date: 2014-10-06
+		Patch: 0x2B
 
 Handle 0x003F, DMI type 201, 16 bytes
 OEM-specific Type
@@ -1218,7 +992,16 @@ OEM-specific Type
 		Intelligent Platform Abstraction Data
 		12.3
 
-Handle 0x0061, DMI type 219, 32 bytes
+Handle 0x0061, DMI type 216, 23 bytes
+OEM-specific Type
+	Header and Data:
+		D8 17 61 00 0D 00 01 02 06 01 01 00 00 00 00 00
+		00 00 00 00 00 00 00
+	Strings:
+		HP Smart Storage Battery 1 Firmware
+		1.1
+
+Handle 0x0062, DMI type 219, 32 bytes
 HP ProLiant Information
 	Power Features: 0x00000bdf
 	Omega Features: 0x0000000f
@@ -1226,273 +1009,273 @@ HP ProLiant Information
 		iCRU: Yes
 		UEFI: Yes
 
-Handle 0x0062, DMI type 223, 11 bytes
+Handle 0x0063, DMI type 223, 11 bytes
 OEM-specific Type
 	Header and Data:
-		DF 0B 62 00 66 46 70 00 00 00 00
+		DF 0B 63 00 66 46 70 00 00 00 00
 
-Handle 0x0063, DMI type 224, 5 bytes
+Handle 0x0064, DMI type 224, 5 bytes
 OEM-specific Type
 	Header and Data:
-		E0 05 63 00 00
+		E0 05 64 00 00
 
-Handle 0x0064, DMI type 226, 21 bytes
+Handle 0x0065, DMI type 226, 21 bytes
 OEM-specific Type
 	Header and Data:
-		E2 15 64 00 37 37 34 34 33 35 43 5A 4A 34 35 30
+		E2 15 65 00 37 37 34 34 33 35 43 5A 4A 34 35 30
 		30 37 37 4D 01
 	Strings:
 		CZJ450077M
 
-Handle 0x0065, DMI type 227, 12 bytes
-OEM-specific Type
-	Header and Data:
-		E3 0C 65 00 03 00 09 00 0A A0 01 00
-
 Handle 0x0066, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 66 00 03 00 0A 00 0A A2 01 00
+		E3 0C 66 00 03 00 09 00 0A A0 01 00
 
 Handle 0x0067, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 67 00 03 00 0B 00 0A A4 01 00
+		E3 0C 67 00 03 00 0A 00 0A A2 01 00
 
 Handle 0x0068, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 68 00 03 00 0C 00 0A A8 01 00
+		E3 0C 68 00 03 00 0B 00 0A A4 01 00
 
 Handle 0x0069, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 69 00 03 00 0D 00 0A AA 01 00
+		E3 0C 69 00 03 00 0C 00 0A A8 01 00
 
 Handle 0x006A, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6A 00 03 00 0E 00 0A AC 01 00
+		E3 0C 6A 00 03 00 0D 00 0A AA 01 00
 
 Handle 0x006B, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6B 00 03 00 0F 00 09 AC 01 01
+		E3 0C 6B 00 03 00 0E 00 0A AC 01 00
 
 Handle 0x006C, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6C 00 03 00 10 00 09 AA 01 01
+		E3 0C 6C 00 03 00 0F 00 09 AC 01 01
 
 Handle 0x006D, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6D 00 03 00 11 00 09 A8 01 01
+		E3 0C 6D 00 03 00 10 00 09 AA 01 01
 
 Handle 0x006E, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6E 00 03 00 12 00 09 A4 01 01
+		E3 0C 6E 00 03 00 11 00 09 A8 01 01
 
 Handle 0x006F, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 6F 00 03 00 13 00 09 A2 01 01
+		E3 0C 6F 00 03 00 12 00 09 A4 01 01
 
 Handle 0x0070, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 70 00 03 00 14 00 09 A0 01 01
+		E3 0C 70 00 03 00 13 00 09 A2 01 01
 
 Handle 0x0071, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 71 00 04 00 15 00 0C A0 01 02
+		E3 0C 71 00 03 00 14 00 09 A0 01 01
 
 Handle 0x0072, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 72 00 04 00 16 00 0C A2 01 02
+		E3 0C 72 00 04 00 15 00 0C A0 01 02
 
 Handle 0x0073, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 73 00 04 00 17 00 0C A4 01 02
+		E3 0C 73 00 04 00 16 00 0C A2 01 02
 
 Handle 0x0074, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 74 00 04 00 18 00 0C A8 01 02
+		E3 0C 74 00 04 00 17 00 0C A4 01 02
 
 Handle 0x0075, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 75 00 04 00 19 00 0C AA 01 02
+		E3 0C 75 00 04 00 18 00 0C A8 01 02
 
 Handle 0x0076, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 76 00 04 00 1A 00 0C AC 01 02
+		E3 0C 76 00 04 00 19 00 0C AA 01 02
 
 Handle 0x0077, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 77 00 04 00 1B 00 0B AC 01 03
+		E3 0C 77 00 04 00 1A 00 0C AC 01 02
 
 Handle 0x0078, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 78 00 04 00 1C 00 0B AA 01 03
+		E3 0C 78 00 04 00 1B 00 0B AC 01 03
 
 Handle 0x0079, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 79 00 04 00 1D 00 0B A8 01 03
+		E3 0C 79 00 04 00 1C 00 0B AA 01 03
 
 Handle 0x007A, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 7A 00 04 00 1E 00 0B A4 01 03
+		E3 0C 7A 00 04 00 1D 00 0B A8 01 03
 
 Handle 0x007B, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 7B 00 04 00 1F 00 0B A2 01 03
+		E3 0C 7B 00 04 00 1E 00 0B A4 01 03
 
 Handle 0x007C, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E3 0C 7C 00 04 00 20 00 0B A0 01 03
+		E3 0C 7C 00 04 00 1F 00 0B A2 01 03
 
-Handle 0x007D, DMI type 228, 14 bytes
+Handle 0x007D, DMI type 227, 12 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 7D 00 00 00 00 00 00 00 00 FF 00 00
+		E3 0C 7D 00 04 00 20 00 0B A0 01 03
 
 Handle 0x007E, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 7E 00 01 00 00 00 00 00 00 FF 00 00
+		E4 0E 7E 00 00 00 00 00 00 00 00 FF 00 00
 
 Handle 0x007F, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 7F 00 02 00 00 00 00 00 00 FF 00 00
+		E4 0E 7F 00 01 00 00 00 00 00 00 FF 00 00
 
 Handle 0x0080, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 80 00 03 00 00 00 00 00 00 FF 04 00
+		E4 0E 80 00 02 00 00 00 00 00 00 FF 00 00
 
 Handle 0x0081, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 81 00 04 00 00 00 00 00 00 FF 00 00
+		E4 0E 81 00 03 00 00 00 00 00 00 FF 04 00
 
 Handle 0x0082, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 82 00 05 00 00 00 00 00 00 FF 00 00
+		E4 0E 82 00 04 00 00 00 00 00 00 FF 00 00
 
 Handle 0x0083, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 83 00 06 00 00 00 00 00 00 FF 01 00
+		E4 0E 83 00 05 00 00 00 00 00 00 FF 00 00
 
 Handle 0x0084, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 84 00 07 00 00 00 00 00 00 FF 00 00
+		E4 0E 84 00 06 00 00 00 00 00 00 FF 01 00
 
 Handle 0x0085, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 85 00 08 06 00 00 00 00 00 FF 01 00
+		E4 0E 85 00 07 00 00 00 00 00 00 FF 00 00
 
 Handle 0x0086, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 86 00 09 08 30 01 98 80 01 08 00 00
+		E4 0E 86 00 08 06 00 00 00 00 00 FF 01 00
 
 Handle 0x0087, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 87 00 0A 08 30 01 98 90 01 08 00 00
+		E4 0E 87 00 09 08 30 01 98 80 01 08 00 00
 
 Handle 0x0088, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 88 00 0B 08 31 01 98 80 01 08 00 00
+		E4 0E 88 00 0A 08 30 01 B0 80 01 08 00 00
 
 Handle 0x0089, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 89 00 0C 08 31 01 98 90 01 08 00 00
+		E4 0E 89 00 0B 08 31 01 98 80 01 08 00 00
 
 Handle 0x008A, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8A 00 0D 08 32 01 98 80 01 08 00 00
+		E4 0E 8A 00 0C 08 31 01 B0 80 01 08 00 00
 
 Handle 0x008B, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8B 00 0E 08 32 01 98 90 01 08 00 00
+		E4 0E 8B 00 0D 08 32 01 98 80 01 08 00 00
 
 Handle 0x008C, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8C 00 0F 08 33 01 98 80 01 08 00 00
+		E4 0E 8C 00 0E 08 32 01 98 80 01 08 00 00
 
 Handle 0x008D, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8D 00 10 08 33 01 98 90 01 08 00 00
+		E4 0E 8D 00 0F 08 33 01 98 80 01 08 00 00
 
 Handle 0x008E, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8E 00 11 04 E0 00 FF 01 00 04 00 00
+		E4 0E 8E 00 10 08 33 01 98 80 01 08 00 00
 
 Handle 0x008F, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 8F 00 12 04 E0 00 FF 02 00 04 00 00
+		E4 0E 8F 00 11 04 E0 00 FF 01 00 04 00 00
 
 Handle 0x0090, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 90 00 13 04 E0 00 FF 04 00 04 00 00
+		E4 0E 90 00 12 04 E0 00 FF 02 00 04 00 00
 
 Handle 0x0091, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 91 00 14 04 E0 00 FF 08 00 04 00 00
+		E4 0E 91 00 13 04 E0 00 FF 04 00 04 00 00
 
 Handle 0x0092, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 92 00 15 04 E0 00 FF 10 00 04 00 00
+		E4 0E 92 00 14 04 E0 00 FF 08 00 04 00 00
 
 Handle 0x0093, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 93 00 16 04 E0 00 FF 20 00 04 00 00
+		E4 0E 93 00 15 04 E0 00 FF 10 00 04 00 00
 
 Handle 0x0094, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 94 00 17 04 E0 00 FF 40 00 04 00 00
+		E4 0E 94 00 16 04 E0 00 FF 20 00 04 00 00
 
 Handle 0x0095, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E4 0E 95 00 18 04 E0 00 FF 80 00 04 00 00
+		E4 0E 95 00 17 04 E0 00 FF 40 00 04 00 00
 
-Handle 0x0096, DMI type 229, 100 bytes
+Handle 0x0096, DMI type 228, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E5 64 96 00 24 4F 43 53 00 C0 1E 79 00 00 00 00
+		E4 0E 96 00 18 04 E0 00 FF 80 00 04 00 00
+
+Handle 0x0097, DMI type 229, 100 bytes
+OEM-specific Type
+	Header and Data:
+		E5 64 97 00 24 4F 43 53 00 C0 1E 79 00 00 00 00
 		00 40 00 00 24 4F 43 42 00 C0 1D 79 00 00 00 00
 		00 00 01 00 24 48 44 44 00 A0 1D 79 00 00 00 00
 		00 20 00 00 24 57 48 45 00 90 1C 79 00 00 00 00
@@ -1500,143 +1283,143 @@ OEM-specific Type
 		08 00 00 00 24 5A 58 54 00 70 1C 79 00 00 00 00
 		3B 00 00 00
 
-Handle 0x0097, DMI type 230, 11 bytes
+Handle 0x0098, DMI type 230, 11 bytes
 OEM-specific Type
 	Header and Data:
-		E6 0B 97 00 36 00 01 02 02 07 B8
+		E6 0B 98 00 36 00 01 02 02 07 B8
 	Strings:
 		DELTA           
 		03      
 
-Handle 0x0098, DMI type 230, 11 bytes
+Handle 0x0099, DMI type 230, 11 bytes
 OEM-specific Type
 	Header and Data:
-		E6 0B 98 00 37 00 01 02 02 07 B2
+		E6 0B 99 00 37 00 01 02 02 07 B2
 	Strings:
 		                
 		        
 
-Handle 0x0099, DMI type 232, 14 bytes
-OEM-specific Type
-	Header and Data:
-		E8 0E 99 00 09 00 00 00 00 00 00 00 00 00
-
 Handle 0x009A, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9A 00 0A 00 00 00 00 00 00 00 00 00
+		E8 0E 9A 00 09 00 00 00 00 00 00 00 00 00
 
 Handle 0x009B, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9B 00 0B 00 00 00 00 00 00 00 00 00
+		E8 0E 9B 00 0A 00 00 00 00 00 00 00 00 00
 
 Handle 0x009C, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9C 00 0C 00 00 00 00 00 00 00 00 00
+		E8 0E 9C 00 0B 00 00 00 00 00 00 00 00 00
 
 Handle 0x009D, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9D 00 0D 00 00 00 00 00 00 00 00 00
+		E8 0E 9D 00 0C 00 00 00 00 00 00 00 00 00
 
 Handle 0x009E, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9E 00 0E 00 00 00 00 00 00 00 00 00
+		E8 0E 9E 00 0D 00 00 00 00 00 00 00 00 00
 
 Handle 0x009F, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 9F 00 0F 00 00 00 00 00 00 00 00 00
+		E8 0E 9F 00 0E 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A0, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A0 00 10 00 00 00 00 00 00 00 00 00
+		E8 0E A0 00 0F 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A1, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A1 00 11 00 00 00 00 00 00 00 00 00
+		E8 0E A1 00 10 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A2, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A2 00 12 00 00 00 00 00 00 00 00 00
+		E8 0E A2 00 11 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A3, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A3 00 13 00 00 00 00 00 00 00 00 00
+		E8 0E A3 00 12 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A4, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A4 00 14 00 01 00 00 00 B0 04 B0 04
+		E8 0E A4 00 13 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A5, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A5 00 15 00 00 00 00 00 00 00 00 00
+		E8 0E A5 00 14 00 01 00 00 00 B0 04 B0 04
 
 Handle 0x00A6, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A6 00 16 00 00 00 00 00 00 00 00 00
+		E8 0E A6 00 15 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A7, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A7 00 17 00 00 00 00 00 00 00 00 00
+		E8 0E A7 00 16 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A8, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A8 00 18 00 00 00 00 00 00 00 00 00
+		E8 0E A8 00 17 00 00 00 00 00 00 00 00 00
 
 Handle 0x00A9, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E A9 00 19 00 00 00 00 00 00 00 00 00
+		E8 0E A9 00 18 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AA, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AA 00 1A 00 00 00 00 00 00 00 00 00
+		E8 0E AA 00 19 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AB, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AB 00 1B 00 00 00 00 00 00 00 00 00
+		E8 0E AB 00 1A 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AC, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AC 00 1C 00 00 00 00 00 00 00 00 00
+		E8 0E AC 00 1B 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AD, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AD 00 1D 00 00 00 00 00 00 00 00 00
+		E8 0E AD 00 1C 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AE, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AE 00 1E 00 00 00 00 00 00 00 00 00
+		E8 0E AE 00 1D 00 00 00 00 00 00 00 00 00
 
 Handle 0x00AF, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E AF 00 1F 00 00 00 00 00 00 00 00 00
+		E8 0E AF 00 1E 00 00 00 00 00 00 00 00 00
 
 Handle 0x00B0, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E B0 00 20 00 00 00 00 00 00 00 00 00
+		E8 0E B0 00 1F 00 00 00 00 00 00 00 00 00
 
-Handle 0x00B1, DMI type 9, 17 bytes
+Handle 0x00B1, DMI type 232, 14 bytes
+OEM-specific Type
+	Header and Data:
+		E8 0E B1 00 20 00 00 00 00 00 00 00 00 00
+
+Handle 0x00B2, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 2
 	Type: x8 PCI Express 3
@@ -1648,7 +1431,7 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:05:00.0
 
-Handle 0x00B2, DMI type 9, 17 bytes
+Handle 0x00B3, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
 	Type: x16 PCI Express 3
@@ -1660,32 +1443,32 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:08:00.0
 
-Handle 0x00B3, DMI type 233, 40 bytes
+Handle 0x00B4, DMI type 233, 40 bytes
 HP BIOS PXE NIC PCI and MAC Information
 	NIC 1: PCI device 02:00.0, MAC address 38:63:BB:44:46:58
 
-Handle 0x00B4, DMI type 233, 40 bytes
+Handle 0x00B5, DMI type 233, 40 bytes
 HP BIOS PXE NIC PCI and MAC Information
 	NIC 2: PCI device 02:00.1, MAC address 38:63:BB:44:46:59
 
-Handle 0x00B5, DMI type 233, 40 bytes
+Handle 0x00B6, DMI type 233, 40 bytes
 HP BIOS PXE NIC PCI and MAC Information
 	NIC 3: PCI device 02:00.2, MAC address 38:63:BB:44:46:5A
 
-Handle 0x00B6, DMI type 233, 40 bytes
+Handle 0x00B7, DMI type 233, 40 bytes
 HP BIOS PXE NIC PCI and MAC Information
 	NIC 4: PCI device 02:00.3, MAC address 38:63:BB:44:46:5B
 
-Handle 0x00B7, DMI type 32, 11 bytes
+Handle 0x00B8, DMI type 32, 11 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x00B8, DMI type 196, 15 bytes
+Handle 0x00B9, DMI type 196, 15 bytes
 OEM-specific Type
 	Header and Data:
-		C4 0F B8 00 00 00 00 00 00 00 02 02 00 01 02
+		C4 0F B9 00 00 00 00 00 00 00 02 02 00 01 02
 
-Handle 0x00B9, DMI type 41, 11 bytes
+Handle 0x00BA, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded LOM 1 Port 1
 	Type: Ethernet
@@ -1693,7 +1476,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:02:00.0
 
-Handle 0x00BA, DMI type 41, 11 bytes
+Handle 0x00BB, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded LOM 1 Port 2
 	Type: Ethernet
@@ -1701,7 +1484,7 @@ Onboard Device
 	Type Instance: 2
 	Bus Address: 0000:02:00.1
 
-Handle 0x00BB, DMI type 41, 11 bytes
+Handle 0x00BC, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded LOM 1 Port 3
 	Type: Ethernet
@@ -1709,7 +1492,7 @@ Onboard Device
 	Type Instance: 3
 	Bus Address: 0000:02:00.2
 
-Handle 0x00BC, DMI type 41, 11 bytes
+Handle 0x00BD, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded LOM 1 Port 4
 	Type: Ethernet
@@ -1717,7 +1500,7 @@ Onboard Device
 	Type Instance: 4
 	Bus Address: 0000:02:00.3
 
-Handle 0x00BD, DMI type 41, 11 bytes
+Handle 0x00BE, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded SATA Controller #1
 	Type: SATA Controller
@@ -1725,7 +1508,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1f.2
 
-Handle 0x00BE, DMI type 41, 11 bytes
+Handle 0x00BF, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded SATA Controller #2
 	Type: SATA Controller
@@ -1733,7 +1516,7 @@ Onboard Device
 	Type Instance: 2
 	Bus Address: 0000:00:11.4
 
-Handle 0x00BF, DMI type 41, 11 bytes
+Handle 0x00C0, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Embedded RAID
 	Type: SAS Controller
@@ -1741,152 +1524,247 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:03:00.0
 
-Handle 0x00C0, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C0 00 B1 00 93 00 FF FF FF FF FF FF FF FF
-		FF FF FE FF 00 00 09 0A 02 01 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)
-		PCI.Slot.2.1
-		Empty slot 2
-
 Handle 0x00C1, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C1 00 B2 00 92 00 FF FF FF FF FF FF FF FF
-		FF FF FE FF 00 00 09 0A 01 01 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)
-		PCI.Slot.1.1
-		Empty slot 1
+HP Device Correlation Record
+	Associated Device Record: 0x00B2
+	Associated SMBus Record: 0x0094
+	PCI Device Info: Device Not Present
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Other PCI Device
+	Device Location: PCI Slot
+	Device Instance: 2
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x2,0x0)/Pci(0x0,0x0)
+	Structured Name: PCI.Slot.2.1
+	Device Name: Empty slot 2
 
 Handle 0x00C2, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C2 00 B9 00 95 00 E4 14 57 16 3C 10 BE 22
-		02 00 FE FF 00 00 04 01 01 01 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
-		NIC.LOM.1.1
-		HP Ethernet 1Gb 4-port 331i Adapter - NIC
+HP Device Correlation Record
+	Associated Device Record: 0x00B3
+	Associated SMBus Record: 0x0093
+	PCI Device Info: Device Not Present
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Other PCI Device
+	Device Location: PCI Slot
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x3,0x0)/Pci(0x0,0x0)
+	Structured Name: PCI.Slot.1.1
+	Device Name: Empty slot 1
 
 Handle 0x00C3, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C3 00 BA 00 95 00 E4 14 57 16 3C 10 BE 22
-		02 00 FE FF 00 00 04 01 01 02 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x1)
-		NIC.LOM.1.2
-		HP Ethernet 1Gb 4-port 331i Adapter - NIC
+HP Device Correlation Record
+	Associated Device Record: 0x00BA
+	Associated SMBus Record: 0x0096
+	PCI Vendor ID: 0x14e4
+	PCI Device ID: 0x1657
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x22be
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)
+	Structured Name: NIC.LOM.1.1
+	Device Name: HP Ethernet 1Gb 4-port 331i Adapter - NIC
 
 Handle 0x00C4, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C4 00 BB 00 95 00 E4 14 57 16 3C 10 BE 22
-		02 00 FE FF 00 00 04 01 01 03 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x2)
-		NIC.LOM.1.3
-		HP Ethernet 1Gb 4-port 331i Adapter - NIC
+HP Device Correlation Record
+	Associated Device Record: 0x00BB
+	Associated SMBus Record: 0x0096
+	PCI Vendor ID: 0x14e4
+	PCI Device ID: 0x1657
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x22be
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 2
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x1)
+	Structured Name: NIC.LOM.1.2
+	Device Name: HP Ethernet 1Gb 4-port 331i Adapter - NIC
 
 Handle 0x00C5, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C5 00 BC 00 95 00 E4 14 57 16 3C 10 BE 22
-		02 00 FE FF 00 00 04 01 01 04 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x3)
-		NIC.LOM.1.4
-		HP Ethernet 1Gb 4-port 331i Adapter - NIC
+HP Device Correlation Record
+	Associated Device Record: 0x00BC
+	Associated SMBus Record: 0x0096
+	PCI Vendor ID: 0x14e4
+	PCI Device ID: 0x1657
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x22be
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 3
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x2)
+	Structured Name: NIC.LOM.1.3
+	Device Name: HP Ethernet 1Gb 4-port 331i Adapter - NIC
 
 Handle 0x00C6, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C6 00 BD 00 FE FF 86 80 02 8D 3C 10 30 80
-		01 06 FE FF 00 00 06 08 01 01 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1F,0x2)
-		SATA.Emb.1.1
-		Embedded SATA Controller #1
+HP Device Correlation Record
+	Associated Device Record: 0x00BD
+	Associated SMBus Record: 0x0096
+	PCI Vendor ID: 0x14e4
+	PCI Device ID: 0x1657
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x22be
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 4
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x3)
+	Structured Name: NIC.LOM.1.4
+	Device Name: HP Ethernet 1Gb 4-port 331i Adapter - NIC
 
 Handle 0x00C7, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C7 00 BE 00 FE FF FF FF FF FF FF FF FF FF
-		FF FF FE FF 00 00 00 00 00 00 00 00 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x11,0x4)
-		SATA.Emb.2.1
-		Embedded SATA Controller #2
+HP Device Correlation Record
+	Associated Device Record: 0x00BE
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x8d02
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x8030
+	PCI Class Code: 0x0001
+	PCI Sub Class Code: 0x0006
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Storage Controller
+	Device Location: Embedded SATA Port
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1F,0x2)
+	Structured Name: SATA.Emb.1.1
+	Device Name: Embedded SATA Controller #1
 
 Handle 0x00C8, DMI type 203, 31 bytes
-OEM-specific Type
-	Header and Data:
-		CB 1F C8 00 BF 00 8F 00 3C 10 39 32 3C 10 C0 21
-		01 04 FE FF 00 00 07 09 01 01 FF FF 01 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
-		RAID.Emb.1.1
-		Smart Array P440ar Controller
+HP Device Correlation Record
+	Associated Device Record: 0x00BF
+	Associated SMBus Record: N/A
+	PCI Device Info: Device Not Present
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Unknown
+	Device Location: Unknown
+	Device Instance: 0
+	Device Sub-Instance: 0
+	Bay: Unknown
+	Enclosure: Unknown
+	Device Path: PciRoot(0x0)/Pci(0x11,0x4)
+	Structured Name: SATA.Emb.2.1
+	Device Name: Embedded SATA Controller #2
 
-Handle 0x00C9, DMI type 234, 16 bytes
-OEM-specific Type
-	Header and Data:
-		EA 10 C9 00 91 00 C0 00 01 A0 00 00 01 00 03 00
+Handle 0x00C9, DMI type 203, 31 bytes
+HP Device Correlation Record
+	Associated Device Record: 0x00C0
+	Associated SMBus Record: 0x0090
+	PCI Vendor ID: 0x103c
+	PCI Device ID: 0x3239
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x21c0
+	PCI Class Code: 0x0001
+	PCI Sub Class Code: 0x0004
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Smart Array Storage Controller
+	Device Location: Embedded Smart Array
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
+	Structured Name: RAID.Emb.1.1
+	Device Name: Smart Array P440ar Controller
 
-Handle 0x00CA, DMI type 234, 12 bytes
+Handle 0x00CA, DMI type 234, 16 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CA 00 84 00 80 01 01 00 00 04
+		EA 10 CA 00 92 00 C0 00 01 A0 60 00 01 00 03 00
 
 Handle 0x00CB, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CB 00 90 00 30 02 01 00 01 04
+		EA 0C CB 00 85 00 80 01 01 00 00 04
 
 Handle 0x00CC, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CC 00 7D 00 50 04 01 01 00 00
+		EA 0C CC 00 91 00 30 02 01 00 01 04
 
 Handle 0x00CD, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CD 00 7D 00 54 04 01 01 01 00
+		EA 0C CD 00 7E 00 50 04 01 01 00 00
 
 Handle 0x00CE, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CE 00 7D 00 60 04 01 02 00 04
+		EA 0C CE 00 7E 00 54 04 01 01 01 00
 
 Handle 0x00CF, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C CF 00 7D 00 64 04 01 02 00 05
+		EA 0C CF 00 7E 00 60 04 01 02 00 04
 
 Handle 0x00D0, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C D0 00 7D 00 68 04 01 02 01 04
+		EA 0C D0 00 7E 00 64 04 01 02 00 05
 
 Handle 0x00D1, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EA 0C D1 00 7D 00 6C 04 01 02 01 05
+		EA 0C D1 00 7E 00 68 04 01 02 01 04
 
-Handle 0x00D2, DMI type 236, 17 bytes
+Handle 0x00D2, DMI type 234, 12 bytes
 OEM-specific Type
 	Header and Data:
-		EC 11 D2 00 A0 01 00 A9 00 00 00 00 00 00 00 00
-		00
+		EA 0C D2 00 7E 00 6C 04 01 02 01 05
 
 Handle 0x00D3, DMI type 236, 17 bytes
-OEM-specific Type
-	Header and Data:
-		EC 11 D3 00 A2 01 00 A9 00 00 00 00 00 00 00 00
-		00
+HP HDD Backplane FRU Information
+	FRU I2C Address: 0x50 raw(0xA0)
+	Box Number: 1
+	NVRAM ID: 0xA9
+	SAS Expander WWID: 0x0
+
+Handle 0x00D4, DMI type 236, 17 bytes
+HP HDD Backplane FRU Information
+	FRU I2C Address: 0x51 raw(0xA2)
+	Box Number: 1
+	NVRAM ID: 0xA9
+	SAS Expander WWID: 0x0
 
 Handle 0xFEFF, DMI type 127, 4 bytes
 End Of Table

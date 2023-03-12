@@ -1,15 +1,13 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x3a9a7000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.2 present.
-76 structures occupying 4018 bytes.
+# dmidecode 3.4
+Scanning /dev/mem for entry point.
+SMBIOS 3.2.1 present.
 Table at 0x3A9A4000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: Intel Corp.
-	Version: BECFL357.86A.0085.2020.1007.1917
-	Release Date: 10/07/2020
+	Version: BECFL357.86A.0089.2021.0621.1343
+	Release Date: 06/21/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -33,7 +31,7 @@ BIOS Information
 		Targeted content distribution is supported
 		UEFI is supported
 	BIOS Revision: 5.6
-	Firmware Revision: 3.25
+	Firmware Revision: 3.26
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -243,11 +241,11 @@ On Board Device 2 Information
 	Description:  Intel(R) I219-V Gigabit Network Device
 On Board Device 3 Information
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Description:  Realtek High Definition Audio Device
 On Board Device 4 Information
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Description: CIR Device
 On Board Device 5 Information
 	Type: Other
@@ -259,7 +257,7 @@ On Board Device 6 Information
 	Description: Intel Wireless-AC 9560
 On Board Device 7 Information
 	Type: Other
-	Status: Disabled
+	Status: Enabled
 	Description: Bluetooth
 On Board Device 8 Information
 	Type: Other
@@ -507,7 +505,7 @@ Handle 0x0035, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  AUDIO
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Type Instance: 1
 	Bus Address: 00ff:00:1f.7
 
@@ -515,7 +513,7 @@ Handle 0x0036, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  CIR Device
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Type Instance: 1
 	Bus Address: 00ff:00:1f.7
 
@@ -539,7 +537,7 @@ Handle 0x0039, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Bluetooth
 	Type: Other
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
 	Bus Address: 00ff:00:1f.7
 
@@ -566,18 +564,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: SODIMM1
 	Bank Locator: Memory Channel A
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2667 MT/s
-	Manufacturer: Kingston
+	Speed: 3200 MT/s
+	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: KHX2666C15S4/16G    
+	Part Number: CT32G4SFD832A.C16FE 
 	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -590,19 +588,19 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: SODIMM2
 	Bank Locator: Memory Channel B
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2667 MT/s
-	Manufacturer: Kingston
+	Speed: 3200 MT/s
+	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: KHX2666C16S4/16G    
-	Rank: 1
+	Part Number: CT32G4SFD832A.C16FE 
+	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -611,8 +609,8 @@ Memory Device
 Handle 0x003E, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
 	Physical Array Handle: 0x003B
 	Partition Width: 2
 
@@ -620,7 +618,7 @@ Handle 0x003F, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
 		DD 1A 3F 00 03 01 00 07 00 51 41 00 02 00 00 00
-		00 D6 00 03 00 FF FF FF FF FF
+		00 EA 00 03 00 FF FF FF FF FF
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -630,7 +628,7 @@ Handle 0x0040, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
 		DD 1A 40 00 03 01 00 07 00 51 41 00 02 00 00 00
-		00 00 00 03 04 0C 00 44 46 06
+		00 00 00 03 04 0C 00 51 D9 06
 	Strings:
 		Reference Code - ME
 		MEBx version
@@ -770,7 +768,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-8259U CPU @ 2.30GHz
-	Voltage: 0.7 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 3500 MHz
 	Current Speed: 2300 MHz
@@ -784,7 +782,7 @@ Processor Information
 	Part Number: To Be Filled By O.E.M.
 	Core Count: 4
 	Core Enabled: 4
-	Thread Count: 8
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 		Multi-Core
@@ -796,9 +794,9 @@ Processor Information
 Handle 0x0048, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
-	Physical Device Handle: 0x003C
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
+	Physical Device Handle: 0xFFFF
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: Unknown
 	Interleave Position: 1
@@ -806,10 +804,10 @@ Memory Device Mapped Address
 
 Handle 0x0049, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00400000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 16 GB
-	Physical Device Handle: 0x003D
+	Starting Address: 0x00800000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 32 GB
+	Physical Device Handle: 0xFFFF
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: Unknown
 	Interleave Position: 2
@@ -820,7 +818,7 @@ OEM-specific Type
 	Header and Data:
 		83 40 4A 00 31 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 84 9D 00 00 00 00 01 00 00 00 00 00 0C 00
-		46 06 44 00 00 00 00 00 FE 00 BE 15 00 00 00 00
+		D9 06 51 00 00 00 00 00 FE 00 BE 15 00 00 00 00
 		00 00 00 00 22 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x004B, DMI type 13, 22 bytes
@@ -836,7 +834,7 @@ OEM-specific Type
 		DD 59 4C 00 0C 01 00 00 00 00 A6 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 03 19 00 00 00 0C 00 FF
+		00 FF FF FF FF FF 0B 00 03 1A 00 00 00 0C 00 FF
 		FF FF FF FF 0D 0E 01 04 03 00 00 0F 00 00 07 00
 		00 00 10 00 00 02 00 0E 00
 	Strings:

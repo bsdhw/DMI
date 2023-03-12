@@ -7,8 +7,8 @@ Table at 0x000F0760.
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 0601   
-	Release Date: 04/30/2010
+	Version: 1201   
+	Release Date: 02/18/2011
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 512 kB
@@ -79,7 +79,7 @@ Chassis Information
 	Power Supply State: Safe
 	Thermal State: Safe
 	Security Status: None
-	OEM Information: 0x00000000
+	OEM Information: 0x00000011
 	Height: Unspecified
 	Number Of Power Cords: 1
 	Contained Elements: 0

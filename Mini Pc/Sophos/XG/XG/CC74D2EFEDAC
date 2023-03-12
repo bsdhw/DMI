@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 51 structures occupying 1968 bytes.
@@ -414,16 +414,6 @@ Memory Device
 	Bank Locator: A1_BANK1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: A1_Manufacturer1
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber1
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 31.187 V
-	Maximum Voltage: 9.119 V
-	Configured Voltage: 31.188 V
 
 Handle 0x002D, DMI type 126, 35 bytes
 Inactive

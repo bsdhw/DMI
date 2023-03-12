@@ -1,15 +1,13 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0xbda2c000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.3 present.
-52 structures occupying 2599 bytes.
+Scanning /dev/mem for entry point.
+SMBIOS 3.3.0 present.
 Table at 0x000E8D60.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: F35d
-	Release Date: 10/13/2021
+	Version: F36c
+	Release Date: 05/12/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -109,7 +107,7 @@ Handle 0x0009, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.71
+	Firmware Revision: 3.84
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support
@@ -277,13 +275,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3200 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK32GX4M4Z3200C16  
 	Rank: 1
-	Configured Memory Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -333,13 +331,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3200 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK32GX4M4Z3200C16  
 	Rank: 1
-	Configured Memory Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -389,13 +387,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3200 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK32GX4M4Z3200C16  
 	Rank: 1
-	Configured Memory Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -445,13 +443,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3200 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK32GX4M4Z3200C16  
 	Rank: 1
-	Configured Memory Speed: 3200 MT/s
+	Configured Memory Speed: 2666 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V

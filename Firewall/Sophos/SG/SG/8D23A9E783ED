@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-76 structures occupying 2885 bytes.
+76 structures occupying 2888 bytes.
 Table at 0x000EC090.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -712,26 +712,26 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 8 bits
 	Data Width: 8 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: ChannelA-DIMM0
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 1310
+	Speed: 1600 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: B473E490          
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Part Number: M378B1G73QH0-YK0  
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0044, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0043
 	Memory Array Mapped Address Handle: 0x0049
 	Partition Row Position: Unknown
@@ -751,13 +751,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0046, DMI type 17, 34 bytes
 Memory Device
@@ -778,12 +771,12 @@ Memory Device
 	Asset Tag: --
 	Part Number:                   
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0047, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x002FFFFFFFF
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
 	Range Size: 8 GB
 	Physical Device Handle: 0x0046
 	Memory Array Mapped Address Handle: 0x0049
@@ -804,19 +797,12 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0049, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0042
 	Partition Width: 4
 

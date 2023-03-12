@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 68 structures occupying 2522 bytes.
@@ -670,7 +670,7 @@ Memory Device
 	Manufacturer: Kingston      
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9905471-006.A01LF 
+	Part Number: 99U5469-046.A00LF 
 	Rank: Unknown
 
 Handle 0x003C, DMI type 126, 19 bytes

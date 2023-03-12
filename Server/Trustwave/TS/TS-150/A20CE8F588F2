@@ -1,7 +1,7 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-75 structures occupying 2955 bytes.
+75 structures occupying 2961 bytes.
 Table at 0x000EC280.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -703,20 +703,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMA2
 	Bank Locator: P0_Node0_Channel0_Dimm1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Micron
+	Speed: 1067 MT/s
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9KSF25672AZ-1G4M1 
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Part Number: 9965413-006.A00LF 
+	Rank: 2
+	Configured Memory Speed: 1067 MT/s
 
 Handle 0x004D, DMI type 17, 34 bytes
 Memory Device
@@ -745,34 +745,34 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMB2
 	Bank Locator: P0_Node0_Channel1_Dimm1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 1352
+	Speed: 1067 MT/s
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: SUPERTALENT02     
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Part Number: 9965413-006.A00LF 
+	Rank: 2
+	Configured Memory Speed: 1067 MT/s
 
 Handle 0x004F, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x004A
 	Partition Width: 4
 
 Handle 0x0050, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x004C
 	Memory Array Mapped Address Handle: 0x004F
 	Partition Row Position: Unknown
@@ -781,9 +781,9 @@ Memory Device Mapped Address
 
 Handle 0x0051, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x004E
 	Memory Array Mapped Address Handle: 0x004F
 	Partition Row Position: Unknown

@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 84 structures occupying 5097 bytes.
@@ -462,7 +462,7 @@ On Board Device 5 Information
 On Board Device 6 Information
 	Type: SAS Controller
 	Status: Enabled
-	Description: Integrated RAID Controller
+	Description: Integrated SAS Controller 
 
 Handle 0x0A01, DMI type 126, 12 bytes
 Inactive
@@ -549,12 +549,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1103, DMI type 17, 28 bytes
 Memory Device
@@ -569,12 +563,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1104, DMI type 17, 28 bytes
 Memory Device
@@ -589,12 +577,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1105, DMI type 17, 28 bytes
 Memory Device
@@ -609,12 +591,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1106, DMI type 126, 28 bytes
 Inactive
@@ -678,12 +654,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x110C, DMI type 17, 28 bytes
 Memory Device
@@ -698,12 +668,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x110D, DMI type 17, 28 bytes
 Memory Device
@@ -718,12 +682,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x110E, DMI type 17, 28 bytes
 Memory Device
@@ -738,12 +696,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x110F, DMI type 126, 28 bytes
 Inactive
@@ -815,16 +767,16 @@ Onboard Device
 	Type Instance: 4
 	Bus Address: 0000:02:00.1
 
-Handle 0x2904, DMI type 126, 11 bytes
-Inactive
-
-Handle 0x2905, DMI type 41, 11 bytes
+Handle 0x2904, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation: Integrated RAID                         
+	Reference Designation: Integrated SAS                          
 	Type: SAS Controller
 	Status: Enabled
 	Type Instance: 4
 	Bus Address: 0000:03:00.0
+
+Handle 0x2905, DMI type 126, 11 bytes
+Inactive
 
 Handle 0x2906, DMI type 41, 11 bytes
 Onboard Device
@@ -848,8 +800,8 @@ Handle 0xD400, DMI type 212, 127 bytes
 OEM-specific Type
 	Header and Data:
 		D4 7F 00 D4 70 00 71 00 00 10 2D 2E 42 00 11 FE
-		01 43 00 11 FE 00 00 00 11 9F 20 00 00 11 9F 00
-		6E 01 11 9F 20 6D 01 11 9F 00 31 40 11 FB 00 32
+		01 43 00 11 FE 00 70 01 11 9F 20 6F 01 11 9F 00
+		00 00 11 9F 20 00 00 11 9F 00 31 40 11 FB 00 32
 		40 11 FB 04 9D 00 11 FD 02 9E 00 11 FD 00 9F 00
 		26 FE 01 A0 00 26 FE 00 28 40 26 DF 20 29 40 26
 		DF 00 38 02 27 BF 40 39 02 27 BF 00 F1 01 27 FC

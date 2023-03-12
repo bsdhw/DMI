@@ -1,8 +1,9 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.4
+# SMBIOS entry point at 0x9c713000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 64 structures occupying 3681 bytes.
-Table at 0x000E6690.
+Table at 0x9C712000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -403,9 +404,9 @@ System Slot Information
 Handle 0x001F, DMI type 11, 5 bytes
 OEM Strings
 	String 1: PSPQCU-005002,TI107110Y0C,13A72
-	String 2: aI7x+ExAyzlo3
-	String 3: gTGoNgprjLMzW
-	String 4: V+OlsBemDmD8f
+	String 2: kWElWwY+zhXKM
+	String 3: vrtx45mWQait5
+	String 4: 0iHcvNz6IvIVF
 	String 5: String5 for Original Equipment Manufacturer
 
 Handle 0x0020, DMI type 12, 5 bytes
@@ -488,13 +489,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0027, DMI type 17, 34 bytes
 Memory Device
@@ -686,7 +680,7 @@ OEM-specific Type
 		DD 36 3A 00 07 01 00 02 04 00 00 00 02 00 02 04
 		00 01 00 03 00 02 04 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 09 00 07 00 FF FF FF 09 00 08
-		00 FF FF FF 00 00
+		00 FF FF FF FF FF
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC

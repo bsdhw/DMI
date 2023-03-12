@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 3.0 present.
 128 structures occupying 5132 bytes.
@@ -274,7 +274,7 @@ Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot1
 	Type: x1 PCI Express 3 x1
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 1
 	Characteristics:
@@ -881,16 +881,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x005B, DMI type 17, 40 bytes
 Memory Device
@@ -938,16 +928,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x005E, DMI type 16, 23 bytes
 Physical Memory Array
@@ -1012,16 +992,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0063, DMI type 17, 40 bytes
 Memory Device
@@ -1069,16 +1039,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0066, DMI type 16, 23 bytes
 Physical Memory Array
@@ -1143,16 +1103,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x006B, DMI type 17, 40 bytes
 Memory Device
@@ -1200,16 +1150,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x006E, DMI type 16, 23 bytes
 Physical Memory Array
@@ -1274,16 +1214,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0073, DMI type 17, 40 bytes
 Memory Device
@@ -1331,16 +1261,6 @@ Memory Device
 	Bank Locator: NO DIMM
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.14 V
-	Maximum Voltage: 1.26 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0076, DMI type 7, 19 bytes
 Cache Information

@@ -174,7 +174,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:10:01.0
+	Bus Address: 0000:04:01.0
 
 Handle 0x0010, DMI type 10, 8 bytes
 On Board Device 1 Information

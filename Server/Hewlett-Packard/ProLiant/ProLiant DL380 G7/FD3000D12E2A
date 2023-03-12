@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 134 structures occupying 4012 bytes.
@@ -473,13 +473,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1101, DMI type 17, 34 bytes
 Memory Device
@@ -494,13 +487,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1102, DMI type 17, 34 bytes
 Memory Device
@@ -536,13 +522,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1104, DMI type 17, 34 bytes
 Memory Device
@@ -557,13 +536,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1105, DMI type 17, 34 bytes
 Memory Device
@@ -599,13 +571,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1107, DMI type 17, 34 bytes
 Memory Device
@@ -620,13 +585,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1108, DMI type 17, 34 bytes
 Memory Device
@@ -641,13 +599,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1109, DMI type 17, 34 bytes
 Memory Device
@@ -662,13 +613,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x110A, DMI type 17, 34 bytes
 Memory Device
@@ -683,13 +627,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x110B, DMI type 17, 34 bytes
 Memory Device
@@ -725,13 +662,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x110D, DMI type 17, 34 bytes
 Memory Device
@@ -746,13 +676,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x110E, DMI type 17, 34 bytes
 Memory Device
@@ -788,13 +711,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1110, DMI type 17, 34 bytes
 Memory Device
@@ -809,13 +725,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1111, DMI type 17, 34 bytes
 Memory Device
@@ -830,13 +739,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -943,9 +845,12 @@ OEM-specific Type
 		 
 
 Handle 0xC200, DMI type 194, 5 bytes
-OEM-specific Type
-	Header and Data:
-		C2 05 00 C2 01
+HP ProLiant Super IO Enable/Disable Indicator
+	Serial Port A: Enabled
+	Serial Port B: Disabled
+	Parallel Port: Disabled
+	Floppy Disk Port: Disabled
+	Virtual Serial Port: Disabled
 
 Handle 0xC300, DMI type 195, 5 bytes
 OEM-specific Type
@@ -1123,9 +1028,8 @@ OEM-specific Type
 		DF 07 00 DF 66 46 70
 
 Handle 0xE000, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 00 E0 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0xE200, DMI type 226, 21 bytes
 OEM-specific Type

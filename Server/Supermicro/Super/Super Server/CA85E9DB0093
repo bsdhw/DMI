@@ -251,7 +251,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF2A4000
 	Status: Valid, Not Full
-	Change Token: 0x00000016
+	Change Token: 0x0000001A
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error

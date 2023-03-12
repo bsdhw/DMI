@@ -1,7 +1,9 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.0.0 present.
-Table at 0x000EE0D0.
+# dmidecode 3.4
+# SMBIOS entry point at 0x7a039000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.0 present.
+70 structures occupying 2189 bytes.
+Table at 0x7A036000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -600,7 +602,7 @@ Onboard Device
 	Type: Other
 	Status: Enabled
 	Type Instance: 19
-	Bus Address: 0000:00:1f.0
+	Bus Address: 0000:00:19.0
 
 Handle 0x0042, DMI type 41, 11 bytes
 Onboard Device
@@ -608,9 +610,41 @@ Onboard Device
 	Type: Other
 	Status: Enabled
 	Type Instance: 20
+	Bus Address: 0000:00:19.1
+
+Handle 0x0043, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 21
+	Bus Address: 0000:00:19.2
+
+Handle 0x0044, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 22
+	Bus Address: 0000:00:1a.0
+
+Handle 0x0045, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 23
+	Bus Address: 0000:00:1f.0
+
+Handle 0x0046, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation: Onboard - Other
+	Type: Other
+	Status: Enabled
+	Type Instance: 24
 	Bus Address: 0000:00:1f.1
 
-Handle 0x0043, DMI type 9, 17 bytes
+Handle 0x0047, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6C1
 	Type: x4 PCI Express 2 x4
@@ -623,7 +657,7 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:00:14.0
 
-Handle 0x0044, DMI type 9, 17 bytes
+Handle 0x0048, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7C1
 	Type: x2 PCI Express 2 x2
@@ -636,13 +670,13 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:00:14.0
 
-Handle 0x0045, DMI type 13, 22 bytes
+Handle 0x0049, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0046, DMI type 127, 4 bytes
+Handle 0x004A, DMI type 127, 4 bytes
 End Of Table
 

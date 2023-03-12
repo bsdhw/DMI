@@ -344,13 +344,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
+	Speed: 2667 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965669-032.A00G    
 	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Configured Memory Speed: 2667 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -423,13 +423,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
+	Speed: 2667 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965669-032.A00G    
 	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Configured Memory Speed: 2667 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V

@@ -2,13 +2,13 @@
 Scanning /dev/mem for entry point.
 SMBIOS 3.0 present.
 13 structures occupying 554 bytes.
-Table at 0xCFE89040.
+Table at 0xCFE83040.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: coreboot
-	Version: v4.13.0.2
-	Release Date: 12/23/2020
+	Version: v4.15.0.2
+	Release Date: 12/27/2021
 	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
@@ -41,7 +41,7 @@ Base Board Information
 	Features: None
 	Location In Chassis: Not Specified
 	Chassis Handle: 0x0003
-	Type: Unknown
+	Type: Motherboard
 
 Handle 0x0003, DMI type 3, 22 bytes
 Chassis Information
@@ -57,7 +57,7 @@ Chassis Information
 	Security Status: None
 	OEM Information: 0x00000000
 	Height: Unspecified
-	Number Of Power Cords: Unspecified
+	Number Of Power Cords: 1
 	Contained Elements: 0
 	SKU Number: Not Specified
 

@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 200 structures occupying 6641 bytes.
@@ -8,7 +8,7 @@ Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: HP
 	Version: P72
-	Release Date: 07/01/2015
+	Release Date: 05/24/2019
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 8 MB
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 2.61
+	Firmware Revision: 2.81
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -753,16 +753,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x110D, DMI type 17, 40 bytes
 Memory Device
@@ -777,16 +767,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x110E, DMI type 17, 40 bytes
 Memory Device
@@ -801,16 +781,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x110F, DMI type 17, 40 bytes
 Memory Device
@@ -825,16 +795,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1110, DMI type 17, 40 bytes
 Memory Device
@@ -849,16 +809,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1111, DMI type 17, 40 bytes
 Memory Device
@@ -873,16 +823,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1112, DMI type 17, 40 bytes
 Memory Device
@@ -897,16 +837,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1113, DMI type 17, 40 bytes
 Memory Device
@@ -921,16 +851,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1114, DMI type 17, 40 bytes
 Memory Device
@@ -945,16 +865,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1115, DMI type 17, 40 bytes
 Memory Device
@@ -969,16 +879,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1116, DMI type 17, 40 bytes
 Memory Device
@@ -993,16 +893,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1117, DMI type 17, 40 bytes
 Memory Device
@@ -1017,16 +907,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE       
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -1176,9 +1056,12 @@ OEM-specific Type
 		          
 
 Handle 0xC200, DMI type 194, 5 bytes
-OEM-specific Type
-	Header and Data:
-		C2 05 00 C2 11
+HP ProLiant Super IO Enable/Disable Indicator
+	Serial Port A: Enabled
+	Serial Port B: Disabled
+	Parallel Port: Disabled
+	Floppy Disk Port: Disabled
+	Virtual Serial Port: Enabled
 
 Handle 0xC300, DMI type 195, 7 bytes
 OEM-specific Type
@@ -1349,10 +1232,10 @@ OEM-specific Type
 	Header and Data:
 		C7 64 00 C7 0C 02 00 80 11 20 03 05 D2 06 02 00
 		04 03 00 80 11 20 20 04 D3 06 02 00 13 05 00 00
-		11 20 13 10 D5 06 02 00 19 06 00 00 12 20 22 05
-		D6 06 02 00 10 07 00 00 13 20 17 06 D7 06 02 00
+		11 20 13 10 D5 06 02 00 1F 06 00 00 19 20 21 05
+		D6 06 02 00 18 07 00 00 19 20 21 05 D7 06 02 00
 		0D 02 00 00 13 20 21 03 E2 06 03 00 08 03 00 00
-		13 20 21 03 E3 06 03 00 28 04 00 00 14 20 29 05
+		13 20 21 03 E3 06 03 00 2E 04 00 00 19 20 14 03
 		E4 06 03 00
 
 Handle 0xC900, DMI type 201, 11 bytes
@@ -1372,7 +1255,7 @@ OEM-specific Type
 		00 00 00 00 00 00 00
 	Strings:
 		System ROM
-		07/01/2015
+		05/24/2019
 
 Handle 0xD801, DMI type 216, 23 bytes
 OEM-specific Type
@@ -1448,9 +1331,8 @@ OEM-specific Type
 		DF 07 00 DF 66 46 70
 
 Handle 0xE000, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 00 E0 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0xE200, DMI type 226, 21 bytes
 OEM-specific Type

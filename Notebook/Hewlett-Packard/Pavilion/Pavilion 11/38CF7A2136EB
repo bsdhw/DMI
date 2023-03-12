@@ -197,7 +197,7 @@ Portable Battery
 	Design Capacity: 36180 mWh
 	Design Voltage: 10800 mV
 	SBDS Version: !
-	Maximum Error: 2%
+	Maximum Error: 0%
 	OEM-specific Information: 0x00000000
 
 Handle 0x000E, DMI type 41, 11 bytes

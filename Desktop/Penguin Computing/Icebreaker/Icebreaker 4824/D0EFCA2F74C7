@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 136 structures occupying 5940 bytes.
@@ -11,7 +11,7 @@ BIOS Information
 	Release Date: 07/12/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -162,8 +162,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -178,8 +178,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 20480 kB
-	Maximum Size: 20480 kB
+	Installed Size: 20 MB
+	Maximum Size: 20 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -271,8 +271,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -287,8 +287,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 20480 kB
-	Maximum Size: 20480 kB
+	Installed Size: 20 MB
+	Maximum Size: 20 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -605,7 +605,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1_DIMMA1
@@ -659,7 +659,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1_DIMMB1
@@ -713,7 +713,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1_DIMMC1
@@ -767,7 +767,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1_DIMMD1
@@ -838,7 +838,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2_DIMME1
@@ -892,7 +892,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2_DIMMF1
@@ -946,7 +946,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2_DIMMG1
@@ -1000,7 +1000,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16384 MB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2_DIMMH1

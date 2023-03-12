@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x8ad3b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.4 present.
@@ -16,7 +16,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2334 MHz
+	Current Speed: 2319 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0002
@@ -101,7 +101,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2320 MHz
+	Current Speed: 2337 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0007
@@ -186,7 +186,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 2336 MHz
+	Current Speed: 2330 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x000C
@@ -271,7 +271,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2300 MHz
-	Current Speed: 11164 MHz
+	Current Speed: 2318 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0011
@@ -367,27 +367,22 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
 
 Handle 0x0016, DMI type 130, 186 bytes
 OEM-specific Type
 	Header and Data:
-		82 BA 16 00 17 00 00 00 B0 00 92 10 0B 03 03 19
-		00 09 03 52 01 08 0C 00 3E 00 69 78 69 30 69 11
-		20 89 00 05 3C 3C 00 F0 83 81 00 00 00 00 00 00
+		82 BA 16 00 17 00 00 00 B0 00 92 11 0B 03 04 21
+		00 09 03 11 01 08 0C 00 FE 00 69 78 69 30 69 11
+		18 81 20 08 3C 3C 00 F0 83 01 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 0F 11 45 00 00 00 00 00 00 00
+		00 00 00 00 00 00 0F 11 65 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
-		98 07 12 05 CF 02 2C 54 C7 92 39 39 55 35 34 32
-		38 2D 30 34 30 2E 41 30 31 4C 46 20 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 89
+		C2 02 20 08 B2 3F 3D 98 C6 84 4B 52 45 2D 44 33
+		53 31 33 33 33 4D 2F 38 47 20 20 20 00 00 80 CE
+		00 00 00 43 30 33 31 30 30 30 01 00 01 00 00 01
+		00 00 00 00 00 00 00 00 B2 04
 
 Handle 0x0017, DMI type 17, 27 bytes
 Memory Device
@@ -395,7 +390,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: Unknown
 	Data Width: Unknown
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -403,16 +398,16 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1333 MT/s
-	Manufacturer: 0x0198
+	Manufacturer: 0x89C2
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 0x393955353432382D3034302E4130314C4620
+	Part Number: 0x4B52452D443353313333334D2F3847202020
 
 Handle 0x0018, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0014
 	Partition Width: 0
 

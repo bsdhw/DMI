@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 77 structures occupying 4838 bytes.
@@ -377,12 +377,12 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 1600 MT/s
-	Manufacturer: 00AD00B300AD
+	Speed: 1333 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT451R7AFR8A-PB  
-	Rank: 1
+	Part Number: M393B5273CH0-YH9  
+	Rank: 2
 	Configured Memory Speed: 1066 MT/s
 
 Handle 0x1101, DMI type 17, 34 bytes
@@ -399,11 +399,11 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 1333 MT/s
-	Manufacturer: 019800970000
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9965433-067.A00LF 
-	Rank: 1
+	Part Number: M393B5273DH0-YH9  
+	Rank: 2
 	Configured Memory Speed: 1066 MT/s
 
 Handle 0x1102, DMI type 17, 34 bytes
@@ -419,13 +419,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1103, DMI type 17, 34 bytes
 Memory Device
@@ -441,11 +434,11 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 1333 MT/s
-	Manufacturer: 019800970000
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9965433-067.A00LF 
-	Rank: 1
+	Part Number: M393B5273CH0-YH9  
+	Rank: 2
 	Configured Memory Speed: 1066 MT/s
 
 Handle 0x1104, DMI type 17, 34 bytes
@@ -461,13 +454,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1105, DMI type 17, 34 bytes
 Memory Device
@@ -482,13 +468,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x1106, DMI type 126, 34 bytes
 Inactive
@@ -679,7 +658,7 @@ OEM-specific Type
 		C6 02 48 BF 40 CB 02 48 DF 00 CC 02 48 DF 20 00
 		00 50 FE 00 00 00 50 FE 01 99 02 5C F7 00 98 02
 		5C F7 08 AE 02 5C FB 00 AD 02 5C FB 04 B6 02 5C
-		3F 40 00 00 5C 3F 80 FF FF 00 00 00
+		3F 40 B7 02 5C 3F 80 FF FF 00 00 00
 
 Handle 0xC205, DMI type 194, 252 bytes
 OEM-specific Type

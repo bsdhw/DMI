@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 24 structures occupying 1348 bytes.
@@ -143,8 +143,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Through
 	Location: Internal
-	Installed Size: 512 kB
-	Maximum Size: 512 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -159,8 +159,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Through
 	Location: Internal
-	Installed Size: 128 kB
-	Maximum Size: 128 kB
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -175,8 +175,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3 MB
-	Maximum Size: 3 MB
+	Installed Size: 6 MB
+	Maximum Size: 6 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
@@ -198,7 +198,7 @@ Handle 0x000E, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: CPUSocket
 	Type: Central Processor
-	Family: Core i3
+	Family: Core i5
 	Manufacturer: Intel(R) Corporation
 	ID: A9 06 03 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 58, Stepping 9
@@ -231,8 +231,8 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Core(TM) i3-3220 CPU @ 3.30GHz
-	Voltage: 4.6 V
+	Version: Intel(R) Core(TM) i5-3550 CPU @ 3.30GHz
+	Voltage: 7.1 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 3300 MHz
@@ -244,8 +244,8 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Fill By OEM
-	Core Count: 2
-	Core Enabled: 2
+	Core Count: 4
+	Core Enabled: 4
 	Thread Count: 4
 	Characteristics:
 		64-bit capable
@@ -339,7 +339,7 @@ OEM-specific Type
 Handle 0x0018, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 18 00 31 00 00 00 08 00 00 00 00 00 3D 00
+		83 40 18 00 35 00 00 00 08 00 00 00 00 00 3D 00
 		F8 00 49 1E 00 00 00 00 61 00 00 00 01 00 08 00
 		F1 04 00 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00

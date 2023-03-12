@@ -631,7 +631,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Xeon(R) CPU E3-1220L V2 @ 2.30GHz
-	Voltage: 0.8 V
+	Voltage: 0.9 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2300 MHz

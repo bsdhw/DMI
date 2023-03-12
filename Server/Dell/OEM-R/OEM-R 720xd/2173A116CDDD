@@ -1,9 +1,9 @@
 # dmidecode 3.2
-# SMBIOS entry point at 0xc899d000
+# SMBIOS entry point at 0xb899d000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 99 structures occupying 6622 bytes.
-Table at 0xC899D020.
+Table at 0xB899D020.
 
 Handle 0xDA00, DMI type 218, 11 bytes
 OEM-specific Type
@@ -605,20 +605,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A5 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1105, DMI type 17, 34 bytes
 Memory Device
@@ -626,20 +626,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A6 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1106, DMI type 17, 34 bytes
 Memory Device
@@ -647,20 +647,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A7 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1107, DMI type 17, 34 bytes
 Memory Device
@@ -668,20 +668,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A8 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1108, DMI type 17, 34 bytes
 Memory Device
@@ -857,20 +857,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 5
 	Locator: DIMM_B5 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1111, DMI type 17, 34 bytes
 Memory Device
@@ -878,20 +878,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 5
 	Locator: DIMM_B6 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1112, DMI type 17, 34 bytes
 Memory Device
@@ -899,20 +899,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 5
 	Locator: DIMM_B7 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1113, DMI type 17, 34 bytes
 Memory Device
@@ -920,20 +920,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8192 MB
 	Form Factor: DIMM
 	Set: 5
 	Locator: DIMM_B8 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 1600 MT/s
+	Manufacturer: 00CE00B300CE
 	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Asset Tag: --
+	Part Number: M393B1G70QH0-YK0  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x1114, DMI type 17, 34 bytes
 Memory Device
@@ -1022,16 +1022,16 @@ Memory Device
 Handle 0x1300, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000CFFFFFFF
-	Range Size: 3328 MB
+	Ending Address: 0x000BFFFFFFF
+	Range Size: 3 GB
 	Physical Array Handle: 0x1000
 	Partition Width: 2
 
 Handle 0x1301, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0102FFFFFFF
-	Range Size: 62208 MB
+	Ending Address: 0x0203FFFFFFF
+	Range Size: 125 GB
 	Physical Array Handle: 0x1000
 	Partition Width: 2
 
@@ -1195,9 +1195,9 @@ OEM-specific Type
 		C2 FC 03 C2 72 00 73 00 00 40 5D 5E D3 00 00 00
 		02 D4 00 02 00 02 13 7C 28 F7 00 12 7C 28 F7 08
 		00 90 2C 00 00 01 90 2D 00 00 4A 01 46 BF 40 4B
-		01 46 BF 00 00 00 49 D7 28 DA 00 49 DF 20 00 00
+		01 46 BF 00 DA 00 49 D7 28 00 00 49 DF 20 00 00
 		49 F7 08 00 00 49 D7 00 00 00 49 7F 00 00 00 49
-		7F 80 5D 02 49 F8 00 00 00 49 F8 01 5F 02 49 F8
+		7F 80 5D 02 49 F8 00 5E 02 49 F8 01 5F 02 49 F8
 		02 60 02 49 F8 03 62 02 49 F8 04 65 02 49 F8 05
 		DE 00 63 FE 01 DF 00 63 FE 00 26 40 42 FE 01 27
 		40 42 FE 00 FF 02 42 F7 08 00 03 42 F7 00 01 03

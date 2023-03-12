@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-76 structures occupying 3417 bytes.
+76 structures occupying 3411 bytes.
 Table at 0x000E0000.
 
 Handle 0xDA00, DMI type 218, 251 bytes
@@ -578,7 +578,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM1
@@ -586,11 +586,11 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1333 MT/s
-	Manufacturer: Kingston
+	Manufacturer: 029E
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9905402-171.A00LF 
-	Rank: 1
+	Part Number: CMT8GX3M2A1866C9  
+	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x003C, DMI type 17, 34 bytes
@@ -599,7 +599,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2
@@ -607,26 +607,26 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1333 MT/s
-	Manufacturer: Micron
+	Manufacturer: 029E
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 8JTF25664AZ-1G4M1 
-	Rank: 1
+	Part Number: CMT8GX3M2A1866C9  
+	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x003E, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0039
 	Partition Width: 2
 
 Handle 0x003B, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x003A
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: 1
@@ -635,9 +635,9 @@ Memory Device Mapped Address
 
 Handle 0x003D, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x003C
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: 1

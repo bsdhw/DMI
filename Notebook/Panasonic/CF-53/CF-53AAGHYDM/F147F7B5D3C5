@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 32 structures occupying 1400 bytes.
@@ -220,9 +220,9 @@ Inactive
 
 Handle 0x000C, DMI type 11, 5 bytes
 OEM Strings
-	String 1: Yl5kzjd6-HzjP
-	String 2: kQ6U8xq+zSISS
-	String 3: 2kyw4zZYcR6jr
+	String 1: v1rSHBMUrg309
+	String 2: 6ohc5j9e6iEI5
+	String 3: j8h+iuywKpyJa
 
 Handle 0x000D, DMI type 12, 5 bytes
 System Configuration Options

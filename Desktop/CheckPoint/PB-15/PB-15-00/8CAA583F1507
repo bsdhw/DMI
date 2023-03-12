@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 79 structures occupying 3290 bytes.
@@ -741,16 +741,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.5 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
 
 Handle 0x0046, DMI type 19, 31 bytes
 Memory Array Mapped Address

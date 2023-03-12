@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 75 structures occupying 2825 bytes.
@@ -710,8 +710,8 @@ Handle 0x0043, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0042
 	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
+	Total Width: 8 bits
+	Data Width: 8 bits
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
@@ -751,13 +751,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0046, DMI type 17, 34 bytes
 Memory Device
@@ -772,13 +765,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0047, DMI type 17, 34 bytes
 Memory Device
@@ -793,13 +779,6 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0048, DMI type 19, 31 bytes
 Memory Array Mapped Address

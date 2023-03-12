@@ -1,9 +1,8 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xdfa75a18
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.4
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 30 structures occupying 1713 bytes.
-Table at 0xDFA66000.
+Table at 0x000E4800.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -336,7 +335,7 @@ Memory Device
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
-	Part Number: SH564128FJ8NWRNSQR
+	Part Number: HMT451S6MFR8A-PB  
 	Rank: 1
 	Configured Memory Speed: 533 MT/s
 
@@ -357,7 +356,7 @@ Memory Device
 	Manufacturer: Not Specified
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT451S6MFR8A-PB  
+	Part Number: SH564128FJ8NWRNSQR
 	Rank: 1
 	Configured Memory Speed: 533 MT/s
 

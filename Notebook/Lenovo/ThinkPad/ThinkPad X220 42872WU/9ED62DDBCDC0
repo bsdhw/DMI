@@ -1,5 +1,6 @@
-# dmidecode 3.2
-Scanning /dev/mem for entry point.
+# dmidecode 3.3
+# SMBIOS entry point at 0xdae9e000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
 66 structures occupying 2495 bytes.
 Table at 0xDAE9C000.
@@ -106,8 +107,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3072 kB
-	Maximum Size: 3072 kB
+	Installed Size: 3 MB
+	Maximum Size: 3 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -131,7 +132,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -151,7 +152,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0
@@ -207,7 +208,7 @@ BIOS Information
 	Release Date: 06/21/2018
 	Address: 0xE0000
 	Runtime Size: 128 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		PNP is supported
@@ -520,8 +521,8 @@ System Event Log
 Handle 0x0039, DMI type 140, 67 bytes
 OEM-specific Type
 	Header and Data:
-		8C 43 39 00 4C 45 4E 4F 56 4F 0B 00 01 CE 68 3D
-		4F 23 50 C9 10 0D 61 3F B3 07 24 48 4F 01 00 00
+		8C 43 39 00 4C 45 4E 4F 56 4F 0B 00 01 37 3E 02
+		17 68 A0 3B D1 F3 C9 BA E0 B8 B8 A8 45 01 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00

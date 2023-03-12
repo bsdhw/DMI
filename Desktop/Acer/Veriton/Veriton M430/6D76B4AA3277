@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 35 structures occupying 1669 bytes.
@@ -260,7 +260,7 @@ Memory Device
 	Bank Locator: BANK0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 400 MT/s
+	Speed: 533 MT/s
 	Manufacturer: Samsung       
 	Serial Number: --
 	Asset Tag: --
@@ -289,7 +289,7 @@ Memory Device
 	Bank Locator: BANK1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 400 MT/s
+	Speed: 533 MT/s
 	Manufacturer: Samsung       
 	Serial Number: --
 	Asset Tag: --
@@ -318,7 +318,7 @@ Memory Device
 	Bank Locator: BANK2
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 400 MT/s
+	Speed: 533 MT/s
 	Manufacturer: Samsung       
 	Serial Number: --
 	Asset Tag: --
@@ -347,7 +347,7 @@ Memory Device
 	Bank Locator: BANK3
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 400 MT/s
+	Speed: 533 MT/s
 	Manufacturer: Samsung       
 	Serial Number: --
 	Asset Tag: --

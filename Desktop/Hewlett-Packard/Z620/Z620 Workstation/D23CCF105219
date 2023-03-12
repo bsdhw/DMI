@@ -225,7 +225,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Xeon(R) CPU E5-2670 @ 2.60GHz
-	Voltage: 1.1 V
+	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2600 MHz

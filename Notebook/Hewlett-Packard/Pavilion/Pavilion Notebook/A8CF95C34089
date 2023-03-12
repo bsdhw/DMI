@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 31 structures occupying 1659 bytes.
@@ -169,14 +169,14 @@ OEM Strings
 Handle 0x0013, DMI type 22, 26 bytes
 Portable Battery
 	Location: Primary
-	Manufacturer: 131-42-6E
+	Manufacturer: 131-54-72
 	Name: KI04041
-	Design Capacity: 41610 mWh
-	Design Voltage: 14600 mV
+	Design Capacity: 41440 mWh
+	Design Voltage: 14800 mV
 	SBDS Version: 3.1
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2015-11-01
+	SBDS Manufacture Date: 2021-11-05
 	SBDS Chemistry: LION
 	OEM-specific Information: 0x000A070C
 

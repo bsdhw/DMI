@@ -1,5 +1,6 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.4
+# SMBIOS entry point at 0x3d683e18
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.4 present.
 50 structures occupying 1992 bytes.
 Table at 0x000E84B0.
@@ -461,21 +462,27 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 1 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CHANNEL_A
 	Bank Locator: CHANNEL_A DIMM0
-	Type: Unknown
+	Type: DDR2
 	Type Detail: Synchronous
-	Speed: Unknown
+	Speed: 667 MT/s
 	Manufacturer: Manufacturer0
 	Serial Number: --
 	Asset Tag: --
 	Part Number: PartNum0
 
-Handle 0x002D, DMI type 126, 19 bytes
-Inactive
+Handle 0x002D, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0003FFFFFFF
+	Range Size: 1 GB
+	Physical Device Handle: 0x002C
+	Memory Array Mapped Address Handle: 0x002B
+	Partition Row Position: 1
 
 Handle 0x002E, DMI type 17, 27 bytes
 Memory Device
@@ -483,27 +490,16 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 1 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CHANNEL_B
 	Bank Locator: CHANNEL_B DIMM0
-	Type: DDR2
+	Type: Unknown
 	Type Detail: Synchronous
-	Speed: 667 MT/s
-	Manufacturer: Manufacturer1
-	Serial Number: --
-	Asset Tag: --
-	Part Number: PartNum1
 
-Handle 0x002F, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x0003FFFFFFF
-	Range Size: 1 GB
-	Physical Device Handle: 0x002E
-	Memory Array Mapped Address Handle: 0x002B
-	Partition Row Position: 1
+Handle 0x002F, DMI type 126, 19 bytes
+Inactive
 
 Handle 0x0030, DMI type 32, 20 bytes
 System Boot Information

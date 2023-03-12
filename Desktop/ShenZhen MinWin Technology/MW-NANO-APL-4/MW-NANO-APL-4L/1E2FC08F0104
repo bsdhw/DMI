@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x7a1ad000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
-49 structures occupying 1746 bytes.
+49 structures occupying 1749 bytes.
 Table at 0x000EDA40.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -353,8 +353,8 @@ System Configuration Options
 Handle 0x0028, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x002E
 	Memory Array Mapped Address Handle: 0x002F
 	Partition Row Position: Unknown
@@ -404,7 +404,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -412,10 +412,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Nany
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: NT4GC64B8HG0NS-DI 
+	Part Number: M471B1G73QH0-YK0  
 	Rank: Unknown
 	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 44.975 V
@@ -425,8 +425,8 @@ Memory Device
 Handle 0x002F, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x002D
 	Partition Width: 2
 

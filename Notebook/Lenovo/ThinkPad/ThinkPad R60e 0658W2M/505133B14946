@@ -153,8 +153,8 @@ Memory Module Information
 	Bank Connections: 4 7
 	Current Speed: Unknown
 	Type: DIMM SDRAM
-	Installed Size: 2048 MB (Double-bank Connection)
-	Enabled Size: 2048 MB (Double-bank Connection)
+	Installed Size: Not Installed
+	Enabled Size: Not Installed
 	Error Status: OK
 
 Handle 0x000A, DMI type 7, 19 bytes
@@ -360,8 +360,8 @@ System Event Log
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x0000
-	Status: Invalid, Not Full
-	Change Token: 0x00000000
+	Status: Valid, Full
+	Change Token: 0x000000FB
 	Header Format: Type 1
 	Supported Log Type Descriptors: 1
 	Descriptor 1: POST error
@@ -399,9 +399,9 @@ Handle 0x002B, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0029
 	Error Information Handle: No Error
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 2 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 2
@@ -427,8 +427,8 @@ Handle 0x002C, DMI type 18, 23 bytes
 Handle 0x002D, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000BFFFFFFF
-	Range Size: 3 GB
+	Ending Address: 0x0003FFFFFFF
+	Range Size: 1 GB
 	Physical Array Handle: 0x0029
 	Partition Width: 2
 
@@ -441,14 +441,8 @@ Memory Device Mapped Address
 	Memory Array Mapped Address Handle: 0x002D
 	Partition Row Position: 1
 
-Handle 0x002F, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00040000000
-	Ending Address: 0x000BFFFFFFF
-	Range Size: 2 GB
-	Physical Device Handle: 0x002B
-	Memory Array Mapped Address Handle: 0x002D
-	Partition Row Position: 1
+Handle 0x002F, DMI type 126, 19 bytes
+Inactive
 
 Handle 0x0030, DMI type 21, 7 bytes
 Built-in Pointing Device
@@ -504,7 +498,7 @@ OEM-specific Type
 Handle 0x0038, DMI type 133, 17 bytes
 OEM-specific Type
 	Header and Data:
-		85 11 38 00 30 30 2E 35 00 60 6F 7F 00 00 00 00
+		85 11 38 00 30 30 2E 35 00 60 6F 3F 00 00 00 00
 		01
 	Strings:
 		Audit Boot History

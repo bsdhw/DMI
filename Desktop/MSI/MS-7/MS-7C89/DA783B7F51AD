@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x9e7b0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-92 structures occupying 4475 bytes.
+93 structures occupying 4503 bytes.
 Table at 0x9E7AD000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -589,13 +589,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2400 MT/s
+	Speed: 2133 MT/s
 	Manufacturer: 04CD
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F4-2400C15-8GNT     
 	Rank: 2
-	Configured Memory Speed: 2400 MT/s
+	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -624,27 +624,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x003C, DMI type 17, 84 bytes
 Memory Device
@@ -659,13 +638,13 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2400 MT/s
+	Speed: 2133 MT/s
 	Manufacturer: 04CD
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F4-2400C15-8GNT     
 	Rank: 2
-	Configured Memory Speed: 2400 MT/s
+	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -694,27 +673,6 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x003E, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -989,13 +947,21 @@ Onboard Device
 
 Handle 0x0053, DMI type 41, 11 bytes
 Onboard Device
+	Reference Designation: Onboard - Sound
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:1f.3
+
+Handle 0x0054, DMI type 41, 11 bytes
+Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
 	Type Instance: 8
 	Bus Address: 0000:00:1f.4
 
-Handle 0x0054, DMI type 41, 11 bytes
+Handle 0x0055, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Ethernet
 	Type: Ethernet
@@ -1003,10 +969,10 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1f.6
 
-Handle 0x0055, DMI type 221, 89 bytes
+Handle 0x0056, DMI type 221, 89 bytes
 OEM-specific Type
 	Header and Data:
-		DD 59 55 00 0C 01 00 00 00 00 A6 00 02 00 FF FF
+		DD 59 56 00 0C 01 00 00 00 00 A6 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
 		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
@@ -1029,10 +995,10 @@ OEM-specific Type
 		Platform Version
 		Client Silicon Version
 
-Handle 0x0056, DMI type 143, 16 bytes
+Handle 0x0057, DMI type 143, 16 bytes
 OEM-specific Type
 	Header and Data:
-		8F 10 56 00 00 01 02 03 04 05 06 07 08 09 0A 0B
+		8F 10 57 00 00 01 02 03 04 05 06 07 08 09 0A 0B
 	Strings:
 		MEFW-14.5.25.1229
 		VBIOS-0000
@@ -1047,16 +1013,16 @@ OEM-specific Type
 		N/A
 		N/A
 
-Handle 0x0057, DMI type 14, 8 bytes
+Handle 0x0058, DMI type 14, 8 bytes
 Group Associations
 	Name: $MEI
 	Items: 1
 		0x0000 (OEM-specific)
 
-Handle 0x0058, DMI type 219, 106 bytes
+Handle 0x0059, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 58 00 01 04 01 55 02 00 90 06 01 10 86 20
+		DB 6A 59 00 01 04 01 55 02 00 90 06 01 10 86 20
 		00 00 00 00 48 00 00 00 00 00 00 06 00 00 00 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
@@ -1069,12 +1035,12 @@ OEM-specific Type
 		MEI3
 		MEI4
 
-Handle 0x0059, DMI type 136, 6 bytes
+Handle 0x005A, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 59 00 00 00
+		88 06 5A 00 00 00
 
-Handle 0x005A, DMI type 14, 23 bytes
+Handle 0x005B, DMI type 14, 23 bytes
 Group Associations
 	Name: Firmware Version Info
 	Items: 6
@@ -1083,8 +1049,8 @@ Group Associations
 		0x0043 (OEM-specific)
 		0x0044 (OEM-specific)
 		0x0045 (OEM-specific)
-		0x0055 (OEM-specific)
+		0x0056 (OEM-specific)
 
-Handle 0x005B, DMI type 127, 4 bytes
+Handle 0x005C, DMI type 127, 4 bytes
 End Of Table
 

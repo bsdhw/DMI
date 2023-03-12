@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x9f6c8000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
@@ -740,7 +740,7 @@ Processor Information
 	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
-	Current Speed: 1500 MHz
+	Current Speed: 1600 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket LGA1151
 	L1 Cache Handle: 0x0041

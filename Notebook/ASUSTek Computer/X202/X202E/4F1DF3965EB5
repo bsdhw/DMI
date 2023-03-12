@@ -128,9 +128,9 @@ On Board Device 11 Information
 
 Handle 0x0005, DMI type 11, 5 bytes
 OEM Strings
-	String 1: IjDsgZQulxX+O
-	String 2: 3m-iZT3sPnuDB
-	String 3: 0V0FU2K+QJSai
+	String 1: 1SZFNEwNnZCnQ
+	String 2: Q1HMtWHn77Ih0
+	String 3: EwU-4D52CQebe
 	String 4: 90NFQT625A14224X13TU
 	String 5:  
 	String 6:  
@@ -245,7 +245,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i3-3217U CPU @ 1.80GHz
-	Voltage: 3.7 V
+	Voltage: 2.7 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 1800 MHz

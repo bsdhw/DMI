@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 53 structures occupying 2189 bytes.
@@ -475,7 +475,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFA50000
 	Status: Valid, Not Full
-	Change Token: 0x0000024B
+	Change Token: 0x00000298
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error
@@ -589,13 +589,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0041, DMI type 17, 34 bytes
 Memory Device
@@ -610,13 +603,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0042, DMI type 17, 34 bytes
 Memory Device
@@ -631,13 +617,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0043, DMI type 13, 22 bytes
 BIOS Language Information

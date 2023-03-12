@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 52 structures occupying 1919 bytes.
@@ -379,9 +379,9 @@ On Board Device 3 Information
 
 Handle 0x001D, DMI type 11, 5 bytes
 OEM Strings
-	String 1: cwr6f8tfTQM4L
-	String 2: TymtYXybUapq5
-	String 3: I2RJit37KjJjp
+	String 1: diriJui3ZM3J1
+	String 2: +LP+E1uJUtfrP
+	String 3: Idnuvf5ZplKAM
 
 Handle 0x001E, DMI type 12, 5 bytes
 System Configuration Options
@@ -538,7 +538,7 @@ Portable Battery
 	Manufacturer: Panasonic
 	Name: CF-VZSU29A
 	Chemistry: Lithium Ion
-	Design Capacity: 69260 mWh
+	Design Capacity: 86580 mWh
 	Design Voltage: 11100 mV
 	SBDS Version: Not Specified
 	Maximum Error: 0%

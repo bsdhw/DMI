@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 35 structures occupying 1150 bytes.
@@ -352,9 +352,8 @@ HP BIOS PXE NIC PCI and MAC Information
 	NIC 1: PCI device 03:00.0, MAC address A0:B3:CC:E4:EC:08
 
 Handle 0x0020, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 20 00 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0x0021, DMI type 225, 12 bytes
 OEM-specific Type

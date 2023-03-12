@@ -1,17 +1,18 @@
-# dmidecode 3.2
-Scanning /dev/mem for entry point.
+# dmidecode 3.4
+# SMBIOS entry point at 0xb98f7b98
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 46 structures occupying 1996 bytes.
-Table at 0xB58D2000.
+Table at 0xB98D2000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Intel Corp.
-	Version: FYBYT10H.86A.0071.2019.1114.1128
-	Release Date: 11/14/2019
+	Version: FYBYT10H.86A.0072.2020.0609.0913
+	Release Date: 06/09/2020
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 8192 kB
+	ROM Size: 8 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -335,7 +336,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: SODIMM 0
@@ -414,8 +415,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1024 kB
-	Maximum Size: 1024 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown

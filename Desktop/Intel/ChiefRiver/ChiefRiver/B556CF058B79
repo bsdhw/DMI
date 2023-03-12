@@ -1,9 +1,8 @@
 # dmidecode 3.3
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 75 structures occupying 2939 bytes.
-Table at 0x000EB740.
+Table at 0x000E99D0.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -682,7 +681,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Celeron(R) CPU 1047UE @ 1.40GHz
-	Voltage: 3.7 V
+	Voltage: 1.2 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 1400 MHz
@@ -806,7 +805,7 @@ Memory Array Mapped Address
 Handle 0x0049, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 49 00 31 00 00 00 00 00 00 00 00 00 00 00
+		83 40 49 00 10 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 59 1E FF FF FF FF 01 00 00 00 01 00 08 00
 		B0 05 32 00 00 00 00 00 C8 00 02 15 00 00 00 00
 		00 00 00 00 66 00 00 00 76 50 72 6F 00 00 00 00

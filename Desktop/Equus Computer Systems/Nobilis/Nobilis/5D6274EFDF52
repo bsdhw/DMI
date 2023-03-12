@@ -2,7 +2,7 @@
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 63 structures occupying 2674 bytes.
-Table at 0x000EB170.
+Table at 0x000E9450.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -400,7 +400,7 @@ On Board Device Information
 Handle 0x0023, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Description: Realtek High Definition Audio Device
 
 Handle 0x0024, DMI type 11, 5 bytes
@@ -610,7 +610,7 @@ Handle 0x0038, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Realtek High Definition Audio Device
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Type Instance: 1
 	Bus Address: 0000:00:1b.0
 
@@ -644,7 +644,7 @@ Handle 0x0049, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI Slot
 	Type: 32-bit PCI
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 7
 	Characteristics:

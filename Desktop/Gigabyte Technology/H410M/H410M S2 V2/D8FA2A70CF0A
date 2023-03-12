@@ -1,9 +1,7 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x99b48000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.2 present.
-96 structures occupying 4737 bytes.
-Table at 0x99B45000.
+# dmidecode 3.4
+Scanning /dev/mem for entry point.
+SMBIOS 3.2.0 present.
+Table at 0x8FB45000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
@@ -594,13 +592,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2666 MT/s
+	Speed: 2933 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9905734-180.A00G    
+	Part Number: KF3200C16D4/16GX    
 	Rank: 2
-	Configured Memory Speed: 2666 MT/s
+	Configured Memory Speed: 2933 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -629,27 +627,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x003E, DMI type 17, 84 bytes
 Memory Device
@@ -664,13 +641,13 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2666 MT/s
+	Speed: 2933 MT/s
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9905734-180.A00G    
-	Rank: 2
-	Configured Memory Speed: 2666 MT/s
+	Part Number: KF3200C16D4/16GX    
+	Rank: 1
+	Configured Memory Speed: 2933 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -699,27 +676,6 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x0040, DMI type 19, 31 bytes
 Memory Array Mapped Address
@@ -1061,7 +1017,7 @@ Group Associations
 Handle 0x005B, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 5B 00 01 04 01 55 02 00 90 06 01 85 36 20
+		DB 6A 5B 00 01 04 01 55 02 00 90 16 01 85 30 20
 		00 00 00 04 40 00 00 00 00 00 00 00 00 00 00 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

@@ -1,13 +1,15 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.0.0 present.
+# dmidecode 3.4
+# SMBIOS entry point at 0x7f0c7000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.0 present.
+36 structures occupying 2381 bytes.
 Table at 0x7F0C3000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.1b
-	Release Date: 12/17/2018
+	Version: 1.7
+	Release Date: 05/09/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -143,8 +145,8 @@ System Slot Information
 
 Handle 0x000B, DMI type 11, 5 bytes
 OEM Strings
-	String 1: Intel Denverton SoC/Harrisonville
-	String 2: Supermicro motherboard-A2 Series
+	String 1: Intel Denverton SoC/Harrisonville                 
+	String 2: Supermicro motherboard-A2 Series                  
 
 Handle 0x000C, DMI type 32, 20 bytes
 System Boot Information
@@ -305,7 +307,7 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
-	Maximum Capacity: 128 GB
+	Maximum Capacity: 256 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
@@ -363,16 +365,6 @@ Memory Device
 	Bank Locator: P0_Node0_Channel0_Dimm1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001C, DMI type 17, 40 bytes
 Memory Device
@@ -420,16 +412,6 @@ Memory Device
 	Bank Locator: P0_Node0_Channel1_Dimm1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
 
 Handle 0x001F, DMI type 7, 19 bytes
 Cache Information
@@ -524,6 +506,13 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x0024, DMI type 127, 4 bytes
+Handle 0x0024, DMI type 199, 5 bytes
+OEM-specific Type
+	Header and Data:
+		C7 05 24 00 01
+	Strings:
+		                                                                                                                                                                                                                                                         
+
+Handle 0x0025, DMI type 127, 4 bytes
 End Of Table
 

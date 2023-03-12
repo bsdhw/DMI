@@ -1,8 +1,8 @@
 # dmidecode 3.3
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-91 structures occupying 4101 bytes.
-Table at 0x000EC440.
+92 structures occupying 4126 bytes.
+Table at 0x000EC410.
 
 Handle 0xDA00, DMI type 218, 251 bytes
 OEM-specific Type
@@ -70,38 +70,38 @@ OEM-specific Type
 		DA FB 03 DA B2 00 37 4F 1E 36 00 DB 02 DB 02 FF
 		FF DC 02 DC 02 FF FF DD 02 DD 02 FF FF DE 02 DE
 		02 FF FF DF 02 DF 02 FF FF E3 02 E3 02 01 00 E4
-		02 E4 02 00 00 E5 02 E5 02 01 00 F4 02 F4 02 01
-		00 F5 02 F5 02 00 00 FD 02 FD 02 01 00 FE 02 FE
-		02 00 00 0F 03 0F 03 02 00 12 03 12 03 03 00 13
-		03 13 03 01 00 14 03 14 03 00 00 15 03 15 03 01
-		00 16 03 16 03 00 00 17 03 17 03 01 00 18 03 18
-		03 00 00 19 03 19 03 01 00 1A 03 1A 03 00 00 1B
-		03 1B 03 01 00 1C 03 1C 03 00 00 1D 03 1D 03 01
-		00 1E 03 1E 03 00 00 1F 03 1F 03 01 00 20 03 20
-		03 00 00 25 03 25 03 01 00 26 03 26 03 01 00 36
-		03 36 03 01 00 37 03 37 03 00 00 3A 03 3A 03 01
-		00 3B 03 3B 03 00 00 4F 03 4F 03 01 00 57 03 57
-		03 00 00 58 03 58 03 01 00 5B 03 5B 03 01 00 5C
-		03 5C 03 00 00 FF FF FF FF 00 00
+		02 E4 02 00 00 E5 02 E5 02 01 00 FD 02 FD 02 01
+		00 FE 02 FE 02 00 00 0F 03 0F 03 02 00 12 03 12
+		03 03 00 13 03 13 03 01 00 14 03 14 03 00 00 15
+		03 15 03 01 00 16 03 16 03 00 00 17 03 17 03 01
+		00 18 03 18 03 00 00 19 03 19 03 01 00 1A 03 1A
+		03 00 00 1B 03 1B 03 01 00 1C 03 1C 03 00 00 1D
+		03 1D 03 01 00 1E 03 1E 03 00 00 1F 03 1F 03 01
+		00 20 03 20 03 00 00 25 03 25 03 01 00 26 03 26
+		03 01 00 36 03 36 03 01 00 37 03 37 03 00 00 3A
+		03 3A 03 01 00 3B 03 3B 03 00 00 4F 03 4F 03 01
+		00 57 03 57 03 00 00 58 03 58 03 01 00 5B 03 5B
+		03 01 00 5C 03 5C 03 00 00 5D 03 5D 03 01 00 5E
+		03 5E 03 00 00 FF FF FF FF 00 00
 
-Handle 0xDA04, DMI type 218, 239 bytes
+Handle 0xDA04, DMI type 218, 227 bytes
 OEM-specific Type
 	Header and Data:
-		DA EF 04 DA B2 00 37 4F 1E 36 00 5D 03 5D 03 01
-		00 5E 03 5E 03 00 00 5F 03 5F 03 01 00 60 03 60
-		03 00 00 61 03 61 03 01 00 62 03 62 03 00 00 69
-		03 69 03 00 00 6A 03 6A 03 01 00 6B 03 6B 03 02
-		00 6F 03 6F 03 FF FF 7C 03 7C 03 FF FF 83 03 83
-		03 07 00 C9 03 C9 03 01 00 CA 03 CA 03 00 00 22
-		04 22 04 01 00 23 04 23 04 00 00 24 04 24 04 01
-		00 25 04 25 04 00 00 28 04 28 04 04 00 29 04 29
-		04 00 00 2A 04 2A 04 02 00 87 04 87 04 01 00 88
-		04 88 04 00 00 98 04 98 04 FF FF 3E 40 3E 40 00
-		00 3F 40 3F 40 01 00 00 80 00 80 00 00 02 80 02
-		80 02 00 03 80 03 80 03 00 0C 80 0C 80 00 00 0D
-		80 0D 80 00 00 00 A0 00 A0 01 00 04 A0 04 A0 01
-		00 00 F0 00 F0 55 00 02 F0 02 F0 03 00 05 F0 05
-		F0 7F 00 06 F0 06 F0 00 00 FF FF FF FF 00 00
+		DA E3 04 DA B2 00 37 4F 1E 36 00 5F 03 5F 03 01
+		00 60 03 60 03 00 00 61 03 61 03 01 00 62 03 62
+		03 00 00 69 03 69 03 00 00 6A 03 6A 03 01 00 6B
+		03 6B 03 02 00 6F 03 6F 03 FF FF 7C 03 7C 03 FF
+		FF 83 03 83 03 07 00 C9 03 C9 03 01 00 CA 03 CA
+		03 00 00 22 04 22 04 01 00 23 04 23 04 00 00 24
+		04 24 04 01 00 25 04 25 04 00 00 28 04 28 04 04
+		00 29 04 29 04 00 00 2A 04 2A 04 02 00 87 04 87
+		04 01 00 88 04 88 04 00 00 98 04 98 04 FF FF 3E
+		40 3E 40 00 00 3F 40 3F 40 01 00 00 80 00 80 00
+		00 02 80 02 80 02 00 03 80 03 80 03 00 0C 80 0C
+		80 00 00 0D 80 0D 80 00 00 00 A0 00 A0 01 00 04
+		A0 04 A0 01 00 00 F0 00 F0 55 00 02 F0 02 F0 03
+		00 05 F0 05 F0 7F 00 06 F0 06 F0 00 00 FF FF FF
+		FF 00 00
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -155,7 +155,7 @@ Base Board Information
 	Features:
 		Board is a hosting board
 		Board is replaceable
-	Location In Chassis: Not Specified
+	Location In Chassis:  
 	Chassis Handle: 0x0003
 	Type: Motherboard
 	Contained Object Handles: 0
@@ -534,7 +534,7 @@ Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16 
 	Type: x16 PCI Express 3 x16
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 1
 	Characteristics:
@@ -651,24 +651,24 @@ Handle 0x003F, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM3
 	Bank Locator: Not Specified
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: M378B5273CH0-CH9  
+	Rank: 2
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0040, DMI type 17, 34 bytes
+Handle 0x0041, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
@@ -689,7 +689,7 @@ Memory Device
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0042, DMI type 17, 34 bytes
+Handle 0x0043, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
@@ -710,7 +710,7 @@ Memory Device
 	Rank: Unknown
 	Configured Memory Speed: Unknown
 
-Handle 0x0043, DMI type 17, 34 bytes
+Handle 0x0044, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
@@ -731,32 +731,43 @@ Memory Device
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0045, DMI type 19, 31 bytes
+Handle 0x0046, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 12 GB
 	Physical Array Handle: 0x003E
 	Partition Width: 4
 
-Handle 0x0041, DMI type 20, 19 bytes
+Handle 0x0040, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x0040
-	Memory Array Mapped Address Handle: 0x0045
+	Physical Device Handle: 0x003F
+	Memory Array Mapped Address Handle: 0x0046
 	Partition Row Position: 1
 	Interleave Position: 1
 	Interleaved Data Depth: 1
 
-Handle 0x0044, DMI type 20, 19 bytes
+Handle 0x0042, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00100000000
 	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x0043
-	Memory Array Mapped Address Handle: 0x0045
+	Physical Device Handle: 0x0041
+	Memory Array Mapped Address Handle: 0x0046
+	Partition Row Position: 1
+	Interleave Position: 1
+	Interleaved Data Depth: 1
+
+Handle 0x0045, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00200000000
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x0044
+	Memory Array Mapped Address Handle: 0x0046
 	Partition Row Position: 1
 	Interleave Position: 1
 	Interleaved Data Depth: 1

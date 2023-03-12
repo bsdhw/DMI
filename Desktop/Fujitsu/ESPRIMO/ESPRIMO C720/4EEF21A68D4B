@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 100 structures occupying 3709 bytes.
@@ -37,7 +37,7 @@ System Information
 	Version:                       
 	Serial Number: --
 	UUID: --
-	Wake-up Type: APM Timer
+	Wake-up Type: AC Power Restored
 	SKU Number: S26361-Kxxx-Vyyy
 	Family: ESPRIMO-FTS
 

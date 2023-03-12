@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 2.73
+	Firmware Revision: 2.78
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -68,7 +68,7 @@ Handle 0x0400, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: Proc 1
 	Type: Central Processor
-	Family: Pentium
+	Family: Xeon
 	Manufacturer: Intel
 	ID: C3 06 03 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 60, Stepping 3
@@ -101,11 +101,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Pentium(R) CPU G3240 @ 3.10GHz         
+	Version: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz       
 	Voltage: 1.4 V
 	External Clock: 100 MHz
 	Max Speed: 4800 MHz
-	Current Speed: 3100 MHz
+	Current Speed: 3500 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x0710
@@ -114,9 +114,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Core Count: 2
-	Core Enabled: 2
-	Thread Count: 2
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 8
 	Characteristics:
 		64-bit capable
 
@@ -126,7 +126,7 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 64 kB
+	Installed Size: 128 kB
 	Maximum Size: 192 kB
 	Supported SRAM Types:
 		Burst
@@ -142,7 +142,7 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 512 kB
+	Installed Size: 1024 kB
 	Maximum Size: 1536 kB
 	Supported SRAM Types:
 		Burst
@@ -158,7 +158,7 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3072 kB
+	Installed Size: 8192 kB
 	Maximum Size: 12288 kB
 	Supported SRAM Types:
 		Burst
@@ -166,7 +166,7 @@ Cache Information
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Unknown
-	Associativity: 12-way Set-associative
+	Associativity: 16-way Set-associative
 
 Handle 0x0801, DMI type 8, 9 bytes
 Port Connector Information
@@ -261,7 +261,7 @@ Handle 0x0901, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
 	Type: x1 PCI Express 2 x4
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 1
 	Characteristics:
@@ -288,23 +288,23 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: PROC  1 DIMM  1 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1600 MT/s
-	Manufacturer: HP     
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer: UNKNOWN
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 669238-071          
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 1.5 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
+	Part Number: NOT AVAILABLE       
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
 
 Handle 0x1101, DMI type 17, 40 bytes
 Memory Device
@@ -325,7 +325,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: NOT AVAILABLE       
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -336,23 +336,23 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 2
 	Locator: PROC  1 DIMM  3 
 	Bank Locator: Not Specified
 	Type: DDR3
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1600 MT/s
-	Manufacturer: HP     
+	Type Detail: Synchronous
+	Speed: Unknown
+	Manufacturer: UNKNOWN
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 669238-071          
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 1.5 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
+	Part Number: NOT AVAILABLE       
+	Rank: Unknown
+	Configured Memory Speed: Unknown
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: Unknown
 
 Handle 0x1103, DMI type 17, 40 bytes
 Memory Device
@@ -373,7 +373,7 @@ Memory Device
 	Asset Tag: --
 	Part Number: NOT AVAILABLE       
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -389,14 +389,14 @@ Memory Array Mapped Address
 Handle 0x1301, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0060BFFFFFF
-	Range Size: 20672 MB
+	Ending Address: 0x0040BFFFFFF
+	Range Size: 12480 MB
 	Physical Array Handle: 0x1000
 	Partition Width: 1
 
 Handle 0x2000, DMI type 32, 11 bytes
 System Boot Information
-	Status: No errors detected
+	Status: Firmware-detected hardware failure
 
 Handle 0x2600, DMI type 38, 18 bytes
 IPMI Device Information
@@ -445,7 +445,7 @@ OEM-specific Type
 	Header and Data:
 		C1 09 01 C1 01 01 02 03 04
 	Strings:
-		02/02/2015
+		04/04/2019
 		02/04/2012
 		        
 		          
@@ -470,7 +470,7 @@ OEM-specific Type
 Handle 0xC500, DMI type 197, 12 bytes
 OEM-specific Type
 	Header and Data:
-		C5 0C 00 C5 00 04 00 01 FF 01 35 00
+		C5 0C 00 C5 00 04 00 01 FF 01 50 00
 
 Handle 0xCA00, DMI type 202, 9 bytes
 OEM-specific Type
@@ -534,7 +534,7 @@ OEM-specific Type
 		00 00 00 00 00 00 00
 	Strings:
 		Redundant System ROM
-		02/02/2015
+		04/04/2019
 
 Handle 0xD802, DMI type 216, 23 bytes
 OEM-specific Type
@@ -694,7 +694,7 @@ OEM-specific Type
 Handle 0xE800, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 00 E8 00 11 05 00 00 00 DC 05 DC 05
+		E8 0E 00 E8 00 11 00 00 00 00 00 00 00 00
 
 Handle 0xE801, DMI type 232, 14 bytes
 OEM-specific Type
@@ -704,7 +704,7 @@ OEM-specific Type
 Handle 0xE802, DMI type 232, 14 bytes
 OEM-specific Type
 	Header and Data:
-		E8 0E 02 E8 02 11 05 00 00 00 DC 05 DC 05
+		E8 0E 02 E8 02 11 00 00 00 00 00 00 00 00
 
 Handle 0xE803, DMI type 232, 14 bytes
 OEM-specific Type

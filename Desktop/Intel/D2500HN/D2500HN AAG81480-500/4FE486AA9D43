@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 27 structures occupying 1520 bytes.
@@ -15,7 +15,7 @@ Processor Information
 	Voltage: 1.1 V
 	External Clock: 133 MHz
 	Max Speed: 4000 MHz
-	Current Speed: 1868 MHz
+	Current Speed: 1863 MHz
 	Status: Populated, Enabled
 	Upgrade: None
 	L1 Cache Handle: 0x0003

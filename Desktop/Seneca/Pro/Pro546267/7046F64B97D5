@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-56 structures occupying 2379 bytes.
+56 structures occupying 2440 bytes.
 Table at 0x000EB5A0.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -229,22 +229,22 @@ Handle 0x0010, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: 0x0011
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_1A
 	Bank Locator: BANK 0
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: HMT325U7EFR8A-PB  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0011, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -262,20 +262,20 @@ Memory Device
 	Error Information Handle: 0x0013
 	Total Width: 128 bits
 	Data Width: 64 bits
-	Size: 1 GB
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_2A
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Micron
+	Speed: 1600 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9JSF12872AZ-1G4G1 
+	Part Number: HMT325U7EFR8A-PB  
 	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0013, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -291,22 +291,22 @@ Handle 0x0014, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: 0x0015
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_1B
 	Bank Locator: BANK 1
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: HMT325U7EFR8A-PB  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0015, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -322,22 +322,22 @@ Handle 0x0016, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: 0x0017
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 128 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_2B
 	Bank Locator: BANK 1
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: HMT325U7EFR8A-PB  
+	Rank: 1
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0017, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -352,8 +352,8 @@ Handle 0x0017, DMI type 18, 23 bytes
 Handle 0x0018, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0003FFFFFFF
-	Range Size: 1 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0007
 	Partition Width: 4
 

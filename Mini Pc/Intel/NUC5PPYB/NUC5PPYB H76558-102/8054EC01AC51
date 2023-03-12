@@ -1,15 +1,15 @@
-# dmidecode 3.2
-# SMBIOS entry point at 0x6b655000
+# dmidecode 3.4
+# SMBIOS entry point at 0x73657000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 49 structures occupying 2076 bytes.
-Table at 0x6B652000.
+Table at 0x73654000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Intel Corp.
-	Version: PYBSWCEL.86A.0079.2020.0420.1316
-	Release Date: 04/20/2020
+	Version: PYBSWCEL.86A.0081.2022.0823.1419
+	Release Date: 08/23/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 6656 kB
@@ -344,7 +344,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: SODIMM 0
@@ -447,8 +447,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2048 kB
-	Maximum Size: 2048 kB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown

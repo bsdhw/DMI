@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xdcab4000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-25 structures occupying 1372 bytes.
+25 structures occupying 1376 bytes.
 Table at 0x000E6CC0.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -165,8 +165,8 @@ Physical Memory Array
 Handle 0x000D, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x004FFFFFFFF
+	Range Size: 20 GB
 	Physical Array Handle: 0x000C
 	Partition Width: 2
 
@@ -254,7 +254,7 @@ Processor Information
 	Voltage: 1.1 V
 	External Clock: 100 MHz
 	Max Speed: 3700 MHz
-	Current Speed: 2800 MHz
+	Current Speed: 3200 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket AM4
 	L1 Cache Handle: 0x000E
@@ -290,7 +290,7 @@ Memory Device
 	Error Information Handle: 0x0012
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
@@ -301,7 +301,7 @@ Memory Device
 	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 9905665-020.A00G    
+	Part Number: HX432C16FB/16       
 	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -311,8 +311,8 @@ Memory Device
 Handle 0x0014, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x004FFFFFFFF
+	Range Size: 20 GB
 	Physical Device Handle: 0x0013
 	Memory Array Mapped Address Handle: 0x000D
 	Partition Row Position: Unknown
@@ -343,10 +343,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2400 MT/s
-	Manufacturer: Unknown
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CT4G4DFS824A.C8FF
+	Part Number: 9905665-020.A00G    
 	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V

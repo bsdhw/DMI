@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x84809000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-79 structures occupying 6615 bytes.
+79 structures occupying 6373 bytes.
 Table at 0x84327000.
 
 Handle 0xDA00, DMI type 218, 245 bytes
@@ -226,8 +226,8 @@ OEM-specific Type
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: Alienware
-	Version: 1.4.0
-	Release Date: 04/09/2021
+	Version: 1.13.0
+	Release Date: 07/07/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -253,13 +253,13 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.4
+	BIOS Revision: 1.13
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
 	Manufacturer: Alienware
 	Product Name: Alienware m15 R4
-	Version: 1.4.0
+	Version: 1.13.0
 	Serial Number: --
 	UUID: --
 	Wake-up Type: Power Switch
@@ -368,7 +368,7 @@ Handle 0x0009, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Video
 	Status: Enabled
-	Description:    To Be Filled By O.E.M.
+	Description:    
 
 Handle 0x000A, DMI type 11, 5 bytes
 OEM Strings
@@ -381,7 +381,7 @@ OEM Strings
 	String 7: 7[]
 	String 8: 8[]
 	String 9: 9[]
-	String 10: 10[1.4.0]
+	String 10: 10[1.13.0]
 	String 11: 11[]
 	String 12: 12[]
 	String 13: 13[P87F002]
@@ -409,14 +409,14 @@ Handle 0x000C, DMI type 22, 26 bytes
 Portable Battery
 	Location: Location of the battery
 	Manufacturer: BYD
+	Manufacture Date: CN0M59JHBDS0015T51M5A06
+	Serial Number: --
 	Name: DELL M59JH15Ti
 	Design Capacity: 75440 mWh
 	Design Voltage: 11400 mV
 	SBDS Version: SBDS Version Number
 	Maximum Error: 100%
-	SBDS Serial Number: --
-	SBDS Manufacture Date: 2021-05-29
-	SBDS Chemistry: SBDS Device Chemistry
+	SBDS Chemistry: Not Specified
 	OEM-specific Information: 0x00000301
 
 Handle 0x000D, DMI type 32, 20 bytes
@@ -475,13 +475,13 @@ Electrical Current Probe
 Handle 0x0012, DMI type 39, 22 bytes
 System Power Supply
 	Power Unit Group: 1
-	Location: To Be Filled By O.E.M.
-	Name: To Be Filled By O.E.M.
-	Manufacturer: To Be Filled By O.E.M.
+	Location:  
+	Name:  
+	Manufacturer:  
 	Serial Number: --
-	Asset Tag: --
-	Model Part Number: To Be Filled By O.E.M.
-	Revision: To Be Filled By O.E.M.
+	271882FD79060B21C43F805A2DE81148  
+	Model Part Number:  
+	Revision:  
 	Max Power Capacity: Unknown
 	Status: Present, OK
 	Type: Switching
@@ -622,7 +622,7 @@ Handle 0x001B, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
 		DD 1A 1B 00 03 01 00 09 00 30 50 00 02 00 00 00
-		00 E2 00 03 00 01 07 02 00 00
+		00 F0 00 03 00 01 08 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -777,7 +777,7 @@ Processor Information
 	L3 Cache Handle: 0x0022
 	Serial Number: --
 	Asset Tag: --
-	Part Number: To Be Filled By O.E.M.
+	Part Number: Not Specified
 	Core Count: 8
 	Core Enabled: 8
 	Thread Count: 16
@@ -907,7 +907,7 @@ OEM-specific Type
 		DD 59 32 00 0C 01 00 FF FF FF FF FF 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF 00 0B 00 FF FF 00 00 00 0C 00 00
+		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
 		09 00 07 11 0D 00 FF FF FF FF FF 0E 00 00 07 00
 		00 00 0F 00 00 02 00 0F 00
 	Strings:
@@ -936,7 +936,7 @@ Group Associations
 Handle 0x0034, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 34 00 01 04 01 45 02 00 A0 06 01 10 86 20
+		DB 6A 34 00 01 04 01 45 02 00 A0 06 01 10 80 20
 		00 00 00 00 40 00 00 01 1F 00 00 C9 0B 40 44 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
@@ -1039,6 +1039,6 @@ OEM-specific Type
 		DD 13 00 DD 00 00 00 00 00 03 00 00 00 00 00 00
 		00 00 00
 
-Handle 0xDD36, DMI type 127, 4 bytes
+Handle 0xDD38, DMI type 127, 4 bytes
 End Of Table
 

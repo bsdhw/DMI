@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0x000f04c0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
@@ -654,13 +654,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0041, DMI type 17, 34 bytes
 Memory Device
@@ -760,7 +753,7 @@ Memory Array Mapped Address
 Handle 0x0049, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 49 00 31 00 00 00 00 00 00 00 00 00 00 00
+		83 40 49 00 10 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 5F 1E FF FF FF FF 01 20 00 00 01 00 08 00
 		E0 04 00 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 66 00 00 00 76 50 72 6F 00 00 00 00

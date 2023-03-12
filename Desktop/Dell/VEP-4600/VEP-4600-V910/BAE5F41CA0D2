@@ -1,13 +1,15 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.1.1 present.
+# dmidecode 3.4
+# SMBIOS entry point at 0x7271e000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 2.8 present.
+64 structures occupying 2758 bytes.
 Table at 0x000E92B0.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 3.41.0.9-15
-	Release Date: 08/08/2019
+	Version: 3.41.0.9-23
+	Release Date: 07/05/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -403,31 +405,7 @@ System Power Supply
 	Cooling Device Handle: 0x0026
 	Input Current Probe Handle: 0x0027
 
-Handle 0x0029, DMI type 41, 11 bytes
-Onboard Device
-	Reference Designation:  Onboard IGD
-	Type: Video
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:02.0
-
-Handle 0x002A, DMI type 41, 11 bytes
-Onboard Device
-	Reference Designation:  Onboard LAN
-	Type: Ethernet
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:19.0
-
-Handle 0x002B, DMI type 41, 11 bytes
-Onboard Device
-	Reference Designation:  Onboard 1394
-	Type: Other
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:03:1c.2
-
-Handle 0x002C, DMI type 38, 18 bytes
+Handle 0x0029, DMI type 38, 18 bytes
 IPMI Device Information
 	Interface Type: KCS (Keyboard Control Style)
 	Specification Version: 2.0
@@ -436,16 +414,16 @@ IPMI Device Information
 	Base Address: 0x0000000000000CA2 (I/O)
 	Register Spacing: Successive Byte Boundaries
 
-Handle 0x002D, DMI type 42, 12 bytes
+Handle 0x002A, DMI type 42, 12 bytes
 Management Controller Host Interface
 	Interface Type: KCS: Keyboard Controller Style
 
-Handle 0x0040, DMI type 133, 12 bytes
+Handle 0x003D, DMI type 133, 12 bytes
 OEM-specific Type
 	Header and Data:
-		85 0C 40 00 00 F0 91 6C 00 40 00 00
+		85 0C 3D 00 00 D0 95 70 00 40 00 00
 
-Handle 0x0041, DMI type 16, 23 bytes
+Handle 0x003E, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
@@ -454,17 +432,17 @@ Physical Memory Array
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
-Handle 0x0042, DMI type 19, 31 bytes
+Handle 0x003F, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x007FFFFFFFF
 	Range Size: 32 GB
-	Physical Array Handle: 0x0041
+	Physical Array Handle: 0x003E
 	Partition Width: 1
 
-Handle 0x0043, DMI type 17, 40 bytes
+Handle 0x0040, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0041
+	Array Handle: 0x003E
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
@@ -474,7 +452,7 @@ Memory Device
 	Locator: CPU1_DIMM_A1
 	Bank Locator: NODE 1
 	Type: DDR4
-	Type Detail: Synchronous
+	Type Detail: Synchronous Registered (Buffered)
 	Speed: 2666 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
@@ -486,18 +464,18 @@ Memory Device
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 
-Handle 0x0044, DMI type 20, 35 bytes
+Handle 0x0041, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x007FFFFFFFF
 	Range Size: 32 GB
-	Physical Device Handle: 0x0043
-	Memory Array Mapped Address Handle: 0x0042
+	Physical Device Handle: 0x0040
+	Memory Array Mapped Address Handle: 0x003F
 	Partition Row Position: 1
 
-Handle 0x0045, DMI type 17, 40 bytes
+Handle 0x0042, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0041
+	Array Handle: 0x003E
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -508,20 +486,10 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x0046, DMI type 17, 40 bytes
+Handle 0x0043, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0041
+	Array Handle: 0x003E
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -532,20 +500,10 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x0047, DMI type 17, 40 bytes
+Handle 0x0044, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0041
+	Array Handle: 0x003E
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -556,18 +514,8 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x0048, DMI type 16, 23 bytes
+Handle 0x0045, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
@@ -576,17 +524,17 @@ Physical Memory Array
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
-Handle 0x0049, DMI type 19, 31 bytes
+Handle 0x0046, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00800000000
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 32 GB
-	Physical Array Handle: 0x0048
+	Physical Array Handle: 0x0045
 	Partition Width: 4
 
-Handle 0x004A, DMI type 17, 40 bytes
+Handle 0x0047, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0048
+	Array Handle: 0x0045
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
@@ -596,7 +544,7 @@ Memory Device
 	Locator: CPU1_DIMM_D1
 	Bank Locator: NODE 2
 	Type: DDR4
-	Type Detail: Synchronous
+	Type Detail: Synchronous Registered (Buffered)
 	Speed: 2666 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
@@ -608,18 +556,18 @@ Memory Device
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 
-Handle 0x004B, DMI type 20, 35 bytes
+Handle 0x0048, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00800000000
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 32 GB
-	Physical Device Handle: 0x004A
-	Memory Array Mapped Address Handle: 0x0049
+	Physical Device Handle: 0x0047
+	Memory Array Mapped Address Handle: 0x0046
 	Partition Row Position: 1
 
-Handle 0x004C, DMI type 17, 40 bytes
+Handle 0x0049, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0048
+	Array Handle: 0x0045
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -630,20 +578,10 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x004D, DMI type 17, 40 bytes
+Handle 0x004A, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0048
+	Array Handle: 0x0045
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -654,20 +592,10 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x004E, DMI type 17, 40 bytes
+Handle 0x004B, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x0048
+	Array Handle: 0x0045
 	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
@@ -678,18 +606,8 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
-Handle 0x004F, DMI type 7, 27 bytes
+Handle 0x004C, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1-Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -705,7 +623,7 @@ Cache Information
 	System Type: Instruction
 	Associativity: 8-way Set-associative
 
-Handle 0x0050, DMI type 7, 27 bytes
+Handle 0x004D, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2-Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -721,7 +639,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0051, DMI type 7, 27 bytes
+Handle 0x004E, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3-Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -737,7 +655,7 @@ Cache Information
 	System Type: Unified
 	Associativity: Fully Associative
 
-Handle 0x0052, DMI type 4, 48 bytes
+Handle 0x004F, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: CPU0
 	Type: Central Processor
@@ -781,9 +699,9 @@ Processor Information
 	Current Speed: 1900 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
-	L1 Cache Handle: 0x004F
-	L2 Cache Handle: 0x0050
-	L3 Cache Handle: 0x0051
+	L1 Cache Handle: 0x004C
+	L2 Cache Handle: 0x004D
+	L3 Cache Handle: 0x004E
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
@@ -798,13 +716,13 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x0055, DMI type 13, 22 bytes
+Handle 0x0052, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0056, DMI type 127, 4 bytes
+Handle 0x0053, DMI type 127, 4 bytes
 End Of Table
 
