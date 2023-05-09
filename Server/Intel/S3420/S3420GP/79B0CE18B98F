@@ -1,7 +1,7 @@
 # dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
-64 structures occupying 2699 bytes.
+65 structures occupying 2707 bytes.
 Table at 0xDF6A4000.
 
 Handle 0x0001, DMI type 38, 20 bytes
@@ -20,7 +20,7 @@ System Information
 	Version: ....................
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Power Switch
+	Wake-up Type: Reserved
 	SKU Number: Not Specified
 	Family: Not Specified
 
@@ -385,7 +385,7 @@ Handle 0x002C, DMI type 24, 5 bytes
 Hardware Security
 	Power-On Password Status: Disabled
 	Keyboard Password Status: Disabled
-	Administrator Password Status: Enabled
+	Administrator Password Status: Disabled
 	Front Panel Reset Status: Disabled
 
 Handle 0x002D, DMI type 13, 22 bytes
@@ -419,8 +419,8 @@ Physical Memory Array
 Handle 0x0031, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x0017FFFFFFF
+	Range Size: 6 GB
 	Physical Array Handle: 0x0030
 	Partition Width: 6
 
@@ -458,33 +458,17 @@ Handle 0x0034, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0030
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 2 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_A2
 	Bank Locator: NODE 0 CHANNEL 0 DIMM 1
 	Type: Other
 	Type Detail: Synchronous
-	Speed: 1067 MT/s
-	Manufacturer: 0x0198
-	Serial Number: --
-	Asset Tag: --
-	Part Number: 9905413-013.A00LF 
 
-Handle 0x0035, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
-	Physical Device Handle: 0x0034
-	Memory Array Mapped Address Handle: 0x0031
-	Partition Row Position: 1
-	Interleave Position: 1
-	Interleaved Data Depth: 1
-
-Handle 0x0036, DMI type 17, 27 bytes
+Handle 0x0035, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0030
 	Error Information Handle: Not Provided
@@ -498,7 +482,7 @@ Memory Device
 	Type: Other
 	Type Detail: Synchronous
 
-Handle 0x0037, DMI type 17, 27 bytes
+Handle 0x0036, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0030
 	Error Information Handle: Not Provided
@@ -517,26 +501,53 @@ Memory Device
 	Asset Tag: --
 	Part Number: 9905413-013.A00LF 
 
+Handle 0x0037, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00080000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0036
+	Memory Array Mapped Address Handle: 0x0031
+	Partition Row Position: 1
+	Interleave Position: 1
+	Interleaved Data Depth: 1
+
 Handle 0x0038, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0030
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: 2
 	Locator: DIMM_B2
 	Bank Locator: NODE 0 CHANNEL 1 DIMM 1
 	Type: Other
 	Type Detail: Synchronous
+	Speed: 1067 MT/s
+	Manufacturer: 0x0198
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9905413-013.A00LF 
 
-Handle 0x0039, DMI type 17, 27 bytes
+Handle 0x0039, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x0017FFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0038
+	Memory Array Mapped Address Handle: 0x0031
+	Partition Row Position: 1
+	Interleave Position: 1
+	Interleaved Data Depth: 1
+
+Handle 0x003A, DMI type 17, 27 bytes
 Memory Device
 	Array Handle: 0x0030
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
+	Total Width: Unknown
+	Data Width: Unknown
 	Size: No Module Installed
 	Form Factor: DIMM
 	Set: 3
@@ -545,14 +556,14 @@ Memory Device
 	Type: Other
 	Type Detail: Synchronous
 
-Handle 0x003A, DMI type 131, 45 bytes
+Handle 0x003B, DMI type 131, 45 bytes
 OEM-specific Type
 	Header and Data:
-		83 2D 3A 00 01 77 00 00 00 00 00 00 00 53 00 00
-		00 00 00 00 00 50 00 00 00 00 00 00 00 00 00 00
+		83 2D 3B 00 01 77 00 00 00 00 00 00 00 31 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00
 
-Handle 0x003B, DMI type 4, 40 bytes
+Handle 0x003C, DMI type 4, 40 bytes
 Processor Information
 	Socket Designation: CPU1
 	Type: Central Processor
@@ -596,9 +607,9 @@ Processor Information
 	Current Speed: 2666 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
-	L1 Cache Handle: 0x003F
-	L2 Cache Handle: 0x003E
-	L3 Cache Handle: 0x003C
+	L1 Cache Handle: 0x0040
+	L2 Cache Handle: 0x003F
+	L3 Cache Handle: 0x003D
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
@@ -608,7 +619,7 @@ Processor Information
 	Characteristics:
 		64-bit capable
 
-Handle 0x003C, DMI type 7, 19 bytes
+Handle 0x003D, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L3-Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -624,7 +635,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x003D, DMI type 7, 19 bytes
+Handle 0x003E, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L1-Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -640,7 +651,7 @@ Cache Information
 	System Type: Data
 	Associativity: 8-way Set-associative
 
-Handle 0x003E, DMI type 7, 19 bytes
+Handle 0x003F, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L2-Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -656,7 +667,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x003F, DMI type 7, 19 bytes
+Handle 0x0040, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L1-Cache
 	Configuration: Enabled, Not Socketed, Level 1

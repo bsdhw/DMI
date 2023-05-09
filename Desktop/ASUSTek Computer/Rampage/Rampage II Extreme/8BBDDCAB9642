@@ -122,9 +122,9 @@ Processor Information
 		PBE (Pending break enabled)
 	Version: Intel(R) Xeon(R) CPU X5670 @ 2.93GHz                
 	Voltage: 1.2 V
-	External Clock: 133 MHz
+	External Clock: 167 MHz
 	Max Speed: 2933 MHz
-	Current Speed: 2933 MHz
+	Current Speed: 4020 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0005
@@ -585,7 +585,7 @@ Handle 0x0035, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_1
 	Type: 32-bit PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 2
 	Characteristics:
@@ -609,7 +609,7 @@ Handle 0x0037, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI1
 	Type: 32-bit PCI
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 4
 	Characteristics:
@@ -710,7 +710,7 @@ Memory Device
 	Bank Locator: BANK0
 	Type: Other
 	Type Detail: Other
-	Speed: 1333 MT/s
+	Speed: 1066 MT/s
 	Manufacturer: Manufacturer00
 	Serial Number: --
 	Asset Tag: --
@@ -765,7 +765,7 @@ Memory Device
 	Bank Locator: BANK2
 	Type: Other
 	Type Detail: Other
-	Speed: 1333 MT/s
+	Speed: 1066 MT/s
 	Manufacturer: Manufacturer02
 	Serial Number: --
 	Asset Tag: --
@@ -820,7 +820,7 @@ Memory Device
 	Bank Locator: BANK4
 	Type: Other
 	Type Detail: Other
-	Speed: 1333 MT/s
+	Speed: 1066 MT/s
 	Manufacturer: Manufacturer04
 	Serial Number: --
 	Asset Tag: --

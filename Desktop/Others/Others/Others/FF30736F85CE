@@ -614,10 +614,10 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Celeron(R) N5105 @ 2.00GHz
-	Voltage: 0.6 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 2900 MHz
-	Current Speed: 800 MHz
+	Current Speed: 2000 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0042

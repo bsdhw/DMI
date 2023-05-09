@@ -314,14 +314,14 @@ System Slot Information
 
 Handle 0x0014, DMI type 11, 5 bytes
 OEM Strings
-	String 1: 4DX0EshzjnULF
-	String 2: yUW5ZwiXxF4Ln
-	String 3: U5SHCSN-EwlM1
+	String 1: Ck44bkIwuEN1x
+	String 2: MMW4WgSlF89Fc
+	String 3: iG6jL1kq6Mkkq
 
 Handle 0x0015, DMI type 12, 5 bytes
 System Configuration Options
 	Option 1: SMI:00B2C801
-	Option 2: TIM:202210282203
+	Option 2: TIM:202304300338
 	Option 3: HDD:     WD-WXA1A51W5198
 	Option 4: MEM:HMT325S6BFR8C-H9  6259A129
 

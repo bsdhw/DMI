@@ -1,5 +1,6 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.4
+# SMBIOS entry point at 0xd943d918
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 58 structures occupying 2450 bytes.
 Table at 0x000E92BF.
@@ -570,13 +571,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0031, DMI type 17, 34 bytes
 Memory Device

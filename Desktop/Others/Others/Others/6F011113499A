@@ -357,7 +357,7 @@ System Boot Information
 
 Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: <BAD INDEX>
+	Socket Designation: _4_SOCKECPU Internal L1
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal

@@ -1,9 +1,9 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xca266000
+# dmidecode 3.4
+# SMBIOS entry point at 0xc9266000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
 53 structures occupying 2053 bytes.
-Table at 0xCA25A000.
+Table at 0xC925A000.
 
 Handle 0x0000, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -184,11 +184,13 @@ Memory Device
 Handle 0x0009, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0008
 	Memory Array Mapped Address Handle: 0x0002
 	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x000A, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -237,12 +239,14 @@ Memory Device
 
 Handle 0x000C, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00200000000
+	Starting Address: 0x00000000000
 	Ending Address: 0x003FFFFFFFF
-	Range Size: 8 GB
+	Range Size: 16 GB
 	Physical Device Handle: 0x000B
 	Memory Array Mapped Address Handle: 0x0002
 	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0011, DMI type 8, 9 bytes
 Port Connector Information
@@ -515,8 +519,8 @@ OEM Strings
 Handle 0x000D, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: GZCN20WW
-	Release Date: 06/08/2021
+	Version: GZCN32WW
+	Release Date: 12/08/2022
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 16 MB
@@ -541,8 +545,8 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.20
-	Firmware Revision: 1.20
+	BIOS Revision: 1.32
+	Firmware Revision: 1.32
 
 Handle 0x000E, DMI type 1, 27 bytes
 System Information
@@ -566,7 +570,7 @@ Base Board Information
 		Board is a hosting board
 		Board is replaceable
 	Location In Chassis: Base Board Chassis Location
-	Chassis Handle: 0x0000
+	Chassis Handle: 0x0010
 	Type: Motherboard
 	Contained Object Handles: 0
 
@@ -598,14 +602,14 @@ OEM-specific Type
 
 Handle 0x0033, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 98 bytes
+	Area Length: 114 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x00000005
+	Change Token: 0x00000006
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error
@@ -619,9 +623,9 @@ System Event Log
 
 Handle 0x002E, DMI type 24, 5 bytes
 Hardware Security
-	Power-On Password Status: Disabled
+	Power-On Password Status: Enabled
 	Keyboard Password Status: Disabled
-	Administrator Password Status: Disabled
+	Administrator Password Status: Enabled
 	Front Panel Reset Status: Disabled
 
 Handle 0xFEFF, DMI type 127, 4 bytes

@@ -1,5 +1,5 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x9cc25000
+# dmidecode 3.5
+# SMBIOS entry point at 0x9cc24000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
 29 structures occupying 1564 bytes.
@@ -8,8 +8,8 @@ Table at 0x000E6CC0.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: P2.20
-	Release Date: 12/27/2022
+	Version: L2.62
+	Release Date: 01/31/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -185,7 +185,7 @@ Handle 0x000E, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.84
+	Firmware Revision: 3.87
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support

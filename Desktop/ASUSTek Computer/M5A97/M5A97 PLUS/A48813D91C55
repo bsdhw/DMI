@@ -1,9 +1,8 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.4
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 57 structures occupying 2385 bytes.
-Table at 0xDC44C018.
+Table at 0xE444C018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -366,7 +365,7 @@ Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
 	Type: x1 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 0
 	Characteristics:
@@ -418,7 +417,7 @@ Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI2
 	Type: 32-bit PCI
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 4
 	Characteristics:
@@ -519,13 +518,6 @@ Memory Device
 	Bank Locator: BANK1
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer1
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber1
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x002D, DMI type 126, 35 bytes
 Inactive
@@ -543,13 +535,6 @@ Memory Device
 	Bank Locator: BANK2
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer2
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber2
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x002F, DMI type 126, 35 bytes
 Inactive
@@ -567,13 +552,6 @@ Memory Device
 	Bank Locator: BANK3
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer3
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber3
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0031, DMI type 126, 35 bytes
 Inactive

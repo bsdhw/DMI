@@ -1,4 +1,4 @@
-# dmidecode 3.2
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 47 structures occupying 2019 bytes.
@@ -11,7 +11,7 @@ BIOS Information
 	Release Date: 03/05/2012
 	Address: 0xE0000
 	Runtime Size: 128 kB
-	ROM Size: 2048 kB
+	ROM Size: 2 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -351,13 +351,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: Empty
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Empty
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0022, DMI type 6, 12 bytes
 Memory Module Information
@@ -375,7 +368,7 @@ Memory Device
 	Error Information Handle: 0x0025
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4096 MB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM1

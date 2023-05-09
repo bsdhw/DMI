@@ -1,15 +1,15 @@
 # dmidecode 3.4
-# SMBIOS entry point at 0xdc393000
+# SMBIOS entry point at 0xbd7fc000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-58 structures occupying 2555 bytes.
-Table at 0x000E68E0.
+58 structures occupying 2569 bytes.
+Table at 0xBD7F9000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 2801
-	Release Date: 09/18/2019
+	Version: 4901
+	Release Date: 07/25/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 5.13
+	BIOS Revision: 5.17
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -298,9 +298,9 @@ Onboard Device
 
 Handle 0x0020, DMI type 43, 31 bytes
 TPM Device
-	Vendor ID: 
+	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.6
+	Firmware Revision: 3.7
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support
@@ -470,10 +470,10 @@ Memory Device
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: None
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Unknown
+	Module Manufacturer ID: Bank 7, Hex 0xD3
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -526,10 +526,10 @@ Memory Device
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: None
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Unknown
+	Module Manufacturer ID: Bank 7, Hex 0xD3
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -604,12 +604,12 @@ BIOS Language Information
 		en|US|iso8859-1
 		fr|FR|iso8859-1
 		zh|TW|unicode
+		zh|CN|unicode
 		ja|JP|unicode
 		de|DE|iso8859-1
 		es|ES|iso8859-1
 		ru|RU|iso8859-5
 		ko|KR|unicode
-		<BAD INDEX>
 	Currently Installed Language: en|US|iso8859-1
 
 Handle 0x0033, DMI type 9, 17 bytes

@@ -1,9 +1,9 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0xda06ca98
+# dmidecode 3.5
+# SMBIOS entry point at 0x9e06ca98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 44 structures occupying 1900 bytes.
-Table at 0xD9E81018.
+Table at 0x9DE81018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -378,15 +378,15 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
-	Maximum Capacity: 6 GB
+	Maximum Capacity: 8 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 2
 
 Handle 0x0027, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 6 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0026
 	Partition Width: 255
 
@@ -396,7 +396,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 0
@@ -407,7 +407,7 @@ Memory Device
 	Manufacturer: Hynix/Hyundai  
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT425S6CFR6A-PB  
+	Part Number: HMT451S6BFR8A-PB  
 	Rank: 1
 	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.35 V
@@ -441,8 +441,8 @@ Memory Device
 Handle 0x002A, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0028
 	Memory Array Mapped Address Handle: 0x0027
 	Partition Row Position: Unknown
@@ -451,8 +451,8 @@ Memory Device Mapped Address
 
 Handle 0x002B, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x0017FFFFFFF
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x0029
 	Memory Array Mapped Address Handle: 0x0027

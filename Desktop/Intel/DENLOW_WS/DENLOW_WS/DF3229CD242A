@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0x000f04d0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-77 structures occupying 3027 bytes.
+76 structures occupying 2977 bytes.
 Table at 0x000EC170.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -592,7 +592,7 @@ Handle 0x003D, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: SOCKET 0
 	Type: Central Processor
-	Family: Celeron
+	Family: Core i3
 	Manufacturer: Intel
 	ID: C3 06 03 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 60, Stepping 3
@@ -625,11 +625,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Celeron(R) CPU G1820 @ 2.70GHz
+	Version: Intel(R) Core(TM) i3-4130 CPU @ 3.40GHz
 	Voltage: 1.2 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
-	Current Speed: 2700 MHz
+	Current Speed: 3400 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x003F
@@ -640,7 +640,7 @@ Processor Information
 	Part Number: Fill By OEM
 	Core Count: 2
 	Core Enabled: 2
-	Thread Count: 2
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 
@@ -682,15 +682,15 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2 MB
-	Maximum Size: 2 MB
+	Installed Size: 3 MB
+	Maximum Size: 3 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Unified
-	Associativity: 8-way Set-associative
+	Associativity: 12-way Set-associative
 
 Handle 0x0041, DMI type 16, 23 bytes
 Physical Memory Array
@@ -715,10 +715,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1333 MT/s
-	Manufacturer: Kingston
+	Manufacturer: 0215
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 99U5471-057.A00LF 
+	Part Number: CMV8GX3M1A1333C9  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 	Minimum Voltage: 1.5 V
@@ -731,7 +731,7 @@ Memory Device Mapped Address
 	Ending Address: 0x001FFFFFFFF
 	Range Size: 8 GB
 	Physical Device Handle: 0x0042
-	Memory Array Mapped Address Handle: 0x0048
+	Memory Array Mapped Address Handle: 0x0047
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
@@ -754,38 +754,17 @@ Handle 0x0045, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0041
 	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 8 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: ChannelB-DIMM0
 	Bank Locator: BANK 2
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 0215
-	Serial Number: --
-	Asset Tag: --
-	Part Number: CMV8GX3M1A1333C9  
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 1.5 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
+	Type: Unknown
+	Type Detail: None
 
-Handle 0x0046, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00200000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 8 GB
-	Physical Device Handle: 0x0045
-	Memory Array Mapped Address Handle: 0x0048
-	Partition Row Position: Unknown
-	Interleave Position: Unknown
-	Interleaved Data Depth: Unknown
-
-Handle 0x0047, DMI type 17, 40 bytes
+Handle 0x0046, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0041
 	Error Information Handle: Not Provided
@@ -799,34 +778,34 @@ Memory Device
 	Type: Unknown
 	Type Detail: None
 
-Handle 0x0048, DMI type 19, 31 bytes
+Handle 0x0047, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0041
 	Partition Width: 4
 
-Handle 0x004B, DMI type 136, 6 bytes
+Handle 0x004A, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 4B 00 00 00
+		88 06 4A 00 00 00
 
-Handle 0x004C, DMI type 131, 64 bytes
+Handle 0x004B, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 4C 00 31 00 00 00 00 00 00 00 00 00 00 00
+		83 40 4B 00 31 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 56 8C 00 00 00 00 01 00 00 00 00 00 09 00
 		BB 05 16 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
-Handle 0x004D, DMI type 13, 22 bytes
+Handle 0x004C, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x004E, DMI type 127, 4 bytes
+Handle 0x004D, DMI type 127, 4 bytes
 End Of Table
 

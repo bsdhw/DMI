@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-78 structures occupying 2946 bytes.
+78 structures occupying 2942 bytes.
 Table at 0x000EB560.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -681,7 +681,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
-	Voltage: 11.2 V
+	Voltage: 12.2 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2300 MHz
@@ -705,26 +705,26 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Kingston
+	Speed: 1600 MT/s
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Part Number: 16KTF51264HZ-1G6M1
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0043, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0042
 	Memory Array Mapped Address Handle: 0x0048
 	Partition Row Position: Unknown
@@ -751,26 +751,26 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0
 	Bank Locator: BANK 2
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Kingston
+	Speed: 1600 MT/s
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
+	Part Number: 16KTF51264HZ-1G6M1
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0046, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0045
 	Memory Array Mapped Address Handle: 0x0048
 	Partition Row Position: Unknown
@@ -794,8 +794,8 @@ Memory Device
 Handle 0x0048, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0040
 	Partition Width: 4
 

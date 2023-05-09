@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
-27 structures occupying 3118 bytes.
+27 structures occupying 3112 bytes.
 Table at 0x000F0000.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -78,8 +78,8 @@ Processor Information
 	Type: Central Processor
 	Family: Athlon 64
 	Manufacturer: AMD
-	ID: B2 0F 06 00 FF FB 8B 17
-	Signature: Family 15, Model 107, Stepping 2
+	ID: 62 0F 10 00 FF FB 8B 17
+	Signature: Family 16, Model 6, Stepping 2
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -104,8 +104,8 @@ Processor Information
 		SSE (Streaming SIMD extensions)
 		SSE2 (Streaming SIMD extensions 2)
 		HTT (Multi-threading)
-	Version: AMD Athlon(tm) Dual Core Processor 5200B
-	Voltage: 1.3 V
+	Version: AMD Athlon(tm) II X2 215 Processor
+	Voltage: 1.5 V
 	External Clock: 200 MHz
 	Max Speed: 3700 MHz
 	Current Speed: 2700 MHz
@@ -229,7 +229,7 @@ Memory Device
 	Manufacturer: 7F7F7F7F7F9B0000
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CT12864AA800.K8F  
+	Part Number: CT12864AA800.S8F  
 
 Handle 0x000E, DMI type 17, 27 bytes
 Memory Device
@@ -248,7 +248,7 @@ Memory Device
 	Manufacturer: 7F7F7F7F7F9B0000
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CT12864AA800.S8F  
+	Part Number: CT12864AA800.K8F  
 
 Handle 0x000F, DMI type 17, 27 bytes
 Memory Device
@@ -282,11 +282,6 @@ Memory Device
 	Bank Locator: Bank6/7
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: None
-	Serial Number: --
-	Asset Tag: --
-	Part Number: None
 
 Handle 0x0011, DMI type 19, 15 bytes
 Memory Array Mapped Address
@@ -341,8 +336,9 @@ System Configuration Options
 	Option 1:  
 
 Handle 0x0019, DMI type 209, 12 bytes
-HP BIOS PXE NIC PCI and MAC Information
-	NIC 1: PCI device 00:07.0, MAC address 18:AC:CD:81:24:00
+OEM-specific Type
+	Header and Data:
+		D1 0C 19 00 38 00 18 AC CD 81 24 00
 
 Handle 0x0017, DMI type 11, 5 bytes
 OEM Strings

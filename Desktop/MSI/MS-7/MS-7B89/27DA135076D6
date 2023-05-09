@@ -1,8 +1,9 @@
 # dmidecode 3.4
-Scanning /dev/mem for entry point.
+# SMBIOS entry point at 0xbdc0a000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-60 structures occupying 2519 bytes.
-Table at 0x000E6CF0.
+60 structures occupying 2524 bytes.
+Table at 0xBDC08000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
@@ -668,13 +669,13 @@ Handle 0x0038, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3701 M.2 WLAN/BT slot
 	Type: x1 PCI Express x1
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 5
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:20:01.0
+	Bus Address: 0000:00:1f.7
 
 Handle 0x0039, DMI type 41, 11 bytes
 Onboard Device
@@ -689,9 +690,9 @@ OEM-specific Type
 	Header and Data:
 		8F 10 3A 00 00 01 02 03 04 05 06 07 08 09 0A 0B
 	Strings:
-		VBIOS-0000
+		GOP1-[N/A]     
 		RAID-14.8.0.1042
-		PXEL1-v2.1.1.5
+		PXEU1-v1.1.0.4
 		AMI-AptioV
 		GSES-5/1
 		MsiFlash-18

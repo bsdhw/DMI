@@ -41,7 +41,7 @@ System Information
 	Version: 003
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Other
+	Wake-up Type: Power Switch
 	SKU Number: CF-30KAPAXAM
 	Family: CF30-3
 
@@ -324,9 +324,9 @@ On Board Device 3 Information
 
 Handle 0x0019, DMI type 11, 5 bytes
 OEM Strings
-	String 1: XzA3jF7dAXg93
-	String 2: Ua3Q-VLI9Np2L
-	String 3: f5aMpXvML0CWL
+	String 1: Y9gpY+0vtCU3k
+	String 2: QELPqMoKZQNY0
+	String 3: K2ptPEEeLSSUU
 
 Handle 0x001A, DMI type 12, 5 bytes
 System Configuration Options

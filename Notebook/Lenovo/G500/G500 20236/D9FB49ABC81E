@@ -166,8 +166,8 @@ Memory Module Information
 	Bank Connections: None
 	Current Speed: Unknown
 	Type: DIMM
-	Installed Size: 4096 MB (Single-bank Connection)
-	Enabled Size: 4096 MB (Single-bank Connection)
+	Installed Size: 2048 MB (Single-bank Connection)
+	Enabled Size: 2048 MB (Single-bank Connection)
 	Error Status: OK
 
 Handle 0x0007, DMI type 6, 12 bytes
@@ -176,8 +176,8 @@ Memory Module Information
 	Bank Connections: None
 	Current Speed: Unknown
 	Type: DIMM
-	Installed Size: 2048 MB (Single-bank Connection)
-	Enabled Size: 2048 MB (Single-bank Connection)
+	Installed Size: 4096 MB (Single-bank Connection)
+	Enabled Size: 4096 MB (Single-bank Connection)
 	Error Status: OK
 
 Handle 0x0008, DMI type 7, 19 bytes
@@ -525,32 +525,11 @@ Memory Device
 	Error Information Handle: 0x002B
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 2 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
 	Bank Locator: BANK 0
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Samsung
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M471B5273CH0-CH9  
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x002A, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x0028
-	Error Information Handle: 0x002C
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: SODIMM
-	Set: None
-	Locator: DIMM1
-	Bank Locator: BANK 2
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
@@ -559,6 +538,27 @@ Memory Device
 	Asset Tag: --
 	Part Number: SHARETRONIC
 	Rank: 1
+	Configured Memory Speed: 1333 MT/s
+
+Handle 0x002A, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x0028
+	Error Information Handle: 0x002C
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: SODIMM
+	Set: None
+	Locator: DIMM1
+	Bank Locator: BANK 2
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Samsung
+	Serial Number: --
+	Asset Tag: --
+	Part Number: M471B5273CH0-CH9  
+	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x002B, DMI type 18, 23 bytes
@@ -602,8 +602,8 @@ Memory Array Mapped Address
 Handle 0x002F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
 	Physical Device Handle: 0x0029
 	Memory Array Mapped Address Handle: 0x002E
 	Partition Row Position: Unknown
@@ -613,8 +613,8 @@ Memory Device Mapped Address
 Handle 0x0030, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x002A
 	Memory Array Mapped Address Handle: 0x002E
 	Partition Row Position: Unknown

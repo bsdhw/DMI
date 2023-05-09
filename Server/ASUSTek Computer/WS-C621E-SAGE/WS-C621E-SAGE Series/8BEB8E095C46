@@ -288,7 +288,7 @@ Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 2
 	Type: x16 PCI Express 3 x16
-	Current Usage: Unknown
+	Current Usage: In Use
 	Length: Long
 	ID: 2
 	Characteristics:

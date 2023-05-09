@@ -621,7 +621,7 @@ Handle 0x0038, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_2
 	Type: 32-bit PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 5
 	Characteristics:

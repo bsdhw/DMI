@@ -710,8 +710,8 @@ Handle 0x0043, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0042
 	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
+	Total Width: 8 bits
+	Data Width: 8 bits
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None

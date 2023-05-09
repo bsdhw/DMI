@@ -1,15 +1,15 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.2 present.
-76 structures occupying 4073 bytes.
+SMBIOS 3.1 present.
+81 structures occupying 4022 bytes.
 Table at 0x000E0000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: Dell Inc.
-	Version: 1.15.1
-	Release Date: 12/21/2021
+	Version: 1.1.1
+	Release Date: 06/12/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 10 MB
@@ -34,7 +34,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.15
+	BIOS Revision: 1.1
 	Firmware Revision: 1.0
 
 Handle 0x0001, DMI type 1, 27 bytes
@@ -90,11 +90,11 @@ OEM Strings
 	String 5: 14[1]
 	String 6: 15[11]
 	String 7: 21[Wyse Thin Client 5000 Series]
-	String 8: 22[2E0C41EECA20]
+	String 8: 22[2E0C41EECA42]
 	String 9: 23[010A0739]
 	String 10: 24[0201]
 	String 11: 25[0013]
-	String 12: 27[21266134886]
+	String 12: 27[34326828902]
 
 Handle 0x0009, DMI type 12, 5 bytes
 System Configuration Options
@@ -142,7 +142,7 @@ Memory Array Mapped Address
 	Physical Array Handle: 0x000B
 	Partition Width: 1
 
-Handle 0x000D, DMI type 17, 84 bytes
+Handle 0x000D, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x000B
 	Error Information Handle: Not Provided
@@ -156,7 +156,7 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 
-Handle 0x000F, DMI type 17, 84 bytes
+Handle 0x000F, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x000B
 	Error Information Handle: Not Provided
@@ -179,17 +179,6 @@ Memory Device
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Bank 46, Hex 0x80
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 8 GB
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x0010, DMI type 20, 35 bytes
 Memory Device Mapped Address
@@ -210,14 +199,14 @@ Handle 0x0012, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0016, DMI type 7, 27 bytes
+Handle 0x0016, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: CPU Internal L1
+	Socket Designation: ........CPU Internal L1
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 48830 GB
-	Maximum Size: 48830 GB
+	Installed Size: 224 kB
+	Maximum Size: 224 kB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -226,14 +215,14 @@ Cache Information
 	System Type: Other
 	Associativity: Other
 
-Handle 0x0017, DMI type 7, 27 bytes
+Handle 0x0017, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: CPU Internal L2
+	Socket Designation: ........CPU Internal L2
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 48830 GB
-	Maximum Size: 48830 GB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -302,11 +291,27 @@ Handle 0x0019, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
+	External Reference Designator: PS2Mouse
+	External Connector Type: PS/2
+	Port Type: Mouse Port
+
+Handle 0x001A, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: PS2Keyboard
+	External Connector Type: PS/2
+	Port Type: Keyboard Port
+
+Handle 0x001B, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
 	External Reference Designator: LAN
 	External Connector Type: RJ-45
 	Port Type: Network Port
 
-Handle 0x001A, DMI type 8, 9 bytes
+Handle 0x001C, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -314,7 +319,7 @@ Port Connector Information
 	External Connector Type: Other
 	Port Type: Video Port
 
-Handle 0x001B, DMI type 8, 9 bytes
+Handle 0x001D, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -322,7 +327,7 @@ Port Connector Information
 	External Connector Type: Other
 	Port Type: Video Port
 
-Handle 0x001C, DMI type 8, 9 bytes
+Handle 0x001E, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -330,7 +335,7 @@ Port Connector Information
 	External Connector Type: DB-9 male
 	Port Type: Serial Port 16550A Compatible
 
-Handle 0x001D, DMI type 8, 9 bytes
+Handle 0x001F, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -338,7 +343,7 @@ Port Connector Information
 	External Connector Type: DB-15 female
 	Port Type: Video Port
 
-Handle 0x001E, DMI type 8, 9 bytes
+Handle 0x0020, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -346,7 +351,7 @@ Port Connector Information
 	External Connector Type: Mini Jack (headphones)
 	Port Type: Audio Port
 
-Handle 0x001F, DMI type 8, 9 bytes
+Handle 0x0021, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
@@ -354,27 +359,11 @@ Port Connector Information
 	External Connector Type: Mini Jack (headphones)
 	Port Type: Audio Port
 
-Handle 0x0020, DMI type 8, 9 bytes
-Port Connector Information
-	Internal Reference Designator: Not Specified
-	Internal Connector Type: None
-	External Reference Designator: Rear USB 3.0
-	External Connector Type: Access Bus (USB)
-	Port Type: USB
-
-Handle 0x0021, DMI type 8, 9 bytes
-Port Connector Information
-	Internal Reference Designator: Not Specified
-	Internal Connector Type: None
-	External Reference Designator: Rear USB 3.0
-	External Connector Type: Access Bus (USB)
-	Port Type: USB
-
 Handle 0x0022, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
-	External Reference Designator: Rear USB 3.0
+	External Reference Designator: Rear USB 2.0
 	External Connector Type: Access Bus (USB)
 	Port Type: USB
 
@@ -382,11 +371,43 @@ Handle 0x0023, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: Not Specified
 	Internal Connector Type: None
-	External Reference Designator: Rear USB 3.0
+	External Reference Designator: Rear USB 2.0
 	External Connector Type: Access Bus (USB)
 	Port Type: USB
 
 Handle 0x0024, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Rear USB 2.0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0025, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Rear USB 2.0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0026, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Rear USB 3.0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0027, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: Not Specified
+	Internal Connector Type: None
+	External Reference Designator: Rear USB 3.0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0028, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: SATA0
 	Internal Connector Type: SAS/SATA Plug Receptacle
@@ -394,7 +415,31 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: SATA
 
-Handle 0x0025, DMI type 8, 9 bytes
+Handle 0x0029, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: SATA1
+	Internal Connector Type: SAS/SATA Plug Receptacle
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: SATA
+
+Handle 0x002A, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: SATA2
+	Internal Connector Type: SAS/SATA Plug Receptacle
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: SATA
+
+Handle 0x002B, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: SATA3
+	Internal Connector Type: SAS/SATA Plug Receptacle
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: SATA
+
+Handle 0x002C, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: FAN_CPU
 	Internal Connector Type: Other
@@ -402,7 +447,15 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: Other
 
-Handle 0x0026, DMI type 8, 9 bytes
+Handle 0x002D, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: FAN_SYS
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x002E, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: INTRUDER
 	Internal Connector Type: Other
@@ -410,7 +463,7 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: Other
 
-Handle 0x0027, DMI type 8, 9 bytes
+Handle 0x002F, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: INT_SPKR
 	Internal Connector Type: Other
@@ -418,7 +471,15 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: Other
 
-Handle 0x0028, DMI type 8, 9 bytes
+Handle 0x0030, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: THRM_2
+	Internal Connector Type: Other
+	External Reference Designator: Not Specified
+	External Connector Type: None
+	Port Type: Other
+
+Handle 0x0031, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: INT_USB
 	Internal Connector Type: Access Bus (USB)
@@ -426,7 +487,7 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: USB
 
-Handle 0x0029, DMI type 8, 9 bytes
+Handle 0x0032, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: FRONTPANEL
 	Internal Connector Type: Other
@@ -434,7 +495,7 @@ Port Connector Information
 	External Connector Type: Mini Jack (headphones)
 	Port Type: Audio Port
 
-Handle 0x002A, DMI type 8, 9 bytes
+Handle 0x0033, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: FRONTPANEL
 	Internal Connector Type: Other
@@ -442,7 +503,7 @@ Port Connector Information
 	External Connector Type: Mini Jack (headphones)
 	Port Type: Audio Port
 
-Handle 0x002B, DMI type 8, 9 bytes
+Handle 0x0034, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: FRONTPANEL
 	Internal Connector Type: Other
@@ -450,7 +511,7 @@ Port Connector Information
 	External Connector Type: Access Bus (USB)
 	Port Type: USB
 
-Handle 0x002C, DMI type 8, 9 bytes
+Handle 0x0035, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: FRONTPANEL
 	Internal Connector Type: Other
@@ -458,7 +519,7 @@ Port Connector Information
 	External Connector Type: Access Bus (USB)
 	Port Type: USB
 
-Handle 0x002D, DMI type 8, 9 bytes
+Handle 0x0036, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: USB3_FRONT
 	Internal Connector Type: Other
@@ -466,7 +527,15 @@ Port Connector Information
 	External Connector Type: Access Bus (USB)
 	Port Type: USB
 
-Handle 0x002E, DMI type 9, 17 bytes
+Handle 0x0037, DMI type 8, 9 bytes
+Port Connector Information
+	Internal Reference Designator: USB3_FRONT
+	Internal Connector Type: Other
+	External Reference Designator: Front USB 3.0
+	External Connector Type: Access Bus (USB)
+	Port Type: USB
+
+Handle 0x0038, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT1
 	Type: x1 PCI Express
@@ -478,7 +547,7 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:01:00.0
 
-Handle 0x002F, DMI type 9, 17 bytes
+Handle 0x0039, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT2_M.2
 	Type: x1 M.2 Socket 1-SD
@@ -489,25 +558,25 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:ff:1f.7
 
-Handle 0x0030, DMI type 10, 6 bytes
+Handle 0x003A, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Video
 	Status: Enabled
 	Description: "Intel HD Graphics"
 
-Handle 0x0031, DMI type 10, 6 bytes
+Handle 0x003B, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Ethernet
 	Status: Enabled
 	Description: NETWORK_NAME_STRING
 
-Handle 0x0032, DMI type 10, 6 bytes
+Handle 0x003C, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Sound
 	Status: Enabled
 	Description: AUDIO_NAME_STRING
 
-Handle 0x0033, DMI type 41, 11 bytes
+Handle 0x003D, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Intel HD Graphics
 	Type: Video
@@ -515,7 +584,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:02.0
 
-Handle 0x0034, DMI type 41, 11 bytes
+Handle 0x003E, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Intel LOM
 	Type: Ethernet
@@ -523,7 +592,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:13.0
 
-Handle 0x0035, DMI type 41, 11 bytes
+Handle 0x003F, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Intel HD Audio
 	Type: Sound
@@ -531,7 +600,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1b.0
 
-Handle 0x0036, DMI type 41, 11 bytes
+Handle 0x0040, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard SATA #1
 	Type: SATA Controller
@@ -539,23 +608,13 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1f.2
 
-Handle 0x0037, DMI type 41, 11 bytes
+Handle 0x0041, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard SATA #2
 	Type: SATA Controller
 	Status: Disabled
 	Type Instance: 2
 	Bus Address: 0000:00:1f.5
-
-Handle 0x0038, DMI type 43, 31 bytes
-TPM Device
-	Vendor ID: CTNI
-	Specification Version: 2.0
-	Firmware Revision: 403.0
-	Description: INTEL
-	Characteristics:
-		Family configurable via platform software support
-	OEM-specific Information: 0x00000000
 
 Handle 0x1B00, DMI type 27, 15 bytes
 Cooling Device
@@ -592,19 +651,6 @@ Temperature Probe
 	OEM-specific Information: 0x0000DC01
 	Nominal Value: 10.0 deg C
 
-Handle 0x1C02, DMI type 28, 22 bytes
-Temperature Probe
-	Description: Memory Module
-	Location: Motherboard
-	Status: OK
-	Maximum Value: 127.0 deg C
-	Minimum Value: -127.0 deg C
-	Resolution: 1.000 deg C
-	Tolerance: Unknown
-	Accuracy: Unknown
-	OEM-specific Information: 0x0000DC02
-	Nominal Value: 10.0 deg C
-
 Handle 0xB100, DMI type 177, 12 bytes
 OEM-specific Type
 	Header and Data:
@@ -628,7 +674,7 @@ OEM-specific Type
 		D0 10 00 D0 03 0A FE 00 0C 08 01 02 00 00 00 00
 	Strings:
 		20181104
-		20120101
+		20181219
 
 Handle 0xD100, DMI type 209, 12 bytes
 OEM-specific Type
@@ -709,64 +755,65 @@ OEM-specific Type
 		00 66 02 66 02 01 00 67 02 67 02 00 00 68 02 68
 		02 01 00 69 02 69 02 00 00 6C 02 6C 02 01 00 6D
 		02 6D 02 00 00 6E 02 6E 02 00 00 A7 02 A7 02 01
-		00 A8 02 A8 02 00 00 BD 02 BD 02 01 00 BE 02 BE
-		02 00 00 CD 02 CD 02 01 00 D8 02 D8 02 FF FF D9
-		02 D9 02 FF FF FF FF FF FF 00 00
+		00 A8 02 A8 02 00 00 B9 02 B9 02 01 00 BA 02 BA
+		02 00 00 BD 02 BD 02 01 00 BE 02 BE 02 00 00 CD
+		02 CD 02 01 00 FF FF FF FF 00 00
 
 Handle 0xDA03, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 03 DA B2 00 04 EF 1E B6 04 DA 02 DA 02 FF
-		FF DB 02 DB 02 FF FF DC 02 DC 02 FF FF DD 02 DD
-		02 FF FF DE 02 DE 02 FF FF DF 02 DF 02 FF FF E3
-		02 E3 02 01 00 E4 02 E4 02 00 00 E5 02 E5 02 01
-		00 FD 02 FD 02 01 00 FE 02 FE 02 00 00 0F 03 0F
-		03 02 00 12 03 12 03 03 00 13 03 13 03 01 00 14
-		03 14 03 00 00 15 03 15 03 01 00 16 03 16 03 00
-		00 17 03 17 03 01 00 18 03 18 03 00 00 19 03 19
-		03 01 00 1A 03 1A 03 00 00 1B 03 1B 03 01 00 1C
-		03 1C 03 00 00 1D 03 1D 03 01 00 1E 03 1E 03 00
-		00 1F 03 1F 03 01 00 20 03 20 03 00 00 26 03 26
-		03 01 00 48 03 48 03 05 00 4F 03 4F 03 01 00 50
-		03 50 03 00 00 57 03 57 03 00 00 58 03 58 03 01
-		00 61 03 61 03 01 00 62 03 62 03 00 00 66 03 66
-		03 00 00 67 03 67 03 01 00 6F 03 6F 03 FF FF 78
-		03 78 03 01 00 FF FF FF FF 00 00
+		DA FB 03 DA B2 00 04 EF 1E B6 04 D8 02 D8 02 FF
+		FF D9 02 D9 02 FF FF DA 02 DA 02 FF FF DB 02 DB
+		02 FF FF DC 02 DC 02 FF FF DD 02 DD 02 FF FF DE
+		02 DE 02 FF FF DF 02 DF 02 FF FF E3 02 E3 02 01
+		00 E4 02 E4 02 00 00 E5 02 E5 02 01 00 FD 02 FD
+		02 01 00 FE 02 FE 02 00 00 0F 03 0F 03 02 00 12
+		03 12 03 03 00 13 03 13 03 01 00 14 03 14 03 00
+		00 15 03 15 03 01 00 16 03 16 03 00 00 17 03 17
+		03 01 00 18 03 18 03 00 00 19 03 19 03 01 00 1A
+		03 1A 03 00 00 1B 03 1B 03 01 00 1C 03 1C 03 00
+		00 1D 03 1D 03 01 00 1E 03 1E 03 00 00 1F 03 1F
+		03 01 00 20 03 20 03 00 00 25 03 25 03 01 00 26
+		03 26 03 01 00 48 03 48 03 05 00 4F 03 4F 03 01
+		00 50 03 50 03 00 00 57 03 57 03 00 00 58 03 58
+		03 01 00 61 03 61 03 01 00 62 03 62 03 00 00 66
+		03 66 03 00 00 FF FF FF FF 00 00
 
 Handle 0xDA04, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 04 DA B2 00 04 EF 1E B6 04 79 03 79 03 00
-		00 83 03 83 03 07 00 95 03 95 03 01 00 96 03 96
-		03 00 00 BE 03 BE 03 FF FF C6 03 C6 03 00 00 C7
-		03 C7 03 01 00 C8 03 C8 03 02 00 C9 03 C9 03 01
-		00 CA 03 CA 03 00 00 CB 03 CB 03 FF FF E2 03 E2
-		03 00 00 E3 03 E3 03 01 00 E4 03 E4 03 00 00 E5
-		03 E5 03 01 00 E6 03 E6 03 00 00 E7 03 E7 03 01
-		00 E8 03 E8 03 00 00 E9 03 E9 03 01 00 F6 03 F6
-		03 01 00 F7 03 F7 03 00 00 1A 04 1A 04 01 00 1B
-		04 1B 04 00 00 1E 04 1E 04 01 00 1F 04 1F 04 00
-		00 20 04 20 04 FF FF 2B 04 2B 04 FF FF 31 04 31
-		04 FF FF 32 04 32 04 01 00 33 04 33 04 00 00 36
-		04 36 04 01 00 37 04 37 04 00 00 4B 04 4B 04 01
-		00 4C 04 4C 04 00 00 61 04 61 04 01 00 62 04 62
-		04 00 00 7F 04 7F 04 02 00 80 04 80 04 01 00 81
-		04 81 04 00 00 FF FF FF FF 00 00
+		DA FB 04 DA B2 00 04 EF 1E B6 04 67 03 67 03 01
+		00 6F 03 6F 03 FF FF 78 03 78 03 01 00 79 03 79
+		03 00 00 83 03 83 03 07 00 BE 03 BE 03 FF FF C6
+		03 C6 03 00 00 C7 03 C7 03 01 00 C8 03 C8 03 02
+		00 C9 03 C9 03 01 00 CA 03 CA 03 00 00 CB 03 CB
+		03 FF FF E2 03 E2 03 00 00 E3 03 E3 03 01 00 E4
+		03 E4 03 00 00 E5 03 E5 03 01 00 E6 03 E6 03 00
+		00 E7 03 E7 03 01 00 E8 03 E8 03 00 00 E9 03 E9
+		03 01 00 F6 03 F6 03 01 00 F7 03 F7 03 00 00 1A
+		04 1A 04 01 00 1B 04 1B 04 00 00 1E 04 1E 04 01
+		00 1F 04 1F 04 00 00 20 04 20 04 FF FF 2B 04 2B
+		04 FF FF 31 04 31 04 FF FF 32 04 32 04 01 00 33
+		04 33 04 00 00 36 04 36 04 01 00 37 04 37 04 00
+		00 4B 04 4B 04 01 00 4C 04 4C 04 00 00 61 04 61
+		04 01 00 62 04 62 04 00 00 7F 04 7F 04 02 00 80
+		04 80 04 01 00 FF FF FF FF 00 00
 
-Handle 0xDA05, DMI type 218, 173 bytes
+Handle 0xDA05, DMI type 218, 185 bytes
 OEM-specific Type
 	Header and Data:
-		DA AD 05 DA B2 00 04 EF 1E B6 04 87 04 87 04 01
-		00 88 04 88 04 00 00 98 04 98 04 FF FF 9E 04 9E
-		04 01 00 9F 04 9F 04 00 00 D9 04 D9 04 00 00 DA
-		04 DA 04 05 00 DB 04 DB 04 07 00 E6 04 E6 04 01
-		00 E7 04 E7 04 00 00 EC 04 EC 04 01 00 ED 04 ED
-		04 00 00 00 05 00 05 FF FF 7C 05 7C 05 01 00 7D
-		05 7D 05 00 00 4A 40 4A 40 01 00 4B 40 4B 40 00
-		00 4C 40 4C 40 FF FF 00 80 00 80 00 00 02 80 02
-		80 02 00 03 80 03 80 03 00 0E 80 0E 80 01 00 12
-		80 12 80 FF FF 13 80 13 80 00 00 14 80 14 80 00
-		00 00 A0 00 A0 01 00 FF FF FF FF 00 00
+		DA B9 05 DA B2 00 04 EF 1E B6 04 81 04 81 04 00
+		00 87 04 87 04 01 00 88 04 88 04 00 00 98 04 98
+		04 FF FF 9C 04 9C 04 01 00 9D 04 9D 04 00 00 9E
+		04 9E 04 01 00 9F 04 9F 04 00 00 D9 04 D9 04 00
+		00 DA 04 DA 04 05 00 DB 04 DB 04 07 00 E6 04 E6
+		04 01 00 E7 04 E7 04 00 00 EC 04 EC 04 01 00 ED
+		04 ED 04 00 00 00 05 00 05 FF FF 4A 40 4A 40 01
+		00 4B 40 4B 40 00 00 4C 40 4C 40 FF FF 00 80 00
+		80 00 00 02 80 02 80 02 00 03 80 03 80 03 00 0D
+		80 0D 80 00 00 0E 80 0E 80 01 00 12 80 12 80 FF
+		FF 13 80 13 80 00 00 14 80 14 80 00 00 00 A0 00
+		A0 01 00 FF FF FF FF 00 00
 
 Handle 0xDC00, DMI type 220, 22 bytes
 OEM-specific Type
@@ -780,12 +827,6 @@ OEM-specific Type
 		DC 16 01 DC 10 F1 00 00 12 F1 00 00 00 00 00 00
 		00 00 00 00 00 00
 
-Handle 0xDC02, DMI type 220, 22 bytes
-OEM-specific Type
-	Header and Data:
-		DC 16 02 DC 20 F1 00 00 22 F1 00 00 00 00 00 00
-		00 00 00 00 00 00
-
 Handle 0xDD00, DMI type 221, 19 bytes
 OEM-specific Type
 	Header and Data:
@@ -795,48 +836,17 @@ OEM-specific Type
 Handle 0xDE00, DMI type 222, 16 bytes
 OEM-specific Type
 	Header and Data:
-		DE 10 00 DE 01 04 00 00 22 01 25 14 34 01 00 00
+		DE 10 00 DE 01 04 00 00 18 11 04 16 08 01 00 00
 
-Handle 0xF024, DMI type 218, 65 bytes
+Handle 0xF022, DMI type 218, 53 bytes
 OEM-specific Type
 	Header and Data:
-		DA 41 24 F0 B2 00 04 EF 1E B6 04 00 F1 00 F1 01
+		DA 35 22 F0 B2 00 04 EF 1E B6 04 00 F1 00 F1 01
 		00 02 F1 02 F1 01 00 10 F1 10 F1 01 00 12 F1 12
-		F1 01 00 20 F1 20 F1 01 00 22 F1 22 F1 01 00 00
-		F6 00 F6 01 00 01 F6 01 F6 01 00 FF FF FF FF 00
-		00
+		F1 01 00 00 F6 00 F6 01 00 01 F6 01 F6 01 00 FF
+		FF FF FF 00 00
 
-Handle 0xF025, DMI type 9, 19 bytes
-System Slot Information
-	Designation: J7H1
-	Type: x4 PCI Express 2 x4
-	Current Usage: In Use
-	Length: Short
-	ID: 0
-	Characteristics:
-		3.3 V is provided
-		Opening is shared
-		PME signal is supported
-	Bus Address: 0000:00:13.0
-	Data Bus Width: 10
-	Peer Devices: 0
-
-Handle 0xF026, DMI type 9, 19 bytes
-System Slot Information
-	Designation: J8H1
-	Type: x2 PCI Express 2 x2
-	Current Usage: In Use
-	Length: Short
-	ID: 1
-	Characteristics:
-		3.3 V is provided
-		Opening is shared
-		PME signal is supported
-	Bus Address: 0000:00:14.0
-	Data Bus Width: 9
-	Peer Devices: 0
-
-Handle 0xF033, DMI type 13, 22 bytes
+Handle 0xF02F, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 2
@@ -844,6 +854,6 @@ BIOS Language Information
 		<BAD INDEX>
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0xF034, DMI type 127, 4 bytes
+Handle 0xF030, DMI type 127, 4 bytes
 End Of Table
 

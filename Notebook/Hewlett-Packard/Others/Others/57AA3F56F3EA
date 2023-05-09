@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 # SMBIOS entry point at 0xbc66d518
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
@@ -260,11 +260,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
 
 Handle 0x0007, DMI type 17, 27 bytes
 Memory Device

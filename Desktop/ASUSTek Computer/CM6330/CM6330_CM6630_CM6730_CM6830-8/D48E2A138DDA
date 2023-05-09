@@ -372,14 +372,14 @@ Handle 0x001E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
 	Type: 32-bit PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 3
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:1c.1
+	Bus Address: 0000:08:1c.1
 
 Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
@@ -392,7 +392,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:0a:1c.4
+	Bus Address: 0000:0f:1c.4
 
 Handle 0x0020, DMI type 10, 6 bytes
 On Board Device Information
