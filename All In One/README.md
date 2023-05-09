@@ -28,6 +28,8 @@ Report - link to DMI report.
 | Intel      | Core 2 Duo P7350                 | 2.00 | 2     | [89C4A7761383](<All In One/Apple/iMac9/iMac9,1/89C4A7761383>) |
 | Intel      | Core i5-4570                     | 3.20 | 2     | [07EF6154280E](<All In One/Apple/iMac14/iMac14,2/07EF6154280E>) |
 | Intel      | Core i3-6100U                    | 2.30 | 2     | [39C749CF5A44](<All In One/Hewlett-Packard/24/24-g038ur/39C749CF5A44>) |
+| Intel      | Core i5-6400T                    | 2.20 | 2     | [06CA92B9DB46](<All In One/Hewlett-Packard/24/24-b011/06CA92B9DB46>) |
+| AMD        | A6-6310 APU with AMD Radeon R... |      | 1     | [2299CBD87AC5](<All In One/Lenovo/C/C455/2299CBD87AC5>) |
 | AMD        | A6-9225 RADEON R4, 5 COMPUTE ... |      | 1     | [19C72E266C63](<All In One/Hewlett-Packard/All-in-One/All-in-One 22-c0xx/19C72E266C63>) |
 | AMD        | Ryzen 5 2400G with Radeon Veg... |      | 1     | [D760EDFD13FF](<All In One/Acidanthera/iMacPro1/iMacPro1,1/D760EDFD13FF>) |
 | AMD        | Ryzen 5 2600 Six-Core            |      | 1     | [7BDC1EF97D67](<All In One/Acidanthera/iMacPro1/iMacPro1,1/7BDC1EF97D67>) |
@@ -53,12 +55,13 @@ Report - link to DMI report.
 | Intel      | Core i5 760                      | 2.80 | 1     | [AFD49E659ABF](<All In One/Apple/iMac11/iMac11,3/AFD49E659ABF>) |
 | Intel      | Celeron 847                      | 1.10 | 1     | [9B09D62159BE](<All In One/ASUSTek Computer/EB/EB1035/9B09D62159BE>) |
 | Intel      | Core i3-3220                     | 3.30 | 1     | [1B8E9987FB7C](<All In One/ASUSTek Computer/ET2411/ET2411_W8/1B8E9987FB7C>) |
+| Intel      | Core i3-3220T                    | 2.80 | 1     | [1E938EA9FD29](<All In One/Samsung Electronics/DP700/DP700A3D-DM700A3D-DB701A3D-DP700A7D/1E938EA9FD29>) |
 | Intel      | Core i3-3240                     | 3.40 | 1     | [391A896A775D](<All In One/Lenovo/C440/C440 10104/391A896A775D>) |
 | Intel      | Core i5-3470T                    | 2.90 | 1     | [98696D6B8472](<All In One/Samsung Electronics/DP700/DP700A3D-DM700A3D-DB701A3D-DP700A7D/98696D6B8472>) |
+| Intel      | Core i7-3630QM                   | 2.40 | 1     | [4DF0035923F6](<All In One/Sony/SVL2412/SVL2412Z1EB/4DF0035923F6>) |
 | Intel      | Core i5-4670S                    | 3.10 | 1     | [0790B41B771D](<All In One/Hewlett-Packard/EliteOne/EliteOne 800 G1 AiO/0790B41B771D>) |
 | Intel      | Core i7-4770                     | 3.40 | 1     | [CBF8089199B1](<All In One/Acidanthera/iMac15/iMac15,1/CBF8089199B1>) |
 | Intel      | Core i3-6100T                    | 3.20 | 1     | [E5BBD8484B41](<All In One/Lenovo/SKYBAY/SKYBAY 31900002 WIN 1801931923964/E5BBD8484B41>) |
-| Intel      | Core i5-6400T                    | 2.20 | 1     | [84BEF77142E1](<All In One/Lenovo/IdeaCentre/IdeaCentre AIO 700-22ISH F0BF000WGE/84BEF77142E1>) |
 | Intel      | Core i5-6500                     | 3.20 | 1     | [465559F6AD83](<All In One/Apple/iMac17/iMac17,1/465559F6AD83>) |
 | Intel      | Core i5-2400                     | 3.10 | 1     | [CE2CF674E0E5](<All In One/Apple/iMac12/iMac12,2/CE2CF674E0E5>) |
 | Intel      | Core i5-2500S                    | 2.70 | 1     | [E13BF4839DA0](<All In One/Apple/iMac12/iMac12,1/E13BF4839DA0>) |
@@ -76,7 +79,8 @@ Report - link to DMI report.
 | Samsung    | Module SODIMM                | 2048 MB  | DDR3 | 1333 | 2     | [E13BF4839DA0](<All In One/Apple/iMac12/iMac12,1/E13BF4839DA0>) |
 | SK hynix   | HMA81GS6CJR8N-VK SODIMM      | 8 GB     | DDR4 | 2667 | 2     | [845B0BD08F32](<All In One/Dell/OptiPlex/OptiPlex 7770 AIO/845B0BD08F32>) |
 |            | Module SODIMM                | 2 GB     | DDR2 | 667  | 1     | [2E792D0292F0](<All In One/Apple/iMac7/iMac7,1/2E792D0292F0>) |
-|            | 123456789012345678 DIMM L... | 1536 MB  |      | 2400 | 1     | [743D0EBF8EF3](<All In One/Others/TJ41G-A80/TJ41G-A80 v2 Series/743D0EBF8EF3>) |
+|            | 123456789012345678 DIMM      | 4 GB     | DDR4 | 2400 | 1     | [743D0EBF8EF3](<All In One/Others/TJ41G-A80/TJ41G-A80 v2 Series/743D0EBF8EF3>) |
+| A-DATA     | AD73I1C1674EV SODIMM         | 4 GB     | DDR3 | 1333 | 1     | [1E938EA9FD29](<All In One/Samsung Electronics/DP700/DP700A3D-DM700A3D-DB701A3D-DP700A7D/1E938EA9FD29>) |
 | A-DATA     | AM1P24HC4R1-BUNS SODIMM      | 4 GB     | DDR4 | 2133 | 1     | [2B3FD03F8476](<All In One/MSI/KBL-U/KBL-U Pro PRO24X/2B3FD03F8476>) |
 | A-DATA     | AM1U16BC4P2-B19C SODIMM      | 4 GB     | DDR3 | 1600 | 1     | [98696D6B8472](<All In One/Samsung Electronics/DP700/DP700A3D-DM700A3D-DB701A3D-DP700A7D/98696D6B8472>) |
 | Avant      | Module SODIMM                | 4 GB     | DDR3 | 1067 | 1     | [459A03988F01](<All In One/Apple/iMac9/iMac9,1/459A03988F01>) |
@@ -85,6 +89,7 @@ Report - link to DMI report.
 | Corsair    | Module SODIMM                | 4 GB     | DDR3 | 1333 | 1     | [CE2CF674E0E5](<All In One/Apple/iMac12/iMac12,2/CE2CF674E0E5>) |
 | Crucial    | CT4G4SFS8213.C8FBD1 SODIMM   | 4 GB     | DDR4 | 2133 | 1     | [84BEF77142E1](<All In One/Lenovo/IdeaCentre/IdeaCentre AIO 700-22ISH F0BF000WGE/84BEF77142E1>) |
 | Crucial    | CT51264BD160BJ.C8F DIMM      | 4 GB     | DDR3 | 1600 | 1     | [CBF8089199B1](<All In One/Acidanthera/iMac15/iMac15,1/CBF8089199B1>) |
+| Elpida     | EBJ81UG8EFU0-GN-F SODIMM     | 8 GB     | DDR3 | 1600 | 1     | [2299CBD87AC5](<All In One/Lenovo/C/C455/2299CBD87AC5>) |
 | Elpida     | Module SODIMM                | 4096 MB  | DDR3 | 1600 | 1     | [9FFA83A419BC](<All In One/Apple/iMac13/iMac13,2/9FFA83A419BC>) |
 | Elpida     | Module SODIMM                | 4 GB     | DDR3 | 1600 | 1     | [07EF6154280E](<All In One/Apple/iMac14/iMac14,2/07EF6154280E>) |
 | GOODRAM    | GR2133S464L15S/8G SODIMM     | 8 GB     | DDR4 | 2133 | 1     | [19C72E266C63](<All In One/Hewlett-Packard/All-in-One/All-in-One 22-c0xx/19C72E266C63>) |
@@ -107,11 +112,14 @@ Report - link to DMI report.
 | Patriot    | 1600 CL9 Series DIMM         | 8 GB     | DDR3 | 1600 | 1     | [EC96C3DF5397](<All In One/Acidanthera/iMac15/iMac15,1/EC96C3DF5397>) |
 |            | Module DIMM                  | 1 GB     | DDR2 | 667  | 1     | [6DA923511077](<All In One/Apple/iMac5/iMac5,1/6DA923511077>) |
 |            | Module SODIMM                | 4 GB     | DDR3 | 1067 | 1     | [797E25488CC3](<All In One/Apple/iMac9/iMac9,1/797E25488CC3>) |
+|            | Module SODIMM                | 8 GB     | DDR3 |      | 1     | [4DF0035923F6](<All In One/Sony/SVL2412/SVL2412Z1EB/4DF0035923F6>) |
 | Ramaxel    | RMT3170EB68F9W1600 SODIMM    | 4 GB     | DDR3 | 1600 | 1     | [391A896A775D](<All In One/Lenovo/C440/C440 10104/391A896A775D>) |
+| Samsung    | M471A1K43BB0-CPB SODIMM      | 8 GB     | DDR4 | 2133 | 1     | [06CA92B9DB46](<All In One/Hewlett-Packard/24/24-b011/06CA92B9DB46>) |
 | Samsung    | M471A1K43CB1-CTD SODIMM      | 8 GB     | DDR4 | 2667 | 1     | [845B0BD08F32](<All In One/Dell/OptiPlex/OptiPlex 7770 AIO/845B0BD08F32>) |
 | Samsung    | M471A5143EB0-CPB SODIMM      | 4 GB     | DDR4 | 2133 | 1     | [84BEF77142E1](<All In One/Lenovo/IdeaCentre/IdeaCentre AIO 700-22ISH F0BF000WGE/84BEF77142E1>) |
 | Samsung    | M471B5173DB0-YK0 SODIMM      | 4 GB     | DDR3 | 1600 | 1     | [0790B41B771D](<All In One/Hewlett-Packard/EliteOne/EliteOne 800 G1 AiO/0790B41B771D>) |
 | Samsung    | M471B5173QH0-YK0 SODIMM      | 4 GB     | DDR3 | 1600 | 1     | [D5FAD644929A](<All In One/Dell/Inspiron/Inspiron 24-3459/D5FAD644929A>) |
+| Samsung    | M471B5273EB0-CK0 SODIMM      | 4 GB     | DDR3 | 1600 | 1     | [1E938EA9FD29](<All In One/Samsung Electronics/DP700/DP700A3D-DM700A3D-DB701A3D-DP700A7D/1E938EA9FD29>) |
 | Samsung    | Module DIMM                  | 2 GB     | DDR2 | 667  | 1     | [DDA67C88D07F](<All In One/Apple/iMac5/iMac5,1/DDA67C88D07F>) |
 | Samsung    | Module SODIMM                | 2 GB     | DDR2 | 667  | 1     | [F31079EF6FED](<All In One/Apple/iMac7/iMac7,1/F31079EF6FED>) |
 | Samsung    | Module SODIMM                | 4096 MB  | DDR3 | 1333 | 1     | [E13BF4839DA0](<All In One/Apple/iMac12/iMac12,1/E13BF4839DA0>) |
