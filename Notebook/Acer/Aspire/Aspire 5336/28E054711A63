@@ -1,8 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
 39 structures occupying 1681 bytes.
-Table at 0x000E7A50.
+Table at 0x000E7D70.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information

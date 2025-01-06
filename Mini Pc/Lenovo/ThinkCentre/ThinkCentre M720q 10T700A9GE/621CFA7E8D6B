@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 # SMBIOS entry point at 0x3b8b4000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -880,7 +880,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-9400T CPU @ 1.80GHz
-	Voltage: 0.7 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 3400 MHz
 	Current Speed: 1800 MHz
@@ -1125,7 +1125,7 @@ Group Associations
 Handle 0x0065, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 65 00 01 04 01 55 02 00 90 06 81 10 89 30
+		DB 6A 65 00 01 04 01 55 02 00 90 06 81 10 80 30
 		00 00 00 00 40 00 00 00 00 00 00 04 00 00 80 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

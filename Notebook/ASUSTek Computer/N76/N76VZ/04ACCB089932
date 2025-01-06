@@ -1,6 +1,5 @@
 # dmidecode 3.4
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 23 structures occupying 1696 bytes.
 Table at 0x000EBA60.
@@ -8,8 +7,8 @@ Table at 0x000EBA60.
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: N76VZ.213
-	Release Date: 11/02/2012
+	Version: N76VZ.214
+	Release Date: 07/09/2013
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 6 MB
@@ -128,9 +127,9 @@ On Board Device 11 Information
 
 Handle 0x0005, DMI type 11, 5 bytes
 OEM Strings
-	String 1: PsqentVo4d4tO
-	String 2: t7Fs60Z51Hk75
-	String 3: a6YjQZQr2PGBb
+	String 1: UpMbGdcWEl9Nt
+	String 2: 3EuTmhmCsP-gV
+	String 3: 1YtuOsanYjG+W
 	String 4: 90NAJC554R3374VM73HY
 	String 5:  
 	String 6:  
@@ -245,7 +244,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
-	Voltage: 2.9 V
+	Voltage: 3.3 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2300 MHz
@@ -367,7 +366,7 @@ Handle 0x0018, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
 		83 40 18 00 31 00 00 00 00 00 00 00 00 00 00 00
-		F8 00 59 1E 00 00 00 00 01 20 00 00 00 00 08 00
+		F8 00 59 1E FF FF FF FF 01 20 00 00 00 00 08 00
 		B8 05 0A 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 66 00 00 00 76 50 72 6F 00 00 00 00
 

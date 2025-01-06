@@ -1,15 +1,15 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x000f05e0
+# dmidecode 3.4
+# SMBIOS entry point at 0xa2edec98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 53 structures occupying 2779 bytes.
-Table at 0xA2EDB000.
+Table at 0xA2EDA000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Intel Corporation
-	Version: RYBDWi35.86A.0383.2019.1030.1528
-	Release Date: 10/30/2019
+	Version: RYBDWi35.86A.0385.2020.0519.1558
+	Release Date: 05/19/2020
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 6528 kB
@@ -216,7 +216,7 @@ System Slot Information
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:03:1c.0
+	Bus Address: 0000:02:1c.0
 
 Handle 0x0015, DMI type 10, 18 bytes
 On Board Device 1 Information
@@ -241,11 +241,11 @@ On Board Device 5 Information
 	Description: NFC Device
 On Board Device 6 Information
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Description: Intel WIFI
 On Board Device 7 Information
 	Type: Other
-	Status: Disabled
+	Status: Enabled
 	Description: TPM Device
 
 Handle 0x0016, DMI type 11, 5 bytes
@@ -304,7 +304,7 @@ Handle 0x001E, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Intel WIFI
 	Type: Other
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
 	Bus Address: 0000:27:01.0
 
@@ -541,7 +541,7 @@ OEM-specific Type
 		DD 36 2C 00 07 01 00 02 09 00 00 00 02 00 02 09
 		00 00 00 03 00 02 09 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 09 00 07 00 FF FF FF 09 00 08
-		00 FF FF FF 00 00
+		00 FF FF FF FF FF
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC

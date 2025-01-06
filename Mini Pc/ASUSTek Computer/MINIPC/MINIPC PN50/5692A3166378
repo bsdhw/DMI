@@ -1,15 +1,15 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xcd005000
+# dmidecode 3.5
+# SMBIOS entry point at 0xcd006000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-43 structures occupying 2061 bytes.
-Table at 0xCD002000.
+69 structures occupying 2701 bytes.
+Table at 0xCD003000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: ASUSTeK COMPUTER INC.
-	Version: 0409
-	Release Date: 06/30/2020
+	Version: 0623
+	Release Date: 05/13/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -33,13 +33,13 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 4.9
+	BIOS Revision: 6.23
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
 	Manufacturer: ASUSTeK COMPUTER INC.
 	Product Name: MINIPC PN50
-	Version: 0409
+	Version: 0623
 	Serial Number: --
 	UUID: --
 	Wake-up Type: Power Switch
@@ -240,7 +240,185 @@ Handle 0x0018, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0019, DMI type 41, 11 bytes
+Handle 0x0019, DMI type 34, 11 bytes
+Management Device
+	Description: ITE IT8225
+	Type: Other
+	Address: 0x00000270
+	Address Type: I/O Port
+
+Handle 0x001A, DMI type 26, 22 bytes
+Voltage Probe
+	Description: CPU Voltage
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x001B, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x001C, DMI type 35, 11 bytes
+Management Device Component
+	Description: CPU Voltage
+	Management Device Handle: 0x0019
+	Component Handle: 0x001A
+	Threshold Handle: 0x001B
+
+Handle 0x001D, DMI type 28, 22 bytes
+Temperature Probe
+	Description: MB TEMPERATURE
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x001E, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x001F, DMI type 35, 11 bytes
+Management Device Component
+	Description: MB TEMPERATURE
+	Management Device Handle: 0x0019
+	Component Handle: 0x001D
+	Threshold Handle: 0x001E
+
+Handle 0x0020, DMI type 27, 15 bytes
+Cooling Device
+	Temperature Probe Handle: 0x001D
+	Type: Fan
+	Status: OK
+	Cooling Unit Group: 1
+	OEM-specific Information: 0x00000000
+	Nominal Speed: 1440 rpm
+	Description: CPU FAN
+
+Handle 0x0021, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x0022, DMI type 35, 11 bytes
+Management Device Component
+	Description: Default string
+	Management Device Handle: 0x0019
+	Component Handle: 0x0020
+	Threshold Handle: 0x0021
+
+Handle 0x0023, DMI type 28, 22 bytes
+Temperature Probe
+	Description: CPU TEMPERATURE
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x0024, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x0025, DMI type 35, 11 bytes
+Management Device Component
+	Description: CPU TEMPERATURE
+	Management Device Handle: 0x0019
+	Component Handle: 0x0023
+	Threshold Handle: 0x0024
+
+Handle 0x0026, DMI type 28, 22 bytes
+Temperature Probe
+	Description: M.2 TEMPERATURE
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x0027, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x0028, DMI type 35, 11 bytes
+Management Device Component
+	Description: M.2 TEMPERATURE
+	Management Device Handle: 0x0019
+	Component Handle: 0x0026
+	Threshold Handle: 0x0027
+
+Handle 0x0029, DMI type 28, 22 bytes
+Temperature Probe
+	Description: VCORE TEMPERATURE
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x002A, DMI type 36, 16 bytes
+Management Device Threshold Data
+	Lower Non-critical Threshold: 1
+	Upper Non-critical Threshold: 2
+	Lower Critical Threshold: 3
+	Upper Critical Threshold: 4
+	Lower Non-recoverable Threshold: 5
+	Upper Non-recoverable Threshold: 6
+
+Handle 0x002B, DMI type 35, 11 bytes
+Management Device Component
+	Description: VCORE TEMPERATURE
+	Management Device Handle: 0x0019
+	Component Handle: 0x0029
+	Threshold Handle: 0x002A
+
+Handle 0x002C, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard IGD
 	Type: Video
@@ -248,7 +426,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:02.0
 
-Handle 0x001A, DMI type 41, 11 bytes
+Handle 0x002D, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard LAN
 	Type: Ethernet
@@ -256,7 +434,15 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:19.0
 
-Handle 0x001B, DMI type 18, 23 bytes
+Handle 0x002E, DMI type 129, 8 bytes
+OEM-specific Type
+	Header and Data:
+		81 08 2E 00 01 01 02 01
+	Strings:
+		Intel_ASF
+		Intel ASF_001
+
+Handle 0x002F, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -266,24 +452,24 @@ Handle 0x001B, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x001C, DMI type 16, 23 bytes
+Handle 0x0030, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
 	Maximum Capacity: 32 GB
-	Error Information Handle: 0x001B
+	Error Information Handle: 0x002F
 	Number Of Devices: 2
 
-Handle 0x001D, DMI type 19, 31 bytes
+Handle 0x0031, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 64 GB
-	Physical Array Handle: 0x001C
+	Physical Array Handle: 0x0030
 	Partition Width: 2
 
-Handle 0x001E, DMI type 7, 27 bytes
+Handle 0x0032, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1 - Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -299,7 +485,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x001F, DMI type 7, 27 bytes
+Handle 0x0033, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2 - Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -315,7 +501,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x0020, DMI type 7, 27 bytes
+Handle 0x0034, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3 - Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -331,7 +517,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0021, DMI type 4, 48 bytes
+Handle 0x0035, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: FP6
 	Type: Central Processor
@@ -370,9 +556,9 @@ Processor Information
 	Current Speed: 2375 MHz
 	Status: Populated, Enabled
 	Upgrade: None
-	L1 Cache Handle: 0x001E
-	L2 Cache Handle: 0x001F
-	L3 Cache Handle: 0x0020
+	L1 Cache Handle: 0x0032
+	L2 Cache Handle: 0x0033
+	L3 Cache Handle: 0x0034
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Unknown
@@ -387,7 +573,7 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x0022, DMI type 18, 23 bytes
+Handle 0x0036, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -397,10 +583,10 @@ Handle 0x0022, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0023, DMI type 17, 84 bytes
+Handle 0x0037, DMI type 17, 84 bytes
 Memory Device
-	Array Handle: 0x001C
-	Error Information Handle: 0x0022
+	Array Handle: 0x0030
+	Error Information Handle: 0x0036
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 32 GB
@@ -432,18 +618,18 @@ Memory Device
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x0024, DMI type 20, 35 bytes
+Handle 0x0038, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 64 GB
-	Physical Device Handle: 0x0023
-	Memory Array Mapped Address Handle: 0x001D
+	Physical Device Handle: 0x0037
+	Memory Array Mapped Address Handle: 0x0031
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0025, DMI type 18, 23 bytes
+Handle 0x0039, DMI type 18, 23 bytes
 32-bit Memory Error Information
 	Type: OK
 	Granularity: Unknown
@@ -453,10 +639,10 @@ Handle 0x0025, DMI type 18, 23 bytes
 	Device Address: Unknown
 	Resolution: Unknown
 
-Handle 0x0026, DMI type 17, 84 bytes
+Handle 0x003A, DMI type 17, 84 bytes
 Memory Device
-	Array Handle: 0x001C
-	Error Information Handle: 0x0025
+	Array Handle: 0x0030
+	Error Information Handle: 0x0039
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 32 GB
@@ -488,18 +674,48 @@ Memory Device
 	Cache Size: None
 	Logical Size: None
 
-Handle 0x0027, DMI type 20, 35 bytes
+Handle 0x003B, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x00FFFFFFFFF
 	Range Size: 64 GB
-	Physical Device Handle: 0x0026
-	Memory Array Mapped Address Handle: 0x001D
+	Physical Device Handle: 0x003A
+	Memory Array Mapped Address Handle: 0x0031
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0028, DMI type 13, 22 bytes
+Handle 0x003C, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 3C 00 1D 00 01 00 01 01 32 FF 00 00
+
+Handle 0x003D, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 3D 00 23 00 01 00 02 02 32 FF 00 00
+
+Handle 0x003E, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 3E 00 20 00 01 00 03 03 32 FF 00 00
+
+Handle 0x003F, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 3F 00 1A 00 01 00 04 04 32 FF 00 FD
+
+Handle 0x0040, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 40 00 26 00 01 00 05 05 32 FF 00 00
+
+Handle 0x0041, DMI type 255, 14 bytes
+OEM-specific Type
+	Header and Data:
+		FF 0E 41 00 29 00 01 00 06 06 32 FF 00 00
+
+Handle 0x0042, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 9
@@ -514,7 +730,7 @@ BIOS Language Information
 		ko|KR|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0029, DMI type 9, 17 bytes
+Handle 0x0043, DMI type 9, 17 bytes
 System Slot Information
 	Designation: FG_X8
 	Type: x8 PCI Express
@@ -527,6 +743,6 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:00:1f.7
 
-Handle 0x002A, DMI type 127, 4 bytes
+Handle 0x0044, DMI type 127, 4 bytes
 End Of Table
 

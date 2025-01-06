@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 52 structures occupying 2042 bytes.
@@ -387,7 +387,7 @@ Memory Device
 	Part Number: CT51264BF160BJ.C8F
 	Rank: 1
 	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 48.536 V
+	Minimum Voltage: 35.864 V
 	Maximum Voltage: 47.056 V
 	Configured Voltage: Unknown
 

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x429de000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -8,8 +8,8 @@ Table at 0x429DD000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: Insyde Corp.
-	Version: V1.26
-	Release Date: 03/14/2022
+	Version: V1.33
+	Release Date: 02/24/2023
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 4096 MB
@@ -33,14 +33,14 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.26
-	Firmware Revision: 1.26
+	BIOS Revision: 1.33
+	Firmware Revision: 1.33
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
 	Manufacturer: Acer
 	Product Name: Aspire A514-54
-	Version: V1.26
+	Version: V1.33
 	Serial Number: --
 	UUID: --
 	Wake-up Type: Power Switch
@@ -51,7 +51,7 @@ Handle 0x0002, DMI type 2, 17 bytes
 Base Board Information
 	Manufacturer: TGL
 	Product Name: Lily_TL
-	Version: V1.26
+	Version: V1.33
 	Serial Number: --
 	Asset Tag: --
 	Features:
@@ -67,7 +67,7 @@ Chassis Information
 	Manufacturer: Acer
 	Type: Notebook
 	Lock: Not Present
-	Version: V1.26
+	Version: V1.33
 	Serial Number: --
 	Asset Tag: --
 	380AD15AAB729CF25C4397C21C466ACE
@@ -118,7 +118,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
-	Voltage: 0.7 V
+	Voltage: 0.9 V
 	External Clock: 100 MHz
 	Max Speed: 4200 MHz
 	Current Speed: 3800 MHz
@@ -404,7 +404,7 @@ OEM-specific Type
 Handle 0x0018, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 18 00 01 04 01 45 02 00 90 06 01 10 82 20
+		DB 6A 18 00 01 04 01 45 02 00 90 06 01 10 89 20
 		00 00 00 00 40 00 00 00 00 00 00 00 00 20 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
@@ -489,7 +489,7 @@ OEM-specific Type
 		DD 59 1E 00 0C 01 00 FF FF FF FF FF 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 01 1A 00 00 00 0C 00 00
+		00 FF FF FF FF FF 0B 00 01 21 00 00 00 0C 00 00
 		17 00 64 10 0D 00 FF FF FF FF FF 0E 00 00 07 03
 		00 00 0F 00 00 02 00 0F 00
 	Strings:

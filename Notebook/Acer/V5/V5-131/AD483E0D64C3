@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0xaaebef98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-36 structures occupying 1821 bytes.
+36 structures occupying 1825 bytes.
 Table at 0xAAEBC000.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -176,8 +176,8 @@ Memory Module Information
 	Bank Connections: None
 	Current Speed: Unknown
 	Type: DIMM
-	Installed Size: 8192 MB (Single-bank Connection)
-	Enabled Size: 8192 MB (Single-bank Connection)
+	Installed Size: 4096 MB (Single-bank Connection)
+	Enabled Size: 4096 MB (Single-bank Connection)
 	Error Status: OK
 
 Handle 0x0008, DMI type 7, 19 bytes
@@ -364,7 +364,7 @@ Handle 0x0017, DMI type 12, 5 bytes
 System Configuration Options
 	Option 1: SMI:00B2C002
 	Option 2: String2 for Type12 Equipment Manufacturer
-	Option 3: DSN:W04BL1X0
+	Option 3: DSN:132406401274
 	Option 4: DSN:92D5D39B3DB0-YK0  
 	Option 5: DSN:TEST42b500682006/03/01
 	Option 6: String6 for Type12 Equipment Manufacturer
@@ -406,7 +406,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM1
@@ -417,15 +417,15 @@ Memory Device
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT41GS6MFR8C-PB  
-	Rank: 2
+	Part Number: RMT3170EB68F9W1600
+	Rank: 1
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x001B, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0018
 	Partition Width: 2
 
@@ -443,8 +443,8 @@ Memory Device Mapped Address
 Handle 0x001D, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x001A
 	Memory Array Mapped Address Handle: 0x001B
 	Partition Row Position: Unknown
@@ -456,8 +456,8 @@ OEM-specific Type
 	Header and Data:
 		83 40 1E 00 31 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 5F 1E FF FF FF FF 01 20 00 00 01 00 08 00
-		E0 04 00 00 00 00 00 00 C8 00 FF FF 00 00 00 05
-		32 42 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
+		E0 04 00 00 00 00 00 00 C8 00 FF FF 00 00 00 00
+		00 FF 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x001F, DMI type 170, 54 bytes
 Acer Hotkey Function
@@ -476,7 +476,7 @@ Handle 0x0020, DMI type 171, 29 bytes
 OEM-specific Type
 	Header and Data:
 		AB 1D 20 00 01 86 80 56 01 02 E4 14 B5 16 05 86
-		80 20 1E 07 86 80 32 42 03 E4 14 BC 16
+		80 20 1E 07 8C 16 32 00 03 E4 14 BC 16
 
 Handle 0x0021, DMI type 172, 21 bytes
 OEM-specific Type

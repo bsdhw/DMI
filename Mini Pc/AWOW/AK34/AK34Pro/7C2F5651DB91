@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 # SMBIOS entry point at 0x79ec3000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -506,8 +506,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 168 kB
-	Maximum Size: 141824 MB
+	Installed Size: 7424 MB
+	Maximum Size: 6976 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -522,8 +522,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 66563 GB
-	Maximum Size: 66563 GB
+	Installed Size: 7744 MB
+	Maximum Size: 7 GB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -703,7 +703,8 @@ Onboard Device
 Handle 0x0046, DMI type 9, 19 bytes
 System Slot Information
 	Designation: J7H1
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -712,13 +713,14 @@ System Slot Information
 		Opening is shared
 		PME signal is supported
 	Bus Address: 0000:00:13.0
-	Data Bus Width: 10
+	Data Bus Width (Base): 10
 	Peer Devices: 0
 
 Handle 0x0047, DMI type 9, 19 bytes
 System Slot Information
 	Designation: J8H1
-	Type: x2 PCI Express 2 x2
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -727,7 +729,7 @@ System Slot Information
 		Opening is shared
 		PME signal is supported
 	Bus Address: 0000:00:14.0
-	Data Bus Width: 9
+	Data Bus Width (Base): 9
 	Peer Devices: 0
 
 Handle 0x0048, DMI type 13, 22 bytes

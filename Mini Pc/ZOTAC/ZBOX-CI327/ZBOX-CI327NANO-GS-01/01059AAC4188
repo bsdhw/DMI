@@ -1,7 +1,9 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.0.0 present.
-Table at 0x000ED450.
+# dmidecode 3.6
+# SMBIOS entry point at 0x79d61000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.0 present.
+51 structures occupying 1862 bytes.
+Table at 0x79D5E000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -272,7 +274,8 @@ Port Connector Information
 Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -285,7 +288,8 @@ System Slot Information
 Handle 0x0021, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -298,7 +302,8 @@ System Slot Information
 Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -311,7 +316,8 @@ System Slot Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -324,7 +330,8 @@ System Slot Information
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4
@@ -357,6 +364,17 @@ Memory Device Mapped Address
 	Memory Array Mapped Address Handle: 0x0031
 	Partition Row Position: Unknown
 	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x0029, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x0030
+	Memory Array Mapped Address Handle: 0x0031
+	Partition Row Position: Unknown
+	Interleave Position: 2
 	Interleaved Data Depth: 2
 
 Handle 0x002A, DMI type 32, 20 bytes
@@ -424,31 +442,31 @@ Handle 0x0030, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x002E
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: DIMM
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM1
 	Bank Locator: BANK 1
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Unde
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Not Specified
+	Part Number: CT51264BF160BJ    
 	Rank: Unknown
 	Configured Memory Speed: 1600 MT/s
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
+	Minimum Voltage: 1.35 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.5 V
 
 Handle 0x0031, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x002E
 	Partition Width: 2
 

@@ -1,8 +1,9 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.5
+# SMBIOS entry point at 0x8ad3b000
+Found SMBIOS entry point in EFI, reading table from /dev/smbios.
 SMBIOS 2.4 present.
 62 structures occupying 2916 bytes.
-Table at 0x000E0000.
+Table at 0x8AD34000.
 
 Handle 0x0000, DMI type 4, 35 bytes
 Processor Information
@@ -15,7 +16,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2400 MHz
-	Current Speed: 2417 MHz
+	Current Speed: 2419 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0002
@@ -100,7 +101,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2400 MHz
-	Current Speed: 2417 MHz
+	Current Speed: 2440 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0007
@@ -185,7 +186,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2400 MHz
-	Current Speed: 2415 MHz
+	Current Speed: 2437 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x000C
@@ -270,7 +271,7 @@ Processor Information
 	Voltage: 0.0 V
 	External Clock: Unknown
 	Max Speed: 2400 MHz
-	Current Speed: 55056 MHz
+	Current Speed: 448 MHz
 	Status: Populated, Enabled
 	Upgrade: ZIF Socket
 	L1 Cache Handle: 0x0011

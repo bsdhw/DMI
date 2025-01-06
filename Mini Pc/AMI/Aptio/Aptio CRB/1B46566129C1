@@ -1,8 +1,9 @@
 # dmidecode 3.5
-Scanning /dev/mem for entry point.
+# SMBIOS entry point at 0xb9b67098
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 52 structures occupying 2041 bytes.
-Table at 0x000EBD30.
+Table at 0xB9A91000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -387,8 +388,8 @@ Memory Device
 	Part Number: KHX1600C9S3L/8G   
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
-	Minimum Voltage: 28.184 V
-	Maximum Voltage: 47.167 V
+	Minimum Voltage: 40.472 V
+	Maximum Voltage: 47.166 V
 	Configured Voltage: Unknown
 
 Handle 0x002B, DMI type 20, 35 bytes

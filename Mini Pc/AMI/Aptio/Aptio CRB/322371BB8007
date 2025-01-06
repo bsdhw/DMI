@@ -1,9 +1,9 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x79b67098
+# dmidecode 3.5
+# SMBIOS entry point at 0xb9b67098
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 52 structures occupying 2041 bytes.
-Table at 0x79A91000.
+Table at 0xB9A91000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -363,8 +363,8 @@ Physical Memory Array
 Handle 0x0029, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Array Handle: 0x0028
 	Partition Width: 2
 
@@ -374,7 +374,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: A1_DIMM0
@@ -382,21 +382,21 @@ Memory Device
 	Type: DDR3
 	Type Detail: Unknown
 	Speed: 1600 MT/s
-	Manufacturer: Undefined       
+	Manufacturer: Samsung         
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Tigo-1600Mhz-2G   
+	Part Number: M471B5173DB0-YK0  
 	Rank: 1
 	Configured Memory Speed: 1333 MT/s
 	Minimum Voltage: 7.704 V
-	Maximum Voltage: 30.782 V
+	Maximum Voltage: 47.166 V
 	Configured Voltage: Unknown
 
 Handle 0x002B, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x002A
 	Memory Array Mapped Address Handle: 0x0029
 	Partition Row Position: Unknown
