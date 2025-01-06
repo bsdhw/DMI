@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 # SMBIOS entry point at 0x8cac3000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -733,7 +733,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Pentium(R) CPU 5405U @ 2.30GHz
-	Voltage: 0.7 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
 	Current Speed: 2178 MHz
@@ -804,27 +804,6 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: <OUT OF SPEC>
-	Memory Operating Mode Capability: None
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x0049, DMI type 20, 35 bytes
 Memory Device Mapped Address
@@ -1006,8 +985,8 @@ OEM-specific Type
 		DD 59 5F 00 0C 01 00 FF FF FF FF FF 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
-		FF FF FF FF 0D 0E 01 04 03 00 00 0F 00 00 07 00
+		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
+		09 00 85 10 0D 0E 01 04 03 00 00 0F 00 00 07 00
 		00 00 10 00 00 02 00 0E 00
 	Strings:
 		Lan Phy Version

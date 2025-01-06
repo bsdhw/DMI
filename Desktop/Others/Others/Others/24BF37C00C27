@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x7fe1d000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
@@ -755,7 +755,8 @@ OEM-specific Type
 Handle 0x0045, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-Express 1
-	Type: x4 PCI Express
+	Type: PCI Express
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -767,7 +768,8 @@ System Slot Information
 Handle 0x0046, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-Express 2
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Long
 	ID: 2
@@ -779,7 +781,8 @@ System Slot Information
 Handle 0x0047, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-Express 3
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Long
 	ID: 3

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x43ca5000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -125,7 +125,8 @@ Port Connector Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 1
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -137,7 +138,8 @@ System Slot Information
 Handle 0x0010, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 2
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -149,7 +151,8 @@ System Slot Information
 Handle 0x0011, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 3
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -161,7 +164,8 @@ System Slot Information
 Handle 0x0012, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 4
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -173,7 +177,8 @@ System Slot Information
 Handle 0x0013, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 5
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1

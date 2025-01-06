@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x7a046000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
@@ -357,7 +357,7 @@ System Boot Information
 
 Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: ........CPU Internal L1
+	Socket Designation: =.=.=.=.CPU Internal L1
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal

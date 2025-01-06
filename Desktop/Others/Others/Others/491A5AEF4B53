@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 44 structures occupying 2148 bytes.
@@ -86,7 +86,7 @@ Handle 0x0004, DMI type 4, 40 bytes
 Processor Information
 	Socket Designation: CPU 1
 	Type: Central Processor
-	Family: Quad-Core Xeon 5300
+	Family: Pentium
 	Manufacturer: Intel            
 	ID: 7A 06 01 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 23, Stepping 10
@@ -119,7 +119,7 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Pentium(R) Dual-Core  CPU      E5300  @ 2.60GHz     
+	Version: Intel(R) Celeron(R) CPU        E3400  @ 2.60GHz     
 	Voltage: 1.3 V
 	External Clock: 200 MHz
 	Max Speed: 2600 MHz
@@ -160,15 +160,15 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2 MB
-	Maximum Size: 2 MB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
 	Speed: Unknown
 	Error Correction Type: Single-bit ECC
 	System Type: Unified
-	Associativity: 8-way Set-associative
+	Associativity: 4-way Set-associative
 
 Handle 0x0007, DMI type 7, 19 bytes
 Cache Information

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x74c7b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -614,7 +614,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Celeron(R) N5105 @ 2.00GHz
-	Voltage: 1.1 V
+	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 2900 MHz
 	Current Speed: 2800 MHz

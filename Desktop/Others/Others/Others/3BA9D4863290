@@ -1,6 +1,8 @@
-# dmidecode 3.4
-Scanning /dev/mem for entry point.
-SMBIOS 3.1.1 present.
+# dmidecode 3.6
+# SMBIOS entry point at 0x8ce25000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 2.8 present.
+85 structures occupying 4073 bytes.
 Table at 0x8CE22000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -271,7 +273,8 @@ Port Connector Information
 Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -284,7 +287,8 @@ System Slot Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -297,7 +301,8 @@ System Slot Information
 Handle 0x001E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -310,7 +315,8 @@ System Slot Information
 Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -323,7 +329,8 @@ System Slot Information
 Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4

@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x7a05c000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-54 structures occupying 2000 bytes.
+55 structures occupying 2004 bytes.
 Table at 0x000EAA00.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -357,7 +357,7 @@ System Boot Information
 
 Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: .C
+	Socket Designation: <BAD INDEX>
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
@@ -373,7 +373,7 @@ Cache Information
 
 Handle 0x002E, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: v
+	Socket Designation: <BAD INDEX>
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
@@ -485,13 +485,21 @@ Onboard Device
 
 Handle 0x0035, DMI type 41, 11 bytes
 Onboard Device
+	Reference Designation: Onboard - Sound
+	Type: Sound
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:0e.0
+
+Handle 0x0036, DMI type 41, 11 bytes
+Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
 	Type Instance: 4
 	Bus Address: 0000:00:0f.0
 
-Handle 0x0036, DMI type 41, 11 bytes
+Handle 0x0037, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - SATA
 	Type: SATA Controller
@@ -499,7 +507,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:12.0
 
-Handle 0x0037, DMI type 41, 11 bytes
+Handle 0x0038, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -507,7 +515,7 @@ Onboard Device
 	Type Instance: 5
 	Bus Address: 0000:00:15.0
 
-Handle 0x0038, DMI type 41, 11 bytes
+Handle 0x0039, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -515,7 +523,7 @@ Onboard Device
 	Type Instance: 6
 	Bus Address: 0000:00:1f.0
 
-Handle 0x0039, DMI type 41, 11 bytes
+Handle 0x003A, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -523,17 +531,18 @@ Onboard Device
 	Type Instance: 7
 	Bus Address: 0000:00:1f.1
 
-Handle 0x003A, DMI type 13, 22 bytes
+Handle 0x003B, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x003B, DMI type 9, 17 bytes
+Handle 0x003C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7H1
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -543,10 +552,11 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:00:13.0
 
-Handle 0x003C, DMI type 9, 17 bytes
+Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8H1
-	Type: x2 PCI Express 2 x2
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -556,6 +566,6 @@ System Slot Information
 		PME signal is supported
 	Bus Address: 0000:00:14.0
 
-Handle 0x003D, DMI type 127, 4 bytes
+Handle 0x003E, DMI type 127, 4 bytes
 End Of Table
 

@@ -1,8 +1,7 @@
 # dmidecode 3.5
-# SMBIOS entry point at 0x73bc7000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.5 present.
-122 structures occupying 5768 bytes.
+# SMBIOS entry point at 0x73bc6000
+Found SMBIOS entry point in EFI, reading table from /dev/smbios.
+SMBIOS 3.5.0 present.
 Table at 0x73BC3000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -757,22 +756,22 @@ Onboard Device
 	Type: Other
 	Status: Enabled
 	Type Instance: 6
-	Bus Address: 0000:00:14.2
+	Bus Address: 0000:00:14.1
 
 Handle 0x003F, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation: Onboard - Ethernet
-	Type: Ethernet
+	Reference Designation: Onboard - Other
+	Type: Other
 	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:14.3
+	Type Instance: 7
+	Bus Address: 0000:00:14.2
 
 Handle 0x0040, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
-	Type Instance: 7
+	Type Instance: 8
 	Bus Address: 0000:00:16.0
 
 Handle 0x0041, DMI type 41, 11 bytes
@@ -788,7 +787,7 @@ Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
-	Type Instance: 8
+	Type Instance: 9
 	Bus Address: 0000:00:1a.0
 
 Handle 0x0043, DMI type 41, 11 bytes
@@ -796,7 +795,7 @@ Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
-	Type Instance: 9
+	Type Instance: 10
 	Bus Address: 0000:00:1f.0
 
 Handle 0x0044, DMI type 41, 11 bytes
@@ -812,7 +811,7 @@ Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
-	Type Instance: 10
+	Type Instance: 11
 	Bus Address: 0000:00:1f.4
 
 Handle 0x0046, DMI type 41, 11 bytes
@@ -820,7 +819,7 @@ Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
-	Type Instance: 11
+	Type Instance: 12
 	Bus Address: 0000:00:1f.5
 
 Handle 0x0047, DMI type 221, 82 bytes

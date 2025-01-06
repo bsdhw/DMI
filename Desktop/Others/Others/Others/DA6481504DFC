@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x7a044000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-55 structures occupying 2004 bytes.
+55 structures occupying 2050 bytes.
 Table at 0x000EAA00.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -297,8 +297,8 @@ Physical Memory Array
 Handle 0x0024, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0023
 	Partition Width: 1
 
@@ -308,7 +308,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: A1_DIMM0
@@ -319,7 +319,7 @@ Memory Device
 	Manufacturer: Crucial
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CT4G4SFS824A.M8FF 
+	Part Number: CT8G4SFS824A.M8FR 
 	Rank: Unknown
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -329,8 +329,8 @@ Memory Device
 Handle 0x0026, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0025
 	Memory Array Mapped Address Handle: 0x0024
 	Partition Row Position: Unknown
@@ -357,7 +357,7 @@ System Boot Information
 
 Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: <BAD INDEX>
+	Socket Designation: .
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
@@ -541,7 +541,8 @@ BIOS Language Information
 Handle 0x003C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7H1
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -554,7 +555,8 @@ System Slot Information
 Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8H1
-	Type: x2 PCI Express 2 x2
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
 	Current Usage: In Use
 	Length: Short
 	ID: 1

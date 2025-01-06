@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x74c7b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -8,8 +8,8 @@ Table at 0x74C77000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: JK4LV105
-	Release Date: 08/31/2022
+	Version: JK4LV107
+	Release Date: 04/17/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 8 MB
@@ -472,8 +472,8 @@ Memory Array Mapped Address
 Handle 0x003E, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 3E 00 03 01 00 08 07 22 30 00 02 00 00 00
-		00 1D 00 03 00 01 0E 14 00 00
+		DD 1A 3E 00 03 01 00 08 07 22 30 00 02 00 24 00
+		00 24 00 03 00 01 0E 14 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -1218,7 +1218,7 @@ Group Associations
 Handle 0x0086, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 86 00 01 04 01 55 02 00 90 06 01 85 36 20
+		DB 6A 86 00 01 04 01 55 02 00 90 06 01 85 30 20
 		00 00 00 00 40 00 00 00 00 00 00 00 00 40 00 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

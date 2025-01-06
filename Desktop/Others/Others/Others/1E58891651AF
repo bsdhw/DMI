@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 3.1.1 present.
 Table at 0x000EAA00.
@@ -560,7 +560,8 @@ BIOS Language Information
 Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7H1
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -573,7 +574,8 @@ System Slot Information
 Handle 0x003E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8H1
-	Type: x2 PCI Express 2 x2
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
 	Current Usage: In Use
 	Length: Short
 	ID: 1
