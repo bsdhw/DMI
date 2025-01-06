@@ -1,15 +1,15 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xd9f7e498
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-72 structures occupying 2812 bytes.
-Table at 0x000E8576.
+72 structures occupying 2794 bytes.
+Table at 0x000E8588.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Hewlett-Packard
-	Version: L01 v02.77
-	Release Date: 04/17/2019
+	Version: L01 v02.78
+	Release Date: 02/20/2020
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -31,7 +31,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 2.77
+	BIOS Revision: 2.78
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -230,7 +230,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM4
@@ -238,18 +238,18 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Samsung
+	Manufacturer: 0215
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M378B5173DB0-CK0  
-	Rank: 1
+	Part Number: CML16GX3M2A1600C10
+	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x000F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x000E
 	Memory Array Mapped Address Handle: 0x0016
 	Partition Row Position: Unknown
@@ -262,26 +262,26 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM3
 	Bank Locator: BANK 2
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Ramaxel
+	Speed: 1600 MT/s
+	Manufacturer: 0215
 	Serial Number: --
 	Asset Tag: --
-	Part Number: RMR1870EC58E9F1333
+	Part Number: CML16GX3M2A1600C10
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0011, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00200000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00400000000
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0010
 	Memory Array Mapped Address Handle: 0x0016
 	Partition Row Position: Unknown
@@ -294,7 +294,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2
@@ -302,18 +302,18 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Samsung
+	Manufacturer: 0215
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M378B5173DB0-CK0  
-	Rank: 1
+	Part Number: CML16GX3M2A1600C10
+	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0013, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0012
 	Memory Array Mapped Address Handle: 0x0016
 	Partition Row Position: Unknown
@@ -326,7 +326,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM1
@@ -334,18 +334,18 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Hynix/Hyundai
+	Manufacturer: 0215
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT351U6CFR8C-PB  
+	Part Number: CML16GX3M2A1600C10
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0015, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00300000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00600000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0014
 	Memory Array Mapped Address Handle: 0x0016
 	Partition Row Position: Unknown
@@ -355,8 +355,8 @@ Memory Device Mapped Address
 Handle 0x0016, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x000D
 	Partition Width: 4
 

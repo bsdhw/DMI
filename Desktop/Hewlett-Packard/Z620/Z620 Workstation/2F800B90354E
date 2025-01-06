@@ -1,15 +1,15 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xdbae4b98
+# dmidecode 3.5
+# SMBIOS entry point at 0xdbadab98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-99 structures occupying 3796 bytes.
-Table at 0xDBAD8018.
+99 structures occupying 3819 bytes.
+Table at 0xDBA2F018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Hewlett-Packard
-	Version: J61 v03.50
-	Release Date: 08/15/2013
+	Version: J61 v03.96
+	Release Date: 10/29/2019
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -31,7 +31,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 3.50
+	BIOS Revision: 3.96
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -130,7 +130,7 @@ Processor Information
 	Part Number: Not Specified
 	Core Count: 8
 	Core Enabled: 8
-	Thread Count: 16
+	Thread Count: 8
 	Characteristics:
 		64-bit capable
 		Multi-Core
@@ -585,7 +585,7 @@ System Slot Information
 	Type: x1 PCI Express 2 x4
 	Current Usage: Available
 	Length: Long
-	ID: 0
+	ID: 1
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
@@ -598,7 +598,7 @@ System Slot Information
 	Type: x16 PCI Express 3
 	Current Usage: In Use
 	Length: Long
-	ID: 1
+	ID: 2
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
@@ -611,7 +611,7 @@ System Slot Information
 	Type: x4 PCI Express 2 x8
 	Current Usage: Available
 	Length: Long
-	ID: 2
+	ID: 3
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
@@ -624,7 +624,7 @@ System Slot Information
 	Type: x8 PCI Express 3
 	Current Usage: Available
 	Length: Long
-	ID: 3
+	ID: 4
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
@@ -637,7 +637,7 @@ System Slot Information
 	Type: x16 PCI Express 3
 	Current Usage: Available
 	Length: Long
-	ID: 4
+	ID: 5
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
@@ -650,7 +650,7 @@ System Slot Information
 	Type: 32-bit PCI
 	Current Usage: Available
 	Length: Long
-	ID: 5
+	ID: 6
 	Characteristics:
 		5.0 V is provided
 		PME signal is supported
@@ -659,8 +659,9 @@ System Slot Information
 
 Handle 0x0043, DMI type 11, 5 bytes
 OEM Strings
-	String 1: FBYTE#3Q3X3m47676J6S6b7N7Q7T7U7W7a8H8h8j9Y.dN;
-	String 2: BUILDID#11WWVAKW601#SUUW#DUUW;
+	String 1: ABS 70/71 60 61 62 63;
+	String 2: FBYTE#3Q3X3m47676J6S6b7N7Q7T7U7W7a8H8h8j9Y.dN;
+	String 3: BUILDID#11WWVAKW601#SUUW#DUUW;
 
 Handle 0x0044, DMI type 16, 23 bytes
 Physical Memory Array
@@ -741,13 +742,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x004B, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -803,13 +797,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x004F, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -834,13 +821,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0051, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -896,13 +876,6 @@ Memory Device
 	Bank Locator: CPU0
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:                     
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:                   
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0055, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -1085,10 +1058,10 @@ OEM-specific Type
 Handle 0x0071, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 71 00 14 00 00 00 08 00 00 00 00 00 46 00
-		F8 00 41 1D FF FF FF FF 09 80 00 00 01 00 08 00
+		83 40 71 00 14 00 00 00 08 00 00 00 00 00 48 00
+		F8 00 41 1D 00 00 00 00 09 80 00 00 01 00 08 00
 		88 05 28 00 00 00 00 00 C8 00 02 15 00 00 00 00
-		00 00 00 00 36 00 00 00 76 50 72 6F 00 00 00 00
+		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x0072, DMI type 127, 4 bytes
 End Of Table

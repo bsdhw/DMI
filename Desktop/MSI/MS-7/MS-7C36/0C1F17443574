@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0xcda08000
+# dmidecode 3.5
+# SMBIOS entry point at 0xdd9fc000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 62 structures occupying 2625 bytes.
-Table at 0xCDA06000.
+Table at 0xDD9FA000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: 1.I0
-	Release Date: 08/17/2022
+	Version: 1.L0
+	Release Date: 06/28/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -32,7 +32,6 @@ BIOS Information
 		Serial services are supported (int 14h)
 		Printer services are supported (int 17h)
 		CGA/mono video services are supported (int 10h)
-		ACPI is supported
 		USB legacy is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
@@ -195,7 +194,7 @@ Handle 0x000F, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.84
+	Firmware Revision: 3.90
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support
@@ -223,16 +222,16 @@ Physical Memory Array
 Handle 0x0012, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000CFFFFFFF
-	Range Size: 3328 MB
+	Ending Address: 0x000DFFFFFFF
+	Range Size: 3584 MB
 	Physical Array Handle: 0x0011
 	Partition Width: 4
 
 Handle 0x0013, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0202FFFFFFF
-	Range Size: 127744 MB
+	Ending Address: 0x0201FFFFFFF
+	Range Size: 127488 MB
 	Physical Array Handle: 0x0011
 	Partition Width: 4
 

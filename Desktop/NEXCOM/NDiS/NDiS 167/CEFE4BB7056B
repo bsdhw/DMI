@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-78 structures occupying 2794 bytes.
+78 structures occupying 2800 bytes.
 Table at 0x000EB750.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -681,7 +681,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-3610ME CPU @ 2.70GHz
-	Voltage: 1.1 V
+	Voltage: 5.0 V 3.3 V 2.9 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 2700 MHz
@@ -705,7 +705,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: ChannelA-DIMM0
@@ -713,18 +713,18 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: 017A
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 78.A1GE3.4000C    
-	Rank: 1
+	Part Number: M378B1G73DB0-CK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0043, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0042
 	Memory Array Mapped Address Handle: 0x0048
 	Partition Row Position: Unknown
@@ -751,7 +751,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: ChannelB-DIMM0
@@ -759,18 +759,18 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: 017A
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 78.A1GE3.4000C    
-	Rank: 1
+	Part Number: M378B1G73DB0-CK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0046, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0045
 	Memory Array Mapped Address Handle: 0x0048
 	Partition Row Position: Unknown
@@ -794,8 +794,8 @@ Memory Device
 Handle 0x0048, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0040
 	Partition Width: 4
 

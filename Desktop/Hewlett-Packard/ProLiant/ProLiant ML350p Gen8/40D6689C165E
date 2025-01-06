@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 200 structures occupying 6641 bytes.
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 2.81
+	Firmware Revision: 2.82
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -372,7 +372,8 @@ Port Connector Information
 Handle 0x0901, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
-	Type: x8 PCI Express 3 x16
+	Type: PCI Express 3 x16
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -384,7 +385,8 @@ System Slot Information
 Handle 0x0902, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 2
-	Type: x4 PCI Express 3 x8
+	Type: PCI Express 3 x8
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 2
@@ -396,7 +398,8 @@ System Slot Information
 Handle 0x0903, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 3
-	Type: x16 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 3
@@ -408,7 +411,8 @@ System Slot Information
 Handle 0x0904, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 4
-	Type: x4 PCI Express 3 x8
+	Type: PCI Express 3 x8
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 4
@@ -420,7 +424,8 @@ System Slot Information
 Handle 0x0905, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 5
-	Type: x4 PCI Express 2 x8
+	Type: PCI Express 2 x8
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 5
@@ -1076,14 +1081,23 @@ OEM-specific Type
 		C4 06 00 C4 00 00
 
 Handle 0xC500, DMI type 197, 12 bytes
-OEM-specific Type
-	Header and Data:
-		C5 0C 00 C5 00 04 00 01 FF 01 50 00
+HP Processor Specific Information
+	Associated Handle: 0x0400
+	APIC ID: 0
+	BSP: Yes
+	x2APIC: No
+	Advanced Thermal Margining: No
+	Physical Socket: 1
+	Maximum Power: 80 W
 
 Handle 0xC501, DMI type 197, 12 bytes
-OEM-specific Type
-	Header and Data:
-		C5 0C 01 C5 01 04 FF 00 FF 02 00 00
+HP Processor Specific Information
+	Associated Handle: 0x0401
+	APIC ID: 255
+	BSP: No
+	x2APIC: No
+	Advanced Thermal Margining: No
+	Physical Socket: 2
 
 Handle 0xCA00, DMI type 202, 9 bytes
 OEM-specific Type
@@ -1249,73 +1263,63 @@ OEM-specific Type
 		D7 06 00 D7 00 05
 
 Handle 0xD800, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 00 D8 01 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM
-		05/24/2019
+HP Version Indicator
+	Firmware Type: System ROM
+	Firmware Name String: System ROM
+	Firmware Version String: 05/24/2019
+	Version Data: No Version Data
 
 Handle 0xD801, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 01 D8 02 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Redundant System ROM
-		07/01/2015
+HP Version Indicator
+	Firmware Type: Redundant System ROM
+	Firmware Name String: Redundant System ROM
+	Firmware Version String: 07/01/2015
+	Version Data: No Version Data
 
 Handle 0xD802, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 02 D8 03 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM Bootblock
-		08/30/2011
+HP Version Indicator
+	Firmware Type: System ROM Bootblock
+	Firmware Name String: System ROM Bootblock
+	Firmware Version String: 08/30/2011
+	Version Data: No Version Data
 
 Handle 0xD803, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 03 D8 04 00 01 02 02 33 00 00 00 00 00 00
-		00 00 00 00 00 0C 00
-	Strings:
-		Power Management Controller Firmware
-		3.3
+HP Version Indicator
+	Firmware Type: Power Management Controller Firmware
+	Firmware Name String: Power Management Controller Firmware
+	Firmware Version String: 3.3
+	Version Data: 3.3
+	Unique ID: 0x000c
 
 Handle 0xD804, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 04 D8 05 00 01 02 02 27 00 00 00 00 00 00
-		00 00 00 00 00 0C 00
-	Strings:
-		Power Management Controller Firmware Bootloader
-		2.7
+HP Version Indicator
+	Firmware Type: Power Management Controller Firmware Bootloader
+	Firmware Name String: Power Management Controller Firmware Bootloader
+	Firmware Version String: 2.7
+	Version Data: 2.7
+	Unique ID: 0x000c
 
 Handle 0xD805, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 05 D8 08 00 01 00 01 4A 4A 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System Programmable Logic Device
+HP Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: System Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: 0x4A
 
 Handle 0xD806, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 06 D8 08 00 01 00 01 0C 0C 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		SAS Programmable Logic Device
+HP Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: SAS Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: 0x0C
 
 Handle 0xD807, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 07 D8 09 00 01 00 03 02 00 01 00 05 00 2B
-		00 04 00 00 00 02 00
-	Strings:
-		Server Platform Services (SPS) Firmware
+HP Version Indicator
+	Firmware Type: SPS Firmware (ME Firmware)
+	Firmware Name String: Server Platform Services (SPS) Firmware
+	Firmware Version String: Not Specified
+	Version Data: Reserved
+	Unique ID: 0x0002
 
 Handle 0xDB00, DMI type 219, 32 bytes
 HP ProLiant Information
@@ -1599,36 +1603,40 @@ OEM-specific Type
 		00 10 00 00
 
 Handle 0xE600, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 00 E6 00 27 01 02 02 03 A0
-	Strings:
-		LTEON           
-		16      
+HP Power Supply Information
+	Associated Handle: 0x2700
+	Manufacturer: LTEON           
+	Revision: 16      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x50
 
 Handle 0xE601, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 01 E6 01 27 01 02 02 03 A2
-	Strings:
-		LTEON           
-		16      
+HP Power Supply Information
+	Associated Handle: 0x2701
+	Manufacturer: LTEON           
+	Revision: 16      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x51
 
 Handle 0xE602, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 02 E6 02 27 01 02 02 03 A8
-	Strings:
-		                
-		        
+HP Power Supply Information
+	Associated Handle: 0x2702
+	Manufacturer:                 
+	Revision:         
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x54
 
 Handle 0xE603, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 03 E6 03 27 01 02 02 03 AA
-	Strings:
-		                
-		        
+HP Power Supply Information
+	Associated Handle: 0x2703
+	Manufacturer:                 
+	Revision:         
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x55
 
 Handle 0xE800, DMI type 232, 14 bytes
 OEM-specific Type

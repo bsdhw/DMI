@@ -1,9 +1,9 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x000f0480
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 46 structures occupying 1865 bytes.
-Table at 0x000E9520.
+Table at 0x000EB240.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -173,15 +173,15 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
-	Maximum Capacity: 8 GB
+	Maximum Capacity: 16 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
 Handle 0x000B, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x000A
 	Partition Width: 255
 
@@ -244,24 +244,33 @@ Handle 0x0010, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x000A
 	Error Information Handle: Not Provided
-	Total Width: Unknown
+	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM3
 	Bank Locator: BANK3
-	Type: Unknown
+	Type: DDR3
 	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Samsung      
+	Serial Number: --
+	Asset Tag: --
+	Part Number: M378B1G73EB0-CK0  
+	Rank: 2
+	Configured Memory Speed: 667 MT/s
 
 Handle 0x0011, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000000003FF
-	Range Size: 1 kB
+	Starting Address: 0x00100000000
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0010
 	Memory Array Mapped Address Handle: 0x000B
-	Partition Row Position: 1
+	Partition Row Position: <OUT OF SPEC>
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0012, DMI type 17, 34 bytes
 Memory Device
@@ -286,8 +295,8 @@ Memory Device
 
 Handle 0x0013, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
+	Starting Address: 0x00300000000
+	Ending Address: 0x003FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x0012
 	Memory Array Mapped Address Handle: 0x000B
@@ -561,7 +570,7 @@ Processor Information
 Handle 0x002E, DMI type 208, 5 bytes
 OEM-specific Type
 	Header and Data:
-		D0 05 2E 00 01
+		D0 05 2E 00 02
 
 Handle 0x002F, DMI type 13, 22 bytes
 BIOS Language Information

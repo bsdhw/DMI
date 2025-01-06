@@ -382,8 +382,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 11142 MB
-	Maximum Size: 273282 MB
+	Installed Size: 4352 MB
+	Maximum Size: 7424 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -398,8 +398,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1219 GB
-	Maximum Size: 971606 MB
+	Installed Size: 6464 MB
+	Maximum Size: 6464 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -579,7 +579,7 @@ Handle 0x003E, DMI type 9, 19 bytes
 System Slot Information
 	Designation: J8H1
 	Type: x2 PCI Express 2 x2
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 1
 	Characteristics:

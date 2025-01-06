@@ -1,6 +1,5 @@
 # dmidecode 3.4
-# SMBIOS entry point at 0x3d683e18
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
 50 structures occupying 1992 bytes.
 Table at 0x000E84B0.

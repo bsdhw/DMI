@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 3.0.0 present.
 Table at 0xBD1BC000.
@@ -776,7 +776,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFD2C000
 	Status: Valid, Not Full
-	Change Token: 0x00000006
+	Change Token: 0x00000007
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error
@@ -924,7 +924,7 @@ OEM-specific Type
 		DD 60 4F 00 0D 01 00 00 00 00 00 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
+		00 FF FF FF FF 00 0B 00 FF FF 00 00 00 0C 00 FF
 		FF FF FF FF 0D 00 02 00 00 00 00 0E 00 FF FF FF
 		FF FF 0F 00 FF FF FF FF FF 10 11 01 02 02 03 00
 	Strings:

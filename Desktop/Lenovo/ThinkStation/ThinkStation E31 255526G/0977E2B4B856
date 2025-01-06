@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 91 structures occupying 3506 bytes.
@@ -273,7 +273,8 @@ Port Connector Information
 Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -286,7 +287,8 @@ System Slot Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -299,7 +301,8 @@ System Slot Information
 Handle 0x001E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -312,7 +315,8 @@ System Slot Information
 Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -325,7 +329,8 @@ System Slot Information
 Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4
@@ -906,10 +911,10 @@ Handle 0x004E, DMI type 140, 85 bytes
 OEM-specific Type
 	Header and Data:
 		8C 55 4E 00 4C 45 4E 4F 56 4F 0B 00 01 0F AD 8E
-		1D 8E C5 99 AA 32 09 18 F6 6B 8B A2 64 01 00 55
-		D5 8D 54 F6 A2 37 C2 C6 5B 96 D9 43 85 FB D2 01
-		00 FD F5 7E 9F 96 F8 DB B6 EA AB 97 EE AD BD 49
-		97 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		1D 8E C5 99 AA 32 09 18 F6 6B 8B A2 64 01 00 76
+		63 77 F5 D4 11 E9 84 5E 76 77 DA BE 03 FE C0 01
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00
 
 Handle 0x004F, DMI type 140, 47 bytes

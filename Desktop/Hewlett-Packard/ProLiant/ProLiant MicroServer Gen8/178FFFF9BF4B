@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 64 structures occupying 2245 bytes.
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 2.80
+	Firmware Revision: 2.82
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -465,47 +465,40 @@ OEM-specific Type
 		D7 06 00 D7 00 05
 
 Handle 0xD800, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 00 D8 01 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM
-		04/04/2019
+HP Version Indicator
+	Firmware Type: System ROM
+	Firmware Name String: System ROM
+	Firmware Version String: 04/04/2019
+	Version Data: No Version Data
 
 Handle 0xD801, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 01 D8 02 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Redundant System ROM
-		04/04/2019
+HP Version Indicator
+	Firmware Type: Redundant System ROM
+	Firmware Name String: Redundant System ROM
+	Firmware Version String: 04/04/2019
+	Version Data: No Version Data
 
 Handle 0xD802, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 02 D8 03 00 01 02 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM Bootblock
-		02/04/2012
+HP Version Indicator
+	Firmware Type: System ROM Bootblock
+	Firmware Name String: System ROM Bootblock
+	Firmware Version String: 02/04/2012
+	Version Data: No Version Data
 
 Handle 0xD803, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 03 D8 08 00 01 00 01 00 06 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System Programmable Logic Device
+HP Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: System Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: R.0.6
 
 Handle 0xD804, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 04 D8 09 00 01 00 03 02 00 02 00 00 00 31
-		00 02 00 00 00 03 00
-	Strings:
-		Server Platform Services (SPS) Firmware
+HP Version Indicator
+	Firmware Type: SPS Firmware (ME Firmware)
+	Firmware Name String: Server Platform Services (SPS) Firmware
+	Firmware Version String: Not Specified
+	Version Data: Reserved
+	Unique ID: 0x0003
 
 Handle 0xDB00, DMI type 219, 32 bytes
 HP ProLiant Information
@@ -584,12 +577,11 @@ OEM-specific Type
 		00 10 00 00
 
 Handle 0xE600, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 00 E6 00 27 01 02 00 03 A0
-	Strings:
-		                
-		        
+HP Power Supply Information
+	Associated Handle: 0x2700
+	Manufacturer:                 
+	Revision:         
+	Access Method: Not Available
 
 Handle 0xE800, DMI type 232, 14 bytes
 OEM-specific Type
