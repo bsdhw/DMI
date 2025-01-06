@@ -1,9 +1,9 @@
 # dmidecode 3.4
-# SMBIOS entry point at 0x000f05e0
+# SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 74 structures occupying 4775 bytes.
-Table at 0x000EBF80.
+Table at 0x000E0000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -151,10 +151,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2400 MT/s
-	Manufacturer: 04430000802C
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number: RMUA5110MB78HAF2400 
+	Part Number: 8ATF1G64AZ-2G3H1    
 	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: Unknown
@@ -175,10 +175,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2400 MT/s
-	Manufacturer: Micron
+	Manufacturer: 04430000802C
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 8ATF1G64AZ-2G3H1    
+	Part Number: RMUA5110MB78HAF2400 
 	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: Unknown
@@ -789,7 +789,7 @@ OEM-specific Type
 		ED 36 27 F0 07 01 00 01 05 00 00 00 02 00 01 05
 		00 00 00 03 00 01 05 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 05 00 07 00 FF FF FF 05 00 08
-		00 FF FF FF 02 03
+		00 FF FF FF FF FF
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC
@@ -806,8 +806,8 @@ OEM-specific Type
 		ED 67 28 F0 0E 01 00 00 00 00 FF 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
-		FF FF FF FF 0D 00 02 00 00 00 00 0E 00 FF FF FF
+		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
+		09 00 67 10 0D 00 02 00 00 00 00 0E 00 FF FF FF
 		FF FF 0F 00 FF FF FF FF FF 10 11 01 03 03 01 00
 		12 00 00 07 03 00 00
 	Strings:
@@ -873,6 +873,6 @@ OEM-specific Type
 		MEI2
 		MEI3
 
-Handle 0xF035, DMI type 127, 4 bytes
+Handle 0xF059, DMI type 127, 4 bytes
 End Of Table
 

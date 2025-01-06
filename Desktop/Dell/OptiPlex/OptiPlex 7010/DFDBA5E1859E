@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-90 structures occupying 3988 bytes.
+87 structures occupying 3867 bytes.
 Table at 0x000EC350.
 
 Handle 0xDA00, DMI type 218, 251 bytes
@@ -524,7 +524,8 @@ Port Connector Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16
-	Type: x16 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -537,33 +538,36 @@ System Slot Information
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X1
-	Type: x1 PCI Express
-	Current Usage: Available
+	Type: PCI Express
+	Data Bus Width: 1x or x1
+	Current Usage: In Use
 	Length: Short
 	ID: 2
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:1c.3
+	Bus Address: 0000:02:1c.3
 
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI
-	Type: 32-bit PCI
-	Current Usage: In Use
+	Type: PCI
+	Data Bus Width: 32 bit
+	Current Usage: Available
 	Length: Short
 	ID: 3
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:01:1e.0
+	Bus Address: 0000:03:1e.0
 
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X4
-	Type: x4 PCI Express
+	Type: PCI Express
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	ID: 4
@@ -940,35 +944,13 @@ OEM-specific Type
 		_SIDAvf90w7wKZiZ
 		DELL
 
-Handle 0xDF5E, DMI type 129, 8 bytes
-OEM-specific Type
-	Header and Data:
-		81 08 5E DF 01 01 02 01
-	Strings:
-		Intel_ASF
-		Intel_ASF_001
-
-Handle 0xDF63, DMI type 130, 20 bytes
-OEM-specific Type
-	Header and Data:
-		82 14 63 DF 24 41 4D 54 00 00 00 00 00 A5 2F 02
-		01 00 00 00
-
-Handle 0xDF68, DMI type 131, 64 bytes
-OEM-specific Type
-	Header and Data:
-		83 40 68 DF 35 00 00 00 08 00 00 00 00 00 48 00
-		F8 00 47 1E FF FF FF FF 11 20 00 00 01 00 08 00
-		18 0E 47 00 00 00 00 00 C8 00 02 15 00 00 00 00
-		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
-
-Handle 0xDF6D, DMI type 13, 22 bytes
+Handle 0xDF5E, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0xDF72, DMI type 127, 4 bytes
+Handle 0xDF63, DMI type 127, 4 bytes
 End Of Table
 

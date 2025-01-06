@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 85 structures occupying 3875 bytes.
@@ -205,7 +205,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
-	Voltage: 2.1 V
+	Voltage: 2.6 V
 	External Clock: 100 MHz
 	Max Speed: 3900 MHz
 	Current Speed: 3400 MHz

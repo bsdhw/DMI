@@ -1,17 +1,17 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-55 structures occupying 2356 bytes.
-Table at 0xDAEC9018.
+55 structures occupying 2372 bytes.
+Table at 0xDB798018.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: FUJITSU // American Megatrends Inc.
-	Version: V4.6.5.4 R1.16.0 for D3313-G1x
-	Release Date: 08/13/2018
+	Version: V4.6.5.4 R1.15.0 for D3313-A1x
+	Release Date: 11/06/2014
 	Address: 0xF0000
 	Runtime Size: 64 kB
-	ROM Size: 8 MB
+	ROM Size: 4 MB
 	Characteristics:
 		PCI is supported
 		BIOS is upgradeable
@@ -28,7 +28,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.16
+	BIOS Revision: 1.15
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -39,13 +39,13 @@ System Information
 	UUID: --
 	Wake-up Type: AC Power Restored
 	SKU Number: S26361-Kxxx-Vyyy
-	Family: FUTRO-FTS
+	Family:                 
 
 Handle 0x0002, DMI type 2, 15 bytes
 Base Board Information
 	Manufacturer: FUJITSU
-	Product Name: D3313-G1
-	Version: S26361-D3313-G1            
+	Product Name: D3313-A1
+	Version: S26361-D3313-A1            
 	Serial Number: --
 	Asset Tag: --
 	97946E993916094B22613E03B8339091
@@ -59,7 +59,7 @@ Base Board Information
 Handle 0x0003, DMI type 3, 25 bytes
 Chassis Information
 	Manufacturer: FUJITSU
-	Type: Desktop
+	Type: Low Profile Desktop
 	Lock: Not Present
 	Version:                       
 	Serial Number: --
@@ -446,15 +446,15 @@ System Event Log
 Handle 0x0031, DMI type 176, 36 bytes
 OEM-specific Type
 	Header and Data:
-		B0 24 31 00 00 00 13 33 00 39 03 00 03 31 FF FF
-		FC 7B 91 A4 7E 1A EA 48 93 79 7E CD B3 42 9A 9A
+		B0 24 31 00 00 00 13 33 00 09 03 00 03 31 FF FF
+		CC 7C 41 15 44 34 4D 84 80 6D 66 B8 8C 03 AB B8
 		02 00 02 00
 
 Handle 0x0032, DMI type 177, 42 bytes
 OEM-specific Type
 	Header and Data:
 		B1 2A 32 00 12 00 00 00 12 00 00 00 12 04 06 05
-		04 01 10 00 00 00 00 00 00 00 00 12 00 00 00 00
+		04 01 0F 00 00 00 00 00 00 00 00 12 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00
 
 Handle 0x0033, DMI type 188, 8 bytes
@@ -462,7 +462,7 @@ OEM-specific Type
 	Header and Data:
 		BC 08 33 00 30 39 31 24
 
-Handle 0x003C, DMI type 16, 23 bytes
+Handle 0x003B, DMI type 16, 23 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
@@ -471,17 +471,17 @@ Physical Memory Array
 	Error Information Handle: Not Provided
 	Number Of Devices: 2
 
-Handle 0x003D, DMI type 19, 31 bytes
+Handle 0x003C, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
-	Physical Array Handle: 0x003C
+	Physical Array Handle: 0x003B
 	Partition Width: 255
 
-Handle 0x003E, DMI type 17, 40 bytes
+Handle 0x003D, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x003C
+	Array Handle: 0x003B
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -493,9 +493,9 @@ Memory Device
 	Type: DDR3
 	Type Detail: None
 
-Handle 0x003F, DMI type 17, 40 bytes
+Handle 0x003E, DMI type 17, 40 bytes
 Memory Device
-	Array Handle: 0x003C
+	Array Handle: 0x003B
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -506,18 +506,18 @@ Memory Device
 	Bank Locator: CHANNEL A
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1866 MT/s
-	Manufacturer: Micron
+	Speed: 800 MT/s
+	Manufacturer: Samsung        
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 8KTF51264HZ-1G9P1 
+	Part Number: M471B5173EB0-YK0  
 	Rank: 1
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 800 MT/s
 	Minimum Voltage: 1.35 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
 
-Handle 0x0040, DMI type 20, 35 bytes
+Handle 0x003F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000000003FF
@@ -526,25 +526,25 @@ Memory Device Mapped Address
 	Memory Array Mapped Address Handle: 0x0000
 	Partition Row Position: <OUT OF SPEC>
 
-Handle 0x0041, DMI type 20, 35 bytes
+Handle 0x0040, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x003F
-	Memory Array Mapped Address Handle: 0x003D
+	Physical Device Handle: 0x003E
+	Memory Array Mapped Address Handle: 0x003C
 	Partition Row Position: Unknown
 	Interleave Position: Unknown
 	Interleaved Data Depth: Unknown
 
-Handle 0x0043, DMI type 7, 19 bytes
+Handle 0x0042, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L1 CACHE
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 128 kB
-	Maximum Size: 128 kB
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -553,14 +553,14 @@ Cache Information
 	System Type: Unified
 	Associativity: 2-way Set-associative
 
-Handle 0x0044, DMI type 7, 19 bytes
+Handle 0x0043, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L2 CACHE
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1 MB
-	Maximum Size: 1 MB
+	Installed Size: 2 MB
+	Maximum Size: 2 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -569,43 +569,41 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0045, DMI type 4, 42 bytes
+Handle 0x0044, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: P0
 	Type: Central Processor
 	Family: G-Series
 	Manufacturer: AuthenticAMD
-	ID: FF FB 8B 17 01 0F 73 00
+	ID: FF FB 8B 17 01 0F 70 00
 	Signature: Family 11, Model 15, Stepping 15
 	Flags:
 		FPU (Floating-point unit on-chip)
 		CX8 (CMPXCHG8 instruction supported)
 		APIC (On-chip APIC hardware supported)
 		SEP (Fast system call)
-		PAT (Page attribute table)
-		PSE-36 (36-bit page size extension)
 		DS (Debug store)
 		ACPI (ACPI supported)
-	Version: AMD GX-222GC SOC with Radeon(TM) R5E Graphics  
-	Voltage: 1.4 V
+	Version: AMD GX-415GA SOC with Radeon(tm) HD Graphics   
+	Voltage: 1.1 V
 	External Clock: 100 MHz
-	Max Speed: 2200 MHz
-	Current Speed: 2200 MHz
+	Max Speed: 1500 MHz
+	Current Speed: 364 MHz
 	Status: Populated, Enabled
 	Upgrade: None
-	L1 Cache Handle: 0x0043
-	L2 Cache Handle: 0x0044
+	L1 Cache Handle: 0x0042
+	L2 Cache Handle: 0x0043
 	L3 Cache Handle: Not Provided
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Core Count: 2
-	Core Enabled: 2
-	Thread Count: 2
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 
-Handle 0x0046, DMI type 13, 22 bytes
+Handle 0x0045, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 2
@@ -613,6 +611,6 @@ BIOS Language Information
 		ja|JP|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0049, DMI type 127, 4 bytes
+Handle 0x0048, DMI type 127, 4 bytes
 End Of Table
 

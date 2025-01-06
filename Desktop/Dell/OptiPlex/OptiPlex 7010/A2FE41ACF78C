@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x000f04c0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-83 structures occupying 3749 bytes.
+85 structures occupying 3832 bytes.
 Table at 0x000EC350.
 
 Handle 0xDA00, DMI type 218, 251 bytes
@@ -22,76 +22,77 @@ OEM-specific Type
 		00 00 00 9B 00 9B 00 01 00 9D 00 9D 00 01 00 9E
 		00 9E 00 00 00 9F 00 9F 00 00 00 A0 00 A0 00 01
 		00 A1 00 A1 00 00 00 A2 00 A2 00 02 00 A3 00 A3
-		00 01 00 ED 00 ED 00 00 00 F0 00 F0 00 01 00 F5
-		00 F5 00 04 00 FF FF FF FF 00 00
+		00 01 00 D1 00 D1 00 01 00 D2 00 D2 00 00 00 ED
+		00 ED 00 00 00 FF FF FF FF 00 00
 
 Handle 0xDA01, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 01 DA B2 00 37 4F 1E 36 00 F6 00 F6 00 00
-		00 09 01 09 01 00 00 17 01 17 01 00 00 18 01 18
-		01 01 00 19 01 19 01 00 00 1A 01 1A 01 01 00 1B
-		01 1B 01 00 00 1C 01 1C 01 01 00 2B 01 2B 01 01
-		00 2C 01 2C 01 00 00 2D 01 2D 01 01 00 2E 01 2E
-		01 00 00 35 01 35 01 FF 00 37 01 37 01 00 00 38
-		01 38 01 01 00 39 01 39 01 02 00 40 01 40 01 00
-		00 41 01 41 01 01 00 46 01 46 01 00 00 47 01 47
-		01 01 00 4A 01 4A 01 00 00 4B 01 4B 01 01 00 4E
-		01 4E 01 00 00 4F 01 4F 01 01 00 54 01 54 01 00
-		00 55 01 55 01 01 00 75 01 75 01 02 00 76 01 76
-		01 01 00 9B 01 9B 01 00 00 9C 01 9C 01 01 00 D4
-		01 D4 01 00 00 D5 01 D5 01 01 00 E0 01 E0 01 05
-		00 EA 01 EA 01 00 00 EB 01 EB 01 01 00 02 02 02
-		02 00 00 03 02 03 02 01 00 04 02 04 02 00 00 05
-		02 05 02 01 00 FF FF FF FF 00 00
+		DA FB 01 DA B2 00 37 4F 1E 36 00 F0 00 F0 00 01
+		00 F5 00 F5 00 04 00 F6 00 F6 00 00 00 09 01 09
+		01 00 00 17 01 17 01 00 00 18 01 18 01 01 00 19
+		01 19 01 00 00 1A 01 1A 01 01 00 1B 01 1B 01 00
+		00 1C 01 1C 01 01 00 2B 01 2B 01 01 00 2C 01 2C
+		01 00 00 2D 01 2D 01 01 00 2E 01 2E 01 00 00 35
+		01 35 01 FF 00 37 01 37 01 00 00 38 01 38 01 01
+		00 39 01 39 01 02 00 40 01 40 01 00 00 41 01 41
+		01 01 00 46 01 46 01 00 00 47 01 47 01 01 00 4A
+		01 4A 01 00 00 4B 01 4B 01 01 00 4E 01 4E 01 00
+		00 4F 01 4F 01 01 00 54 01 54 01 00 00 55 01 55
+		01 01 00 75 01 75 01 02 00 76 01 76 01 01 00 9B
+		01 9B 01 00 00 9C 01 9C 01 01 00 D4 01 D4 01 00
+		00 D5 01 D5 01 01 00 E0 01 E0 01 05 00 EA 01 EA
+		01 00 00 EB 01 EB 01 01 00 02 02 02 02 00 00 03
+		02 03 02 01 00 FF FF FF FF 00 00
 
 Handle 0xDA02, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 02 DA B2 00 37 4F 1E 36 00 2D 02 2D 02 01
-		00 2E 02 2E 02 00 00 32 02 32 02 02 00 33 02 33
-		02 01 00 4B 02 4B 02 01 00 4C 02 4C 02 00 00 5B
-		02 5B 02 00 00 5C 02 5C 02 01 00 62 02 62 02 01
-		00 63 02 63 02 00 00 64 02 64 02 01 00 65 02 65
-		02 00 00 66 02 66 02 01 00 67 02 67 02 00 00 68
-		02 68 02 01 00 69 02 69 02 00 00 6C 02 6C 02 01
-		00 6D 02 6D 02 00 00 6E 02 6E 02 00 00 A3 02 A3
-		02 01 00 A4 02 A4 02 00 00 A7 02 A7 02 01 00 A8
-		02 A8 02 00 00 BD 02 BD 02 01 00 BE 02 BE 02 00
-		00 CD 02 CD 02 01 00 D8 02 D8 02 FF FF D9 02 D9
-		02 FF FF DA 02 DA 02 FF FF DB 02 DB 02 FF FF DC
-		02 DC 02 FF FF DD 02 DD 02 FF FF DE 02 DE 02 FF
-		FF DF 02 DF 02 FF FF E3 02 E3 02 01 00 E4 02 E4
-		02 00 00 E5 02 E5 02 01 00 FD 02 FD 02 01 00 FE
-		02 FE 02 00 00 FF FF FF FF 00 00
+		DA FB 02 DA B2 00 37 4F 1E 36 00 04 02 04 02 00
+		00 05 02 05 02 01 00 2D 02 2D 02 01 00 2E 02 2E
+		02 00 00 32 02 32 02 02 00 33 02 33 02 01 00 4B
+		02 4B 02 01 00 4C 02 4C 02 00 00 5B 02 5B 02 00
+		00 5C 02 5C 02 01 00 62 02 62 02 01 00 63 02 63
+		02 00 00 64 02 64 02 01 00 65 02 65 02 00 00 66
+		02 66 02 01 00 67 02 67 02 00 00 68 02 68 02 01
+		00 69 02 69 02 00 00 6C 02 6C 02 01 00 6D 02 6D
+		02 00 00 6E 02 6E 02 00 00 A3 02 A3 02 01 00 A4
+		02 A4 02 00 00 A7 02 A7 02 01 00 A8 02 A8 02 00
+		00 BD 02 BD 02 01 00 BE 02 BE 02 00 00 CD 02 CD
+		02 01 00 D8 02 D8 02 FF FF D9 02 D9 02 FF FF DA
+		02 DA 02 FF FF DB 02 DB 02 FF FF DC 02 DC 02 FF
+		FF DD 02 DD 02 FF FF DE 02 DE 02 FF FF DF 02 DF
+		02 FF FF E3 02 E3 02 01 00 E4 02 E4 02 00 00 E5
+		02 E5 02 01 00 FF FF FF FF 00 00
 
 Handle 0xDA03, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 03 DA B2 00 37 4F 1E 36 00 0F 03 0F 03 02
-		00 12 03 12 03 03 00 13 03 13 03 01 00 14 03 14
-		03 00 00 15 03 15 03 01 00 16 03 16 03 00 00 17
-		03 17 03 01 00 18 03 18 03 00 00 19 03 19 03 01
-		00 1A 03 1A 03 00 00 1B 03 1B 03 01 00 1C 03 1C
-		03 00 00 1D 03 1D 03 01 00 1E 03 1E 03 00 00 1F
-		03 1F 03 01 00 20 03 20 03 00 00 25 03 25 03 01
-		00 26 03 26 03 01 00 38 03 38 03 01 00 39 03 39
-		03 00 00 4F 03 4F 03 01 00 57 03 57 03 00 00 58
-		03 58 03 01 00 5B 03 5B 03 01 00 5C 03 5C 03 00
-		00 5D 03 5D 03 01 00 5E 03 5E 03 00 00 5F 03 5F
-		03 01 00 60 03 60 03 00 00 69 03 69 03 00 00 6A
-		03 6A 03 01 00 6B 03 6B 03 02 00 6F 03 6F 03 FF
-		FF 83 03 83 03 07 00 3E 40 3E 40 00 00 3F 40 3F
-		40 01 00 00 80 00 80 00 00 02 80 02 80 02 00 03
-		80 03 80 03 00 FF FF FF FF 00 00
+		DA FB 03 DA B2 00 37 4F 1E 36 00 FD 02 FD 02 01
+		00 FE 02 FE 02 00 00 0F 03 0F 03 02 00 12 03 12
+		03 03 00 13 03 13 03 01 00 14 03 14 03 00 00 15
+		03 15 03 01 00 16 03 16 03 00 00 17 03 17 03 01
+		00 18 03 18 03 00 00 19 03 19 03 01 00 1A 03 1A
+		03 00 00 1B 03 1B 03 01 00 1C 03 1C 03 00 00 1D
+		03 1D 03 01 00 1E 03 1E 03 00 00 1F 03 1F 03 01
+		00 20 03 20 03 00 00 25 03 25 03 01 00 26 03 26
+		03 01 00 38 03 38 03 01 00 39 03 39 03 00 00 4F
+		03 4F 03 01 00 57 03 57 03 00 00 58 03 58 03 01
+		00 5B 03 5B 03 01 00 5C 03 5C 03 00 00 5D 03 5D
+		03 01 00 5E 03 5E 03 00 00 5F 03 5F 03 01 00 60
+		03 60 03 00 00 69 03 69 03 00 00 6A 03 6A 03 01
+		00 6B 03 6B 03 02 00 6F 03 6F 03 FF FF 83 03 83
+		03 07 00 3E 40 3E 40 00 00 3F 40 3F 40 01 00 00
+		80 00 80 00 00 FF FF FF FF 00 00
 
-Handle 0xDA04, DMI type 218, 59 bytes
+Handle 0xDA04, DMI type 218, 71 bytes
 OEM-specific Type
 	Header and Data:
-		DA 3B 04 DA B2 00 37 4F 1E 36 00 0D 80 0D 80 00
-		00 00 A0 00 A0 01 00 04 A0 04 A0 01 00 00 F0 00
-		F0 55 00 02 F0 02 F0 03 00 05 F0 05 F0 7F 00 06
-		F0 06 F0 00 00 FF FF FF FF 00 00
+		DA 47 04 DA B2 00 37 4F 1E 36 00 02 80 02 80 02
+		00 03 80 03 80 03 00 0D 80 0D 80 00 00 00 A0 00
+		A0 01 00 04 A0 04 A0 01 00 00 F0 00 F0 55 00 02
+		F0 02 F0 03 00 05 F0 05 F0 7F 00 06 F0 06 F0 00
+		00 FF FF FF FF 00 00
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -172,7 +173,7 @@ Handle 0x005E, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: CPU 1
 	Type: Central Processor
-	Family: Core i5
+	Family: Xeon
 	Manufacturer: Intel(R) Corporation
 	ID: A9 06 03 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 58, Stepping 9
@@ -205,11 +206,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz
+	Version: Intel(R) Xeon(R) CPU E3-1265L V2 @ 2.50GHz
 	Voltage: 2.9 V
 	External Clock: 100 MHz
-	Max Speed: 3200 MHz
-	Current Speed: 3200 MHz
+	Max Speed: 2500 MHz
+	Current Speed: 2500 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x003A
@@ -220,7 +221,7 @@ Processor Information
 	Part Number: Fill By OEM
 	Core Count: 4
 	Core Enabled: 4
-	Thread Count: 4
+	Thread Count: 8
 	Characteristics:
 		64-bit capable
 
@@ -262,15 +263,15 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 6 MB
-	Maximum Size: 6 MB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Unknown
 	Installed SRAM Type: Unknown
 	Speed: Unknown
 	Error Correction Type: Multi-bit ECC
 	System Type: Unified
-	Associativity: 12-way Set-associative
+	Associativity: 16-way Set-associative
 
 Handle 0x0004, DMI type 8, 9 bytes
 Port Connector Information
@@ -583,17 +584,24 @@ Handle 0x003E, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003D
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM3
 	Bank Locator: Not Specified
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Kingston
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9905402-416.A00LF 
+	Rank: 1
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x003F, DMI type 17, 34 bytes
+Handle 0x0040, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003D
 	Error Information Handle: Not Provided
@@ -606,29 +614,36 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
+	Speed: 1333 MT/s
 	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CT51264BA160B.C16F
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0041, DMI type 17, 34 bytes
+Handle 0x0042, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003D
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM4
 	Bank Locator: Not Specified
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Kingston
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9905402-416.A00LF 
+	Rank: 1
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0042, DMI type 17, 34 bytes
+Handle 0x0044, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003D
 	Error Information Handle: Not Provided
@@ -641,40 +656,62 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
+	Speed: 1333 MT/s
 	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CT51264BA160B.C16F
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0044, DMI type 19, 31 bytes
+Handle 0x0046, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 12 GB
 	Physical Array Handle: 0x003D
 	Partition Width: 4
 
-Handle 0x0040, DMI type 20, 19 bytes
+Handle 0x003F, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
+	Ending Address: 0x0007FFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x003E
+	Memory Array Mapped Address Handle: 0x0046
+	Partition Row Position: 1
+	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x0041, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x003F
-	Memory Array Mapped Address Handle: 0x0044
+	Physical Device Handle: 0x0040
+	Memory Array Mapped Address Handle: 0x0046
 	Partition Row Position: 1
 	Interleave Position: 1
 	Interleaved Data Depth: 2
 
 Handle 0x0043, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00080000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 2 GB
 	Physical Device Handle: 0x0042
-	Memory Array Mapped Address Handle: 0x0044
+	Memory Array Mapped Address Handle: 0x0046
+	Partition Row Position: 1
+	Interleave Position: 2
+	Interleaved Data Depth: 2
+
+Handle 0x0045, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00200000000
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x0044
+	Memory Array Mapped Address Handle: 0x0046
 	Partition Row Position: 1
 	Interleave Position: 2
 	Interleaved Data Depth: 2

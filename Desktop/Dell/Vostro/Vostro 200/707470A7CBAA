@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 50 structures occupying 1512 bytes.
@@ -83,38 +83,8 @@ Processor Information
 	Family: Other
 	Manufacturer: Intel
 	ID: 7A 06 01 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 23, Stepping 10
-	Flags:
-		FPU (Floating-point unit on-chip)
-		VME (Virtual mode extension)
-		DE (Debugging extension)
-		PSE (Page size extension)
-		TSC (Time stamp counter)
-		MSR (Model specific registers)
-		PAE (Physical address extension)
-		MCE (Machine check exception)
-		CX8 (CMPXCHG8 instruction supported)
-		APIC (On-chip APIC hardware supported)
-		SEP (Fast system call)
-		MTRR (Memory type range registers)
-		PGE (Page global enable)
-		MCA (Machine check architecture)
-		CMOV (Conditional move instruction supported)
-		PAT (Page attribute table)
-		PSE-36 (36-bit page size extension)
-		CLFSH (CLFLUSH instruction supported)
-		DS (Debug store)
-		ACPI (ACPI supported)
-		MMX (MMX technology supported)
-		FXSR (FXSAVE and FXSTOR instructions supported)
-		SSE (Streaming SIMD extensions)
-		SSE2 (Streaming SIMD extensions 2)
-		SS (Self-snoop)
-		HTT (Multi-threading)
-		TM (Thermal monitor supported)
-		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM)2 Duo CPU     E7500  @ 2.93GHz
-	Voltage: 0.0 V
+	Voltage: 1.2 V
 	External Clock: 266 MHz
 	Max Speed: 4000 MHz
 	Current Speed: 2934 MHz
@@ -373,8 +343,9 @@ Port Connector Information
 Handle 0x001E, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI1
-	Type: 32-bit PCI
-	Current Usage: Available
+	Type: PCI
+	Data Bus Width: 32 bit
+	Current Usage: In Use
 	Length: Long
 	ID: 1
 	Characteristics:
@@ -384,8 +355,9 @@ System Slot Information
 Handle 0x001F, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI2
-	Type: 32-bit PCI
-	Current Usage: In Use
+	Type: PCI
+	Data Bus Width: 32 bit
+	Current Usage: Available
 	Length: Long
 	ID: 2
 	Characteristics:
@@ -395,7 +367,8 @@ System Slot Information
 Handle 0x0020, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI3
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 3
@@ -406,7 +379,8 @@ System Slot Information
 Handle 0x0021, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Long
 	ID: 6
@@ -450,10 +424,10 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 800 MT/s
-	Manufacturer: 7F98000000000000
+	Manufacturer: AD00000000000000
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
+	Part Number: HYMP125U64CP8-S6  
 
 Handle 0x0026, DMI type 17, 27 bytes
 Memory Device
@@ -507,10 +481,10 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 800 MT/s
-	Manufacturer: AD00000000000000
+	Manufacturer: 7F98000000000000
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HYMP125U64CP8-S6  
+	Part Number:                   
 
 Handle 0x0029, DMI type 19, 15 bytes
 Memory Array Mapped Address

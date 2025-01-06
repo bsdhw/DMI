@@ -1,8 +1,7 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.6
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-72 structures occupying 2847 bytes.
+73 structures occupying 2893 bytes.
 Table at 0x000EB450.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -331,7 +330,8 @@ Port Connector Information
 Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -344,7 +344,8 @@ System Slot Information
 Handle 0x0021, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -357,7 +358,8 @@ System Slot Information
 Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x8 PCI Express
+	Type: PCI Express
+	Data Bus Width: 8x or x8
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -370,7 +372,8 @@ System Slot Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -383,7 +386,8 @@ System Slot Information
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4
@@ -396,7 +400,8 @@ System Slot Information
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B3
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 6
@@ -645,17 +650,35 @@ Handle 0x0040, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: ChannelB-DIMM0
 	Bank Locator: BANK 2
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: 0194
+	Serial Number: --
+	Asset Tag: --
+	Part Number: SH564568FH8N0QHSCG
+	Rank: 1
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0041, DMI type 17, 34 bytes
+Handle 0x0041, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x0017FFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0040
+	Memory Array Mapped Address Handle: 0x0045
+	Partition Row Position: Unknown
+	Interleave Position: 2
+	Interleaved Data Depth: 2
+
+Handle 0x0042, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: Not Provided
@@ -675,17 +698,6 @@ Memory Device
 	Part Number: F3-1600C11-4GNT
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0042, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x0041
-	Memory Array Mapped Address Handle: 0x0044
-	Partition Row Position: Unknown
-	Interleave Position: 1
-	Interleaved Data Depth: 1
 
 Handle 0x0043, DMI type 4, 42 bytes
 Processor Information
@@ -742,23 +754,34 @@ Processor Information
 	Characteristics:
 		64-bit capable
 
-Handle 0x0044, DMI type 19, 31 bytes
-Memory Array Mapped Address
+Handle 0x0044, DMI type 20, 35 bytes
+Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
+	Physical Device Handle: 0x0042
+	Memory Array Mapped Address Handle: 0x0045
+	Partition Row Position: Unknown
+	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x0045, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x0017FFFFFFF
+	Range Size: 6 GB
 	Physical Array Handle: 0x0007
 	Partition Width: 4
 
-Handle 0x0049, DMI type 131, 64 bytes
+Handle 0x004A, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 49 00 10 00 00 00 00 00 00 00 00 00 00 00
+		83 40 4A 00 31 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 5F 1E FF FF FF FF 01 20 00 00 01 00 08 00
 		E0 04 00 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 66 00 00 00 76 50 72 6F 00 00 00 00
 
-Handle 0x004A, DMI type 13, 22 bytes
+Handle 0x004B, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 6
@@ -770,6 +793,6 @@ BIOS Language Information
 		zh|CT|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x004F, DMI type 127, 4 bytes
+Handle 0x0050, DMI type 127, 4 bytes
 End Of Table
 

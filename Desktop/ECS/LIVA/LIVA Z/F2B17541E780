@@ -1,13 +1,15 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.0.0 present.
-Table at 0x000ED450.
+# dmidecode 3.6
+# SMBIOS entry point at 0x79c52000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 2.8 present.
+46 structures occupying 2150 bytes.
+Table at 0x79C4F000.
 
-Handle 0x0000, DMI type 0, 24 bytes
+Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
 	Version: 5.12
-	Release Date: 05/18/2017
+	Release Date: 09/01/2021
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 6656 kB
@@ -47,7 +49,7 @@ Handle 0x0002, DMI type 2, 15 bytes
 Base Board Information
 	Manufacturer: ECS
 	Product Name: APLD-MINI
-	Version: 1.0
+	Version: 1.X
 	Serial Number: --
 	Asset Tag: --
 	Features:
@@ -63,7 +65,7 @@ Chassis Information
 	Manufacturer: ECS
 	Type: Desktop
 	Lock: Not Present
-	Version: 1.0
+	Version: 1.X
 	Serial Number: --
 	Asset Tag: --
 	Boot-up State: Safe
@@ -212,19 +214,7 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: Other
 
-Handle 0x0019, DMI type 9, 17 bytes
-System Slot Information
-	Designation: NGFF1
-	Type: x1 M.2 Socket 3
-	Current Usage: In Use
-	Length: Other
-	Characteristics:
-		3.3 V is provided
-		Opening is shared
-		PME signal is supported
-	Bus Address: 0000:02:00.0
-
-Handle 0x001A, DMI type 10, 14 bytes
+Handle 0x0019, DMI type 10, 14 bytes
 On Board Device 1 Information
 	Type: Video
 	Status: Enabled
@@ -246,41 +236,106 @@ On Board Device 5 Information
 	Status: Enabled
 	Description:  Onboard Ethernet Controller #2
 
-Handle 0x001B, DMI type 11, 5 bytes
+Handle 0x001A, DMI type 11, 5 bytes
 OEM Strings
 	String 1: Default string
 
-Handle 0x001C, DMI type 12, 5 bytes
+Handle 0x001B, DMI type 12, 5 bytes
 System Configuration Options
 	Option 1: Default string
 
-Handle 0x001D, DMI type 20, 35 bytes
+Handle 0x001C, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: None
+	Maximum Capacity: 8 GB
+	Error Information Handle: Not Provided
+	Number Of Devices: 4
+
+Handle 0x001D, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Array Handle: 0x001C
+	Partition Width: 4
+
+Handle 0x001E, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x001C
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: A1_DIMM0
+	Bank Locator: A1_BANK0
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Kingston        
+	Serial Number: --
+	Asset Tag: --
+	Part Number: CBD16D3LS1KBG/4G  
+	Rank: Unknown
+	Configured Memory Speed: 1600 MT/s
+	Minimum Voltage: 1.35 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.35 V
+
+Handle 0x001F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x0026
-	Memory Array Mapped Address Handle: 0x0028
+	Physical Device Handle: 0x001E
+	Memory Array Mapped Address Handle: 0x001D
 	Partition Row Position: Unknown
 	Interleave Position: 1
 	Interleaved Data Depth: 2
 
-Handle 0x001E, DMI type 20, 35 bytes
+Handle 0x0020, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x001C
+	Error Information Handle: Not Provided
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: A1_DIMM1
+	Bank Locator: A1_BANK1
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Kingston        
+	Serial Number: --
+	Asset Tag: --
+	Part Number: CBD16D3LS1KBG/4G  
+	Rank: Unknown
+	Configured Memory Speed: 1600 MT/s
+	Minimum Voltage: 1.35 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.35 V
+
+Handle 0x0021, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00100000000
 	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x0027
-	Memory Array Mapped Address Handle: 0x0028
+	Physical Device Handle: 0x0020
+	Memory Array Mapped Address Handle: 0x001D
 	Partition Row Position: Unknown
 	Interleave Position: 2
 	Interleaved Data Depth: 2
 
-Handle 0x001F, DMI type 32, 20 bytes
+Handle 0x0022, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0020, DMI type 41, 11 bytes
+Handle 0x0023, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard Intel Graphics
 	Type: Video
@@ -288,7 +343,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:02.0
 
-Handle 0x0021, DMI type 41, 11 bytes
+Handle 0x0024, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard Intel SATA Controller
 	Type: SATA Controller
@@ -296,7 +351,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:12.0
 
-Handle 0x0022, DMI type 41, 11 bytes
+Handle 0x0025, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard HD Audio
 	Type: Sound
@@ -304,7 +359,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:0e.0
 
-Handle 0x0023, DMI type 41, 11 bytes
+Handle 0x0026, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard Ethernet Controller #1
 	Type: Ethernet
@@ -312,7 +367,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:01:00.0
 
-Handle 0x0024, DMI type 41, 11 bytes
+Handle 0x0027, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation:  Onboard Ethernet Controller #2
 	Type: Ethernet
@@ -320,74 +375,19 @@ Onboard Device
 	Type Instance: 2
 	Bus Address: 0000:03:00.0
 
-Handle 0x0025, DMI type 16, 23 bytes
-Physical Memory Array
-	Location: System Board Or Motherboard
-	Use: System Memory
-	Error Correction Type: None
-	Maximum Capacity: 16 GB
-	Error Information Handle: Not Provided
-	Number Of Devices: 2
+Handle 0x002C, DMI type 43, 31 bytes
+TPM Device
+	Vendor ID: CTNI
+	Specification Version: 2.0
+	Firmware Revision: 301.9
+	Description: INTEL
+	Characteristics:
+		Family configurable via platform software support
+	OEM-specific Information: 0x00000000
 
-Handle 0x0026, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0025
-	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 4 GB
-	Form Factor: SODIMM
-	Set: None
-	Locator: ChannelA-DIMM0
-	Bank Locator: BANK 0
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: CBD16D3LS1KBG/4G  
-	Rank: Unknown
-	Configured Memory Speed: 1600 MT/s
-	Minimum Voltage: 1.35 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
-
-Handle 0x0027, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0025
-	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 4 GB
-	Form Factor: SODIMM
-	Set: None
-	Locator: ChannelA-DIMM1
-	Bank Locator: BANK 1
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: Kingston
-	Serial Number: --
-	Asset Tag: --
-	Part Number: CBD16D3LS1KBG/4G  
-	Rank: Unknown
-	Configured Memory Speed: 1600 MT/s
-	Minimum Voltage: 1.35 V
-	Maximum Voltage: 1.5 V
-	Configured Voltage: 1.5 V
-
-Handle 0x0028, DMI type 19, 31 bytes
-Memory Array Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
-	Physical Array Handle: 0x0025
-	Partition Width: 2
-
-Handle 0x0029, DMI type 7, 19 bytes
+Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: CPU Internal L1
+	Socket Designation: <BAD INDEX>
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
@@ -401,9 +401,9 @@ Cache Information
 	System Type: Other
 	Associativity: Other
 
-Handle 0x002A, DMI type 7, 19 bytes
+Handle 0x002E, DMI type 7, 19 bytes
 Cache Information
-	Socket Designation: CPU Internal L2
+	Socket Designation: <BAD INDEX>
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
@@ -417,7 +417,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x002B, DMI type 4, 48 bytes
+Handle 0x002F, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: SOCKET 0
 	Type: Central Processor
@@ -461,8 +461,8 @@ Processor Information
 	Current Speed: 1100 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
-	L1 Cache Handle: 0x0029
-	L2 Cache Handle: 0x002A
+	L1 Cache Handle: 0x002D
+	L2 Cache Handle: 0x002E
 	L3 Cache Handle: Not Provided
 	Serial Number: --
 	Asset Tag: --
@@ -473,20 +473,48 @@ Processor Information
 	Characteristics:
 		64-bit capable
 
-Handle 0x002C, DMI type 150, 88 bytes
+Handle 0x0030, DMI type 9, 17 bytes
+System Slot Information
+	Designation: J6C1
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
+	Current Usage: Available
+	Length: Long
+	ID: 0
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		PME signal is supported
+	Bus Address: 0000:00:14.0
+
+Handle 0x0031, DMI type 9, 17 bytes
+System Slot Information
+	Designation: J7C1
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
+	Current Usage: Available
+	Length: Short
+	ID: 1
+	Characteristics:
+		3.3 V is provided
+		Opening is shared
+		PME signal is supported
+	Bus Address: 0000:00:14.0
+
+Handle 0x0032, DMI type 150, 88 bytes
 OEM-specific Type
 	Header and Data:
-		96 58 2C 00 24 50 43 43 48 49 50 53 41 50 4C 44
-		2D 4D 49 4E 49 20 31 2E 30 20 30 35 31 38 31 37
+		96 58 32 00 24 50 43 43 48 49 50 53 41 50 4C 44
+		2D 4D 49 4E 49 20 31 2E 58 20 30 39 30 31 32 31
 		24 5F 70 41 54 48 5F 41 50 4C 2D 37 20 20 20 20
 		20 08 00 00 00 00 00 00 20 20 20 20 20 20 20 20
 		20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
 		20 20 20 20 20 20 20 20
 
-Handle 0x002D, DMI type 150, 149 bytes
+Handle 0x0033, DMI type 150, 149 bytes
 OEM-specific Type
 	Header and Data:
-		96 95 2D 00 5F 62 4C 32 5F 32 24 42 49 4F 53 4C
+		96 95 33 00 5F 62 4C 32 5F 32 24 42 49 4F 53 4C
 		4F 43 4B 46 55 4E 43 54 49 4F 4E 20 45 4C 49 54
 		45 47 52 4F 55 50 20 20 20 20 20 20 20 20 20 20
 		20 20 20 20 20 20 20 20 20 20 20 20 20 4D 6F 64
@@ -497,11 +525,11 @@ OEM-specific Type
 		20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20
 		20 20 20 20 20
 
-Handle 0x002E, DMI type 150, 13 bytes
+Handle 0x0034, DMI type 150, 13 bytes
 OEM-specific Type
 	Header and Data:
-		96 0D 2E 00 5F 65 41 50 5F 04 00 00 00
+		96 0D 34 00 5F 65 41 50 5F 04 00 00 00
 
-Handle 0x002F, DMI type 127, 4 bytes
+Handle 0x0035, DMI type 127, 4 bytes
 End Of Table
 

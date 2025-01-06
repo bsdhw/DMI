@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
@@ -490,7 +490,8 @@ Port Connector Information
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT1_M.2
-	Type: x4 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Long
 	Characteristics:
@@ -501,7 +502,8 @@ System Slot Information
 Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT2_M.2
-	Type: x1 M.2 Socket 1-SD
+	Type: M.2 Socket 1-SD
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	Characteristics:

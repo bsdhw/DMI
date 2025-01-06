@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-55 structures occupying 2372 bytes.
+55 structures occupying 2373 bytes.
 Table at 0xDB7A3018.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -467,15 +467,15 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
-	Maximum Capacity: 4 GB
+	Maximum Capacity: 8 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 2
 
 Handle 0x003C, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x003B
 	Partition Width: 255
 
@@ -485,13 +485,23 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 2
 	Bank Locator: CHANNEL A
 	Type: DDR3
-	Type Detail: None
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 800 MT/s
+	Manufacturer: Hynix/Hyundai  
+	Serial Number: --
+	Asset Tag: --
+	Part Number: HMT451S6AFR8A-PB  
+	Rank: 1
+	Configured Memory Speed: 800 MT/s
+	Minimum Voltage: 1.35 V
+	Maximum Voltage: 1.5 V
+	Configured Voltage: 1.5 V
 
 Handle 0x003E, DMI type 17, 40 bytes
 Memory Device
@@ -507,10 +517,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 800 MT/s
-	Manufacturer: Hynix/Hyundai  
+	Manufacturer: Samsung        
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT451S6AFR8A-PB  
+	Part Number: M471B5173QH0-YK0  
 	Rank: 1
 	Configured Memory Speed: 800 MT/s
 	Minimum Voltage: 1.35 V
@@ -520,16 +530,18 @@ Memory Device
 Handle 0x003F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000000003FF
-	Range Size: 1 kB
-	Physical Device Handle: 0x0000
-	Memory Array Mapped Address Handle: 0x0000
-	Partition Row Position: <OUT OF SPEC>
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x003D
+	Memory Array Mapped Address Handle: 0x003C
+	Partition Row Position: Unknown
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0040, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x003E
 	Memory Array Mapped Address Handle: 0x003C

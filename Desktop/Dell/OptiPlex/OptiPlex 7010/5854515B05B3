@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 83 structures occupying 3776 bytes.
@@ -500,7 +500,8 @@ Port Connector Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16
-	Type: x16 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -513,7 +514,8 @@ System Slot Information
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X4
-	Type: x4 PCI Express
+	Type: PCI Express
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -593,13 +595,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x003F, DMI type 17, 34 bytes
 Memory Device
@@ -635,13 +630,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0042, DMI type 17, 34 bytes
 Memory Device

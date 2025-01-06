@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0xcad2db98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
@@ -802,7 +802,8 @@ Port Connector Information
 Handle 0x004B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16PCIEXP
-	Type: x16 PCI Express 2 x16
+	Type: PCI Express 2 x16
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 255
@@ -814,7 +815,8 @@ System Slot Information
 Handle 0x004C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X4PCIEXP
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 255
@@ -826,7 +828,8 @@ System Slot Information
 Handle 0x004D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X1PCIEXP1
-	Type: x1 PCI Express 2 x1
+	Type: PCI Express 2 x1
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Other
 	ID: 255
@@ -838,7 +841,8 @@ System Slot Information
 Handle 0x004E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Long
 	ID: 255

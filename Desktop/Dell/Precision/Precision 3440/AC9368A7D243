@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
-117 structures occupying 6514 bytes.
+116 structures occupying 6510 bytes.
 Table at 0x000E0000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -529,23 +529,23 @@ Handle 0x002C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT3_M.2
 	Type: x4 M.2 Socket 3
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:ff:1f.7
+	Bus Address: 0000:ff:00.0
 
 Handle 0x002D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT4_M.2
 	Type: x4 M.2 Socket 3
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:ff:1f.7
+	Bus Address: 0000:01:00.0
 
 Handle 0x002E, DMI type 9, 17 bytes
 System Slot Information
@@ -573,7 +573,7 @@ On Board Device Information
 Handle 0x0031, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Sound
-	Status: Enabled
+	Status: Disabled
 	Description: "Realtek Audio"
 
 Handle 0x0032, DMI type 20, 35 bytes
@@ -1041,37 +1041,38 @@ OEM-specific Type
 		04 88 04 00 00 8C 04 8C 04 01 00 8D 04 8D 04 00
 		00 98 04 98 04 FF FF 9C 04 9C 04 01 00 9D 04 9D
 		04 00 00 9E 04 9E 04 01 00 9F 04 9F 04 00 00 DC
-		04 DC 04 FF FF E4 04 E4 04 FF FF E6 04 E6 04 01
-		00 E7 04 E7 04 00 00 EC 04 EC 04 01 00 ED 04 ED
-		04 00 00 00 05 00 05 FF FF 12 05 12 05 00 00 13
-		05 13 05 01 00 FF FF FF FF 00 00
+		04 DC 04 FF FF E0 04 E0 04 01 00 E1 04 E1 04 00
+		00 E2 04 E2 04 01 00 E3 04 E3 04 00 00 E4 04 E4
+		04 FF FF E6 04 E6 04 01 00 E7 04 E7 04 00 00 EC
+		04 EC 04 01 00 FF FF FF FF 00 00
 
 Handle 0xDA06, DMI type 218, 251 bytes
 OEM-specific Type
 	Header and Data:
-		DA FB 06 DA B2 00 04 EF 1E B6 10 14 05 14 05 02
-		00 15 05 15 05 01 00 2C 05 2C 05 FF FF 3B 05 3B
-		05 00 00 47 05 47 05 00 00 48 05 48 05 01 00 52
-		05 52 05 01 00 53 05 53 05 00 00 54 05 54 05 01
-		00 55 05 55 05 00 00 58 05 58 05 01 00 59 05 59
-		05 00 00 5A 05 5A 05 01 00 5B 05 5B 05 00 00 5C
-		05 5C 05 01 00 5D 05 5D 05 00 00 5E 05 5E 05 01
-		00 5F 05 5F 05 00 00 60 05 60 05 FF FF 65 05 65
-		05 FF FF 3E 40 3E 40 00 00 3F 40 3F 40 01 00 4C
-		40 4C 40 FF FF 4D 40 4D 40 01 00 4E 40 4E 40 00
-		00 4F 40 4F 40 01 00 50 40 50 40 00 00 00 80 00
-		80 00 00 02 80 02 80 02 00 03 80 03 80 03 00 0C
-		80 0C 80 00 00 0D 80 0D 80 00 00 0E 80 0E 80 01
-		00 0F 80 0F 80 FF FF 11 80 11 80 01 00 12 80 12
-		80 FF FF 13 80 13 80 00 00 14 80 14 80 00 00 00
-		A0 00 A0 01 00 FF FF FF FF 00 00
+		DA FB 06 DA B2 00 04 EF 1E B6 10 ED 04 ED 04 00
+		00 00 05 00 05 FF FF 12 05 12 05 00 00 13 05 13
+		05 01 00 14 05 14 05 02 00 15 05 15 05 01 00 2C
+		05 2C 05 FF FF 3B 05 3B 05 00 00 47 05 47 05 00
+		00 48 05 48 05 01 00 52 05 52 05 01 00 53 05 53
+		05 00 00 54 05 54 05 01 00 55 05 55 05 00 00 58
+		05 58 05 01 00 59 05 59 05 00 00 5A 05 5A 05 01
+		00 5B 05 5B 05 00 00 5C 05 5C 05 01 00 5D 05 5D
+		05 00 00 5E 05 5E 05 01 00 5F 05 5F 05 00 00 60
+		05 60 05 FF FF 65 05 65 05 FF FF 3E 40 3E 40 00
+		00 3F 40 3F 40 01 00 4C 40 4C 40 FF FF 4D 40 4D
+		40 01 00 4E 40 4E 40 00 00 4F 40 4F 40 01 00 50
+		40 50 40 00 00 00 80 00 80 00 00 02 80 02 80 02
+		00 03 80 03 80 03 00 0C 80 0C 80 00 00 0D 80 0D
+		80 00 00 0E 80 0E 80 01 00 0F 80 0F 80 FF FF 11
+		80 11 80 01 00 FF FF FF FF 00 00
 
-Handle 0xDA07, DMI type 218, 35 bytes
+Handle 0xDA07, DMI type 218, 59 bytes
 OEM-specific Type
 	Header and Data:
-		DA 23 07 DA B2 00 04 EF 1E B6 10 04 A0 04 A0 01
-		00 06 F0 06 F0 00 00 06 F1 06 F1 00 00 FF FF FF
-		FF 00 00
+		DA 3B 07 DA B2 00 04 EF 1E B6 10 12 80 12 80 FF
+		FF 13 80 13 80 00 00 14 80 14 80 00 00 00 A0 00
+		A0 01 00 04 A0 04 A0 01 00 06 F0 06 F0 00 00 06
+		F1 06 F1 00 00 FF FF FF FF 00 00
 
 Handle 0xDC00, DMI type 220, 22 bytes
 OEM-specific Type
@@ -1233,21 +1234,13 @@ Onboard Device
 
 Handle 0xF044, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation: Onboard - Sound
-	Type: Sound
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:00:1f.3
-
-Handle 0xF045, DMI type 41, 11 bytes
-Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
 	Status: Enabled
 	Type Instance: 10
 	Bus Address: 0000:00:1f.4
 
-Handle 0xF046, DMI type 41, 11 bytes
+Handle 0xF045, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Other
 	Type: Other
@@ -1255,7 +1248,7 @@ Onboard Device
 	Type Instance: 11
 	Bus Address: 0000:00:1f.5
 
-Handle 0xF047, DMI type 41, 11 bytes
+Handle 0xF046, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Onboard - Ethernet
 	Type: Ethernet
@@ -1263,10 +1256,10 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:00:1f.6
 
-Handle 0xF048, DMI type 237, 89 bytes
+Handle 0xF047, DMI type 237, 89 bytes
 OEM-specific Type
 	Header and Data:
-		ED 59 48 F0 0C 01 00 00 00 00 A6 00 02 00 FF FF
+		ED 59 47 F0 0C 01 00 00 00 00 A6 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
 		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
@@ -1289,16 +1282,16 @@ OEM-specific Type
 		Platform Version
 		Client Silicon Version
 
-Handle 0xF052, DMI type 14, 8 bytes
+Handle 0xF051, DMI type 14, 8 bytes
 Group Associations
 	Name: $MEI
 	Items: 1
 		0x0000 (OEM-specific)
 
-Handle 0xF053, DMI type 235, 106 bytes
+Handle 0xF052, DMI type 235, 106 bytes
 OEM-specific Type
 	Header and Data:
-		EB 6A 53 F0 01 04 01 45 02 00 94 06 81 85 39 30
+		EB 6A 52 F0 01 04 01 45 02 00 94 06 81 85 39 30
 		00 00 00 00 40 00 00 03 1F 00 00 C9 0B C0 C7 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
@@ -1311,12 +1304,12 @@ OEM-specific Type
 		MEI3
 		MEI4
 
-Handle 0xF054, DMI type 136, 6 bytes
+Handle 0xF053, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 54 F0 5A 5A
+		88 06 53 F0 5A 5A
 
-Handle 0xF055, DMI type 14, 23 bytes
+Handle 0xF054, DMI type 14, 23 bytes
 Group Associations
 	Name: Firmware Version Info
 	Items: 6
@@ -1325,9 +1318,9 @@ Group Associations
 		0x0038 (OEM-specific)
 		0x0039 (OEM-specific)
 		0x003A (OEM-specific)
-		0xF048 (OEM-specific)
+		0xF047 (OEM-specific)
 
-Handle 0xF056, DMI type 13, 22 bytes
+Handle 0xF055, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 2
@@ -1335,6 +1328,6 @@ BIOS Language Information
 		<BAD INDEX>
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0xF057, DMI type 127, 4 bytes
+Handle 0xF056, DMI type 127, 4 bytes
 End Of Table
 

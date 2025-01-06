@@ -1,6 +1,5 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.6
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 83 structures occupying 3782 bytes.
 Table at 0x000EC330.
@@ -501,7 +500,8 @@ Port Connector Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16
-	Type: x16 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -514,7 +514,8 @@ System Slot Information
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X4
-	Type: x4 PCI Express
+	Type: PCI Express
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	ID: 2

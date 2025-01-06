@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 23 structures occupying 997 bytes.
@@ -143,7 +143,8 @@ Cache Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -156,7 +157,8 @@ System Slot Information
 Handle 0x000A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -169,7 +171,8 @@ System Slot Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -182,7 +185,8 @@ System Slot Information
 Handle 0x000C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 3

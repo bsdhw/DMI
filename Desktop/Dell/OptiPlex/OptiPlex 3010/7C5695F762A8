@@ -1,9 +1,9 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x000f0000
+# dmidecode 3.6
+# SMBIOS entry point at 0x000f04c0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-76 structures occupying 3411 bytes.
-Table at 0x000E0000.
+76 structures occupying 3419 bytes.
+Table at 0x000EC1C0.
 
 Handle 0xDA00, DMI type 218, 251 bytes
 OEM-specific Type
@@ -458,7 +458,8 @@ Port Connector Information
 Handle 0x001B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16
-	Type: x16 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -471,7 +472,8 @@ System Slot Information
 Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -484,7 +486,8 @@ System Slot Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -497,7 +500,8 @@ System Slot Information
 Handle 0x001E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4
@@ -505,7 +509,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:04:1c.4
+	Bus Address: 0000:03:1c.4
 
 Handle 0x001F, DMI type 10, 6 bytes
 On Board Device Information
@@ -578,20 +582,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM1
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 029E
+	Speed: 1600 MT/s
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMT8GX3M2A1866C9  
+	Part Number: KHX1866C10D3/8G   
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003C, DMI type 17, 34 bytes
 Memory Device
@@ -599,34 +603,34 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: 029E
+	Speed: 1600 MT/s
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMT8GX3M2A1866C9  
+	Part Number: KHX1866C10D3/8G   
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003E, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0039
 	Partition Width: 2
 
 Handle 0x003B, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x003A
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: 1
@@ -635,9 +639,9 @@ Memory Device Mapped Address
 
 Handle 0x003D, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x003C
 	Memory Array Mapped Address Handle: 0x003E
 	Partition Row Position: 1

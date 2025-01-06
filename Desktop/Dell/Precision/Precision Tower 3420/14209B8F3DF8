@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x000f0000
+# dmidecode 3.5
+# SMBIOS entry point at 0x000f05e0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
-87 structures occupying 5223 bytes.
-Table at 0x000E0000.
+88 structures occupying 5312 bytes.
+Table at 0x000EDB30.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Dell Inc.
-	Version: 2.21.0
-	Release Date: 03/23/2022
+	Version: 2.25.0
+	Release Date: 04/05/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -34,7 +34,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 2.21
+	BIOS Revision: 2.25
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -122,7 +122,7 @@ System Event Log
 
 Handle 0x0007, DMI type 25, 9 bytes
 System Power Controls
-	Next Scheduled Power-on: 12-18 00:00:00
+	Next Scheduled Power-on: 05-08 00:00:00
 
 Handle 0x0008, DMI type 32, 20 bytes
 System Boot Information
@@ -150,11 +150,11 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2400 MT/s
-	Manufacturer: 802C0000802C
+	Speed: 2667 MT/s
+	Manufacturer: 04CD000080AD
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 8ATF1G64AZ-2G3E1    
+	Part Number: F4-2666C19-8GIS     
 	Rank: 1
 	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: Unknown
@@ -165,15 +165,25 @@ Handle 0x000B, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0009
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: Unknown
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 8 GB
+	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2
 	Bank Locator: Not Specified
-	Type: Unknown
-	Type Detail: None
+	Type: DDR4
+	Type Detail: Synchronous Unbuffered (Unregistered)
+	Speed: 2667 MT/s
+	Manufacturer: 04CD000080AD
+	Serial Number: --
+	Asset Tag: --
+	Part Number: F4-2666C19-8GIS     
+	Rank: 1
+	Configured Memory Speed: 2133 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: 1.2 V
 
 Handle 0x000C, DMI type 17, 40 bytes
 Memory Device
@@ -206,10 +216,10 @@ Memory Device
 Handle 0x000E, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0009
-	Partition Width: 1
+	Partition Width: 2
 
 Handle 0x000F, DMI type 7, 19 bytes
 Cache Information
@@ -602,6 +612,19 @@ Memory Device Mapped Address
 	Physical Device Handle: 0x000A
 	Memory Array Mapped Address Handle: 0x000E
 	Partition Row Position: 1
+	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x0035, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x000B
+	Memory Array Mapped Address Handle: 0x000E
+	Partition Row Position: 1
+	Interleave Position: 2
+	Interleaved Data Depth: 2
 
 Handle 0x1B00, DMI type 27, 15 bytes
 Cooling Device
@@ -839,7 +862,7 @@ OEM-specific Type
 Handle 0xDE00, DMI type 222, 16 bytes
 OEM-specific Type
 	Header and Data:
-		DE 10 00 DE 01 04 00 00 22 05 24 14 17 01 00 00
+		DE 10 00 DE 01 04 00 00 23 09 06 02 01 01 00 00
 
 Handle 0xF023, DMI type 130, 20 bytes
 OEM-specific Type
@@ -852,7 +875,7 @@ OEM-specific Type
 	Header and Data:
 		83 40 24 F0 3F 00 00 00 0B 00 00 00 00 00 0C 00
 		F8 00 49 A1 00 00 00 00 09 C0 00 00 08 00 0B 00
-		7E 10 5C 00 00 00 00 00 FE 00 B7 15 00 00 00 00
+		E3 10 5D 00 00 00 00 00 FE 00 B7 15 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0xF025, DMI type 237, 26 bytes
@@ -869,7 +892,7 @@ Handle 0xF026, DMI type 237, 26 bytes
 OEM-specific Type
 	Header and Data:
 		ED 1A 26 F0 03 01 00 01 07 00 00 00 02 00 0B 00
-		00 0C 00 03 04 0B 08 5C 7E 10
+		00 0C 00 03 04 0B 08 5D E3 10
 	Strings:
 		Reference Code - ME 11.0
 		MEBx version
@@ -903,7 +926,7 @@ OEM-specific Type
 		ED 36 28 F0 07 01 00 01 07 00 00 00 02 00 02 00
 		00 06 00 03 00 01 07 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 07 00 07 00 FF FF FF 07 00 08
-		00 FF FF FF FF FF
+		00 FF FF FF 01 10
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC
@@ -920,8 +943,8 @@ OEM-specific Type
 		ED 67 29 F0 0E 01 00 00 00 00 A6 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF 00 0B 00 FF FF 00 00 00 0C 00 00
-		09 00 66 10 0D 00 02 00 00 00 00 0E 00 FF FF FF
+		00 FF FF FF FF 00 0B 00 FF FF 00 00 00 0C 00 FF
+		FF FF FF FF 0D 00 02 00 00 00 00 0E 00 FF FF FF
 		FF FF 0F 00 FF FF FF FF FF 10 11 01 03 03 01 00
 		12 00 00 07 03 00 00
 	Strings:
@@ -976,7 +999,7 @@ Group Associations
 Handle 0xF034, DMI type 235, 81 bytes
 OEM-specific Type
 	Header and Data:
-		EB 51 34 F0 01 03 01 45 02 00 94 06 81 10 89 30
+		EB 51 34 F0 01 03 01 45 02 00 90 06 81 10 86 30
 		00 00 00 00 40 68 00 01 1F 00 00 C9 0B C0 47 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

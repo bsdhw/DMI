@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 55 structures occupying 2372 bytes.
@@ -37,7 +37,7 @@ System Information
 	Version:                       
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Power Switch
+	Wake-up Type: AC Power Restored
 	SKU Number: S26361-Kxxx-Vyyy
 	Family:                 
 
@@ -385,7 +385,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFFC46000
 	Status: Valid, Not Full
-	Change Token: 0x00000004
+	Change Token: 0x0000002E
 	Header Format: Type 1
 	Supported Log Type Descriptors: 27
 	Descriptor 1: Single-bit ECC memory error

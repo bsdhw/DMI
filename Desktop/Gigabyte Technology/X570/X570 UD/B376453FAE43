@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0xbca27000
+# dmidecode 3.5
+# SMBIOS entry point at 0xbca24000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
-48 structures occupying 2393 bytes.
-Table at 0xBCA24000.
+48 structures occupying 2409 bytes.
+Table at 0xBCA21000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: F33a
-	Release Date: 01/22/2021
+	Version: F38d
+	Release Date: 07/18/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -31,7 +31,6 @@ BIOS Information
 		Serial services are supported (int 14h)
 		Printer services are supported (int 17h)
 		CGA/mono video services are supported (int 10h)
-		ACPI is supported
 		USB legacy is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
@@ -53,7 +52,7 @@ Handle 0x0002, DMI type 2, 15 bytes
 Base Board Information
 	Manufacturer: Gigabyte Technology Co., Ltd.
 	Product Name: X570 UD
-	Version: x.x
+	Version: Default string
 	Serial Number: --
 	Asset Tag: --
 	Features:
@@ -109,7 +108,7 @@ Handle 0x0009, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.55
+	Firmware Revision: 3.87
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support
@@ -148,8 +147,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 384 kB
-	Maximum Size: 384 kB
+	Installed Size: 512 kB
+	Maximum Size: 512 kB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -164,8 +163,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3 MB
-	Maximum Size: 3 MB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -180,8 +179,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 8 MB
-	Maximum Size: 8 MB
+	Installed Size: 16 MB
+	Maximum Size: 16 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -196,8 +195,8 @@ Processor Information
 	Type: Central Processor
 	Family: Zen
 	Manufacturer: Advanced Micro Devices, Inc.
-	ID: 01 0F 86 00 FF FB 8B 17
-	Signature: Family 23, Model 96, Stepping 1
+	ID: 00 0F A5 00 FF FB 8B 17
+	Signature: Family 25, Model 80, Stepping 0
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -222,11 +221,11 @@ Processor Information
 		SSE (Streaming SIMD extensions)
 		SSE2 (Streaming SIMD extensions 2)
 		HTT (Multi-threading)
-	Version: AMD Ryzen 5 PRO 4650G with Radeon Graphics
-	Voltage: 1.2 V
+	Version: AMD Ryzen 7 5700G with Radeon Graphics         
+	Voltage: 1.4 V
 	External Clock: 100 MHz
-	Max Speed: 4300 MHz
-	Current Speed: 3700 MHz
+	Max Speed: 4650 MHz
+	Current Speed: 3800 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket AM4
 	L1 Cache Handle: 0x000D
@@ -235,9 +234,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Unknown
-	Core Count: 6
-	Core Enabled: 6
-	Thread Count: 12
+	Core Count: 8
+	Core Enabled: 8
+	Thread Count: 16
 	Characteristics:
 		64-bit capable
 		Multi-Core
@@ -293,13 +292,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3600 MT/s
+	Speed: 3200 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F4-3600C16-16GTZNC
 	Rank: 2
-	Configured Memory Speed: 3600 MT/s
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -373,13 +372,13 @@ Memory Device
 	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3600 MT/s
+	Speed: 3200 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F4-3600C16-16GTZNC
 	Rank: 2
-	Configured Memory Speed: 3600 MT/s
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V

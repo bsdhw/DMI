@@ -1,7 +1,7 @@
 # dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-87 structures occupying 3956 bytes.
+85 structures occupying 3884 bytes.
 Table at 0x000EC410.
 
 Handle 0xDA00, DMI type 218, 251 bytes
@@ -599,59 +599,17 @@ Handle 0x003F, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM3
-	Bank Locator: Not Specified
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Elpida
-	Serial Number: --
-	Asset Tag: --
-	Part Number: EBJ21UE8BDF0-DJ-F 
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0041, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x003E
-	Error Information Handle: Not Provided
 	Total Width: Unknown
 	Data Width: Unknown
 	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
-	Locator: DIMM1
+	Locator: DIMM3
 	Bank Locator: Not Specified
 	Type: Unknown
 	Type Detail: None
 
-Handle 0x0042, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x003E
-	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 2 GB
-	Form Factor: DIMM
-	Set: None
-	Locator: DIMM4
-	Bank Locator: Not Specified
-	Type: DDR3
-	Type Detail: Synchronous
-	Speed: 1333 MT/s
-	Manufacturer: Elpida
-	Serial Number: --
-	Asset Tag: --
-	Part Number: EBJ21UE8BDF0-DJ-F 
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
-
-Handle 0x0044, DMI type 17, 34 bytes
+Handle 0x0040, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x003E
 	Error Information Handle: Not Provided
@@ -660,7 +618,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: DIMM2
+	Locator: DIMM1
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
@@ -670,45 +628,51 @@ Memory Device
 	Asset Tag: --
 	Part Number:                   
 	Rank: 2
-	Configured Memory Speed: 1333 MT/s
+	Configured Memory Speed: 1600 MT/s
 
-Handle 0x0046, DMI type 19, 31 bytes
+Handle 0x0042, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x003E
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM4
+	Bank Locator: Not Specified
+	Type: Unknown
+	Type Detail: None
+
+Handle 0x0043, DMI type 17, 34 bytes
+Memory Device
+	Array Handle: 0x003E
+	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: DIMM2
+	Bank Locator: Not Specified
+	Type: Unknown
+	Type Detail: None
+
+Handle 0x0044, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x003E
 	Partition Width: 4
 
-Handle 0x0040, DMI type 20, 19 bytes
+Handle 0x0041, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
-	Physical Device Handle: 0x003F
-	Memory Array Mapped Address Handle: 0x0046
-	Partition Row Position: 1
-	Interleave Position: 1
-	Interleaved Data Depth: 1
-
-Handle 0x0043, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 2 GB
-	Physical Device Handle: 0x0042
-	Memory Array Mapped Address Handle: 0x0046
-	Partition Row Position: 1
-	Interleave Position: 1
-	Interleaved Data Depth: 1
-
-Handle 0x0045, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x002FFFFFFFF
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 8 GB
-	Physical Device Handle: 0x0044
-	Memory Array Mapped Address Handle: 0x0046
+	Physical Device Handle: 0x0040
+	Memory Array Mapped Address Handle: 0x0044
 	Partition Row Position: 1
 	Interleave Position: 1
 	Interleaved Data Depth: 1

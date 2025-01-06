@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-56 structures occupying 2331 bytes.
+57 structures occupying 2381 bytes.
 Table at 0x000EBC70.
 
 Handle 0x0000, DMI type 218, 17 bytes
@@ -251,7 +251,7 @@ Handle 0x0019, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIE1
 	Type: x16 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 0
 	Characteristics:
@@ -533,10 +533,10 @@ Memory Device Mapped Address
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x002C
-	Memory Array Mapped Address Handle: 0x0034
+	Memory Array Mapped Address Handle: 0x0035
 	Partition Row Position: 1
 	Interleave Position: 1
-	Interleaved Data Depth: 1
+	Interleaved Data Depth: 2
 
 Handle 0x002F, DMI type 17, 34 bytes
 Memory Device
@@ -561,11 +561,11 @@ Memory Device
 
 Handle 0x0030, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
+	Starting Address: 0x00200000000
+	Ending Address: 0x002FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x002F
-	Memory Array Mapped Address Handle: 0x0034
+	Memory Array Mapped Address Handle: 0x0035
 	Partition Row Position: 1
 	Interleave Position: 1
 	Interleaved Data Depth: 2
@@ -574,17 +574,35 @@ Handle 0x0031, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002B
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
-	Locator:        
+	Locator: DIMM4
 	Bank Locator: Not Specified
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
+	Manufacturer: Samsung
+	Serial Number: --
+	Asset Tag: --
+	Part Number: M378B5273DH0-CH9  
+	Rank: 2
+	Configured Memory Speed: 1333 MT/s
 
-Handle 0x0032, DMI type 17, 34 bytes
+Handle 0x0032, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
+	Physical Device Handle: 0x0031
+	Memory Array Mapped Address Handle: 0x0035
+	Partition Row Position: 1
+	Interleave Position: 2
+	Interleaved Data Depth: 2
+
+Handle 0x0033, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002B
 	Error Information Handle: Not Provided
@@ -605,34 +623,34 @@ Memory Device
 	Rank: 1
 	Configured Memory Speed: 1600 MT/s
 
-Handle 0x0033, DMI type 20, 35 bytes
+Handle 0x0034, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00200000000
-	Ending Address: 0x002FFFFFFFF
+	Starting Address: 0x00300000000
+	Ending Address: 0x003FFFFFFFF
 	Range Size: 4 GB
-	Physical Device Handle: 0x0032
-	Memory Array Mapped Address Handle: 0x0034
+	Physical Device Handle: 0x0033
+	Memory Array Mapped Address Handle: 0x0035
 	Partition Row Position: 1
 	Interleave Position: 2
 	Interleaved Data Depth: 2
 
-Handle 0x0034, DMI type 19, 31 bytes
+Handle 0x0035, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 12 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x002B
 	Partition Width: 4
 
-Handle 0x003A, DMI type 131, 64 bytes
+Handle 0x003B, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 3A 00 31 00 00 00 00 00 00 00 00 00 00 00
+		83 40 3B 00 31 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 44 8C 00 00 00 00 01 00 00 00 01 00 09 00
 		EE 03 1A 00 00 00 00 00 C8 00 FF FF 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
-Handle 0x003B, DMI type 13, 22 bytes
+Handle 0x003C, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 6
@@ -644,6 +662,6 @@ BIOS Language Information
 		ja|JP|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x003C, DMI type 127, 4 bytes
+Handle 0x003D, DMI type 127, 4 bytes
 End Of Table
 

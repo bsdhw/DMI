@@ -1,9 +1,9 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x000f04c0
+# dmidecode 3.6
+# SMBIOS entry point at 0x000f0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-86 structures occupying 3861 bytes.
-Table at 0x000EC400.
+87 structures occupying 3901 bytes.
+Table at 0x000E0000.
 
 Handle 0xDA00, DMI type 218, 251 bytes
 OEM-specific Type
@@ -504,7 +504,8 @@ Port Connector Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X4  
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -585,13 +586,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0040, DMI type 17, 34 bytes
 Memory Device
@@ -627,13 +621,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0043, DMI type 17, 34 bytes
 Memory Device
@@ -811,6 +798,14 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:03:1c.2
 
+Handle 0x0037, DMI type 41, 11 bytes
+Onboard Device
+	Reference Designation:  Onboard SATA controller #1
+	Type: SATA Controller
+	Status: Enabled
+	Type Instance: 1
+	Bus Address: 0000:00:1f.2
+
 Handle 0xDE41, DMI type 130, 20 bytes
 OEM-specific Type
 	Header and Data:
@@ -911,7 +906,8 @@ OEM-specific Type
 Handle 0xDED2, DMI type 9, 17 bytes
 System Slot Information
 	Designation: X16 
-	Type: x16 PCI Express 3 x16
+	Type: PCI Express 3 x16
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 2

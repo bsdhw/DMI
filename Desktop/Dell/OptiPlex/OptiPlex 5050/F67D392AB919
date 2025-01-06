@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x000f05e0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
@@ -199,8 +199,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 128 kB
-	Maximum Size: 128 kB
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -215,8 +215,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 512 kB
-	Maximum Size: 512 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -231,8 +231,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 3 MB
-	Maximum Size: 3 MB
+	Installed Size: 6 MB
+	Maximum Size: 6 MB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -245,7 +245,7 @@ Handle 0x0010, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: U3E1
 	Type: Central Processor
-	Family: Pentium
+	Family: Core i5
 	Manufacturer: Intel(R) Corporation
 	ID: E3 06 05 00 FF FB EB BF
 	Signature: Type 0, Family 6, Model 94, Stepping 3
@@ -278,11 +278,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Pentium(R) CPU G4400T @ 2.90GHz
-	Voltage: 0.9 V
+	Version: Intel(R) Core(TM) i5-6600T CPU @ 2.70GHz
+	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 4200 MHz
-	Current Speed: 2800 MHz
+	Current Speed: 2600 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x000D
@@ -291,9 +291,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: To Be Filled By O.E.M.
-	Core Count: 2
-	Core Enabled: 2
-	Thread Count: 2
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 		Multi-Core
@@ -695,10 +695,10 @@ OEM-specific Type
 Handle 0xF021, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 21 F0 31 00 00 00 0B 00 00 00 00 00 0C 00
+		83 40 21 F0 35 00 00 00 0B 00 00 00 00 00 0C 00
 		F8 00 C6 A2 00 00 00 00 11 00 00 00 08 00 0B 00
 		93 0F 5A 00 00 00 00 00 FE 00 D6 15 00 00 00 00
-		00 00 00 00 22 00 00 00 76 50 72 6F 00 00 00 00
+		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0xF022, DMI type 237, 26 bytes
 OEM-specific Type

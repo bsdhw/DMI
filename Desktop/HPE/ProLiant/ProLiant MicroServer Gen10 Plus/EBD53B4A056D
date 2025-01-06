@@ -1,17 +1,24 @@
-# dmidecode 3.3
+# dmidecode 3.6
 # SMBIOS entry point at 0x6e2cc000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
-103 structures occupying 5549 bytes.
-Table at 0x651C2000.
+103 structures occupying 5502 bytes.
+Table at 0x65137000.
 
 Handle 0x0000, DMI type 199, 52 bytes
-OEM-specific Type
-	Header and Data:
-		C7 34 00 00 EC 00 00 00 21 20 28 04 EA 06 09 00
-		EC 00 00 00 21 20 28 04 EB 06 09 00 EC 00 00 00
-		21 20 28 04 EC 06 09 00 EC 00 00 00 21 20 28 04
-		ED 06 09 00
+HPE ProLiant CPU Microcode Patch Support Info
+	CPU ID: Type 0, Family 6, Model 158, Stepping 10
+		Date: 2024-02-01
+		Patch: 0xF8
+	CPU ID: Type 0, Family 6, Model 158, Stepping 11
+		Date: 2024-02-01
+		Patch: 0xF6
+	CPU ID: Type 0, Family 6, Model 158, Stepping 12
+		Date: 2024-02-01
+		Patch: 0xF8
+	CPU ID: Type 0, Family 6, Model 158, Stepping 13
+		Date: 2024-02-05
+		Patch: 0x100
 
 Handle 0x0001, DMI type 201, 16 bytes
 OEM-specific Type
@@ -22,7 +29,7 @@ Handle 0x0002, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: HPE
 	Version: U48
-	Release Date: 01/20/2022
+	Release Date: 08/01/2024
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -49,8 +56,8 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 2.56
-	Firmware Revision: 2.63
+	BIOS Revision: 3.40
+	Firmware Revision: 3.7
 
 Handle 0x0003, DMI type 8, 9 bytes
 Port Connector Information
@@ -179,7 +186,7 @@ OEM-specific Type
 	Header and Data:
 		C1 09 12 00 01 01 00 02 03
 	Strings:
-		v2.54 (10/21/2021)
+		v2.64 (10/13/2022)
 		         
 		          
 
@@ -222,17 +229,19 @@ System Power Supply
 	Hot Replaceable: No
 
 Handle 0x0018, DMI type 194, 5 bytes
-OEM-specific Type
-	Header and Data:
-		C2 05 18 00 10
+HPE ProLiant Super IO Enable/Disable Indicator
+	Serial Port A: Disabled
+	Serial Port B: Disabled
+	Parallel Port: Disabled
+	Floppy Disk Port: Disabled
+	Virtual Serial Port: Enabled
 
 Handle 0x0019, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 19 00 17 00 01 02 00 00 00
-	Strings:
-		                
-		        
+HPE Power Supply Information
+	Associated Handle: 0x0017
+	Manufacturer:                 
+	Revision:         
+	Access Method: Not Available
 
 Handle 0x001A, DMI type 7, 27 bytes
 Cache Information
@@ -371,27 +380,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: Other
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: UNKNOWN
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NOT AVAILABLE
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
-	Memory Technology: Unknown
-	Memory Operating Mode Capability: Unknown
-	Firmware Version: Not Specified
-	Module Manufacturer ID: Unknown
-	Module Product ID: Unknown
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: None
-	Cache Size: Unknown
-	Logical Size: None
 
 Handle 0x0021, DMI type 17, 84 bytes
 Memory Device
@@ -472,29 +460,30 @@ OEM-specific Type
 		08 00 00 00 24 5A 58 54 00 50 9C 79 00 00 00 00
 		A9 00 00 00
 
-Handle 0x0028, DMI type 237, 9 bytes
-OEM-specific Type
-	Header and Data:
-		ED 09 28 00 20 00 01 02 03
-	Strings:
-		Unknown         
-		NOT AVAILABLE   
-		NOT AVAILABLE   
+Handle 0x0028, DMI type 237, 11 bytes
+HPE DIMM Vendor Information
+	Associated Handle: 0x0020
+	DIMM Manufacturer: Unknown         
+	DIMM Manufacturer Part Number: NOT AVAILABLE   
+	DIMM Vendor Serial Number: --
 
-Handle 0x0029, DMI type 237, 9 bytes
-OEM-specific Type
-	Header and Data:
-		ED 09 29 00 21 00 01 02 03
-	Strings:
-		Hynix           
-		HMA82GU7CJR8N-VK    
-		74734F97
+Handle 0x0029, DMI type 237, 11 bytes
+HPE DIMM Vendor Information
+	Associated Handle: 0x0021
+	DIMM Manufacturer: Hynix           
+	DIMM Manufacturer Part Number: HMA82GU7CJR8N-VK    
+	DIMM Vendor Serial Number: --
+	DIMM Manufacture Date: 2021-W03
 
 Handle 0x002A, DMI type 197, 26 bytes
-OEM-specific Type
-	Header and Data:
-		C5 1A 2A 00 1D 00 00 05 FF 01 47 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00
+HPE Processor Specific Information
+	Associated Handle: 0x001D
+	APIC ID: 0
+	BSP: Yes
+	x2APIC: No
+	Advanced Thermal Margining: Yes
+	Physical Socket: 1
+	Maximum Power: 71 W
 
 Handle 0x002B, DMI type 219, 32 bytes
 HPE ProLiant Information
@@ -548,65 +537,54 @@ OEM Strings
 	String 3: OEM String: 
 
 Handle 0x0031, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 31 00 01 00 01 02 07 02 38 01 14 E6 07 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM
-		v2.56 (01/20/2022)
+HPE Version Indicator
+	Firmware Type: System ROM
+	Firmware Name String: System ROM
+	Firmware Version String: v3.40 (08/01/2024)
+	Version Data: v3.40 (08/01/2024)
 
 Handle 0x0032, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 32 00 02 00 01 02 07 02 36 0A 15 E5 07 00
-		00 00 00 00 00 00 00
-	Strings:
-		Redundant System ROM
-		v2.54 (10/21/2021)
+HPE Version Indicator
+	Firmware Type: Redundant System ROM
+	Firmware Name String: Redundant System ROM
+	Firmware Version String: v2.64 (10/13/2022)
+	Version Data: v2.64 (10/13/2022)
 
 Handle 0x0033, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 33 00 08 00 01 00 01 09 09 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System Programmable Logic Device
+HPE Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: System Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: 0x09
 
 Handle 0x0034, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 34 00 09 00 01 00 0C 05 00 01 00 04 00 90
-		01 00 00 00 00 01 00
-	Strings:
-		Server Platform Services (SPS) Firmware
+HPE Version Indicator
+	Firmware Type: SPS Firmware (ME Firmware)
+	Firmware Name String: Server Platform Services (SPS) Firmware
+	Firmware Version String: Not Specified
+	Version Data: 5.1.4.700
+	Unique ID: 0x0001
 
 Handle 0x0035, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 35 00 0C 00 01 02 0A 07 04 00 0F 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Intelligent Platform Abstraction Data
-		7.4.0 Build 15
+HPE Version Indicator
+	Firmware Type: APML
+	Firmware Name String: Intelligent Platform Abstraction Data
+	Firmware Version String: 10.2.0 Build 16
+	Version Data: 10.2.0 Build 16
 
 Handle 0x0036, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 36 00 10 00 01 02 09 03 3E 07 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Intelligent Provisioning
-		3.62.7
+HPE Version Indicator
+	Firmware Type: Intelligent Provisioning
+	Firmware Name String: Intelligent Provisioning
+	Firmware Version String: 3.62.7
+	Version Data: 3.62.7
 
 Handle 0x0037, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 37 00 30 00 01 02 02 25 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Embedded Video Controller
-		2.5
+HPE Version Indicator
+	Firmware Type: Embedded Video Controller
+	Firmware Name String: Embedded Video Controller
+	Firmware Version String: 2.5
+	Version Data: 2.5
 
 Handle 0x0038, DMI type 2, 15 bytes
 Base Board Information
@@ -632,9 +610,8 @@ OEM-specific Type
 		A3 60 15 90 02 8D
 
 Handle 0x003A, DMI type 224, 12 bytes
-OEM-specific Type
-	Header and Data:
-		E0 0C 3A 00 00 00 00 01 FE FF 00 00
+HPE Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0x003B, DMI type 41, 11 bytes
 Onboard Device
@@ -687,7 +664,8 @@ Onboard Device
 Handle 0x0041, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
-	Type: x16 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -701,292 +679,449 @@ System Boot Information
 	Status: No errors detected
 
 Handle 0x0043, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 43 00 3B 00 FE FF 86 80 21 15 00 00 00 00
-		02 00 FE FF 00 00 04 01 01 01 FF FF 01 02 03 04
-		FE FF 05 06 00 00 02 00
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)
-		NIC.LOM.1.1
-		Intel(R) I350 Gigabit Network Connection
-		Embedded LOM 1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x003B
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x1521
+	PCI Sub Vendor ID: 0x0000
+	PCI Sub Device ID: 0x0000
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)
+	Structured Name: NIC.LOM.1.1
+	Device Name: Intel(R) I350 Gigabit Network Connection
+	UEFI Location: Embedded LOM 1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 02:00.0
 
 Handle 0x0044, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 44 00 3C 00 FE FF 86 80 21 15 00 00 00 00
-		02 00 FE FF 00 00 04 01 01 02 FF FF 01 02 03 04
-		FE FF 05 06 00 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x1)
-		NIC.LOM.1.2
-		Intel(R) I350 Gigabit Network Connection
-		Embedded LOM 1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x003C
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x1521
+	PCI Sub Vendor ID: 0x0000
+	PCI Sub Device ID: 0x0000
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 2
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x1)
+	Structured Name: NIC.LOM.1.2
+	Device Name: Intel(R) I350 Gigabit Network Connection
+	UEFI Location: Embedded LOM 1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 02:00.1
 
 Handle 0x0045, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 45 00 3D 00 FE FF 86 80 21 15 00 00 00 00
-		02 00 FE FF 00 00 04 01 01 03 FF FF 01 02 03 04
-		FE FF 05 06 00 00 02 02
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x2)
-		NIC.LOM.1.3
-		Intel(R) I350 Gigabit Network Connection
-		Embedded LOM 1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x003D
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x1521
+	PCI Sub Vendor ID: 0x0000
+	PCI Sub Device ID: 0x0000
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 3
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x2)
+	Structured Name: NIC.LOM.1.3
+	Device Name: Intel(R) I350 Gigabit Network Connection
+	UEFI Location: Embedded LOM 1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 02:00.2
 
 Handle 0x0046, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 46 00 3E 00 FE FF 86 80 21 15 00 00 00 00
-		02 00 FE FF 00 00 04 01 01 04 FF FF 01 02 03 04
-		FE FF 05 06 00 00 02 03
-	Strings:
-		PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x3)
-		NIC.LOM.1.4
-		Intel(R) I350 Gigabit Network Connection
-		Embedded LOM 1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x003E
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x1521
+	PCI Sub Vendor ID: 0x0000
+	PCI Sub Device ID: 0x0000
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Embedded LOM
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 4
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x3)
+	Structured Name: NIC.LOM.1.4
+	Device Name: Intel(R) I350 Gigabit Network Connection
+	UEFI Location: Embedded LOM 1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 02:00.3
 
 Handle 0x0047, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 47 00 3F 00 FE FF 86 80 52 A3 90 15 8D 02
-		01 06 FE FF 00 00 06 08 01 01 FF FF 01 02 03 04
-		FE FF 05 06 00 00 00 B8
-	Strings:
-		PciRoot(0x0)/Pci(0x17,0x0)
-		SATA.Emb.1.1
-		Embedded SATA Controller #1
-		Embedded SATA Controller #1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x003F
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0xa352
+	PCI Sub Vendor ID: 0x1590
+	PCI Sub Device ID: 0x028d
+	PCI Class Code: 0x0001
+	PCI Sub Class Code: 0x0006
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Storage Controller
+	Device Location: Embedded SATA Port
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x17,0x0)
+	Structured Name: SATA.Emb.1.1
+	Device Name: Embedded SATA Controller #1
+	UEFI Location: Embedded SATA Controller #1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 00:17.0
 
 Handle 0x0048, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 48 00 40 00 FE FF 2B 10 38 05 90 15 E4 00
-		03 00 FE FF 00 00 09 01 01 01 FF FF 01 02 03 04
-		FE FF 05 06 00 00 01 01
-	Strings:
-		PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x1)
-		PCI.Emb.1.1
-		Embedded Video Controller
-		Embedded Video Controller
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x0040
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x102b
+	PCI Device ID: 0x0538
+	PCI Sub Vendor ID: 0x1590
+	PCI Sub Device ID: 0x00e4
+	PCI Class Code: 0x0003
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: Other PCI Device
+	Device Location: Embedded
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x1)
+	Structured Name: PCI.Emb.1.1
+	Device Name: Embedded Video Controller
+	UEFI Location: Embedded Video Controller
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: Unknown
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 01:00.1
 
 Handle 0x0049, DMI type 203, 40 bytes
-OEM-specific Type
-	Header and Data:
-		CB 28 49 00 41 00 FE FF 86 80 FB 10 3C 10 D3 17
-		02 00 FE FF 00 00 05 0A 01 01 FF FF 01 02 03 04
-		FE FF 05 06 00 00 07 00
-	Strings:
-		PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
-		NIC.Slot.1.1
-		HPE Ethernet 10Gb 2-port 560SFP+ Adapter - NIC
-		Slot 1
-		Unknown
-		Unknown
+HPE Device Correlation Record
+	Associated Device Record: 0x0041
+	Associated SMBus Record: N/A
+	PCI Vendor ID: 0x8086
+	PCI Device ID: 0x10fb
+	PCI Sub Vendor ID: 0x103c
+	PCI Sub Device ID: 0x17d3
+	PCI Class Code: 0x0002
+	PCI Sub Class Code: 0x0000
+	Parent Handle: N/A
+	Flags: 0x0000
+	Device Type: NIC in a Slot
+	Device Location: PCI Slot
+	Device Instance: 1
+	Device Sub-Instance: 1
+	Bay: Do Not Display
+	Enclosure: Do Not Display
+	Device Path: PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)
+	Structured Name: NIC.Slot.1.1
+	Device Name: HPE Ethernet 10Gb 2-port 560SFP+ Adapter - NIC
+	UEFI Location: Slot 1
+	Associated Real/Phys Handle: N/A
+	PCI Part Number: 665247-001
+	Serial Number: --
+	Segment Group Number: 0x0000
+	PCI Device: 07:00.0
 
 Handle 0x004A, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4A 00 03 00 00 A0 01 00 00 01 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x0,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0003
+	PCI Device: 00:14.0
+	Location: Front of Server
+	Management Port: Not Shared
+	Port Instance: 1
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x0,0x0)
 
 Handle 0x004B, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4B 00 03 00 00 A0 01 00 00 01 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x10,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0003
+	PCI Device: 00:14.0
+	Location: Front of Server
+	Management Port: Not Shared
+	Port Instance: 1
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x10,0x0)
 
 Handle 0x004C, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4C 00 04 00 00 A0 01 00 00 02 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x1,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0004
+	PCI Device: 00:14.0
+	Location: Front of Server
+	Management Port: Not Shared
+	Port Instance: 2
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x1,0x0)
 
 Handle 0x004D, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4D 00 04 00 00 A0 01 00 00 02 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x11,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0004
+	PCI Device: 00:14.0
+	Location: Front of Server
+	Management Port: Not Shared
+	Port Instance: 2
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x11,0x0)
 
 Handle 0x004E, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4E 00 05 00 00 A0 02 00 00 01 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x2,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0005
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 1
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x2,0x0)
 
 Handle 0x004F, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 4F 00 05 00 00 A0 02 00 00 01 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x12,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0005
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 1
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x12,0x0)
 
 Handle 0x0050, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 50 00 06 00 00 A0 02 00 00 02 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x3,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0006
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 2
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x3,0x0)
 
 Handle 0x0051, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 51 00 06 00 00 A0 02 00 00 02 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0006
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 2
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x13,0x0)
 
 Handle 0x0052, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 52 00 07 00 00 A0 02 00 00 03 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x4,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0007
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 3
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x4,0x0)
 
 Handle 0x0053, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 53 00 07 00 00 A0 02 00 00 03 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x14,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0007
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 3
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x14,0x0)
 
 Handle 0x0054, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 54 00 08 00 00 A0 02 00 00 04 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x5,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0008
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 4
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x5,0x0)
 
 Handle 0x0055, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 55 00 08 00 00 A0 02 00 00 04 00 03 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x15,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0008
+	PCI Device: 00:14.0
+	Location: Rear of Server
+	Management Port: Not Shared
+	Port Instance: 4
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 3.0 Super Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x15,0x0)
 
 Handle 0x0056, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 56 00 09 00 00 A0 00 00 00 01 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x6,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x0009
+	PCI Device: 00:14.0
+	Location: Internal
+	Management Port: Not Shared
+	Port Instance: 1
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x6,0x0)
 
 Handle 0x0057, DMI type 238, 15 bytes
-OEM-specific Type
-	Header and Data:
-		EE 0F 57 00 0A 00 00 A0 05 00 00 FE 00 02 01
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x7,0x0)
+HPE Proliant USB Port Connector Correlation Record
+	Associated Handle: 0x000A
+	PCI Device: 00:14.0
+	Location: USB Hub for NAND Controller
+	Management Port: Not Shared
+	Port Instance: 254
+	Parent Hub Port Instance: 0
+	Port Speed Capability: USB 2.0 High Speed
+	Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x7,0x0)
 
 Handle 0x0058, DMI type 239, 23 bytes
+HPE USB Device Correlation Record
+	Associated Handle: 0x0057
+	USB Vendor ID: 0x0424
+	Embedded SD Card: Empty
+	USB Class: HUB
+	USB Protocol: Hi-Speed w/ single TT
+	USB Product ID: 0x2660
+	UEFI Device Path: PciRoot(0x0)/Pci(0x14,0x0)/USB(0x7,0x0)
+	UEFI Device Name: Unknown.Unknown.1.1
+	Device Name: Unknown Device
+	Device Location: Smsc USB 0
+
+Handle 0x0059, DMI type 242, 42 bytes
+HPE ProLiant Hard Drive Inventory Record
+
+Handle 0x005A, DMI type 196, 15 bytes
 OEM-specific Type
 	Header and Data:
-		EF 17 58 00 4E 00 7C 04 00 00 03 00 00 FF FF 00
-		00 00 00 01 02 03 04
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x2,0x0)
-		Unknown.Unknown.1.1
-		DELL Dell UPS Tower 1000W HV
-		Rear USB 1
+		C4 0F 5A 00 00 00 00 00 00 00 02 01 00 01 02
 
-Handle 0x0059, DMI type 239, 23 bytes
-OEM-specific Type
-	Header and Data:
-		EF 17 59 00 57 00 24 04 00 00 09 00 01 60 26 00
-		00 00 00 01 02 03 04
-	Strings:
-		PciRoot(0x0)/Pci(0x14,0x0)/USB(0x7,0x0)
-		Unknown.Unknown.1.2
-		Unknown Device
-		Smsc USB 0
-
-Handle 0x005A, DMI type 242, 42 bytes
-OEM-specific Type
-	Header and Data:
-		F2 2A 5A 00 47 00 02 00 50 00 C5 ED C8 02 96 0C
-		43 0F 00 58 17 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 02 00 01 02 03
-	Strings:
-		            ZN1MWP2J
-		ST1000DM010-2EP102
-		CC46
-
-Handle 0x005B, DMI type 196, 15 bytes
-OEM-specific Type
-	Header and Data:
-		C4 0F 5B 00 00 00 00 00 00 00 02 01 00 01 02
-
-Handle 0x005C, DMI type 202, 26 bytes
-OEM-specific Type
-	Header and Data:
-		CA 1A 5C 00 20 00 FF 01 01 01 00 00 00 01 02 FF
-		FF 00 00 00 00 00 00 00 00 00
-
-Handle 0x005D, DMI type 202, 26 bytes
-OEM-specific Type
-	Header and Data:
-		CA 1A 5D 00 21 00 FF 02 01 02 00 00 00 01 01 FF
-		FF 80 AD 00 00 00 00 00 00 00
-
-Handle 0x005E, DMI type 240, 39 bytes
-OEM-specific Type
-	Header and Data:
-		F0 27 5E 00 49 00 00 14 0B 01 01 E7 BC 04 00 00
-		00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00
-		00 00 00 03 00 00 00
-	Strings:
-		1.2836.0
-
-Handle 0x005F, DMI type 240, 39 bytes
-OEM-specific Type
-	Header and Data:
-		F0 27 5F 00 43 00 00 17 0B 01 01 FE 52 03 00 00
-		00 00 00 03 00 00 00 00 00 00 00 03 00 00 00 00
-		00 00 00 03 00 00 00
-	Strings:
-		1.2839.0
-
-Handle 0x0060, DMI type 233, 41 bytes
+Handle 0x005B, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 1: PCI device 02:00.0, MAC address B4:7A:F1:AA:12:24
 
-Handle 0x0061, DMI type 233, 41 bytes
+Handle 0x005C, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 2: PCI device 02:00.1, MAC address B4:7A:F1:AA:12:25
 
-Handle 0x0062, DMI type 233, 41 bytes
+Handle 0x005D, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 3: PCI device 02:00.2, MAC address B4:7A:F1:AA:12:26
 
-Handle 0x0063, DMI type 233, 41 bytes
+Handle 0x005E, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 4: PCI device 02:00.3, MAC address B4:7A:F1:AA:12:27
 
-Handle 0x0064, DMI type 233, 41 bytes
+Handle 0x005F, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 1: PCI device 07:00.0, MAC address 14:02:EC:6B:86:04
 
-Handle 0x0065, DMI type 233, 41 bytes
+Handle 0x0060, DMI type 233, 41 bytes
 HPE BIOS PXE NIC PCI and MAC Information
 	NIC 2: PCI device 07:00.1, MAC address 14:02:EC:6B:86:05
+
+Handle 0x0061, DMI type 202, 28 bytes
+OEM-specific Type
+	Header and Data:
+		CA 1C 61 00 20 00 FF 01 01 01 00 00 00 01 02 FF
+		FF 00 00 00 00 00 00 00 00 00 01 00
+	Strings:
+		Unknown
+
+Handle 0x0062, DMI type 202, 28 bytes
+OEM-specific Type
+	Header and Data:
+		CA 1C 62 00 21 00 FF 02 01 02 00 00 00 01 01 FF
+		FF 80 AD 00 00 00 00 00 00 00 01 00
+	Strings:
+		879527-091
+
+Handle 0x0063, DMI type 240, 39 bytes
+HPE Proliant Inventory Record
+	Associated Handle: 0x0049
+	Package Version: 0x010B1400
+	Version String: 1.2836.0
+	Image Size: 310503 bytes
+	Attributes Defined/Set:
+		Updatable: Yes
+		Reset Required: Yes
+	Lowest Supported Version: 0x00000003
+
+Handle 0x0064, DMI type 240, 39 bytes
+HPE Proliant Inventory Record
+	Associated Handle: 0x0043
+	Package Version: 0x010B1700
+	Version String: 1.2839.0
+	Image Size: 217854 bytes
+	Attributes Defined/Set:
+		Updatable: Yes
+		Reset Required: Yes
+	Lowest Supported Version: 0x00000003
+
+Handle 0x0065, DMI type 240, 39 bytes
+HPE Proliant Inventory Record
+	Associated Handle: 0xFFFE
+	Package Version: 0x00000002
+	Version String: CC46
+	Image Size: 1 MB
+	Attributes Defined/Set:
+		Updatable: Yes
+		Reset Required: Yes
+		In Use: Yes
+	Lowest Supported Version: 0x00000002
 
 Handle 0xFEFF, DMI type 127, 4 bytes
 End Of Table

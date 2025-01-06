@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 # SMBIOS entry point at 0x9e1b8000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -41,7 +41,7 @@ System Information
 	Version: 2.x
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Unknown
+	Wake-up Type: Power Switch
 	SKU Number: 01
 	Family: BRIX
 

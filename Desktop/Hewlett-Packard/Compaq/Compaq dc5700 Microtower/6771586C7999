@@ -1,14 +1,14 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
-65 structures occupying 1962 bytes.
-Table at 0x000EBA60.
+64 structures occupying 1929 bytes.
+Table at 0x000EB9B0.
 
 Handle 0x0001, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: Hewlett-Packard
-	Version: 786E2 v01.01
-	Release Date: 08/31/2006
+	Version: 786E2 v02.09
+	Release Date: 11/10/2011
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 1 MB
@@ -35,7 +35,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	BIOS Revision: 1.1
+	BIOS Revision: 2.9
 
 Handle 0x0002, DMI type 1, 27 bytes
 System Information
@@ -58,7 +58,7 @@ Base Board Information
 Handle 0x0004, DMI type 3, 17 bytes
 Chassis Information
 	Manufacturer: Hewlett-Packard
-	Type: Low Profile Desktop
+	Type: Mini Tower
 	Lock: Not Present
 	Version: Not Specified
 	Serial Number: --
@@ -106,7 +106,7 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Core(TM)2 CPU          6400  @ 2.13GHz
+	Version: Intel(R) Core(TM)2 CPU          6420  @ 2.13GHz
 	Voltage: 1.2 V
 	External Clock: 1066 MHz
 	Max Speed: 6000 MHz
@@ -169,8 +169,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 2 MB
-	Maximum Size: 2 MB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Burst
 	Installed SRAM Type: Burst
@@ -419,14 +419,6 @@ Port Connector Information
 	External Connector Type: None
 	Port Type: Other
 
-Handle 0x002C, DMI type 8, 9 bytes
-Port Connector Information
-	Internal Reference Designator: SLIM OPTICAL
-	Internal Connector Type: Other
-	External Reference Designator: Not Specified
-	External Connector Type: None
-	Port Type: Other
-
 Handle 0x002D, DMI type 8, 9 bytes
 Port Connector Information
 	Internal Reference Designator: PASSWORD CLEAR (PSWD)
@@ -481,26 +473,18 @@ System Slot Information
 		PME signal is supported
 		SMBus signal is supported
 
-Handle 0x0034, DMI type 9, 13 bytes
-System Slot Information
-	Designation: PCI EXPRESS x16 SLOT/PCIEx16
-	Type: x16 PCI Express
-	Current Usage: Available
-	Length: Long
-	ID: 1
-	Characteristics:
-		3.3 V is provided
-		PME signal is supported
-		SMBus signal is supported
+Handle 0x0036, DMI type 11, 5 bytes
+OEM Strings
+	String 1: ABS 70/71 60 61 62 63
 
-Handle 0x0036, DMI type 13, 22 bytes
+Handle 0x0037, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0037, DMI type 16, 15 bytes
+Handle 0x0038, DMI type 16, 15 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
@@ -509,7 +493,7 @@ Physical Memory Array
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
-Handle 0x0038, DMI type 16, 15 bytes
+Handle 0x0039, DMI type 16, 15 bytes
 Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: Flash Memory
@@ -518,9 +502,9 @@ Physical Memory Array
 	Error Information Handle: Not Provided
 	Number Of Devices: 1
 
-Handle 0x0039, DMI type 17, 27 bytes
+Handle 0x003A, DMI type 17, 27 bytes
 Memory Device
-	Array Handle: 0x0037
+	Array Handle: 0x0038
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -532,14 +516,14 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 667 MT/s
-	Manufacturer: JEDEC ID:CE 00 00 00 00 00 00 00
+	Manufacturer: JEDEC ID:7F 98 00 00 00 00 00 00
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M3 78T2953CZ3-CE6
+	Part Number: 9905316-005.A04LF
 
-Handle 0x003A, DMI type 17, 27 bytes
+Handle 0x003B, DMI type 17, 27 bytes
 Memory Device
-	Array Handle: 0x0037
+	Array Handle: 0x0038
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -551,14 +535,14 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 667 MT/s
-	Manufacturer: JEDEC ID:CE 00 00 00 00 00 00 00
+	Manufacturer: JEDEC ID:7F 98 00 00 00 00 00 00
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M3 78T2953CZ3-CE6
+	Part Number: 9905316-005.A04LF
 
-Handle 0x003B, DMI type 17, 27 bytes
+Handle 0x003C, DMI type 17, 27 bytes
 Memory Device
-	Array Handle: 0x0037
+	Array Handle: 0x0038
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -570,14 +554,14 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 667 MT/s
-	Manufacturer: JEDEC ID:7F 4F 00 00 00 00 00 00
+	Manufacturer: JEDEC ID:7F 98 00 00 00 00 00 00
 	Serial Number: --
 	Asset Tag: --
-	Part Number: TS128MLQ64V6J
+	Part Number: 9905316-005.A04LF
 
-Handle 0x003C, DMI type 17, 27 bytes
+Handle 0x003D, DMI type 17, 27 bytes
 Memory Device
-	Array Handle: 0x0037
+	Array Handle: 0x0038
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
@@ -589,14 +573,14 @@ Memory Device
 	Type: DDR2
 	Type Detail: Synchronous
 	Speed: 667 MT/s
-	Manufacturer: JEDEC ID:AD 00 00 00 00 00 00 00
+	Manufacturer: JEDEC ID:7F 98 00 00 00 00 00 00
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HYMP112U64CP8-Y5
+	Part Number: 9905316-005.A04LF
 
-Handle 0x003E, DMI type 17, 27 bytes
+Handle 0x003F, DMI type 17, 27 bytes
 Memory Device
-	Array Handle: 0x0038
+	Array Handle: 0x0039
 	Error Information Handle: Not Provided
 	Total Width: 2 bits
 	Data Width: 2 bits
@@ -613,91 +597,91 @@ Memory Device
 	Asset Tag: --
 	Part Number: Not Specified
 
-Handle 0x003F, DMI type 19, 15 bytes
+Handle 0x0040, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 4 GB
-	Physical Array Handle: 0x0037
+	Physical Array Handle: 0x0038
 	Partition Width: 4
 
-Handle 0x0040, DMI type 19, 15 bytes
+Handle 0x0041, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x000FFF80000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 512 kB
-	Physical Array Handle: 0x0038
+	Physical Array Handle: 0x0039
 	Partition Width: 1
 
-Handle 0x0041, DMI type 20, 19 bytes
+Handle 0x0042, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
 	Ending Address: 0x0003FFFFFFF
 	Range Size: 1 GB
-	Physical Device Handle: 0x0039
-	Memory Array Mapped Address Handle: 0x003F
-	Partition Row Position: <OUT OF SPEC>
-
-Handle 0x0042, DMI type 20, 19 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00040000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 1 GB
 	Physical Device Handle: 0x003A
-	Memory Array Mapped Address Handle: 0x003F
+	Memory Array Mapped Address Handle: 0x0040
 	Partition Row Position: 1
 
 Handle 0x0043, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000BFFFFFFF
+	Starting Address: 0x00040000000
+	Ending Address: 0x0007FFFFFFF
 	Range Size: 1 GB
 	Physical Device Handle: 0x003B
-	Memory Array Mapped Address Handle: 0x003F
-	Partition Row Position: <OUT OF SPEC>
+	Memory Array Mapped Address Handle: 0x0040
+	Partition Row Position: 2
 
 Handle 0x0044, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x000C0000000
-	Ending Address: 0x000FFFFFFFF
+	Starting Address: 0x00080000000
+	Ending Address: 0x000BFFFFFFF
 	Range Size: 1 GB
 	Physical Device Handle: 0x003C
-	Memory Array Mapped Address Handle: 0x003F
+	Memory Array Mapped Address Handle: 0x0040
 	Partition Row Position: 1
 
 Handle 0x0045, DMI type 20, 19 bytes
 Memory Device Mapped Address
+	Starting Address: 0x000C0000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 1 GB
+	Physical Device Handle: 0x003D
+	Memory Array Mapped Address Handle: 0x0040
+	Partition Row Position: 2
+
+Handle 0x0046, DMI type 20, 19 bytes
+Memory Device Mapped Address
 	Starting Address: 0x000FFF80000
 	Ending Address: 0x000FFFFFFFF
 	Range Size: 512 kB
-	Physical Device Handle: 0x003E
-	Memory Array Mapped Address Handle: 0x0040
+	Physical Device Handle: 0x003F
+	Memory Array Mapped Address Handle: 0x0041
 	Partition Row Position: 1
 
-Handle 0x0046, DMI type 32, 11 bytes
+Handle 0x0047, DMI type 32, 11 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0047, DMI type 136, 6 bytes
+Handle 0x0048, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 47 00 5A 5A
-
-Handle 0x0048, DMI type 197, 10 bytes
-OEM-specific Type
-	Header and Data:
-		C5 0A 48 00 05 00 00 01 FF 01
+		88 06 48 00 5A 5A
 
 Handle 0x0049, DMI type 197, 10 bytes
 OEM-specific Type
 	Header and Data:
-		C5 0A 49 00 06 00 01 00 FF 01
+		C5 0A 49 00 05 00 00 01 FF 01
 
-Handle 0x004A, DMI type 208, 5 bytes
+Handle 0x004A, DMI type 197, 10 bytes
 OEM-specific Type
 	Header and Data:
-		D0 05 4A 00 01
+		C5 0A 4A 00 06 00 01 00 FF 01
 
-Handle 0x004B, DMI type 127, 4 bytes
+Handle 0x004B, DMI type 208, 5 bytes
+OEM-specific Type
+	Header and Data:
+		D0 05 4B 00 01
+
+Handle 0x004C, DMI type 127, 4 bytes
 End Of Table
 

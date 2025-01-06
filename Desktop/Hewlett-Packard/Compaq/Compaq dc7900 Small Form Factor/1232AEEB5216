@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 84 structures occupying 2447 bytes.
@@ -553,11 +553,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR2
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: JEDEC ID:
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:  
 
 Handle 0x003A, DMI type 17, 27 bytes
 Memory Device
@@ -591,11 +586,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR2
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: JEDEC ID:
-	Serial Number: --
-	3D153A129FECFD993684B5FCC9BF367A
-	Part Number:  
 
 Handle 0x003D, DMI type 17, 27 bytes
 Memory Device
