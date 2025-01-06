@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 39 structures occupying 1607 bytes.
@@ -208,7 +208,8 @@ Port Connector Information
 Handle 0x000C, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI Slot #1 - J5B1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -219,7 +220,8 @@ System Slot Information
 Handle 0x000D, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIe Slot #1 - J7C1
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Unknown
 	Length: Long
 	ID: 0
@@ -244,14 +246,14 @@ System Configuration Options
 
 Handle 0x0011, DMI type 15, 29 bytes
 System Event Log
-	Area Length: 240 bytes
+	Area Length: 256 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x0000
 	Status: Valid, Not Full
-	Change Token: 0x00000056
+	Change Token: 0x00000057
 	Header Format: Type 1
 	Supported Log Type Descriptors: 3
 	Descriptor 1: POST error

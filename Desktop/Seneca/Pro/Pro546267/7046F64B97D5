@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 56 structures occupying 2440 bytes.
@@ -139,7 +139,8 @@ Physical Memory Array
 Handle 0x0008, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 4
-	Type: x4 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	ID: 0
@@ -152,20 +153,22 @@ System Slot Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 5
-	Type: x4 PCI Express 2
-	Current Usage: Available
+	Type: PCI Express 2
+	Data Bus Width: 4x or x4
+	Current Usage: In Use
 	Length: Short
 	ID: 1
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:06.0
+	Bus Address: 0000:03:06.0
 
 Handle 0x000A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 6
-	Type: x8 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 8x or x8
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -178,7 +181,8 @@ System Slot Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 7
-	Type: x8 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 8x or x8
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -576,7 +580,7 @@ Onboard Device
 	Type: Video
 	Status: Enabled
 	Type Instance: 1
-	Bus Address: 0000:03:03.0
+	Bus Address: 0000:04:03.0
 
 Handle 0x0035, DMI type 126, 11 bytes
 Inactive

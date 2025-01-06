@@ -1,9 +1,9 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x8b316000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
 86 structures occupying 4096 bytes.
-Table at 0x000EE480.
+Table at 0x000EB9B0.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -610,10 +610,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: SK Hynix
+	Manufacturer: Kingston
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT41GS6BFR8A-PB  
+	Part Number: HP691160-H65-MCN  
 	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.35 V
@@ -648,10 +648,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Kingston
+	Manufacturer: SK Hynix
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HP691160-H65-MCN  
+	Part Number: HMT41GS6BFR8A-PB  
 	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 	Minimum Voltage: 1.35 V

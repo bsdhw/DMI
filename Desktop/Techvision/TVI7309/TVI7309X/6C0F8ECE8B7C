@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x78d7b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -121,7 +121,8 @@ Port Connector Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 1
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -133,7 +134,8 @@ System Slot Information
 Handle 0x0010, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 2
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -145,7 +147,8 @@ System Slot Information
 Handle 0x0011, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 3
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -157,7 +160,8 @@ System Slot Information
 Handle 0x0012, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 4
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -169,7 +173,8 @@ System Slot Information
 Handle 0x0013, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot 5
-	Type: 32-bit PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -621,10 +626,10 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Celeron(R) N5105 @ 2.00GHz
-	Voltage: 1.1 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 2900 MHz
-	Current Speed: 2800 MHz
+	Current Speed: 2000 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0043
@@ -691,6 +696,10 @@ Memory Device
 	Volatile Size: 8 GB
 	Cache Size: None
 	Logical Size: None
+	PMIC0 Manufacturer ID: Unknown
+	PMIC0 Revision Number: 0x0000
+	RCD Manufacturer ID: Unknown
+	RCD Revision Number: 0x0000
 
 Handle 0x0049, DMI type 20, 35 bytes
 Memory Device Mapped Address

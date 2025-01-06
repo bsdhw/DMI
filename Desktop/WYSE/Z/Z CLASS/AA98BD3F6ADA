@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x972e2000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
@@ -434,11 +434,11 @@ Memory Device
 	Bank Locator: Channel A
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: 802C
+	Speed: 1333 MT/s
+	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 31364A5446353132
+	Part Number: 4354353132363442
 	Rank: Unknown
 
 Handle 0x0027, DMI type 20, 19 bytes
@@ -465,11 +465,11 @@ Memory Device
 	Bank Locator: Channel B
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: 859B
+	Speed: 1333 MT/s
+	Manufacturer: 802C
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 4354353132363442
+	Part Number: 31364A5446353132
 	Rank: Unknown
 
 Handle 0x0029, DMI type 20, 19 bytes

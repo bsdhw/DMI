@@ -1,13 +1,13 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 3.1.1 present.
-Table at 0x6DFC9000.
+Table at 0x6E7C9000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.6
-	Release Date: 01/20/2022
+	Version: 1.9
+	Release Date: 12/08/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -389,7 +389,7 @@ System Event Log
 Handle 0x0029, DMI type 133, 12 bytes
 OEM-specific Type
 	Header and Data:
-		85 0C 29 00 00 10 38 6C 00 40 00 00
+		85 0C 29 00 00 F0 B7 6C 00 40 00 00
 
 Handle 0x002A, DMI type 16, 23 bytes
 Physical Memory Array
@@ -406,19 +406,19 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMA1
 	Bank Locator: P0_Node0_Channel0_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2400 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393A4K40CB1-CRC    
-	Rank: 2
+	Part Number: M393A1K43BB1-CTD    
+	Rank: 1
 	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -430,19 +430,19 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMB1
 	Bank Locator: P0_Node0_Channel1_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2400 MT/s
+	Speed: 2666 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393A4K40BB1-CRC    
-	Rank: 2
+	Part Number: M393A1K43BB1-CTD    
+	Rank: 1
 	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -470,16 +470,6 @@ Memory Device
 	Bank Locator: P0_Node1_Channel0_Dimm0
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0032, DMI type 17, 40 bytes
 Memory Device
@@ -494,39 +484,29 @@ Memory Device
 	Bank Locator: P0_Node1_Channel1_Dimm0
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0034, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 64 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x002A
 	Partition Width: 2
 
 Handle 0x0035, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x002B
 	Memory Array Mapped Address Handle: 0x0034
 	Partition Row Position: 1
 
 Handle 0x0036, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00800000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 32 GB
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x002D
 	Memory Array Mapped Address Handle: 0x0034
 	Partition Row Position: 1

@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-56 structures occupying 2382 bytes.
+56 structures occupying 2396 bytes.
 Table at 0x000EB5A0.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -226,13 +226,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0011, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -288,13 +281,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: Unknown
 	Type Detail: None
-	Speed: Unknown
-	Manufacturer: [Empty]
-	Serial Number: --
-	Asset Tag: --
-	Part Number: [Empty]
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x0015, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -310,8 +296,8 @@ Handle 0x0016, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0007
 	Error Information Handle: 0x0017
-	Total Width: 8 bits
-	Data Width: 8 bits
+	Total Width: 128 bits
+	Data Width: 64 bits
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
@@ -320,10 +306,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: Unknown
-	Manufacturer: 0000
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: [Empty]
+	Part Number: M391B1G73QH0-YK0  
 	Rank: 2
 	Configured Memory Speed: 1333 MT/s
 

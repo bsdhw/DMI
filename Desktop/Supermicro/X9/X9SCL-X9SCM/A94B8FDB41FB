@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-56 structures occupying 2428 bytes.
+56 structures occupying 2433 bytes.
 Table at 0x000EB5A0.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -139,7 +139,8 @@ Physical Memory Array
 Handle 0x0008, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 4
-	Type: x4 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	ID: 0
@@ -147,12 +148,13 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:06:1c.0
+	Bus Address: 0000:07:1c.0
 
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 5
-	Type: x4 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -160,12 +162,13 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:06.0
+	Bus Address: 0000:06:06.0
 
 Handle 0x000A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 6
-	Type: x8 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 8x or x8
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -178,7 +181,8 @@ System Slot Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT 7
-	Type: x8 PCI Express 3
+	Type: PCI Express 3
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -238,13 +242,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: Samsung
+	Speed: 1333 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M391B5273DH0-CK0  
+	Part Number: HMT41GU7AFR8A-PB  
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0011, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -269,13 +273,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
+	Speed: 1333 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
 	Part Number: M391B5273DH0-CK0  
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0013, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -300,13 +304,13 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
-	Manufacturer: Samsung
+	Speed: 1333 MT/s
+	Manufacturer: Hynix/Hyundai
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M391B5273DH0-CK0  
+	Part Number: HMT41GU7AFR8A-PB  
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0015, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -331,13 +335,13 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1600 MT/s
+	Speed: 1333 MT/s
 	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
 	Part Number: M391B5273DH0-CK0  
 	Rank: 2
-	Configured Memory Speed: 1600 MT/s
+	Configured Memory Speed: 1333 MT/s
 
 Handle 0x0017, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -576,7 +580,7 @@ Onboard Device
 	Type: Video
 	Status: Enabled
 	Type Instance: 1
-	Bus Address: 0000:08:03.0
+	Bus Address: 0000:09:03.0
 
 Handle 0x0035, DMI type 41, 11 bytes
 Onboard Device
@@ -584,7 +588,7 @@ Onboard Device
 	Type: Ethernet
 	Status: Enabled
 	Type Instance: 1
-	Bus Address: 0000:07:00.0
+	Bus Address: 0000:08:00.0
 
 Handle 0x0036, DMI type 41, 11 bytes
 Onboard Device
@@ -612,8 +616,8 @@ Processor Information
 	Type: Central Processor
 	Family: Xeon
 	Manufacturer: Intel(R) Corporation
-	ID: A9 06 03 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 58, Stepping 9
+	ID: A7 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 42, Stepping 7
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -643,11 +647,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Xeon(R) CPU E3-1230 V2 @ 3.30GHz
+	Version: Intel(R) Xeon(R) CPU E31265L @ 2.40GHz
 	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
-	Current Speed: 3300 MHz
+	Current Speed: 2400 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1155
 	L1 Cache Handle: 0x0004

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xfacb0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2.0 present.
@@ -8,7 +8,7 @@ Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: EFI Development Kit II / SolidRun
 	Version: EDK II
-	Release Date: Mar  8 2023
+	Release Date: Aug 23 2023
 	Address: 0xE8000
 	Runtime Size: 96 kB
 	ROM Size: 64 kB

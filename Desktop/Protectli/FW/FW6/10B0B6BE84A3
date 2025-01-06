@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 17 structures occupying 792 bytes.
@@ -259,13 +259,14 @@ Onboard Device
 Handle 0x000F, DMI type 9, 19 bytes
 System Slot Information
 	Designation: WIFI1
-	Type: x1 PCI Express Mini 52-pin without bottom-side keep-outs
+	Type: PCI Express Mini 52-pin without bottom-side keep-outs
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 0
 	Characteristics: Unknown
 	Bus Address: 0000:00:1d.0
-	Data Bus Width: 1
+	Data Bus Width (Base): 1
 	Peer Devices: 0
 
 Handle 0x0010, DMI type 127, 4 bytes

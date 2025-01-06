@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 72 structures occupying 2748 bytes.
@@ -444,7 +444,8 @@ Port Connector Information
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT4
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -455,7 +456,8 @@ System Slot Information
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT5
-	Type: x4 PCI Express x16
+	Type: PCI Express x16
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 2
@@ -466,7 +468,8 @@ System Slot Information
 Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT6
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -477,7 +480,8 @@ System Slot Information
 Handle 0x0028, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SLOT7
-	Type: x16 PCI Express x16
+	Type: PCI Express x16
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 4

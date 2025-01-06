@@ -1,7 +1,7 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-7 structures occupying 305 bytes.
+7 structures occupying 297 bytes.
 Table at 0xDFFB7020.
 
 Handle 0x0000, DMI type 0, 24 bytes

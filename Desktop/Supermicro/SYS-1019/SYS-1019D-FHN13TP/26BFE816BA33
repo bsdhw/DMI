@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 3.1.1 present.
 Table at 0x6E7B1000.
@@ -127,7 +127,8 @@ Port Connector Information
 Handle 0x000A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: JMD1:M.2-H PCI-E 3.0 X4 / I-SATA4
-	Type: x4 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -139,7 +140,8 @@ System Slot Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: JMD2:M.2-H PCI-E 3.0 X2 / S-SATA4
-	Type: x2 M.2 Socket 2
+	Type: M.2 Socket 2
+	Data Bus Width: 2x or x2
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -151,7 +153,8 @@ System Slot Information
 Handle 0x000C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: JMD3:M.2-P PCI-E 3.0 X1
-	Type: x1 M.2 Socket 1-SD
+	Type: M.2 Socket 1-SD
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -257,7 +260,7 @@ Onboard Device
 	Type: Ethernet
 	Status: Enabled
 	Type Instance: 6
-	Bus Address: 0000:07:00.0
+	Bus Address: 0000:08:00.0
 
 Handle 0x0018, DMI type 41, 11 bytes
 Onboard Device
@@ -265,7 +268,7 @@ Onboard Device
 	Type: Ethernet
 	Status: Enabled
 	Type Instance: 7
-	Bus Address: 0000:07:00.1
+	Bus Address: 0000:08:00.1
 
 Handle 0x0019, DMI type 41, 11 bytes
 Onboard Device
@@ -273,7 +276,7 @@ Onboard Device
 	Type: Ethernet
 	Status: Enabled
 	Type Instance: 8
-	Bus Address: 0000:07:00.2
+	Bus Address: 0000:08:00.2
 
 Handle 0x001A, DMI type 41, 11 bytes
 Onboard Device
@@ -281,7 +284,7 @@ Onboard Device
 	Type: Ethernet
 	Status: Enabled
 	Type Instance: 9
-	Bus Address: 0000:07:00.3
+	Bus Address: 0000:08:00.3
 
 Handle 0x001B, DMI type 41, 11 bytes
 Onboard Device
@@ -337,7 +340,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF110000
 	Status: Valid, Not Full
-	Change Token: 0x0000003D
+	Change Token: 0x0000003F
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error
@@ -628,7 +631,8 @@ Processor Information
 Handle 0x003F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: RSC-R1UW-2E16 SLOT1 PCI-E X16
-	Type: x16 PCI Express 3 x16
+	Type: PCI Express 3 x16
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -640,7 +644,8 @@ System Slot Information
 Handle 0x0040, DMI type 9, 17 bytes
 System Slot Information
 	Designation: RSC-R1UW-2E16 SLOT2 PCI-E X16
-	Type: x16 PCI Express 3 x16
+	Type: PCI Express 3 x16
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 2
