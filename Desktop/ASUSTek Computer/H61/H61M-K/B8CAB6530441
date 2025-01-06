@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 92 structures occupying 3433 bytes.
@@ -321,7 +321,7 @@ Handle 0x0019, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16
 	Type: 32-bit PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 1
 	Characteristics:
@@ -957,7 +957,7 @@ BIOS Language Information
 		ja|JP|unicode
 		zh|TW|unicode
 		zh|CN|unicode
-	Currently Installed Language: es|ES|iso8859-1
+	Currently Installed Language: en|US|iso8859-1
 
 Handle 0x005D, DMI type 127, 4 bytes
 End Of Table

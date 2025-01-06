@@ -1,8 +1,6 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x7a0bb000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 2.8 present.
-56 structures occupying 2060 bytes.
+# dmidecode 3.6
+Scanning /dev/mem for entry point.
+SMBIOS 3.1.1 present.
 Table at 0x000EAA00.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -549,7 +547,8 @@ BIOS Language Information
 Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7H1
-	Type: x4 PCI Express 2 x4
+	Type: PCI Express 2 x4
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -562,7 +561,8 @@ System Slot Information
 Handle 0x003E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8H1
-	Type: x2 PCI Express 2 x2
+	Type: PCI Express 2 x2
+	Data Bus Width: 2x or x2
 	Current Usage: In Use
 	Length: Short
 	ID: 1

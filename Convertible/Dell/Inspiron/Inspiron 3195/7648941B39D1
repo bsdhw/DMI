@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0xe7209000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
@@ -264,7 +264,8 @@ Port Connector Information
 Handle 0x0011, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3600
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -277,7 +278,8 @@ System Slot Information
 Handle 0x0012, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3700
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -290,7 +292,8 @@ System Slot Information
 Handle 0x0013, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3605
-	Type: x8 PCI Express x8
+	Type: PCI Express x8
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -303,7 +306,8 @@ System Slot Information
 Handle 0x0014, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3702
-	Type: x1 Other
+	Type: Other
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -315,7 +319,8 @@ System Slot Information
 Handle 0x0015, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3703
-	Type: x1 Other
+	Type: Other
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -327,7 +332,8 @@ System Slot Information
 Handle 0x0016, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J4000
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 4

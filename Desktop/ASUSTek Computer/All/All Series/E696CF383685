@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
 95 structures occupying 4029 bytes.
@@ -316,7 +316,7 @@ Handle 0x0021, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_1
 	Type: x16 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 1
 	Characteristics:
@@ -329,20 +329,20 @@ Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 2
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:04:00.0
+	Bus Address: 0000:ff:00.0
 
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 3
 	Characteristics:
@@ -362,7 +362,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:05:00.0
+	Bus Address: 0000:07:00.0
 
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
@@ -375,7 +375,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:00.0
+	Bus Address: 0000:02:00.0
 
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
@@ -388,7 +388,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:18:1c.7
+	Bus Address: 0000:05:1c.7
 
 Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
@@ -401,7 +401,7 @@ System Slot Information
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:18:1d.0
+	Bus Address: 0000:05:1d.0
 
 Handle 0x0028, DMI type 10, 8 bytes
 On Board Device 1 Information
@@ -700,13 +700,13 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1904 MT/s
 	Manufacturer: 1302
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 1866 CL10 Series  
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1904 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -724,13 +724,13 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1904 MT/s
 	Manufacturer: 1302
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 1866 CL10 Series  
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1904 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -748,13 +748,13 @@ Memory Device
 	Bank Locator: BANK 2
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1904 MT/s
 	Manufacturer: 1302
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 1866 CL10 Series  
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1904 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -772,13 +772,13 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1904 MT/s
 	Manufacturer: 1302
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 1866 CL10 Series  
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1904 MT/s
 	Minimum Voltage: 1.5 V
 	Maximum Voltage: 1.5 V
 	Configured Voltage: 1.5 V
@@ -835,86 +835,12 @@ Memory Device Mapped Address
 	Interleave Position: 2
 	Interleaved Data Depth: 2
 
-Handle 0x005F, DMI type 4, 42 bytes
-Processor Information
-	Socket Designation: SOCKET 1150
-	Type: Central Processor
-	Family: Other
-	Manufacturer: Intel
-	ID: C3 06 03 00 FF FB EB BF
-	Version: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
-	Voltage: 1.2 V
-	External Clock: 100 MHz
-	Max Speed: 3900 MHz
-	Current Speed: 3516 MHz
-	Status: Populated, Enabled
-	Upgrade: Socket BGA1155
-	L1 Cache Handle: 0x0060
-	L2 Cache Handle: 0x0061
-	L3 Cache Handle: 0x0062
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Fill By OEM
-	Core Count: 4
-	Core Enabled: 4
-	Thread Count: 4
-	Characteristics:
-		64-bit capable
-
-Handle 0x0060, DMI type 7, 19 bytes
-Cache Information
-	Socket Designation: CPU Internal L1
-	Configuration: Enabled, Not Socketed, Level 1
-	Operational Mode: Write Back
-	Location: Internal
-	Installed Size: 256 kB
-	Maximum Size: 256 kB
-	Supported SRAM Types:
-		Synchronous
-	Installed SRAM Type: Synchronous
-	Speed: Unknown
-	Error Correction Type: Parity
-	System Type: Other
-	Associativity: 8-way Set-associative
-
-Handle 0x0061, DMI type 7, 19 bytes
-Cache Information
-	Socket Designation: CPU Internal L2
-	Configuration: Enabled, Not Socketed, Level 2
-	Operational Mode: Write Back
-	Location: Internal
-	Installed Size: 1 MB
-	Maximum Size: 1 MB
-	Supported SRAM Types:
-		Synchronous
-	Installed SRAM Type: Synchronous
-	Speed: Unknown
-	Error Correction Type: Single-bit ECC
-	System Type: Unified
-	Associativity: 8-way Set-associative
-
-Handle 0x0062, DMI type 7, 19 bytes
-Cache Information
-	Socket Designation: CPU Internal L3
-	Configuration: Enabled, Not Socketed, Level 3
-	Operational Mode: Write Back
-	Location: Internal
-	Installed Size: 6 MB
-	Maximum Size: 6 MB
-	Supported SRAM Types:
-		Synchronous
-	Installed SRAM Type: Synchronous
-	Speed: Unknown
-	Error Correction Type: Multi-bit ECC
-	System Type: Unified
-	Associativity: 12-way Set-associative
-
-Handle 0x0064, DMI type 136, 6 bytes
+Handle 0x005A, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 64 00 00 00
+		88 06 5A 00 00 00
 
-Handle 0x0065, DMI type 13, 22 bytes
+Handle 0x005B, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 3
@@ -923,27 +849,27 @@ BIOS Language Information
 		zh|CN|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0067, DMI type 221, 12 bytes
+Handle 0x005D, DMI type 221, 12 bytes
 OEM-specific Type
 	Header and Data:
-		DD 0C 67 00 01 01 00 02 00 00 00 00
+		DD 0C 5D 00 01 01 00 02 00 00 00 00
 	Strings:
 		Reference Code - ACPI
 
-Handle 0x0068, DMI type 221, 26 bytes
+Handle 0x005E, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 68 00 03 01 00 02 00 00 00 00 02 00 00 00
+		DD 1A 5E 00 03 01 00 02 00 00 00 00 02 00 00 00
 		00 19 00 03 00 00 05 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
 		TXT ACM version
 
-Handle 0x0069, DMI type 221, 68 bytes
+Handle 0x005F, DMI type 221, 68 bytes
 OEM-specific Type
 	Header and Data:
-		DD 44 69 00 09 01 00 02 00 00 00 00 02 03 FF FF
+		DD 44 5F 00 09 01 00 02 00 00 00 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 00 00 05 00 FF FF FF 00
 		00 06 00 FF FF FF FF FF 07 00 19 00 00 00 00 08
 		00 2C 00 00 00 00 09 00 03 00 00 00 00 0A 00 01
@@ -960,10 +886,10 @@ OEM-specific Type
 		PCH9S A0 Hsio Version
 		WPTLp B0 Hsio Version
 
-Handle 0x006A, DMI type 221, 26 bytes
+Handle 0x0060, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 6A 00 03 01 00 02 00 00 00 00 02 00 FF FF
+		DD 1A 60 00 03 01 00 02 00 00 00 00 02 00 FF FF
 		FF FF 00 03 04 09 01 19 ED 03
 	Strings:
 		Reference Code - ME 10.0
@@ -971,10 +897,10 @@ OEM-specific Type
 		ME Firmware Version
 		1.5MB SKU
 
-Handle 0x006B, DMI type 221, 54 bytes
+Handle 0x0061, DMI type 221, 54 bytes
 OEM-specific Type
 	Header and Data:
-		DD 36 6B 00 07 01 00 02 00 00 00 00 02 00 01 08
+		DD 36 61 00 07 01 00 02 00 00 00 00 02 00 01 08
 		00 00 00 03 00 02 00 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 06 00 07 00 FF FF FF 06 00 08
 		00 FF FF FF 30 10
@@ -988,31 +914,105 @@ OEM-specific Type
 		SA-CRID New Value
 		OPROM - VBIOS
 
-Handle 0x006C, DMI type 221, 12 bytes
+Handle 0x0062, DMI type 221, 12 bytes
 OEM-specific Type
 	Header and Data:
-		DD 0C 6C 00 01 01 00 02 00 00 00 00
+		DD 0C 62 00 01 01 00 02 00 00 00 00
 	Strings:
 		Reference Code - Intel Rapid Start
 
-Handle 0x006D, DMI type 14, 23 bytes
+Handle 0x0063, DMI type 14, 23 bytes
 Group Associations
 	Name: Firmware Version Info
 	Items: 6
-		0x0067 (OEM-specific)
-		0x0068 (OEM-specific)
-		0x0069 (OEM-specific)
-		0x006A (OEM-specific)
-		0x006B (OEM-specific)
-		0x006C (OEM-specific)
+		0x005D (OEM-specific)
+		0x005E (OEM-specific)
+		0x005F (OEM-specific)
+		0x0060 (OEM-specific)
+		0x0061 (OEM-specific)
+		0x0062 (OEM-specific)
 
-Handle 0x006E, DMI type 131, 64 bytes
+Handle 0x0064, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 6E 00 10 00 00 00 00 00 00 00 00 00 00 00
+		83 40 64 00 10 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 00 00 00 00 00 00 01 00 00 00 01 00 09 00
 		ED 03 19 00 00 00 00 00 C8 00 00 00 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
+
+Handle 0x006A, DMI type 4, 42 bytes
+Processor Information
+	Socket Designation: SOCKET 1150
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel
+	ID: C3 06 03 00 FF FB EB BF
+	Version: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
+	Voltage: 1.2 V
+	External Clock: 100 MHz
+	Max Speed: 3900 MHz
+	Current Speed: 3588 MHz
+	Status: Populated, Enabled
+	Upgrade: Socket BGA1155
+	L1 Cache Handle: 0x006B
+	L2 Cache Handle: 0x006C
+	L3 Cache Handle: 0x006D
+	Serial Number: --
+	Asset Tag: --
+	Part Number: Fill By OEM
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
+	Characteristics:
+		64-bit capable
+
+Handle 0x006B, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: CPU Internal L1
+	Configuration: Enabled, Not Socketed, Level 1
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Parity
+	System Type: Other
+	Associativity: 8-way Set-associative
+
+Handle 0x006C, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: CPU Internal L2
+	Configuration: Enabled, Not Socketed, Level 2
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Single-bit ECC
+	System Type: Unified
+	Associativity: 8-way Set-associative
+
+Handle 0x006D, DMI type 7, 19 bytes
+Cache Information
+	Socket Designation: CPU Internal L3
+	Configuration: Enabled, Not Socketed, Level 3
+	Operational Mode: Write Back
+	Location: Internal
+	Installed Size: 6 MB
+	Maximum Size: 6 MB
+	Supported SRAM Types:
+		Synchronous
+	Installed SRAM Type: Synchronous
+	Speed: Unknown
+	Error Correction Type: Multi-bit ECC
+	System Type: Unified
+	Associativity: 12-way Set-associative
 
 Handle 0x006F, DMI type 127, 4 bytes
 End Of Table

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 104 structures occupying 3766 bytes.
@@ -119,7 +119,7 @@ Processor Information
 	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
-	Current Speed: 3423 MHz
+	Current Speed: 3425 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0005
@@ -969,13 +969,13 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1600 MT/s
 	Manufacturer: 04CD
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F3-17000CL11-4GBXL
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x005E, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -1035,13 +1035,13 @@ Memory Device
 	Bank Locator: BANK 3
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1867 MT/s
+	Speed: 1600 MT/s
 	Manufacturer: 04CD
 	Serial Number: --
 	Asset Tag: --
 	Part Number: F3-17000CL11-4GBXL
 	Rank: 2
-	Configured Memory Speed: 1867 MT/s
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0063, DMI type 18, 23 bytes
 32-bit Memory Error Information

@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xcba06000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
-64 structures occupying 2826 bytes.
+64 structures occupying 2816 bytes.
 Table at 0x000E6F40.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -419,8 +419,8 @@ Physical Memory Array
 Handle 0x002C, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x002B
 	Partition Width: 2
 
@@ -568,40 +568,40 @@ Memory Device
 	Error Information Handle: 0x0033
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_A2
 	Bank Locator: BANK 1
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
-	Manufacturer: CRUCIAL
+	Speed: 2800 MT/s
+	Manufacturer: PNY
 	Serial Number: --
 	Asset Tag: --
-	Part Number: BL16G32C16U4B.16FE
-	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Part Number: 4GBF1X04MFFF36-12
+	Rank: 1
+	Configured Memory Speed: 2800 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 6, Hex 0x9B
+	Module Manufacturer ID: Bank 2, Hex 0xBA
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 4 GB
 	Cache Size: None
 	Logical Size: None
 
 Handle 0x0035, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0034
 	Memory Array Mapped Address Handle: 0x002C
 	Partition Row Position: Unknown
@@ -648,40 +648,40 @@ Memory Device
 	Error Information Handle: 0x0038
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM_B2
 	Bank Locator: BANK 3
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 3000 MT/s
-	Manufacturer: CRUCIAL
+	Speed: 2800 MT/s
+	Manufacturer: PNY
 	Serial Number: --
 	Asset Tag: --
-	Part Number: BL16G32C16U4B.16FE
-	Rank: 2
-	Configured Memory Speed: 3000 MT/s
+	Part Number: 4GBF1X04MFFF36-12
+	Rank: 1
+	Configured Memory Speed: 2800 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 6, Hex 0x9B
+	Module Manufacturer ID: Bank 2, Hex 0xBA
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 4 GB
 	Cache Size: None
 	Logical Size: None
 
 Handle 0x003A, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0039
 	Memory Array Mapped Address Handle: 0x002C
 	Partition Row Position: Unknown
@@ -707,14 +707,14 @@ Handle 0x003C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16
 	Type: x16 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 0
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:00:03.1
+	Bus Address: 0000:00:1f.7
 
 Handle 0x003D, DMI type 9, 17 bytes
 System Slot Information

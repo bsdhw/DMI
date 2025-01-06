@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 # SMBIOS entry point at 0x758ed000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.5 present.
@@ -616,7 +616,8 @@ On Board Device 8 Information
 Handle 0x002A, DMI type 9, 28 bytes
 System Slot Information
 	Designation: PCIEX16(G4)
-	Type: x16 PCI Express 4 x16
+	Type: PCI Express 4 x16
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -624,14 +625,15 @@ System Slot Information
 		3.3 V is provided
 		PME signal is supported
 	Bus Address: 0000:00:01.0
-	Data Bus Width: 0
+	Data Bus Width (Base): 0
 	Peer Devices: 0
 	Height: Not applicable
 
 Handle 0x002B, DMI type 9, 28 bytes
 System Slot Information
 	Designation: PCIEX1(G4)_1
-	Type: x1 PCI Express 4 x1
+	Type: PCI Express 4 x1
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -639,14 +641,15 @@ System Slot Information
 		3.3 V is provided
 		PME signal is supported
 	Bus Address: 0000:00:1c.4
-	Data Bus Width: 0
+	Data Bus Width (Base): 0
 	Peer Devices: 0
 	Height: Not applicable
 
 Handle 0x002C, DMI type 9, 28 bytes
 System Slot Information
 	Designation: PCIEX1(G4)_2
-	Type: x1 PCI Express 4 x1
+	Type: PCI Express 4 x1
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Long
 	ID: 2
@@ -654,35 +657,37 @@ System Slot Information
 		3.3 V is provided
 		PME signal is supported
 	Bus Address: 0000:00:1d.7
-	Data Bus Width: 0
+	Data Bus Width (Base): 0
 	Peer Devices: 0
 	Height: Not applicable
 
 Handle 0x002D, DMI type 9, 28 bytes
 System Slot Information
 	Designation: M.2_1
-	Type: x4 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 4x or x4
 	Current Usage: In Use
 	Length: Short
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
 	Bus Address: 0000:00:06.0
-	Data Bus Width: 0
+	Data Bus Width (Base): 0
 	Peer Devices: 0
 	Height: Not applicable
 
 Handle 0x002E, DMI type 9, 28 bytes
 System Slot Information
 	Designation: M.2_2
-	Type: x4 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
 	Bus Address: 0000:00:1a.0
-	Data Bus Width: 0
+	Data Bus Width (Base): 0
 	Peer Devices: 0
 	Height: Not applicable
 

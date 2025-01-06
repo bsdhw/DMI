@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x79ff7000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -381,8 +381,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 928716 MB
-	Maximum Size: 404416 MB
+	Installed Size: 1572 GB
+	Maximum Size: 1825 GB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous
@@ -397,8 +397,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 82579 GB
-	Maximum Size: 58002 GB
+	Installed Size: 0 kB
+	Maximum Size: 0 kB
 	Supported SRAM Types:
 		Synchronous
 	Installed SRAM Type: Synchronous

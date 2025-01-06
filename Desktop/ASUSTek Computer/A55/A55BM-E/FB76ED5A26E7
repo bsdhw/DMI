@@ -1,6 +1,5 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x000f04c0
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.5
+Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 51 structures occupying 2068 bytes.
 Table at 0x000EC100.
@@ -462,8 +461,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 96 kB
-	Maximum Size: 96 kB
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -478,8 +477,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 1 MB
-	Maximum Size: 1 MB
+	Installed Size: 4 MB
+	Maximum Size: 4 MB
 	Supported SRAM Types:
 		Pipeline Burst
 	Installed SRAM Type: Pipeline Burst
@@ -494,8 +493,8 @@ Processor Information
 	Type: Central Processor
 	Family: A-Series
 	Manufacturer: AuthenticAMD
-	ID: 01 0F 61 00 FF FB 8B 17
-	Signature: Family 21, Model 16, Stepping 1
+	ID: 01 0F 63 00 FF FB 8B 17
+	Signature: Family 21, Model 48, Stepping 1
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -520,11 +519,11 @@ Processor Information
 		SSE (Streaming SIMD extensions)
 		SSE2 (Streaming SIMD extensions 2)
 		HTT (Multi-threading)
-	Version: AMD A4-5300 APU with Radeon(tm) HD Graphics    
+	Version: AMD A10-7800 Radeon R7, 12 Compute Cores 4C+8G 
 	Voltage: 1.4 V
 	External Clock: 100 MHz
-	Max Speed: 3400 MHz
-	Current Speed: 3400 MHz
+	Max Speed: 3500 MHz
+	Current Speed: 3500 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket FM2
 	L1 Cache Handle: 0x002F
@@ -533,9 +532,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
-	Core Count: 2
-	Core Enabled: 2
-	Thread Count: 2
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 4
 	Characteristics:
 		64-bit capable
 

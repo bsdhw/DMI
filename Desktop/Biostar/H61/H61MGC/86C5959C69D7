@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 20 structures occupying 1124 bytes.
@@ -186,13 +186,6 @@ Memory Device
 	Bank Locator: A1_BANK1
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: A1_Manufacturer1
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber1
-	Rank: Unknown
-	Configured Memory Speed: Unknown
 
 Handle 0x000D, DMI type 126, 35 bytes
 Inactive
@@ -210,13 +203,6 @@ Memory Device
 	Bank Locator: A1_BANK2
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: A1_Manufacturer2
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber2
-	Rank: Unknown
-	Configured Memory Speed: 2 MT/s
 
 Handle 0x000F, DMI type 126, 35 bytes
 Inactive
@@ -234,13 +220,6 @@ Memory Device
 	Bank Locator: A1_BANK3
 	Type: Unknown
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: A1_Manufacturer3
-	Serial Number: --
-	Asset Tag: --
-	Part Number: Array1_PartNumber3
-	Rank: Unknown
-	Configured Memory Speed: 341 MT/s
 
 Handle 0x0011, DMI type 126, 35 bytes
 Inactive

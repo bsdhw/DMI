@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xbde25000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -8,8 +8,8 @@ Table at 0xBDE22000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: P5.30
-	Release Date: 03/01/2022
+	Version: P5.60
+	Release Date: 10/20/2022
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -181,7 +181,7 @@ Handle 0x000E, DMI type 43, 31 bytes
 TPM Device
 	Vendor ID: AMD
 	Specification Version: 2.0
-	Firmware Revision: 3.45
+	Firmware Revision: 3.78
 	Description: AMD
 	Characteristics:
 		Family configurable via platform software support
@@ -351,15 +351,15 @@ Memory Device
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
+	Memory Technology: <OUT OF SPEC>
+	Memory Operating Mode Capability: None
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 3, Hex 0x9E
+	Module Manufacturer ID: Unknown
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: None
 	Cache Size: None
 	Logical Size: None
 
@@ -431,15 +431,15 @@ Memory Device
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
+	Memory Technology: <OUT OF SPEC>
+	Memory Operating Mode Capability: None
 	Firmware Version: Unknown
-	Module Manufacturer ID: Bank 7, Hex 0xD3
+	Module Manufacturer ID: Unknown
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: None
 	Cache Size: None
 	Logical Size: None
 

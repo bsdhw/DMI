@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x66cf0000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -33,7 +33,7 @@ BIOS Information
 		Targeted content distribution is supported
 		UEFI is supported
 	BIOS Revision: 1.10
-	Firmware Revision: 0.3
+	Firmware Revision: 0.4
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -290,7 +290,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz
-	Voltage: 0.6 V
+	Voltage: 0.7 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
 	Current Speed: 1100 MHz

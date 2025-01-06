@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 3.2.0 present.
 Table at 0x000E6DA0.
@@ -79,7 +79,8 @@ Chassis Information
 Handle 0x0004, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -92,7 +93,8 @@ System Slot Information
 Handle 0x0005, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -105,7 +107,8 @@ System Slot Information
 Handle 0x0006, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -118,7 +121,8 @@ System Slot Information
 Handle 0x0007, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 3
@@ -131,7 +135,8 @@ System Slot Information
 Handle 0x0008, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 4
@@ -144,7 +149,8 @@ System Slot Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8D1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 5
@@ -157,7 +163,8 @@ System Slot Information
 Handle 0x000A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B3
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 6
@@ -170,7 +177,8 @@ System Slot Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J9B1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 7

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x000f05e0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
@@ -82,7 +82,8 @@ Chassis Information
 Handle 0x0004, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot1
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 23
@@ -95,7 +96,8 @@ System Slot Information
 Handle 0x0005, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Slot2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 33
@@ -215,7 +217,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Xeon(R) CPU E3-1230 v5 @ 3.40GHz
-	Voltage: 1.0 V
+	Voltage: 1.1 V
 	External Clock: 100 MHz
 	Max Speed: 3800 MHz
 	Current Speed: 3400 MHz
@@ -312,7 +314,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF850000
 	Status: Valid, Not Full
-	Change Token: 0x00000244
+	Change Token: 0x000002BB
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x7f277000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
@@ -117,7 +117,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF850000
 	Status: Valid, Not Full
-	Change Token: 0x00000021
+	Change Token: 0x0000003D
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error

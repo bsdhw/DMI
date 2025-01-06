@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 # SMBIOS entry point at 0xd75f7000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
@@ -251,7 +251,8 @@ Port Connector Information
 Handle 0x0019, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 0
@@ -264,7 +265,8 @@ System Slot Information
 Handle 0x001A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -277,15 +279,16 @@ System Slot Information
 Handle 0x001B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: x1 PCI Express
-	Current Usage: Available
+	Type: PCI Express
+	Data Bus Width: 1x or x1
+	Current Usage: In Use
 	Length: Short
 	ID: 2
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:ff:1c.4
+	Bus Address: 0000:03:1c.4
 
 Handle 0x001C, DMI type 10, 6 bytes
 On Board Device Information
@@ -941,7 +944,7 @@ Group Associations
 Handle 0x0053, DMI type 219, 81 bytes
 OEM-specific Type
 	Header and Data:
-		DB 51 53 00 01 03 01 45 02 00 90 06 03 10 86 20
+		DB 51 53 00 01 03 01 45 02 00 90 06 03 10 80 20
 		00 00 00 00 40 08 00 00 00 00 00 00 00 00 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

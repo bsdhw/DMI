@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 68 structures occupying 2478 bytes.
@@ -87,10 +87,10 @@ Handle 0x0004, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: LGA1156
 	Type: Central Processor
-	Family: Core i5
+	Family: Core i7
 	Manufacturer: Intel            
-	ID: 55 06 02 00 FF FB EB BF
-	Signature: Type 0, Family 6, Model 37, Stepping 5
+	ID: E5 06 01 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 30, Stepping 5
 	Flags:
 		FPU (Floating-point unit on-chip)
 		VME (Virtual mode extension)
@@ -120,11 +120,11 @@ Processor Information
 		HTT (Multi-threading)
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
-	Version: Intel(R) Core(TM) i5 CPU 650 @ 3.20GHz              
+	Version: Intel(R) Core(TM) i7 CPU 880 @ 3.07GHz              
 	Voltage: 1.0 V
 	External Clock: 133 MHz
 	Max Speed: 3800 MHz
-	Current Speed: 3200 MHz
+	Current Speed: 3066 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0005
@@ -133,9 +133,9 @@ Processor Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: To Be Filled By O.E.M.
-	Core Count: 2
-	Core Enabled: 2
-	Thread Count: 4
+	Core Count: 4
+	Core Enabled: 4
+	Thread Count: 8
 	Characteristics:
 		64-bit capable
 
@@ -145,8 +145,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 1
 	Operational Mode: Write Through
 	Location: Internal
-	Installed Size: 128 kB
-	Maximum Size: 128 kB
+	Installed Size: 256 kB
+	Maximum Size: 256 kB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -161,8 +161,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 2
 	Operational Mode: Write Through
 	Location: Internal
-	Installed Size: 512 kB
-	Maximum Size: 512 kB
+	Installed Size: 1 MB
+	Maximum Size: 1 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -177,8 +177,8 @@ Cache Information
 	Configuration: Enabled, Not Socketed, Level 3
 	Operational Mode: Write Back
 	Location: Internal
-	Installed Size: 4 MB
-	Maximum Size: 4 MB
+	Installed Size: 8 MB
+	Maximum Size: 8 MB
 	Supported SRAM Types:
 		Other
 	Installed SRAM Type: Other
@@ -216,8 +216,8 @@ Memory Module Information
 	Bank Connections: 0 1
 	Current Speed: Unknown
 	Type: DIMM SDRAM
-	Installed Size: Not Installed
-	Enabled Size: Not Installed
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x000A, DMI type 6, 12 bytes
@@ -236,8 +236,8 @@ Memory Module Information
 	Bank Connections: 4 5
 	Current Speed: Unknown
 	Type: DIMM SDRAM
-	Installed Size: Not Installed
-	Enabled Size: Not Installed
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x000C, DMI type 6, 12 bytes
@@ -477,7 +477,8 @@ Port Connector Information
 Handle 0x0029, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_1
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -490,7 +491,8 @@ System Slot Information
 Handle 0x002A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -502,7 +504,8 @@ System Slot Information
 Handle 0x002B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -514,7 +517,8 @@ System Slot Information
 Handle 0x002C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_2
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 4
@@ -526,7 +530,8 @@ System Slot Information
 Handle 0x002D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 5
@@ -538,7 +543,8 @@ System Slot Information
 Handle 0x002E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI2
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 6
@@ -550,7 +556,8 @@ System Slot Information
 Handle 0x002F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI3
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 7
@@ -616,8 +623,8 @@ Physical Memory Array
 Handle 0x0036, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0035
 	Partition Width: 4
 
@@ -625,16 +632,16 @@ Handle 0x0037, DMI type 17, 28 bytes
 Memory Device
 	Array Handle: 0x0035
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM0
 	Bank Locator: BANK0
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
+	Type: DDR
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
 	Manufacturer: Manufacturer0
 	Serial Number: --
 	Asset Tag: --
@@ -644,8 +651,8 @@ Memory Device
 Handle 0x0038, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000000003FF
-	Range Size: 1 kB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0037
 	Memory Array Mapped Address Handle: 0x0036
 	Partition Row Position: 1
@@ -673,8 +680,8 @@ Memory Device
 
 Handle 0x003A, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x0039
 	Memory Array Mapped Address Handle: 0x0036
@@ -685,16 +692,16 @@ Handle 0x003B, DMI type 17, 28 bytes
 Memory Device
 	Array Handle: 0x0035
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 4 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM2
 	Bank Locator: BANK2
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
+	Type: DDR
+	Type Detail: Synchronous
+	Speed: 1333 MT/s
 	Manufacturer: Manufacturer2
 	Serial Number: --
 	Asset Tag: --
@@ -703,9 +710,9 @@ Memory Device
 
 Handle 0x003C, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00000000000
-	Ending Address: 0x000000003FF
-	Range Size: 1 kB
+	Starting Address: 0x00200000000
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x003B
 	Memory Array Mapped Address Handle: 0x0036
 	Partition Row Position: 1
@@ -733,8 +740,8 @@ Memory Device
 
 Handle 0x003E, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
+	Starting Address: 0x00300000000
+	Ending Address: 0x003FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x003D
 	Memory Array Mapped Address Handle: 0x0036

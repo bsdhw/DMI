@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x59d61000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -8,8 +8,8 @@ Table at 0x59D5D000.
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1203
-	Release Date: 10/28/2021
+	Version: 2001
+	Release Date: 02/01/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -35,7 +35,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 12.3
+	BIOS Revision: 20.1
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -316,8 +316,9 @@ Port Connector Information
 Handle 0x0021, DMI type 9, 19 bytes
 System Slot Information
 	Designation: PCIEX16_1
-	Type: x16 PCI Express
-	Current Usage: Available
+	Type: PCI Express
+	Data Bus Width: 16x or x16
+	Current Usage: In Use
 	Length: Long
 	ID: 0
 	Characteristics:
@@ -325,13 +326,14 @@ System Slot Information
 		Opening is shared
 		PME signal is supported
 	Bus Address: 0000:03:01.0
-	Data Bus Width: 255
+	Data Bus Width (Base): 255
 	Peer Devices: 0
 
 Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -344,7 +346,8 @@ System Slot Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -1011,8 +1014,8 @@ Memory Device Mapped Address
 Handle 0x0065, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 65 00 03 01 00 0B 01 37 50 00 02 00 00 00
-		00 50 00 03 00 FF FF FF FF FF
+		DD 1A 65 00 03 01 00 0B 01 37 40 00 02 00 00 00
+		00 54 00 03 00 FF FF FF FF FF
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -1021,7 +1024,7 @@ OEM-specific Type
 Handle 0x0066, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 66 00 03 01 00 0B 01 37 50 00 02 00 0F 00
+		DD 1A 66 00 03 01 00 0B 01 37 40 00 02 00 0F 00
 		00 02 00 03 04 0F 00 15 0D 06
 	Strings:
 		Reference Code - ME
@@ -1032,7 +1035,7 @@ OEM-specific Type
 Handle 0x0067, DMI type 221, 47 bytes
 OEM-specific Type
 	Header and Data:
-		DD 2F 67 00 06 01 00 0B 01 37 50 00 02 03 FF FF
+		DD 2F 67 00 06 01 00 0B 01 37 40 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 11 00 05 00 FF FF FF 11
 		00 06 00 FF FF FF FF FF 07 00 04 00 00 00 00
 	Strings:
@@ -1047,8 +1050,8 @@ OEM-specific Type
 Handle 0x0068, DMI type 221, 82 bytes
 OEM-specific Type
 	Header and Data:
-		DD 52 68 00 0B 01 00 0B 01 37 50 00 02 00 00 04
-		61 72 00 03 00 0B 01 37 50 00 04 05 FF FF FF FF
+		DD 52 68 00 0B 01 00 0B 01 37 40 00 02 00 00 04
+		61 80 00 03 00 0B 01 37 40 00 04 05 FF FF FF FF
 		FF 06 00 00 00 00 01 00 07 00 00 00 00 01 00 08
 		00 FF FF FF FF FF 09 00 FF FF FF FF FF 0A 00 FF
 		FF FF FF FF 0B 00 FF FF FF FF FF 0C 00 01 01 01
@@ -1202,8 +1205,8 @@ Processor Information
 Handle 0x006F, DMI type 60, 165 bytes
 Unknown Type
 	Header and Data:
-		3C A5 6F 00 01 90 AF 20 5F F5 64 38 9D 0E FD 00
-		16 6A B5 18 35 00 00 00 00 00 00 00 00 00 00 00
+		3C A5 6F 00 01 20 F6 28 4B CE A8 43 F3 BD 24 14
+		45 FF 4E 4E D3 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -1217,7 +1220,7 @@ Unknown Type
 Handle 0x0070, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 70 00 10 00 00 00 0F 00 00 00 00 00 02 00
+		83 40 70 00 31 00 00 00 0F 00 00 00 00 00 02 00
 		F8 00 87 43 00 00 00 00 01 00 00 00 00 00 0F 00
 		0D 06 15 00 00 00 00 00 FE 00 FA 15 00 00 00 00
 		00 00 00 00 22 00 00 00 76 50 72 6F 00 00 00 00
@@ -1377,7 +1380,7 @@ Handle 0x0082, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
 		DB 6A 82 00 01 04 01 45 02 00 90 06 01 85 39 20
-		00 00 00 00 40 00 00 00 00 00 00 00 00 20 40 02
+		00 00 00 04 40 00 00 00 00 00 00 00 00 20 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00

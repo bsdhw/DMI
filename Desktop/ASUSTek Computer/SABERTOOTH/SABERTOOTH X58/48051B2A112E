@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 80 structures occupying 3027 bytes.
@@ -122,9 +122,9 @@ Processor Information
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i7 CPU 960 @ 3.20GHz              
 	Voltage: 1.2 V
-	External Clock: 150 MHz
+	External Clock: 133 MHz
 	Max Speed: 3200 MHz
-	Current Speed: 3600 MHz
+	Current Speed: 3207 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
 	L1 Cache Handle: 0x0005
@@ -580,7 +580,8 @@ Port Connector Information
 Handle 0x0035, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: 64-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 64 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -592,7 +593,8 @@ System Slot Information
 Handle 0x0036, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 2
@@ -604,7 +606,8 @@ System Slot Information
 Handle 0x0037, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -616,7 +619,8 @@ System Slot Information
 Handle 0x0038, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 4
@@ -628,8 +632,9 @@ System Slot Information
 Handle 0x0039, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_2
-	Type: 32-bit PCI Express
-	Current Usage: Available
+	Type: PCI Express
+	Data Bus Width: 32 bit
+	Current Usage: In Use
 	Length: Short
 	ID: 5
 	Characteristics:
@@ -640,7 +645,8 @@ System Slot Information
 Handle 0x003A, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_3
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 6
@@ -718,7 +724,7 @@ Memory Device
 	Bank Locator: BANK0
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer00
 	Serial Number: --
 	Asset Tag: --
@@ -748,7 +754,7 @@ Memory Device
 	Bank Locator: BANK1
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer01
 	Serial Number: --
 	Asset Tag: --
@@ -778,7 +784,7 @@ Memory Device
 	Bank Locator: BANK2
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer02
 	Serial Number: --
 	Asset Tag: --
@@ -808,7 +814,7 @@ Memory Device
 	Bank Locator: BANK3
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer03
 	Serial Number: --
 	Asset Tag: --
@@ -838,7 +844,7 @@ Memory Device
 	Bank Locator: BANK4
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer04
 	Serial Number: --
 	Asset Tag: --
@@ -868,7 +874,7 @@ Memory Device
 	Bank Locator: BANK5
 	Type: Other
 	Type Detail: Other
-	Speed: 1066 MT/s
+	Speed: Unknown
 	Manufacturer: Manufacturer05
 	Serial Number: --
 	Asset Tag: --

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 19 structures occupying 1146 bytes.
@@ -154,9 +154,9 @@ Memory Device
 	Manufacturer: Kingston        
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 99U5471-020.A00LF 
+	Part Number: 99U5403-034.A00LF 
 	Rank: 2
-	Configured Memory Speed: 533 MT/s
+	Configured Memory Speed: 667 MT/s
 
 Handle 0x000B, DMI type 20, 35 bytes
 Memory Device Mapped Address
@@ -184,9 +184,9 @@ Memory Device
 	Manufacturer: Kingston        
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 99U5471-020.A00LF 
+	Part Number: 99U5403-034.A00LF 
 	Rank: 2
-	Configured Memory Speed: 533 MT/s
+	Configured Memory Speed: 667 MT/s
 
 Handle 0x000D, DMI type 20, 35 bytes
 Memory Device Mapped Address

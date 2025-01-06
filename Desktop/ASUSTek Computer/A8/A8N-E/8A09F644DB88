@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.3 present.
 72 structures occupying 2042 bytes.
@@ -99,10 +99,10 @@ Processor Information
 		SSE (Streaming SIMD extensions)
 		SSE2 (Streaming SIMD extensions 2)
 	Version: AMD Athlon(tm) 64 Processor 3200+
-	Voltage: 1.4 V
-	External Clock: 200 MHz
+	Voltage: 1.3 V
+	External Clock: 220 MHz
 	Max Speed: 3700 MHz
-	Current Speed: 2000 MHz
+	Current Speed: 2200 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket 939
 	L1 Cache Handle: 0x000A

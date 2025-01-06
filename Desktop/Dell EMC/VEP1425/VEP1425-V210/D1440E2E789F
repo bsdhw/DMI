@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 3.0.0 present.
 Table at 0x7F1EF000.
@@ -271,7 +271,8 @@ Port Connector Information
 Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: NO SLOT PRESENT
-	Type: <OUT OF SPEC> <OUT OF SPEC>
+	Type: <OUT OF SPEC>
+	Data Bus Width: <OUT OF SPEC>
 	Current Usage: Unknown
 	Length: <OUT OF SPEC>
 	Characteristics:
@@ -325,7 +326,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF850000
 	Status: Valid, Not Full
-	Change Token: 0x00000067
+	Change Token: 0x000000C3
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error

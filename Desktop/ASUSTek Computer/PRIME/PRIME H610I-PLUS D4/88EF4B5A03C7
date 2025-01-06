@@ -2,7 +2,7 @@
 # SMBIOS entry point at 0x75d1f000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.4 present.
-99 structures occupying 4909 bytes.
+99 structures occupying 4917 bytes.
 Table at 0x75D1B000.
 
 Handle 0x0000, DMI type 0, 26 bytes
@@ -577,7 +577,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: Controller0-ChannelA-DIMM0
@@ -585,10 +585,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous
 	Speed: 3200 MT/s
-	Manufacturer: Kingston
+	Manufacturer: G Skill Intl
 	Serial Number: --
 	Asset Tag: --
-	Part Number: KF3200C16D4/32GX    
+	Part Number: F4-3600C17-16GTZR   
 	Rank: 2
 	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
@@ -597,12 +597,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Not Specified
-	Module Manufacturer ID: Bank 2, Hex 0x98
+	Module Manufacturer ID: Bank 5, Hex 0xCD
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 16 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -612,7 +612,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: Controller1-ChannelA-DIMM0
@@ -620,10 +620,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous
 	Speed: 3200 MT/s
-	Manufacturer: Kingston
+	Manufacturer: G Skill Intl
 	Serial Number: --
 	Asset Tag: --
-	Part Number: KF3200C16D4/32GX    
+	Part Number: F4-3600C17-16GTZR   
 	Rank: 2
 	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
@@ -632,20 +632,20 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: Not Specified
-	Module Manufacturer ID: Bank 2, Hex 0x98
+	Module Manufacturer ID: Bank 5, Hex 0xCD
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 16 GB
 	Cache Size: None
 	Logical Size: None
 
 Handle 0x003C, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 64 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x0039
 	Partition Width: 2
 
@@ -662,8 +662,8 @@ TPM Device
 Handle 0x003E, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x003A
 	Memory Array Mapped Address Handle: 0x003C
 	Partition Row Position: Unknown
@@ -672,9 +672,9 @@ Memory Device Mapped Address
 
 Handle 0x003F, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00800000000
-	Ending Address: 0x00FFFFFFFFF
-	Range Size: 32 GB
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x003B
 	Memory Array Mapped Address Handle: 0x003C
 	Partition Row Position: Unknown

@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 74 structures occupying 2601 bytes.
@@ -548,7 +548,8 @@ Port Connector Information
 Handle 0x0032, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_1
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 1
@@ -560,7 +561,8 @@ System Slot Information
 Handle 0x0033, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 34
@@ -572,7 +574,8 @@ System Slot Information
 Handle 0x0034, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: 64-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 64 bit
 	Current Usage: In Use
 	Length: Short
 	ID: 35
@@ -584,7 +587,8 @@ System Slot Information
 Handle 0x0035, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_2
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -596,7 +600,8 @@ System Slot Information
 Handle 0x0036, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI_1
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -608,7 +613,8 @@ System Slot Information
 Handle 0x0037, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI_2
-	Type: 32-bit PCI
+	Type: PCI
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 4
@@ -620,7 +626,8 @@ System Slot Information
 Handle 0x0038, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCIEX16_3
-	Type: 32-bit PCI Express
+	Type: PCI Express
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Short
 	ID: 6

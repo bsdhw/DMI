@@ -2,14 +2,14 @@
 # SMBIOS entry point at 0x796a7000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.5 present.
-71 structures occupying 3105 bytes.
+71 structures occupying 3106 bytes.
 Table at 0x796A4000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1409
-	Release Date: 04/20/2023
+	Version: 1616
+	Release Date: 05/16/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -36,7 +36,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 14.9
+	BIOS Revision: 16.16
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -460,13 +460,13 @@ Additional Information 1
 Handle 0x001E, DMI type 60, 165 bytes
 Unknown Type
 	Header and Data:
-		3C A5 1E 00 06 69 C6 88 E7 9D 3E 71 76 29 CB DD
-		AD FE 78 BA 15 D6 EF 45 D0 06 AB 3F 0A D9 7F EA
+		3C A5 1E 00 05 D6 EF 45 D0 06 AB 3F 0A D9 7F EA
 		EF 53 7F 22 16 AE 5A 3E A5 EE 52 29 65 A0 96 B5
 		5E 01 18 2D 7D 3B 7B F6 47 9B C9 D4 05 48 42 C0
 		51 CF 59 D8 D0 24 19 BC C6 B2 48 F7 26 42 71 97
 		56 9E FF D2 52 04 75 27 28 50 58 BF 61 FF 32 1A
 		D4 2B DA 3D D8 00 00 00 00 00 00 00 00 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00

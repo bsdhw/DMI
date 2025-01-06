@@ -1,15 +1,15 @@
 # dmidecode 3.5
-# SMBIOS entry point at 0x77a04000
+# SMBIOS entry point at 0x655d1000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.5 present.
-96 structures occupying 5466 bytes.
-Table at 0x77A01000.
+96 structures occupying 5471 bytes.
+Table at 0x655CE000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 0810
-	Release Date: 02/22/2023
+	Version: 1646
+	Release Date: 03/20/2024
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 16 MB
@@ -36,7 +36,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 8.10
+	BIOS Revision: 16.46
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -311,7 +311,7 @@ TPM Device
 Handle 0x0013, DMI type 45, 26 bytes
 Firmware Inventory Information
 	Firmware Component Name: TPM Firmware
-	Firmware Version: 2580012:1907E4..
+	Firmware Version: 2580012.1E0903
 	Firmware ID: Not Specified
 	Release Date: 2021-05-15T00:00:00Z
 	Manufacturer: INTEL
@@ -378,8 +378,8 @@ OEM-specific Type
 Handle 0x0019, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 19 00 03 01 00 0C 00 8B 10 00 02 00 00 00
-		01 0E 00 03 00 FF FF FF FF FF
+		DD 1A 19 00 03 01 00 0C 00 C3 30 00 02 00 00 00
+		01 23 00 03 00 FF FF FF FF FF
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -388,8 +388,8 @@ OEM-specific Type
 Handle 0x001A, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 1A 00 03 01 00 0C 00 8B 10 00 02 00 00 00
-		00 00 00 03 04 10 01 19 E4 07
+		DD 1A 1A 00 03 01 00 0C 00 C3 30 00 02 00 00 00
+		00 00 00 03 04 10 01 1E 03 09
 	Strings:
 		Reference Code - ME
 		MEBx version
@@ -399,7 +399,7 @@ OEM-specific Type
 Handle 0x001B, DMI type 221, 47 bytes
 OEM-specific Type
 	Header and Data:
-		DD 2F 1B 00 06 01 00 0C 00 8B 10 00 02 03 FF FF
+		DD 2F 1B 00 06 01 00 0C 00 C3 30 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 11 00 05 00 FF FF FF 11
 		00 06 00 02 46 00 00 00 07 00 04 00 00 00 00
 	Strings:
@@ -414,8 +414,8 @@ OEM-specific Type
 Handle 0x001C, DMI type 221, 82 bytes
 OEM-specific Type
 	Header and Data:
-		DD 52 1C 00 0B 01 00 0C 00 8B 10 00 02 00 00 00
-		04 59 00 03 00 0C 00 8B 10 00 04 05 FF FF FF FF
+		DD 52 1C 00 0B 01 00 0C 00 C3 30 00 02 00 00 00
+		04 C3 00 03 00 0C 00 C3 30 00 04 05 FF FF FF FF
 		FF 06 00 00 00 00 01 00 07 00 00 00 00 01 00 08
 		00 FF FF FF FF FF 09 00 FF FF FF FF FF 0A 00 FF
 		FF FF FF FF 0B 00 FF FF FF FF FF 0C 00 FF FF FF
@@ -536,12 +536,12 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: 13th Gen Intel(R) Core(TM) i5-13600K
-	Voltage: 0.9 V
+	Voltage: 1.2 V
 	External Clock: 100 MHz
 	Max Speed: 5100 MHz
-	Current Speed: 3465 MHz
+	Current Speed: 5049 MHz
 	Status: Populated, Enabled
-	Upgrade: Other
+	Upgrade: <OUT OF SPEC>
 	L1 Cache Handle: 0x001E
 	L2 Cache Handle: 0x001F
 	L3 Cache Handle: 0x0020
@@ -593,8 +593,9 @@ Handle 0x0025, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Intel HD Audio
 	Type: Sound
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
+	Bus Address: 0000:00:1f.3
 
 Handle 0x0026, DMI type 41, 11 bytes
 Onboard Device
@@ -680,7 +681,7 @@ On Board Device 2 Information
 	Description: Intel GNA Device
 On Board Device 3 Information
 	Type: Sound
-	Status: Disabled
+	Status: Enabled
 	Description: Intel HD Audio
 On Board Device 4 Information
 	Type: SATA Controller
@@ -703,7 +704,7 @@ On Board Device 8 Information
 	Status: Disabled
 	Description: RTL8125 2.5GbE Controller
 
-Handle 0x002E, DMI type 9, 28 bytes
+Handle 0x002E, DMI type 9, 29 bytes
 System Slot Information
 	Designation: PCIEX16(G4)_1
 	Type: x16 PCI Express 4 x16
@@ -718,7 +719,7 @@ System Slot Information
 	Peer Devices: 0
 	Height: Not applicable
 
-Handle 0x002F, DMI type 9, 28 bytes
+Handle 0x002F, DMI type 9, 29 bytes
 System Slot Information
 	Designation: PCIEX16(G4)_2
 	Type: x1 PCI Express 4 x1
@@ -733,7 +734,7 @@ System Slot Information
 	Peer Devices: 0
 	Height: Not applicable
 
-Handle 0x0030, DMI type 9, 28 bytes
+Handle 0x0030, DMI type 9, 29 bytes
 System Slot Information
 	Designation: PCIEX16(G4)_3
 	Type: x4 PCI Express 4 x4
@@ -748,7 +749,7 @@ System Slot Information
 	Peer Devices: 0
 	Height: Not applicable
 
-Handle 0x0031, DMI type 9, 28 bytes
+Handle 0x0031, DMI type 9, 29 bytes
 System Slot Information
 	Designation: M.2_1
 	Type: x4 M.2 Socket 3
@@ -762,7 +763,7 @@ System Slot Information
 	Peer Devices: 0
 	Height: Not applicable
 
-Handle 0x0032, DMI type 9, 28 bytes
+Handle 0x0032, DMI type 9, 29 bytes
 System Slot Information
 	Designation: M.2_2
 	Type: x4 M.2 Socket 3
@@ -1069,7 +1070,7 @@ OEM-specific Type
 	Header and Data:
 		83 40 57 00 35 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 06 7A 00 00 00 00 21 20 00 00 01 00 10 00
-		E4 07 19 00 00 00 00 00 FE 00 FF FF 00 00 00 00
+		03 09 1E 00 00 00 00 00 FE 00 FF FF 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0x0058, DMI type 221, 103 bytes
@@ -1079,8 +1080,8 @@ OEM-specific Type
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 FF FF FF FF FF 0A
 		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
-		17 00 79 10 0D 00 FF FF FF FF FF 0E 00 00 07 00
-		00 00 0F 00 13 05 00 2C 16 10 00 FF FF FF FF FF
+		17 00 81 10 0D 00 FF FF FF FF FF 0E 00 00 07 00
+		00 00 0F 00 13 05 05 5F 16 10 00 FF FF FF FF FF
 		11 00 FF FF FF FF FF
 	Strings:
 		Lan Phy Version
@@ -1137,7 +1138,7 @@ Group Associations
 Handle 0x005D, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
-		DB 6A 5D 00 01 04 01 45 02 00 90 06 01 85 39 20
+		DB 6A 5D 00 01 04 01 45 02 00 90 06 01 85 3B 20
 		00 00 00 00 40 00 00 00 00 00 00 02 00 20 40 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

@@ -1,8 +1,6 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x79421000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.0 present.
-88 structures occupying 3324 bytes.
+# dmidecode 3.4
+Scanning /dev/mem for entry point.
+SMBIOS 3.0.0 present.
 Table at 0x000EA800.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -641,7 +639,7 @@ Processor Information
 	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 4200 MHz
-	Current Speed: 3800 MHz
+	Current Speed: 3000 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket SP3r2
 	L1 Cache Handle: 0x003B
@@ -733,8 +731,8 @@ Memory Device
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMK16GX4M2A2666C16  
-	Rank: 2
+	Part Number: CMK16GX4M2A2400C16  
+	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -823,8 +821,8 @@ Memory Device
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMK16GX4M2A2666C16  
-	Rank: 2
+	Part Number: CMK16GX4M2A2400C16  
+	Rank: 1
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -868,8 +866,8 @@ Memory Device
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMK16GX4M2A2400C16  
-	Rank: 1
+	Part Number: CMK16GX4M2A2666C16  
+	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
@@ -958,7 +956,7 @@ Memory Device
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: CMK16GX4M2A2400C16  
+	Part Number: CMK16GX4M2A2666C16  
 	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -1004,7 +1002,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: CMK16GX4M2A2400C16  
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V

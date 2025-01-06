@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 74 structures occupying 2629 bytes.
@@ -742,11 +742,6 @@ Memory Device
 	Bank Locator: BANK1
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: Manufacturer01
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber01
 
 Handle 0x0043, DMI type 20, 19 bytes
 Memory Device Mapped Address
@@ -800,11 +795,6 @@ Memory Device
 	Bank Locator: BANK3
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: Manufacturer03
-	Serial Number: --
-	Asset Tag: --
-	Part Number: ModulePartNumber03
 
 Handle 0x0047, DMI type 20, 19 bytes
 Memory Device Mapped Address

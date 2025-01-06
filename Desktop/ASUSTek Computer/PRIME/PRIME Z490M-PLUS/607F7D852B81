@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 # SMBIOS entry point at 0x89ab6000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -321,7 +321,8 @@ Port Connector Information
 Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -334,7 +335,8 @@ System Slot Information
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_1
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 1
@@ -347,7 +349,8 @@ System Slot Information
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX1_2
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 2
@@ -360,7 +363,8 @@ System Slot Information
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIEX16_2
-	Type: x16 PCI Express
+	Type: PCI Express
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Long
 	ID: 3

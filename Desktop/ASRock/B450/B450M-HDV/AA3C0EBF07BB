@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 3.0.0 present.
 Table at 0x000E94F0.
@@ -81,14 +81,14 @@ Handle 0x0004, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIE1
 	Type: x1 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 17
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
-	Bus Address: 0000:04:00.0
+	Bus Address: 0000:d3:00.0
 
 Handle 0x0005, DMI type 9, 17 bytes
 System Slot Information
@@ -153,8 +153,8 @@ Physical Memory Array
 Handle 0x000C, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x000B
 	Partition Width: 2
 
@@ -278,20 +278,20 @@ Memory Device
 	Error Information Handle: 0x0011
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL A
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2400 MT/s
+	Speed: 2134 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: TEAMGROUP-UD4-3000  
-	Rank: 1
-	Configured Memory Speed: 1200 MT/s
+	Part Number: F4-3200C16-8GTZB
+	Rank: 2
+	Configured Memory Speed: 1067 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -299,8 +299,8 @@ Memory Device
 Handle 0x0013, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0012
 	Memory Array Mapped Address Handle: 0x000C
 	Partition Row Position: Unknown
@@ -323,20 +323,20 @@ Memory Device
 	Error Information Handle: 0x0014
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMM 0
 	Bank Locator: P0 CHANNEL B
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2400 MT/s
+	Speed: 2134 MT/s
 	Manufacturer: Unknown
 	Serial Number: --
 	Asset Tag: --
-	Part Number: TEAMGROUP-UD4-3000  
-	Rank: 1
-	Configured Memory Speed: 1200 MT/s
+	Part Number: F4-3200C16-8GTZB
+	Rank: 2
+	Configured Memory Speed: 1067 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -344,8 +344,8 @@ Memory Device
 Handle 0x0016, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0015
 	Memory Array Mapped Address Handle: 0x000C
 	Partition Row Position: Unknown

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 31 structures occupying 1339 bytes.
@@ -159,13 +159,14 @@ Handle 0x0008, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIE1
 	Type: x1 PCI Express x1
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Short
 	ID: 1
 	Characteristics:
 		3.3 V is provided
 		Opening is shared
 		PME signal is supported
+	Bus Address: ffff:06:00.0
 
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
