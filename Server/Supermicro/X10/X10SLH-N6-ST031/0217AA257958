@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-38 structures occupying 2006 bytes.
+40 structures occupying 2098 bytes.
 Table at 0x000ECE00.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -367,15 +367,22 @@ Handle 0x0026, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0025
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMA1
 	Bank Locator: P0_Node0_Channel0_Dimm0
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Micron
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 18KSF1G72AZ-1G6E1 
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0027, DMI type 17, 34 bytes
 Memory Device
@@ -383,7 +390,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMA2
@@ -391,26 +398,33 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Kingston
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number: SL4D316E11S8KF    
-	Rank: 1
+	Part Number: 18KSF1G72AZ-1G6E1 
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0028, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0025
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMB1
 	Bank Locator: P0_Node0_Channel1_Dimm0
-	Type: Unknown
-	Type Detail: None
+	Type: DDR3
+	Type Detail: Synchronous
+	Speed: 1600 MT/s
+	Manufacturer: Micron
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 18KSF1G72AZ-1G6E1 
+	Rank: 2
+	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0029, DMI type 17, 34 bytes
 Memory Device
@@ -418,7 +432,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMB2
@@ -426,27 +440,27 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1600 MT/s
-	Manufacturer: Kingston
+	Manufacturer: Micron
 	Serial Number: --
 	Asset Tag: --
-	Part Number: SL4D316E11S8KF    
-	Rank: 1
+	Part Number: 18KSF1G72AZ-1G6E1 
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x002A, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x0025
 	Partition Width: 4
 
 Handle 0x002B, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x0027
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x0026
 	Memory Array Mapped Address Handle: 0x002A
 	Partition Row Position: Unknown
 	Interleave Position: 1
@@ -454,16 +468,38 @@ Memory Device Mapped Address
 
 Handle 0x002C, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00200000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x0027
+	Memory Array Mapped Address Handle: 0x002A
+	Partition Row Position: Unknown
+	Interleave Position: 1
+	Interleaved Data Depth: 2
+
+Handle 0x002D, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00400000000
+	Ending Address: 0x005FFFFFFFF
+	Range Size: 8 GB
+	Physical Device Handle: 0x0028
+	Memory Array Mapped Address Handle: 0x002A
+	Partition Row Position: Unknown
+	Interleave Position: 2
+	Interleaved Data Depth: 2
+
+Handle 0x002E, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00600000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0029
 	Memory Array Mapped Address Handle: 0x002A
 	Partition Row Position: Unknown
 	Interleave Position: 2
 	Interleaved Data Depth: 2
 
-Handle 0x002D, DMI type 15, 73 bytes
+Handle 0x002F, DMI type 15, 73 bytes
 System Event Log
 	Area Length: 65535 bytes
 	Header Start Offset: 0x0000
@@ -526,18 +562,18 @@ System Event Log
 	Descriptor 25: OEM-specific
 	Data Format 25: OEM-specific
 
-Handle 0x003B, DMI type 136, 6 bytes
+Handle 0x003D, DMI type 136, 6 bytes
 OEM-specific Type
 	Header and Data:
-		88 06 3B 00 00 00
+		88 06 3D 00 00 00
 
-Handle 0x003D, DMI type 13, 22 bytes
+Handle 0x003F, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x003E, DMI type 127, 4 bytes
+Handle 0x0040, DMI type 127, 4 bytes
 End Of Table
 

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 67 structures occupying 3419 bytes.
@@ -405,12 +405,13 @@ Handle 0x0902, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI3
 	Type: x8 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 3
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
+	Bus Address: 0000:0b:00.0
 
 Handle 0x0903, DMI type 9, 17 bytes
 System Slot Information
@@ -428,12 +429,13 @@ Handle 0x0904, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI5
 	Type: x4 PCI Express
-	Current Usage: Available
+	Current Usage: In Use
 	Length: Long
 	ID: 5
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
+	Bus Address: 0000:09:00.0
 
 Handle 0x0905, DMI type 9, 17 bytes
 System Slot Information

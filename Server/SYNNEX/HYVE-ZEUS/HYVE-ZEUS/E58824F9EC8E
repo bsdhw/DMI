@@ -1,14 +1,15 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
+# dmidecode 3.5
+# SMBIOS entry point at 0x000f04c0
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
-122 structures occupying 5211 bytes.
-Table at 0x000EC640.
+119 structures occupying 5266 bytes.
+Table at 0x000EC830.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 3.0.5
-	Release Date: 03/07/2018
+	Version: 3.3
+	Release Date: 09/10/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 12 MB
@@ -33,7 +34,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 3.0
+	BIOS Revision: 4.6
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -491,32 +492,23 @@ Port Connector Information
 
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
-	Designation: CPU1 Slot3 PCI-E 3.0 x8
-	Type: x8 PCI Express 2 x8
+	Designation: CPU1 SLOT3 PCI-E 3.0 X8
+	Type: x8 PCI Express 3 x8
 	Current Usage: Available
 	Length: Long
 	ID: 1
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:01:00.0
-
-Handle 0x0025, DMI type 9, 17 bytes
-System Slot Information
-	Designation: CPU1 Slot4 PCI-E 3.0 x8
-	Type: x8 PCI Express 2 x8
-	Current Usage: Available
-	Length: Long
-	ID: 2
-	Characteristics:
-		3.3 V is provided
-		PME signal is supported
 	Bus Address: 0000:02:00.0
+
+Handle 0x0025, DMI type 126, 17 bytes
+Inactive
 
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
-	Designation: CPU1 Slot5 PCI-E 3.0 x8
-	Type: x8 PCI Express 2 x8
+	Designation: CPU1 SLOT5 PCI-E 3.0 X8
+	Type: x8 PCI Express 3 x8
 	Current Usage: Available
 	Length: Long
 	ID: 3
@@ -527,49 +519,41 @@ System Slot Information
 
 Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
-	Designation: CPU2 Slot6 PCI-E 3.0 x16
-	Type: x16 PCI Express 2 x16
+	Designation: CPU2 SLOT6 PCI-E 3.0 X16
+	Type: x16 PCI Express 3 x16
 	Current Usage: In Use
 	Length: Long
 	ID: 4
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:83:00.0
+	Bus Address: 0000:85:00.0
 
 Handle 0x0028, DMI type 9, 17 bytes
 System Slot Information
-	Designation: CPU2 Slot7 PCI-E 3.0 x8
-	Type: x8 PCI Express 2 x8
+	Designation: CPU2 SLOT7 PCI-E 3.0 X8
+	Type: x8 PCI Express 3 x8
 	Current Usage: Available
 	Length: Long
 	ID: 5
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:81:00.0
+	Bus Address: 0000:83:00.0
 
-Handle 0x0029, DMI type 10, 14 bytes
+Handle 0x0029, DMI type 10, 10 bytes
 On Board Device 1 Information
 	Type: Video
 	Status: Enabled
-	Description:  Onboard Matrox VGA
+	Description:  Onboard Matrox Video Controller
 On Board Device 2 Information
-	Type: SATA Controller
+	Type: Ethernet
 	Status: Enabled
-	Description:  Onboard Intel SATA Controller
+	Description:  Onboard Intel i350 Ethernet Port1
 On Board Device 3 Information
-	Type: SAS Controller
-	Status: Enabled
-	Description:  Onboard Intel SCU Controller
-On Board Device 4 Information
 	Type: Ethernet
 	Status: Enabled
-	Description:  Onboard Intel Ethernet 1
-On Board Device 5 Information
-	Type: Ethernet
-	Status: Enabled
-	Description:  Onboard Intel Ethernet 2
+	Description:  Onboard Intel i350 Ethernet Port2
 
 Handle 0x002A, DMI type 11, 5 bytes
 OEM Strings
@@ -585,7 +569,7 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: Multi-bit ECC
-	Maximum Capacity: 64 GB
+	Maximum Capacity: 256 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
@@ -606,7 +590,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P0-DIMM0
+	Locator: P1-DIMMA1
 	Bank Locator: P0_Node0_Channel0_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -615,7 +599,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x002F, DMI type 20, 35 bytes
@@ -636,7 +620,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P0-DIMM1
+	Locator: P1-DIMMB1
 	Bank Locator: P0_Node0_Channel1_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -645,7 +629,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0031, DMI type 20, 35 bytes
@@ -666,7 +650,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P0-DIMM2
+	Locator: P1-DIMMC1
 	Bank Locator: P0_Node0_Channel2_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -675,7 +659,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0033, DMI type 20, 35 bytes
@@ -696,7 +680,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P0-DIMM3
+	Locator: P1-DIMMD1
 	Bank Locator: P0_Node0_Channel3_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -705,7 +689,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0035, DMI type 20, 35 bytes
@@ -722,7 +706,7 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: Multi-bit ECC
-	Maximum Capacity: 64 GB
+	Maximum Capacity: 256 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 4
 
@@ -743,7 +727,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P1-DIMM0
+	Locator: P2-DIMME1
 	Bank Locator: P1_Node1_Channel0_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -752,7 +736,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0039, DMI type 20, 35 bytes
@@ -773,7 +757,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P1-DIMM1
+	Locator: P2-DIMMF1
 	Bank Locator: P1_Node1_Channel1_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -782,7 +766,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-100.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003B, DMI type 20, 35 bytes
@@ -803,7 +787,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P1-DIMM2
+	Locator: P2-DIMMG1
 	Bank Locator: P1_Node1_Channel2_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -812,7 +796,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003D, DMI type 20, 35 bytes
@@ -833,7 +817,7 @@ Memory Device
 	Size: 8 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: P1-DIMM3
+	Locator: P2-DIMMH1
 	Bank Locator: P1_Node1_Channel3_Dimm0
 	Type: DDR3
 	Type Detail: Registered (Buffered)
@@ -842,7 +826,7 @@ Memory Device
 	Serial Number: --
 	Asset Tag: --
 	Part Number: 9965516-113.A00LF 
-	Rank: 1
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003F, DMI type 20, 35 bytes
@@ -854,65 +838,18 @@ Memory Device Mapped Address
 	Memory Array Mapped Address Handle: 0x0037
 	Partition Row Position: 1
 
-Handle 0x0040, DMI type 16, 23 bytes
-Physical Memory Array
-	Location: System Board Or Motherboard
-	Use: Flash Memory
-	Error Correction Type: None
-	Maximum Capacity: 16 MB
-	Error Information Handle: Not Provided
-	Number Of Devices: 1
-
-Handle 0x0041, DMI type 19, 31 bytes
-Memory Array Mapped Address
-	Starting Address: 0x000FF000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 16 MB
-	Physical Array Handle: 0x0040
-	Partition Width: 1
-
-Handle 0x0042, DMI type 17, 34 bytes
-Memory Device
-	Array Handle: 0x0040
-	Error Information Handle: Not Provided
-	Total Width: 8 bits
-	Data Width: 8 bits
-	Size: 16 MB
-	Form Factor: Other
-	Set: None
-	Locator:  
-	Bank Locator:  
-	Type: Flash
-	Type Detail: Non-Volatile
-	Speed: 33 MT/s
-	Manufacturer: Micron/Numonyx
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148  
-	Part Number: 25Q Series
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-
-Handle 0x0043, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x000FF000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 16 MB
-	Physical Device Handle: 0x0042
-	Memory Array Mapped Address Handle: 0x0041
-	Partition Row Position: 1
-
-Handle 0x0044, DMI type 32, 20 bytes
+Handle 0x0040, DMI type 32, 20 bytes
 System Boot Information
 	Status: No errors detected
 
-Handle 0x0045, DMI type 34, 11 bytes
+Handle 0x0041, DMI type 34, 11 bytes
 Management Device
 	Description: LM78-1
 	Type: LM78
 	Address: 0x00000000
 	Address Type: I/O Port
 
-Handle 0x0046, DMI type 26, 22 bytes
+Handle 0x0042, DMI type 26, 22 bytes
 Voltage Probe
 	Description: LM78A
 	Location: <OUT OF SPEC>
@@ -925,7 +862,7 @@ Voltage Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x0047, DMI type 36, 16 bytes
+Handle 0x0043, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -934,14 +871,14 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x0048, DMI type 35, 11 bytes
+Handle 0x0044, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0045
-	Component Handle: 0x0045
-	Threshold Handle: 0x0046
+	Management Device Handle: 0x0041
+	Component Handle: 0x0041
+	Threshold Handle: 0x0042
 
-Handle 0x0049, DMI type 28, 22 bytes
+Handle 0x0045, DMI type 28, 22 bytes
 Temperature Probe
 	Description: LM78A
 	Location: <OUT OF SPEC>
@@ -954,7 +891,7 @@ Temperature Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x004A, DMI type 36, 16 bytes
+Handle 0x0046, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -963,16 +900,16 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x004B, DMI type 35, 11 bytes
+Handle 0x0047, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0045
-	Component Handle: 0x0048
-	Threshold Handle: 0x0049
+	Management Device Handle: 0x0041
+	Component Handle: 0x0044
+	Threshold Handle: 0x0045
 
-Handle 0x004C, DMI type 27, 15 bytes
+Handle 0x0048, DMI type 27, 15 bytes
 Cooling Device
-	Temperature Probe Handle: 0x0049
+	Temperature Probe Handle: 0x0045
 	Type: <OUT OF SPEC>
 	Status: <OUT OF SPEC>
 	Cooling Unit Group: 1
@@ -980,7 +917,7 @@ Cooling Device
 	Nominal Speed: Unknown Or Non-rotating
 	Description: Cooling Dev 1
 
-Handle 0x004D, DMI type 36, 16 bytes
+Handle 0x0049, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -989,16 +926,16 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x004E, DMI type 35, 11 bytes
+Handle 0x004A, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0045
-	Component Handle: 0x004B
-	Threshold Handle: 0x004C
+	Management Device Handle: 0x0041
+	Component Handle: 0x0047
+	Threshold Handle: 0x0048
 
-Handle 0x004F, DMI type 27, 15 bytes
+Handle 0x004B, DMI type 27, 15 bytes
 Cooling Device
-	Temperature Probe Handle: 0x0049
+	Temperature Probe Handle: 0x0045
 	Type: <OUT OF SPEC>
 	Status: <OUT OF SPEC>
 	Cooling Unit Group: 1
@@ -1006,7 +943,7 @@ Cooling Device
 	Nominal Speed: Unknown Or Non-rotating
 	Description: Not Specified
 
-Handle 0x0050, DMI type 36, 16 bytes
+Handle 0x004C, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -1015,16 +952,47 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x0051, DMI type 35, 11 bytes
+Handle 0x004D, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0045
-	Component Handle: 0x004E
-	Threshold Handle: 0x004F
+	Management Device Handle: 0x0041
+	Component Handle: 0x004A
+	Threshold Handle: 0x004B
 
-Handle 0x0052, DMI type 29, 22 bytes
+Handle 0x004E, DMI type 29, 22 bytes
 Electrical Current Probe
 	Description: ABC
+	Location: <OUT OF SPEC>
+	Status: <OUT OF SPEC>
+	Maximum Value: Unknown
+	Minimum Value: Unknown
+	Resolution: Unknown
+	Tolerance: Unknown
+	Accuracy: Unknown
+	OEM-specific Information: 0x00000000
+	Nominal Value: Unknown
+
+Handle 0x004F, DMI type 36, 16 bytes
+Management Device Threshold Data
+
+Handle 0x0050, DMI type 35, 11 bytes
+Management Device Component
+	Description: To Be Filled By O.E.M.
+	Management Device Handle: 0x0041
+	Component Handle: 0x004D
+	Threshold Handle: 0x004B
+
+Handle 0x0051, DMI type 34, 16 bytes
+Invalid entry length (16). Fixed up to 11.
+Management Device
+	Description: LM78-2
+	Type: LM78
+	Address: 0x00000000
+	Address Type: I/O Port
+
+Handle 0x0052, DMI type 26, 22 bytes
+Voltage Probe
+	Description: LM78B
 	Location: <OUT OF SPEC>
 	Status: <OUT OF SPEC>
 	Maximum Value: Unknown
@@ -1037,37 +1005,6 @@ Electrical Current Probe
 
 Handle 0x0053, DMI type 36, 16 bytes
 Management Device Threshold Data
-
-Handle 0x0054, DMI type 35, 11 bytes
-Management Device Component
-	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0045
-	Component Handle: 0x0051
-	Threshold Handle: 0x004F
-
-Handle 0x0055, DMI type 34, 16 bytes
-Invalid entry length (16). Fixed up to 11.
-Management Device
-	Description: LM78-2
-	Type: LM78
-	Address: 0x00000000
-	Address Type: I/O Port
-
-Handle 0x0056, DMI type 26, 22 bytes
-Voltage Probe
-	Description: LM78B
-	Location: <OUT OF SPEC>
-	Status: <OUT OF SPEC>
-	Maximum Value: Unknown
-	Minimum Value: Unknown
-	Resolution: Unknown
-	Tolerance: Unknown
-	Accuracy: Unknown
-	OEM-specific Information: 0x00000000
-	Nominal Value: Unknown
-
-Handle 0x0057, DMI type 36, 16 bytes
-Management Device Threshold Data
 	Lower Non-critical Threshold: 7
 	Upper Non-critical Threshold: 8
 	Lower Critical Threshold: 8
@@ -1075,14 +1012,14 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 11
 	Upper Non-recoverable Threshold: 12
 
-Handle 0x0058, DMI type 35, 11 bytes
+Handle 0x0054, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x0055
-	Threshold Handle: 0x0056
+	Management Device Handle: 0x0051
+	Component Handle: 0x0051
+	Threshold Handle: 0x0052
 
-Handle 0x0059, DMI type 26, 22 bytes
+Handle 0x0055, DMI type 26, 22 bytes
 Voltage Probe
 	Description: LM78B
 	Location: <OUT OF SPEC>
@@ -1095,7 +1032,7 @@ Voltage Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x005A, DMI type 36, 16 bytes
+Handle 0x0056, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 13
 	Upper Non-critical Threshold: 14
@@ -1104,14 +1041,14 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 17
 	Upper Non-recoverable Threshold: 18
 
-Handle 0x005B, DMI type 35, 11 bytes
+Handle 0x0057, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x0058
-	Threshold Handle: 0x0059
+	Management Device Handle: 0x0051
+	Component Handle: 0x0054
+	Threshold Handle: 0x0055
 
-Handle 0x005C, DMI type 28, 22 bytes
+Handle 0x0058, DMI type 28, 22 bytes
 Temperature Probe
 	Description: LM78B
 	Location: <OUT OF SPEC>
@@ -1124,7 +1061,7 @@ Temperature Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x005D, DMI type 36, 16 bytes
+Handle 0x0059, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -1133,16 +1070,16 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x005E, DMI type 35, 11 bytes
+Handle 0x005A, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x005B
-	Threshold Handle: 0x005C
+	Management Device Handle: 0x0051
+	Component Handle: 0x0057
+	Threshold Handle: 0x0058
 
-Handle 0x005F, DMI type 27, 15 bytes
+Handle 0x005B, DMI type 27, 15 bytes
 Cooling Device
-	Temperature Probe Handle: 0x005C
+	Temperature Probe Handle: 0x0058
 	Type: <OUT OF SPEC>
 	Status: <OUT OF SPEC>
 	Cooling Unit Group: 1
@@ -1150,7 +1087,7 @@ Cooling Device
 	Nominal Speed: Unknown Or Non-rotating
 	Description: Cooling Dev 2
 
-Handle 0x0060, DMI type 36, 16 bytes
+Handle 0x005C, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -1159,14 +1096,14 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x0061, DMI type 35, 11 bytes
+Handle 0x005D, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x005E
-	Threshold Handle: 0x005F
+	Management Device Handle: 0x0051
+	Component Handle: 0x005A
+	Threshold Handle: 0x005B
 
-Handle 0x0062, DMI type 28, 22 bytes
+Handle 0x005E, DMI type 28, 22 bytes
 Temperature Probe
 	Description: LM78B
 	Location: <OUT OF SPEC>
@@ -1179,7 +1116,7 @@ Temperature Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x0063, DMI type 36, 16 bytes
+Handle 0x005F, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -1188,16 +1125,16 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x0064, DMI type 35, 11 bytes
+Handle 0x0060, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x0061
-	Threshold Handle: 0x0062
+	Management Device Handle: 0x0051
+	Component Handle: 0x005D
+	Threshold Handle: 0x005E
 
-Handle 0x0065, DMI type 27, 15 bytes
+Handle 0x0061, DMI type 27, 15 bytes
 Cooling Device
-	Temperature Probe Handle: 0x0062
+	Temperature Probe Handle: 0x005E
 	Type: <OUT OF SPEC>
 	Status: <OUT OF SPEC>
 	Cooling Unit Group: 1
@@ -1205,7 +1142,7 @@ Cooling Device
 	Nominal Speed: Unknown Or Non-rotating
 	Description: Cooling Dev 2
 
-Handle 0x0066, DMI type 36, 16 bytes
+Handle 0x0062, DMI type 36, 16 bytes
 Management Device Threshold Data
 	Lower Non-critical Threshold: 1
 	Upper Non-critical Threshold: 2
@@ -1214,14 +1151,14 @@ Management Device Threshold Data
 	Lower Non-recoverable Threshold: 5
 	Upper Non-recoverable Threshold: 6
 
-Handle 0x0067, DMI type 35, 11 bytes
+Handle 0x0063, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x0064
-	Threshold Handle: 0x0065
+	Management Device Handle: 0x0051
+	Component Handle: 0x0060
+	Threshold Handle: 0x0061
 
-Handle 0x0068, DMI type 29, 22 bytes
+Handle 0x0064, DMI type 29, 22 bytes
 Electrical Current Probe
 	Description: DEF
 	Location: <OUT OF SPEC>
@@ -1234,17 +1171,17 @@ Electrical Current Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x0069, DMI type 36, 16 bytes
+Handle 0x0065, DMI type 36, 16 bytes
 Management Device Threshold Data
 
-Handle 0x006A, DMI type 35, 11 bytes
+Handle 0x0066, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x0067
-	Threshold Handle: 0x0065
+	Management Device Handle: 0x0051
+	Component Handle: 0x0063
+	Threshold Handle: 0x0061
 
-Handle 0x006B, DMI type 29, 22 bytes
+Handle 0x0067, DMI type 29, 22 bytes
 Electrical Current Probe
 	Description: GHI
 	Location: <OUT OF SPEC>
@@ -1257,17 +1194,17 @@ Electrical Current Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x006C, DMI type 36, 16 bytes
+Handle 0x0068, DMI type 36, 16 bytes
 Management Device Threshold Data
 
-Handle 0x006D, DMI type 35, 11 bytes
+Handle 0x0069, DMI type 35, 11 bytes
 Management Device Component
 	Description: To Be Filled By O.E.M.
-	Management Device Handle: 0x0055
-	Component Handle: 0x006A
-	Threshold Handle: 0x0065
+	Management Device Handle: 0x0051
+	Component Handle: 0x0066
+	Threshold Handle: 0x0061
 
-Handle 0x006E, DMI type 26, 22 bytes
+Handle 0x006A, DMI type 26, 22 bytes
 Voltage Probe
 	Description: LM78A
 	Location: Power Unit
@@ -1280,7 +1217,7 @@ Voltage Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x006F, DMI type 28, 22 bytes
+Handle 0x006B, DMI type 28, 22 bytes
 Temperature Probe
 	Description: LM78A
 	Location: Power Unit
@@ -1293,9 +1230,9 @@ Temperature Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x0070, DMI type 27, 15 bytes
+Handle 0x006C, DMI type 27, 15 bytes
 Cooling Device
-	Temperature Probe Handle: 0x006F
+	Temperature Probe Handle: 0x006B
 	Type: Power Supply Fan
 	Status: OK
 	Cooling Unit Group: 1
@@ -1303,7 +1240,7 @@ Cooling Device
 	Nominal Speed: Unknown Or Non-rotating
 	Description: Cooling Dev 1
 
-Handle 0x0071, DMI type 29, 22 bytes
+Handle 0x006D, DMI type 29, 22 bytes
 Electrical Current Probe
 	Description: ABC
 	Location: Power Unit
@@ -1316,7 +1253,7 @@ Electrical Current Probe
 	OEM-specific Information: 0x00000000
 	Nominal Value: Unknown
 
-Handle 0x0072, DMI type 39, 22 bytes
+Handle 0x006E, DMI type 39, 22 bytes
 System Power Supply
 	Power Unit Group: 1
 	Location: To Be Filled By O.E.M.
@@ -1327,40 +1264,57 @@ System Power Supply
 	Model Part Number: To Be Filled By O.E.M.
 	Revision: To Be Filled By O.E.M.
 	Max Power Capacity: Unknown
-	Status: Present, OK
+	Status: Not Present
 	Type: Switching
 	Input Voltage Range Switching: Auto-switch
 	Plugged: Yes
 	Hot Replaceable: No
-	Input Voltage Probe Handle: 0x006E
-	Cooling Device Handle: 0x0070
-	Input Current Probe Handle: 0x0071
+	Input Voltage Probe Handle: 0x006A
+	Cooling Device Handle: 0x006C
+	Input Current Probe Handle: 0x006D
 
-Handle 0x0073, DMI type 41, 11 bytes
+Handle 0x006F, DMI type 39, 22 bytes
+System Power Supply
+	Power Unit Group: 2
+	Location: To Be Filled By O.E.M.
+	Name: To Be Filled By O.E.M.
+	Manufacturer: To Be Filled By O.E.M.
+	Serial Number: --
+	Asset Tag: --
+	Model Part Number: To Be Filled By O.E.M.
+	Revision: To Be Filled By O.E.M.
+	Max Power Capacity: Unknown
+	Status: Not Present
+	Type: Switching
+	Input Voltage Range Switching: Auto-switch
+	Plugged: Yes
+	Hot Replaceable: No
+
+Handle 0x0070, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation:  Onboard IGD
+	Reference Designation:  Onboard Matrox Video Controller
 	Type: Video
 	Status: Enabled
 	Type Instance: 1
-	Bus Address: 0000:00:02.0
+	Bus Address: 0000:07:01.0
 
-Handle 0x0074, DMI type 41, 11 bytes
+Handle 0x0071, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation:  Onboard LAN
+	Reference Designation:  Onboard Intel i350 Ethernet Port1
 	Type: Ethernet
-	Status: Disabled
+	Status: Enabled
 	Type Instance: 1
-	Bus Address: 0000:00:19.0
+	Bus Address: 0000:05:00.0
 
-Handle 0x0075, DMI type 41, 11 bytes
+Handle 0x0072, DMI type 41, 11 bytes
 Onboard Device
-	Reference Designation:  Onboard 1394
-	Type: Other
-	Status: Disabled
-	Type Instance: 1
-	Bus Address: 0000:ff:1c.2
+	Reference Designation:  Onboard Intel i350 Ethernet Port2
+	Type: Ethernet
+	Status: Enabled
+	Type Instance: 2
+	Bus Address: 0000:05:00.1
 
-Handle 0x0076, DMI type 38, 18 bytes
+Handle 0x0073, DMI type 38, 18 bytes
 IPMI Device Information
 	Interface Type: KCS (Keyboard Control Style)
 	Specification Version: 2.0
@@ -1369,9 +1323,9 @@ IPMI Device Information
 	Base Address: 0x0000000000000CA2 (I/O)
 	Register Spacing: Successive Byte Boundaries
 
-Handle 0x007F, DMI type 15, 73 bytes
+Handle 0x007C, DMI type 15, 73 bytes
 System Event Log
-	Area Length: 0 bytes
+	Area Length: 65535 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
@@ -1432,13 +1386,13 @@ System Event Log
 	Descriptor 25: OEM-specific
 	Data Format 25: OEM-specific
 
-Handle 0x009E, DMI type 13, 22 bytes
+Handle 0x0085, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x00A1, DMI type 127, 4 bytes
+Handle 0x0086, DMI type 127, 4 bytes
 End Of Table
 

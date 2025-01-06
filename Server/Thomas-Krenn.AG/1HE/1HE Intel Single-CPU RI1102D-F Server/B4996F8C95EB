@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-47 structures occupying 2665 bytes.
+48 structures occupying 2722 bytes.
 Table at 0x000ED9B0.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -178,7 +178,8 @@ Port Connector Information
 Handle 0x0010, DMI type 9, 17 bytes
 System Slot Information
 	Designation: CPU SLOT6 PCI-E 3.0 X8
-	Type: x8 PCI Express 3 x8
+	Type: PCI Express 3 x8
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Long
 	ID: 6
@@ -191,7 +192,8 @@ System Slot Information
 Handle 0x0011, DMI type 9, 17 bytes
 System Slot Information
 	Designation: CPU SLOT7 PCI-E 3.0 X8
-	Type: x8 PCI Express 3 x8
+	Type: PCI Express 3 x8
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Long
 	ID: 7
@@ -337,10 +339,10 @@ Physical Memory Array
 Handle 0x0023, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x002000003FF
-	Range Size: 8 GB
+	Ending Address: 0x008000003FF
+	Range Size: 32 GB
 	Physical Array Handle: 0x0022
-	Partition Width: 1
+	Partition Width: 2
 
 Handle 0x0024, DMI type 17, 40 bytes
 Memory Device
@@ -348,18 +350,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 8 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMA1
 	Bank Locator: P0_Node0_Channel0_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 2667 MT/s
+	Speed: 3200 MT/s
 	Manufacturer: Undefined
 	Serial Number: --
 	Asset Tag: --
-	Part Number: X4C08QD8BNTDSE-7-TO
+	Part Number: 9965684-049.A00G   
 	Rank: 1
 	Configured Memory Speed: 2133 MT/s
 	Minimum Voltage: Unknown
@@ -369,8 +371,8 @@ Memory Device
 Handle 0x0025, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 8 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0024
 	Memory Array Mapped Address Handle: 0x0023
 	Partition Row Position: 1
@@ -393,17 +395,36 @@ Handle 0x0027, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0022
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMB1
 	Bank Locator: P0_Node0_Channel1_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous
+	Speed: 3200 MT/s
+	Manufacturer: Undefined
+	Serial Number: --
+	Asset Tag: --
+	Part Number: 9965684-049.A00G   
+	Rank: 1
+	Configured Memory Speed: 2133 MT/s
+	Minimum Voltage: Unknown
+	Maximum Voltage: Unknown
+	Configured Voltage: 0.003 V
 
-Handle 0x0028, DMI type 17, 40 bytes
+Handle 0x0028, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x0027
+	Memory Array Mapped Address Handle: 0x0023
+	Partition Row Position: 1
+
+Handle 0x0029, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0022
 	Error Information Handle: Not Provided
@@ -417,7 +438,7 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous
 
-Handle 0x0029, DMI type 15, 73 bytes
+Handle 0x002A, DMI type 15, 73 bytes
 System Event Log
 	Area Length: 65535 bytes
 	Header Start Offset: 0x0000
@@ -480,7 +501,7 @@ System Event Log
 	Descriptor 25: OEM-specific
 	Data Format 25: OEM-specific
 
-Handle 0x002A, DMI type 7, 19 bytes
+Handle 0x002B, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L1 Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -496,7 +517,7 @@ Cache Information
 	System Type: Other
 	Associativity: 8-way Set-associative
 
-Handle 0x002B, DMI type 7, 19 bytes
+Handle 0x002C, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L2 Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -512,7 +533,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 8-way Set-associative
 
-Handle 0x002C, DMI type 7, 19 bytes
+Handle 0x002D, DMI type 7, 19 bytes
 Cache Information
 	Socket Designation: L3 Cache
 	Configuration: Enabled, Not Socketed, Level 4
@@ -528,7 +549,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 12-way Set-associative
 
-Handle 0x002D, DMI type 4, 42 bytes
+Handle 0x002E, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: CPU1
 	Type: Central Processor
@@ -572,9 +593,9 @@ Processor Information
 	Current Speed: 2200 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
-	L1 Cache Handle: 0x002A
-	L2 Cache Handle: 0x002B
-	L3 Cache Handle: 0x002C
+	L1 Cache Handle: 0x002B
+	L2 Cache Handle: 0x002C
+	L3 Cache Handle: 0x002D
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
@@ -589,20 +610,20 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x002E, DMI type 199, 5 bytes
+Handle 0x002F, DMI type 199, 5 bytes
 OEM-specific Type
 	Header and Data:
-		C7 05 2E 00 01
+		C7 05 2F 00 01
 	Strings:
 		                                                                                                                                                                                                                                                         
 
-Handle 0x002F, DMI type 13, 22 bytes
+Handle 0x0030, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 1
 		en|US|iso8859-1
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0030, DMI type 127, 4 bytes
+Handle 0x0031, DMI type 127, 4 bytes
 End Of Table
 

@@ -1,15 +1,15 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x6e7b5000
+# dmidecode 3.6
+# SMBIOS entry point at 0xae7a3000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
-61 structures occupying 2928 bytes.
-Table at 0x6E7B1000.
+65 structures occupying 3363 bytes.
+Table at 0xAE79F000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.6
-	Release Date: 01/20/2022
+	Version: 2.1
+	Release Date: 01/18/2024
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -63,7 +63,7 @@ Base Board Information
 Handle 0x0003, DMI type 3, 22 bytes
 Chassis Information
 	Manufacturer: Supermicro
-	Type: Main Server Chassis
+	Type: Unknown
 	Lock: Not Present
 	Version: 0123456789
 	Serial Number: --
@@ -137,7 +137,8 @@ Port Connector Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: CPU SLOT6 PCI-E 3.0 X16
-	Type: x16 PCI Express 3 x16
+	Type: PCI Express 3 x16
+	Data Bus Width: 16x or x16
 	Current Usage: Available
 	Length: Short
 	ID: 6
@@ -150,7 +151,8 @@ System Slot Information
 Handle 0x000C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: CPU SLOT7 PCI-E 3.0 X8
-	Type: x8 PCI Express 3 x8
+	Type: PCI Express 3 x8
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Short
 	ID: 7
@@ -163,7 +165,8 @@ System Slot Information
 Handle 0x000D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: JMD1:M.2-HC PCI-E 3.0 X4 / S-SATA5
-	Type: x4 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -175,7 +178,8 @@ System Slot Information
 Handle 0x000E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: JMD2:M.2-H PCI-E 3.0 X2 / S-SATA4
-	Type: x2 M.2 Socket 2
+	Type: M.2 Socket 2
+	Data Bus Width: 2x or x2
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -187,7 +191,8 @@ System Slot Information
 Handle 0x000F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI-E 3.0 X1
-	Type: x1 PCI Express Mini 52-pin without bottom-side keep-outs
+	Type: PCI Express Mini 52-pin without bottom-side keep-outs
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	ID: 3
@@ -334,7 +339,7 @@ System Event Log
 	Access Method: Memory-mapped physical 32-bit address
 	Access Address: 0xFF110000
 	Status: Valid, Not Full
-	Change Token: 0x0000002C
+	Change Token: 0x00000024
 	Header Format: Type 1
 	Supported Log Type Descriptors: 25
 	Descriptor 1: Single-bit ECC memory error
@@ -391,7 +396,7 @@ System Event Log
 Handle 0x0029, DMI type 133, 12 bytes
 OEM-specific Type
 	Header and Data:
-		85 0C 29 00 00 D0 9E 6C 00 40 00 00
+		85 0C 29 00 00 00 9C AC 00 40 00 00
 
 Handle 0x002A, DMI type 16, 23 bytes
 Physical Memory Array
@@ -415,13 +420,13 @@ Memory Device
 	Bank Locator: P0_Node0_Channel0_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2133 MT/s
-	Manufacturer: Samsung
+	Speed: 3200 MT/s
+	Manufacturer: SK Hynix
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393A2G40DB0-CPB    
-	Rank: 2
-	Configured Memory Speed: 2133 MT/s
+	Part Number: HMA82GR7DJR4N-XN    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -439,13 +444,13 @@ Memory Device
 	Bank Locator: P0_Node0_Channel1_Dimm0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2133 MT/s
-	Manufacturer: Samsung
+	Speed: 3200 MT/s
+	Manufacturer: SK Hynix
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393A2G40DB0-CPB    
-	Rank: 2
-	Configured Memory Speed: 2133 MT/s
+	Part Number: HMA82GR7DJR4N-XN    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -463,22 +468,22 @@ Handle 0x0030, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x002F
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMD1
 	Bank Locator: P0_Node1_Channel0_Dimm0
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: M393A2K40EB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -487,22 +492,22 @@ Handle 0x0032, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x002F
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMME1
 	Bank Locator: P0_Node1_Channel1_Dimm0
-	Type: Unknown
-	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
 	Serial Number: --
 	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: M393A2K40EB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
@@ -533,7 +538,33 @@ Memory Device Mapped Address
 	Memory Array Mapped Address Handle: 0x0034
 	Partition Row Position: 1
 
-Handle 0x0037, DMI type 7, 27 bytes
+Handle 0x0037, DMI type 19, 31 bytes
+Memory Array Mapped Address
+	Starting Address: 0x00800000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 32 GB
+	Physical Array Handle: 0x002F
+	Partition Width: 0
+
+Handle 0x0038, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00000000000
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x0030
+	Memory Array Mapped Address Handle: 0x0037
+	Partition Row Position: 1
+
+Handle 0x0039, DMI type 20, 35 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
+	Physical Device Handle: 0x0032
+	Memory Array Mapped Address Handle: 0x0037
+	Partition Row Position: 1
+
+Handle 0x003A, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L1 Cache
 	Configuration: Enabled, Not Socketed, Level 1
@@ -549,7 +580,7 @@ Cache Information
 	System Type: Instruction
 	Associativity: 8-way Set-associative
 
-Handle 0x0038, DMI type 7, 27 bytes
+Handle 0x003B, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L2 Cache
 	Configuration: Enabled, Not Socketed, Level 2
@@ -565,7 +596,7 @@ Cache Information
 	System Type: Unified
 	Associativity: 16-way Set-associative
 
-Handle 0x0039, DMI type 7, 27 bytes
+Handle 0x003C, DMI type 7, 27 bytes
 Cache Information
 	Socket Designation: L3 Cache
 	Configuration: Enabled, Not Socketed, Level 3
@@ -581,7 +612,7 @@ Cache Information
 	System Type: Unified
 	Associativity: Fully Associative
 
-Handle 0x003A, DMI type 4, 48 bytes
+Handle 0x003D, DMI type 4, 48 bytes
 Processor Information
 	Socket Designation: CPU
 	Type: Central Processor
@@ -625,9 +656,9 @@ Processor Information
 	Current Speed: 2200 MHz
 	Status: Populated, Enabled
 	Upgrade: Other
-	L1 Cache Handle: 0x0037
-	L2 Cache Handle: 0x0038
-	L3 Cache Handle: 0x0039
+	L1 Cache Handle: 0x003A
+	L2 Cache Handle: 0x003B
+	L3 Cache Handle: 0x003C
 	Serial Number: --
 	Asset Tag: --
 	Part Number: Not Specified
@@ -642,104 +673,111 @@ Processor Information
 		Enhanced Virtualization
 		Power/Performance Control
 
-Handle 0x003D, DMI type 40, 27 bytes
+Handle 0x0040, DMI type 199, 5 bytes
+OEM-specific Type
+	Header and Data:
+		C7 05 40 00 01
+	Strings:
+		                                                                                                                                                                                                                                                         
+
+Handle 0x0041, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x000b
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x003E, DMI type 40, 27 bytes
+Handle 0x0042, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x000c
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x003F, DMI type 40, 27 bytes
+Handle 0x0043, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x000d
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0040, DMI type 40, 27 bytes
+Handle 0x0044, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x000e
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0041, DMI type 40, 27 bytes
+Handle 0x0045, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x000f
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0042, DMI type 40, 27 bytes
+Handle 0x0046, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0014
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0043, DMI type 40, 27 bytes
+Handle 0x0047, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0015
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0044, DMI type 40, 27 bytes
+Handle 0x0048, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0016
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0045, DMI type 40, 27 bytes
+Handle 0x0049, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0017
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0046, DMI type 40, 27 bytes
+Handle 0x004A, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0018
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0047, DMI type 40, 27 bytes
+Handle 0x004B, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x0019
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0048, DMI type 40, 27 bytes
+Handle 0x004C, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x001a
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x0049, DMI type 40, 27 bytes
+Handle 0x004D, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x001b
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x004A, DMI type 40, 27 bytes
+Handle 0x004E, DMI type 40, 27 bytes
 Additional Information 1
 	Referenced Handle: 0x001c
 	Referenced Offset: 0x00
 	String: Not Specified
 	Value: Unexpected size
 
-Handle 0x004B, DMI type 127, 4 bytes
+Handle 0x004F, DMI type 127, 4 bytes
 End Of Table
 

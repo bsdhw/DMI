@@ -1,13 +1,15 @@
-# dmidecode 3.3
-Scanning /dev/mem for entry point.
-SMBIOS 3.2.1 present.
-Table at 0x8EC16000.
+# dmidecode 3.5
+# SMBIOS entry point at 0x8ec20000
+Found SMBIOS entry point in EFI, reading table from /dev/mem.
+SMBIOS 3.2 present.
+48 structures occupying 3654 bytes.
+Table at 0x8EC1D000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends Inc.
-	Version: 1.6
-	Release Date: 05/31/2021
+	Version: 2.0
+	Release Date: 02/23/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -311,8 +313,8 @@ System Event Log
 Handle 0x0022, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 22 00 03 01 00 07 00 58 47 00 02 00 00 00
-		00 EA 00 03 00 FF FF FF FF FF
+		DD 1A 22 00 03 01 00 07 00 58 40 00 02 00 00 00
+		00 F0 00 03 00 FF FF FF FF FF
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -321,7 +323,7 @@ OEM-specific Type
 Handle 0x0023, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 23 00 03 01 00 07 00 58 47 00 02 00 00 00
+		DD 1A 23 00 03 01 00 07 00 58 40 00 02 00 00 00
 		00 00 00 03 04 FF FF FF FF FF
 	Strings:
 		Reference Code - ME
@@ -332,7 +334,7 @@ OEM-specific Type
 Handle 0x0024, DMI type 221, 82 bytes
 OEM-specific Type
 	Header and Data:
-		DD 52 24 00 0B 01 00 07 00 58 47 00 02 03 FF FF
+		DD 52 24 00 0B 01 00 07 00 58 40 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 10 00 05 00 FF FF FF 10
 		00 06 00 FF FF FF FF FF 07 00 02 00 00 00 00 08
 		00 09 00 00 00 00 09 00 0D 00 00 00 00 0A 00 07
@@ -355,8 +357,8 @@ OEM-specific Type
 Handle 0x0025, DMI type 221, 54 bytes
 OEM-specific Type
 	Header and Data:
-		DD 36 25 00 07 01 00 07 00 58 47 00 02 00 00 07
-		01 73 00 03 00 07 00 58 47 00 04 05 FF FF FF FF
+		DD 36 25 00 07 01 00 07 00 58 40 00 02 00 00 07
+		01 73 00 03 00 07 00 58 40 00 04 05 FF FF FF FF
 		FF 06 00 00 00 00 08 00 07 00 00 00 00 08 00 08
 		00 FF FF FF FF FF
 	Strings:
@@ -455,7 +457,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i3-8300 CPU @ 3.70GHz
-	Voltage: 1.1 V
+	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 8300 MHz
 	Current Speed: 3700 MHz

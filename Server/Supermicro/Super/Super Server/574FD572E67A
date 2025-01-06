@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x6c193000
+# dmidecode 3.5
+# SMBIOS entry point at 0x6bec9000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
-SMBIOS 3.4 present.
-59 structures occupying 3569 bytes.
-Table at 0x6C190000.
+SMBIOS 3.5 present.
+59 structures occupying 3570 bytes.
+Table at 0x6BEC6000.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: American Megatrends International, LLC.
-	Version: 1.1
-	Release Date: 10/05/2022
+	Version: 1.2a
+	Release Date: 03/16/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -21,6 +21,7 @@ BIOS Information
 		Selectable boot is supported
 		BIOS ROM is socketed
 		EDD is supported
+		ACPI is supported
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
@@ -315,7 +316,7 @@ System Event Log
 	Descriptor 10: PCI system error
 	Data Format 10: Multiple-event handle
 	Descriptor 11: CPU failure
-	Data Format 11: Multiple-event handle
+	Data Format 11: None
 	Descriptor 12: EISA failsafe timer timeout
 	Data Format 12: None
 	Descriptor 13: Correctable memory log disabled

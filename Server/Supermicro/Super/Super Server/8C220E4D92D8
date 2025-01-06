@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 3.1.1 present.
 Table at 0x6E7D4000.
@@ -406,7 +406,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMA1
@@ -414,10 +414,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous
 	Speed: 2666 MT/s
-	Manufacturer: Undefined
+	Manufacturer: Micron Technology
 	Serial Number: --
 	Asset Tag: --
-	Part Number: TE416G26D819K-VKC   
+	Part Number: 36ASF4G72PZ-2G6H1R  
 	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -430,7 +430,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: DIMMB1
@@ -438,10 +438,10 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous
 	Speed: 2666 MT/s
-	Manufacturer: Undefined
+	Manufacturer: Micron Technology
 	Serial Number: --
 	Asset Tag: --
-	Part Number: TE416G26D819K-VKC   
+	Part Number: 36ASF4G72PZ-2G6H1R  
 	Rank: 2
 	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: 1.2 V
@@ -470,16 +470,6 @@ Memory Device
 	Bank Locator: P0_Node1_Channel0_Dimm0
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0032, DMI type 17, 40 bytes
 Memory Device
@@ -494,39 +484,29 @@ Memory Device
 	Bank Locator: P0_Node1_Channel1_Dimm0
 	Type: Unknown
 	Type Detail: Unknown
-	Speed: Unknown
-	Manufacturer: NO DIMM
-	Serial Number: --
-	Asset Tag: --
-	Part Number: NO DIMM
-	Rank: Unknown
-	Configured Memory Speed: Unknown
-	Minimum Voltage: 1.2 V
-	Maximum Voltage: 1.2 V
-	Configured Voltage: 1.2 V
 
 Handle 0x0034, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 32 GB
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
 	Physical Array Handle: 0x002A
 	Partition Width: 2
 
 Handle 0x0035, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Device Handle: 0x002B
 	Memory Array Mapped Address Handle: 0x0034
 	Partition Row Position: 1
 
 Handle 0x0036, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00400000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 16 GB
+	Starting Address: 0x00800000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 32 GB
 	Physical Device Handle: 0x002D
 	Memory Array Mapped Address Handle: 0x0034
 	Partition Row Position: 1

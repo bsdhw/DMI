@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 64 structures occupying 2623 bytes.
@@ -37,7 +37,7 @@ System Information
 	Version: GS01
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Power Switch
+	Wake-up Type: APM Timer
 	SKU Number: ABN:K1380-V101-76
 	Family: SERVER
 

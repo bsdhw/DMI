@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x788fb000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
@@ -924,82 +924,67 @@ OEM-specific Type
 		D7 06 58 00 00 05
 
 Handle 0x0059, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 59 00 01 00 01 02 07 01 15 0B 03 DE 07 00
-		00 00 00 00 00 00 00
-	Strings:
-		System ROM
-		v1.21 (11/03/2014)
+HP Version Indicator
+	Firmware Type: System ROM
+	Firmware Name String: System ROM
+	Firmware Version String: v1.21 (11/03/2014)
+	Version Data: v1.21 (11/03/2014)
 
 Handle 0x005A, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5A 00 02 00 01 02 07 01 15 0B 03 DE 07 00
-		00 00 00 00 00 00 00
-	Strings:
-		Redundant System ROM
-		v1.21 (11/03/2014)
+HP Version Indicator
+	Firmware Type: Redundant System ROM
+	Firmware Name String: Redundant System ROM
+	Firmware Version String: v1.21 (11/03/2014)
+	Version Data: v1.21 (11/03/2014)
 
 Handle 0x005B, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5B 00 04 00 01 02 04 10 07 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Power Management Controller Firmware
-		1.0.7
+HP Version Indicator
+	Firmware Type: Power Management Controller Firmware
+	Firmware Name String: Power Management Controller Firmware
+	Firmware Version String: 1.0.7
+	Version Data: 1.0.7
 
 Handle 0x005C, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5C 00 05 00 01 02 02 10 00 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Power Management Controller FW Bootloader
-		1.0
+HP Version Indicator
+	Firmware Type: Power Management Controller Firmware Bootloader
+	Firmware Name String: Power Management Controller FW Bootloader
+	Firmware Version String: 1.0
+	Version Data: 1.0
 
 Handle 0x005D, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5D 00 08 00 01 00 01 30 30 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		System Programmable Logic Device
+HP Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: System Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: R.0.0
 
 Handle 0x005E, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5E 00 08 00 01 00 01 01 01 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		SAS Programmable Logic Device
+HP Version Indicator
+	Firmware Type: Hardware PAL/CPLD
+	Firmware Name String: SAS Programmable Logic Device
+	Firmware Version String: Not Specified
+	Version Data: R.1.1
 
 Handle 0x005F, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 5F 00 09 00 01 00 03 03 00 00 00 06 00 67
-		02 01 00 00 00 00 00
-	Strings:
-		Server Platform Services (SPS) Firmware
+HP Version Indicator
+	Firmware Type: SPS Firmware (ME Firmware)
+	Firmware Name String: Server Platform Services (SPS) Firmware
+	Firmware Version String: Not Specified
+	Version Data: Reserved
 
 Handle 0x0060, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 60 00 0C 00 01 02 06 03 0C 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		Intelligent Platform Abstraction Data
-		12.3
+HP Version Indicator
+	Firmware Type: APML
+	Firmware Name String: Intelligent Platform Abstraction Data
+	Firmware Version String: 12.3
+	Version Data: 12.3
 
 Handle 0x0061, DMI type 216, 23 bytes
-OEM-specific Type
-	Header and Data:
-		D8 17 61 00 0D 00 01 02 06 01 01 00 00 00 00 00
-		00 00 00 00 00 00 00
-	Strings:
-		HP Smart Storage Battery 1 Firmware
-		1.1
+HP Version Indicator
+	Firmware Type: Smart Storage Battery (Megacell) Firmware
+	Firmware Name String: HP Smart Storage Battery 1 Firmware
+	Firmware Version String: 1.1
+	Version Data: 1.1
 
 Handle 0x0062, DMI type 219, 32 bytes
 HP ProLiant Information
@@ -1015,9 +1000,8 @@ OEM-specific Type
 		DF 0B 63 00 66 46 70 00 00 00 00
 
 Handle 0x0064, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 64 00 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0x0065, DMI type 226, 21 bytes
 OEM-specific Type
@@ -1284,20 +1268,22 @@ OEM-specific Type
 		3B 00 00 00
 
 Handle 0x0098, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 98 00 36 00 01 02 02 07 B8
-	Strings:
-		DELTA           
-		03      
+HP Power Supply Information
+	Associated Handle: 0x0036
+	Manufacturer: DELTA           
+	Revision: 03      
+	Access Method: iLO
+	I2C Segment Number: 7
+	I2C Address: 0x5c
 
 Handle 0x0099, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 99 00 37 00 01 02 02 07 B2
-	Strings:
-		                
-		        
+HP Power Supply Information
+	Associated Handle: 0x0037
+	Manufacturer:                 
+	Revision:         
+	Access Method: iLO
+	I2C Segment Number: 7
+	I2C Address: 0x59
 
 Handle 0x009A, DMI type 232, 14 bytes
 OEM-specific Type

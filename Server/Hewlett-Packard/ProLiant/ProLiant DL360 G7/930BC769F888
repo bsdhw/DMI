@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 127 structures occupying 3808 bytes.
@@ -1011,9 +1011,8 @@ OEM-specific Type
 		DF 07 00 DF 66 46 70
 
 Handle 0xE000, DMI type 224, 5 bytes
-OEM-specific Type
-	Header and Data:
-		E0 05 00 E0 00
+HP Trusted Module (TPM or TCM) Status
+	Status: Not Present
 
 Handle 0xE200, DMI type 226, 21 bytes
 OEM-specific Type
@@ -1170,20 +1169,22 @@ OEM-specific Type
 		00 20 00 00
 
 Handle 0xE600, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 00 E6 00 27 01 02 02 03 A4
-	Strings:
-		LTEON           
-		16      
+HP Power Supply Information
+	Associated Handle: 0x2700
+	Manufacturer: LTEON           
+	Revision: 10      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x52
 
 Handle 0xE601, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 01 E6 01 27 01 02 02 03 AC
-	Strings:
-		LTEON           
-		16      
+HP Power Supply Information
+	Associated Handle: 0x2701
+	Manufacturer: LTEON           
+	Revision: 16      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x56
 
 Handle 0x7F00, DMI type 127, 4 bytes
 End Of Table

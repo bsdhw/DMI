@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 36 structures occupying 1922 bytes.
@@ -240,6 +240,7 @@ BIOS Information
 		AGP is supported
 		ATAPI Zip drive boot is supported
 		IEEE 1394 boot is supported
+		Manufacturing mode is supported
 	BIOS Revision: 86.71
 	Firmware Revision: 65.0
 

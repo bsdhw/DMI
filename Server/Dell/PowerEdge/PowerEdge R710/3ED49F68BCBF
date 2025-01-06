@@ -1,9 +1,8 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xbea78000
-Found SMBIOS entry point in EFI, reading table from /dev/mem.
+# dmidecode 3.6
+Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 84 structures occupying 5097 bytes.
-Table at 0xBEA78020.
+Table at 0xBF49C000.
 
 Handle 0xDA00, DMI type 218, 11 bytes
 OEM-specific Type
@@ -410,18 +409,21 @@ Port Connector Information
 Handle 0x0900, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI1
-	Type: x4 PCI Express 2 x8
-	Current Usage: Available
+	Type: PCI Express 2 x8
+	Data Bus Width: 4x or x4
+	Current Usage: In Use
 	Length: Long
 	ID: 1
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
+	Bus Address: 0000:05:00.0
 
 Handle 0x0901, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI2
-	Type: x4 PCI Express 2 x8
+	Type: PCI Express 2 x8
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Long
 	ID: 2
@@ -432,18 +434,21 @@ System Slot Information
 Handle 0x0902, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI3
-	Type: x8 PCI Express 2
-	Current Usage: Available
+	Type: PCI Express 2
+	Data Bus Width: 8x or x8
+	Current Usage: In Use
 	Length: Long
 	ID: 3
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
+	Bus Address: 0000:07:00.0
 
 Handle 0x0903, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI4
-	Type: x8 PCI Express 2
+	Type: PCI Express 2
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Long
 	ID: 4
@@ -645,12 +650,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1107, DMI type 17, 28 bytes
 Memory Device
@@ -665,12 +664,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1108, DMI type 17, 28 bytes
 Memory Device
@@ -685,12 +678,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1109, DMI type 17, 28 bytes
 Memory Device
@@ -825,12 +812,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1110, DMI type 17, 28 bytes
 Memory Device
@@ -845,12 +826,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1111, DMI type 17, 28 bytes
 Memory Device
@@ -865,12 +840,6 @@ Memory Device
 	Bank Locator: Not Specified
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer:             
-	Serial Number: --
-	271882FD79060B21C43F805A2DE81148         
-	Part Number:                   
-	Rank: Unknown
 
 Handle 0x1300, DMI type 19, 15 bytes
 Memory Array Mapped Address

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 92 structures occupying 3428 bytes.
@@ -881,7 +881,7 @@ OEM-specific Type
 Handle 0x0056, DMI type 186, 15 bytes
 OEM-specific Type
 	Header and Data:
-		BA 0F 56 00 1A B3 AB 06 DF 82 00 00 1C 12 2A
+		BA 0F 56 00 30 64 00 00 01 01 01 01 06 14 EA
 
 Handle 0x0057, DMI type 188, 8 bytes
 OEM-specific Type

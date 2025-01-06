@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
 68 structures occupying 1917 bytes.
@@ -303,7 +303,8 @@ Port Connector Information
 Handle 0x0901, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI-E Slot 1
-	Type: x8 PCI Express
+	Type: PCI Express
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -314,7 +315,8 @@ System Slot Information
 Handle 0x0902, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCI-E Slot 2
-	Type: x8 PCI Express
+	Type: PCI Express
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Long
 	ID: 2
@@ -593,9 +595,13 @@ OEM-specific Type
 		C4 05 00 C4 00
 
 Handle 0xC500, DMI type 197, 10 bytes
-OEM-specific Type
-	Header and Data:
-		C5 0A 00 C5 00 04 00 01 FF 01
+HP Processor Specific Information
+	Associated Handle: 0x0400
+	APIC ID: 0
+	BSP: Yes
+	x2APIC: No
+	Advanced Thermal Margining: No
+	Physical Socket: 1
 
 Handle 0xDF00, DMI type 223, 7 bytes
 OEM-specific Type
@@ -603,9 +609,13 @@ OEM-specific Type
 		DF 07 00 DF 66 46 70
 
 Handle 0xC506, DMI type 197, 10 bytes
-OEM-specific Type
-	Header and Data:
-		C5 0A 06 C5 06 04 04 00 FF 02
+HP Processor Specific Information
+	Associated Handle: 0x0406
+	APIC ID: 4
+	BSP: No
+	x2APIC: No
+	Advanced Thermal Margining: No
+	Physical Socket: 2
 
 Handle 0xD300, DMI type 211, 7 bytes
 OEM-specific Type

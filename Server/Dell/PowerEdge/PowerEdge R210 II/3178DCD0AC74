@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 # SMBIOS entry point at 0xbf6aef98
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
@@ -361,7 +361,8 @@ Port Connector Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCIE1
-	Type: x16 PCI Express 2 x16
+	Type: PCI Express 2 x16
+	Data Bus Width: 16x or x16
 	Current Usage: In Use
 	Length: Long
 	ID: 1
@@ -470,13 +471,6 @@ Memory Device
 	Bank Locator: BANK 0
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1600 MT/s
-	Manufacturer: 80CE000080CE
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M391B5773DH0-YK0  
-	Rank: 1
-	Configured Memory Speed: 1333 MT/s
 
 Handle 0x002B, DMI type 17, 34 bytes
 Memory Device
@@ -491,13 +485,6 @@ Memory Device
 	Bank Locator: BANK 1
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 1600 MT/s
-	Manufacturer: 80CE000080CE
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M391B5273DH0-CK0  
-	Rank: 2
-	Configured Memory Speed: 1333 MT/s
 
 Handle 0x002C, DMI type 17, 34 bytes
 Memory Device

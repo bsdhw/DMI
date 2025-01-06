@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 127 structures occupying 3808 bytes.
@@ -8,7 +8,7 @@ Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: HP
 	Version: P68
-	Release Date: 01/28/2011
+	Release Date: 05/21/2018
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 8 MB
@@ -34,7 +34,7 @@ BIOS Information
 		BIOS boot specification is supported
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
-	Firmware Revision: 1.16
+	Firmware Revision: 1.94
 
 Handle 0x0100, DMI type 1, 27 bytes
 System Information
@@ -806,14 +806,14 @@ OEM-specific Type
 Handle 0xC600, DMI type 198, 11 bytes
 OEM-specific Type
 	Header and Data:
-		C6 0B 00 C6 17 00 00 70 3C 00 01
+		C6 0B 00 C6 17 00 00 00 00 00 01
 
 Handle 0xC700, DMI type 199, 52 bytes
 OEM-specific Type
 	Header and Data:
 		C7 34 00 C7 0C 00 00 00 08 20 30 10 A4 06 01 00
-		15 00 00 00 10 20 03 03 A5 06 01 00 06 00 00 00
-		09 20 22 12 C1 06 02 00 13 00 00 00 10 20 07 09
+		1D 00 00 00 18 20 11 05 A5 06 01 00 06 00 00 00
+		09 20 22 12 C1 06 02 00 1F 00 00 00 18 20 08 05
 		C2 06 02 00
 
 Handle 0xCD00, DMI type 205, 22 bytes
@@ -1105,20 +1105,22 @@ OEM-specific Type
 		00 20 00 00
 
 Handle 0xE600, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 00 E6 00 27 01 02 02 03 A4
-	Strings:
-		EMRSN           
-		08      
+HP Power Supply Information
+	Associated Handle: 0x2700
+	Manufacturer: EMRSN           
+	Revision: 08      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x52
 
 Handle 0xE601, DMI type 230, 11 bytes
-OEM-specific Type
-	Header and Data:
-		E6 0B 01 E6 01 27 01 02 02 03 AC
-	Strings:
-		DELTA           
-		01      
+HP Power Supply Information
+	Associated Handle: 0x2701
+	Manufacturer: DELTA           
+	Revision: 01      
+	Access Method: iLO
+	I2C Segment Number: 3
+	I2C Address: 0x56
 
 Handle 0x7F00, DMI type 127, 4 bytes
 End Of Table

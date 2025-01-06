@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 119 structures occupying 5263 bytes.
@@ -535,7 +535,7 @@ System Slot Information
 	Characteristics:
 		3.3 V is provided
 		PME signal is supported
-	Bus Address: 0000:85:00.0
+	Bus Address: 0000:86:00.0
 
 Handle 0x0028, DMI type 9, 17 bytes
 System Slot Information
@@ -584,8 +584,8 @@ Physical Memory Array
 Handle 0x002D, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x002C
 	Partition Width: 1
 
@@ -595,7 +595,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMA1
@@ -606,15 +606,15 @@ Memory Device
 	Manufacturer: Samsung                       
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
+	Part Number: M393B2G70EB0-YK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x002F, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x002E
 	Memory Array Mapped Address Handle: 0x002D
 	Partition Row Position: 1
@@ -625,7 +625,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMB1
@@ -636,15 +636,15 @@ Memory Device
 	Manufacturer: Samsung                       
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
+	Part Number: M393B2G70BH0-YK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0031, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x001FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00400000000
+	Ending Address: 0x007FFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0030
 	Memory Array Mapped Address Handle: 0x002D
 	Partition Row Position: 1
@@ -653,61 +653,35 @@ Handle 0x0032, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002C
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 4 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMC1
 	Bank Locator: P0_Node0_Channel2_Dimm0
-	Type: DDR3
-	Type Detail: Registered (Buffered)
-	Speed: 1600 MT/s
-	Manufacturer: Samsung                       
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
-	Configured Memory Speed: 1600 MT/s
+	Type: Unknown
+	Type Detail: Synchronous
 
-Handle 0x0033, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00200000000
-	Ending Address: 0x002FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x0032
-	Memory Array Mapped Address Handle: 0x002D
-	Partition Row Position: 1
+Handle 0x0033, DMI type 126, 35 bytes
+Inactive
 
 Handle 0x0034, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x002C
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 4 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: P1-DIMMD1
 	Bank Locator: P0_Node0_Channel3_Dimm0
-	Type: DDR3
-	Type Detail: Registered (Buffered)
-	Speed: 1600 MT/s
-	Manufacturer: Samsung                       
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
-	Configured Memory Speed: 1600 MT/s
+	Type: Unknown
+	Type Detail: Synchronous
 
-Handle 0x0035, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00300000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x0034
-	Memory Array Mapped Address Handle: 0x002D
-	Partition Row Position: 1
+Handle 0x0035, DMI type 126, 35 bytes
+Inactive
 
 Handle 0x0036, DMI type 16, 23 bytes
 Physical Memory Array
@@ -720,9 +694,9 @@ Physical Memory Array
 
 Handle 0x0037, DMI type 19, 31 bytes
 Memory Array Mapped Address
-	Starting Address: 0x00400000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 16 GB
+	Starting Address: 0x00800000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 32 GB
 	Physical Array Handle: 0x0036
 	Partition Width: 1
 
@@ -732,7 +706,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2-DIMME1
@@ -743,15 +717,15 @@ Memory Device
 	Manufacturer: Samsung                       
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
+	Part Number: M393B2G70EB0-YK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x0039, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00400000000
-	Ending Address: 0x004FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00800000000
+	Ending Address: 0x00BFFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x0038
 	Memory Array Mapped Address Handle: 0x0037
 	Partition Row Position: 1
@@ -762,7 +736,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: P2-DIMMF1
@@ -773,15 +747,15 @@ Memory Device
 	Manufacturer: Samsung                       
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
+	Part Number: M393B2G70EB0-YK0  
+	Rank: 2
 	Configured Memory Speed: 1600 MT/s
 
 Handle 0x003B, DMI type 20, 35 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00500000000
-	Ending Address: 0x005FFFFFFFF
-	Range Size: 4 GB
+	Starting Address: 0x00C00000000
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 16 GB
 	Physical Device Handle: 0x003A
 	Memory Array Mapped Address Handle: 0x0037
 	Partition Row Position: 1
@@ -790,61 +764,35 @@ Handle 0x003C, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0036
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 4 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: P2-DIMMG1
 	Bank Locator: P1_Node1_Channel2_Dimm0
-	Type: DDR3
-	Type Detail: Registered (Buffered)
-	Speed: 1600 MT/s
-	Manufacturer: Samsung                       
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
-	Configured Memory Speed: 1600 MT/s
+	Type: Unknown
+	Type Detail: Synchronous
 
-Handle 0x003D, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00600000000
-	Ending Address: 0x006FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x003C
-	Memory Array Mapped Address Handle: 0x0037
-	Partition Row Position: 1
+Handle 0x003D, DMI type 126, 35 bytes
+Inactive
 
 Handle 0x003E, DMI type 17, 34 bytes
 Memory Device
 	Array Handle: 0x0036
 	Error Information Handle: Not Provided
-	Total Width: 72 bits
-	Data Width: 64 bits
-	Size: 4 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: P2-DIMMH1
 	Bank Locator: P1_Node1_Channel3_Dimm0
-	Type: DDR3
-	Type Detail: Registered (Buffered)
-	Speed: 1600 MT/s
-	Manufacturer: Samsung                       
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M393B5270DH0-YK0  
-	Rank: 1
-	Configured Memory Speed: 1600 MT/s
+	Type: Unknown
+	Type Detail: Synchronous
 
-Handle 0x003F, DMI type 20, 35 bytes
-Memory Device Mapped Address
-	Starting Address: 0x00700000000
-	Ending Address: 0x007FFFFFFFF
-	Range Size: 4 GB
-	Physical Device Handle: 0x003E
-	Memory Array Mapped Address Handle: 0x0037
-	Partition Row Position: 1
+Handle 0x003F, DMI type 126, 35 bytes
+Inactive
 
 Handle 0x0040, DMI type 32, 20 bytes
 System Boot Information

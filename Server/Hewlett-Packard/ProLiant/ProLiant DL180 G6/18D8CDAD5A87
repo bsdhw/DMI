@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.4
 Scanning /dev/mem for entry point.
 SMBIOS 2.5 present.
 64 structures occupying 2808 bytes.
@@ -408,8 +408,8 @@ Physical Memory Array
 Handle 0x0020, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 6 GB
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 12 GB
 	Physical Array Handle: 0x001F
 	Partition Width: 1
 
@@ -449,21 +449,29 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: PROC 1 DIMM 1D
 	Bank Locator: BANK1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer01
+	Speed: 1066 MT/s
+	Manufacturer: Samsung       
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
+	Part Number: M391B5673GB0-CH9  
 
-Handle 0x0024, DMI type 126, 19 bytes
-Inactive
+Handle 0x0024, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00080000000
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0023
+	Memory Array Mapped Address Handle: 0x0020
+	Partition Row Position: 1
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0025, DMI type 17, 27 bytes
 Memory Device
@@ -486,8 +494,8 @@ Memory Device
 
 Handle 0x0026, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x000FFFFFFFF
+	Starting Address: 0x00100000000
+	Ending Address: 0x0017FFFFFFF
 	Range Size: 2 GB
 	Physical Device Handle: 0x0025
 	Memory Array Mapped Address Handle: 0x0020
@@ -501,21 +509,29 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: PROC 1 DIMM 3E
 	Bank Locator: BANK3
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer03
+	Speed: 1066 MT/s
+	Manufacturer: Micron        
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
+	Part Number: 18JSF25672AZ-1G4G1
 
-Handle 0x0028, DMI type 126, 19 bytes
-Inactive
+Handle 0x0028, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00180000000
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x0027
+	Memory Array Mapped Address Handle: 0x0020
+	Partition Row Position: 1
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x0029, DMI type 17, 27 bytes
 Memory Device
@@ -538,8 +554,8 @@ Memory Device
 
 Handle 0x002A, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00100000000
-	Ending Address: 0x0017FFFFFFF
+	Starting Address: 0x00200000000
+	Ending Address: 0x0027FFFFFFF
 	Range Size: 2 GB
 	Physical Device Handle: 0x0029
 	Memory Array Mapped Address Handle: 0x0020
@@ -553,21 +569,29 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 2 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: PROC 1 DIMM 5F
 	Bank Locator: BANK5
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer05
+	Speed: 1066 MT/s
+	Manufacturer: Micron        
 	Serial Number: --
 	Asset Tag: --
-	Part Number:                   
+	Part Number: 18JSF25672AZ-1G4G1
 
-Handle 0x002C, DMI type 126, 19 bytes
-Inactive
+Handle 0x002C, DMI type 20, 19 bytes
+Memory Device Mapped Address
+	Starting Address: 0x00280000000
+	Ending Address: 0x002FFFFFFFF
+	Range Size: 2 GB
+	Physical Device Handle: 0x002B
+	Memory Array Mapped Address Handle: 0x0020
+	Partition Row Position: 1
+	Interleave Position: Unknown
+	Interleaved Data Depth: Unknown
 
 Handle 0x002D, DMI type 17, 27 bytes
 Memory Device
@@ -582,11 +606,6 @@ Memory Device
 	Bank Locator: BANK6
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer06
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x002E, DMI type 126, 19 bytes
 Inactive
@@ -604,11 +623,6 @@ Memory Device
 	Bank Locator: BANK7
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer07
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x0030, DMI type 126, 19 bytes
 Inactive
@@ -626,11 +640,6 @@ Memory Device
 	Bank Locator: BANK8
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer08
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x0032, DMI type 126, 19 bytes
 Inactive
@@ -648,11 +657,6 @@ Memory Device
 	Bank Locator: BANK9
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer09
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x0034, DMI type 126, 19 bytes
 Inactive
@@ -670,11 +674,6 @@ Memory Device
 	Bank Locator: BANK10
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer10
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x0036, DMI type 126, 19 bytes
 Inactive
@@ -692,11 +691,6 @@ Memory Device
 	Bank Locator: BANK11
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: Unknown
-	Manufacturer: Manufacturer11
-	Serial Number: --
-	Asset Tag: --
-	Part Number:                   
 
 Handle 0x0038, DMI type 126, 19 bytes
 Inactive
