@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x7945e000
+# dmidecode 3.6
+# SMBIOS entry point at 0x793f6000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
-60 structures occupying 2556 bytes.
-Table at 0x7945D000.
+60 structures occupying 2580 bytes.
+Table at 0x793F4000.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: INSYDE Corp.
-	Version: 05.22.01.0011.0008
-	Release Date: 01/25/2021
+	Version: 05.22.01.0021.0013
+	Release Date: 09/06/2023
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 11 MB
@@ -81,7 +81,7 @@ Chassis Information
 
 Handle 0x0004, DMI type 4, 48 bytes
 Processor Information
-	Socket Designation: Unknown
+	Socket Designation: SP4
 	Type: Central Processor
 	Family: Zen
 	Manufacturer: Advanced Micro Devices, Inc.
@@ -322,7 +322,8 @@ Port Connector Information
 Handle 0x0019, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6C1
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: <OUT OF SPEC>
 	Length: Other
 	ID: 1
@@ -334,7 +335,8 @@ System Slot Information
 Handle 0x001A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D2
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: <OUT OF SPEC>
 	Length: Other
 	ID: 2
@@ -346,7 +348,8 @@ System Slot Information
 Handle 0x001B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7C1
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: <OUT OF SPEC>
 	Length: Other
 	ID: 3
@@ -358,7 +361,8 @@ System Slot Information
 Handle 0x001C, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7D1
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: <OUT OF SPEC>
 	Length: Other
 	ID: 4
@@ -370,7 +374,8 @@ System Slot Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8C1
-	Type: x4 PCI Express x4
+	Type: PCI Express x4
+	Data Bus Width: 4x or x4
 	Current Usage: <OUT OF SPEC>
 	Length: Other
 	ID: 5
@@ -447,7 +452,7 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 1333 MT/s
-	Manufacturer: Unknown
+	Manufacturer: Transcend Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: TS1GLH64V6B3        
@@ -471,7 +476,7 @@ Memory Device
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 1333 MT/s
-	Manufacturer: Unknown
+	Manufacturer: Transcend Information
 	Serial Number: --
 	Asset Tag: --
 	Part Number: TS1GLH64V6B3        

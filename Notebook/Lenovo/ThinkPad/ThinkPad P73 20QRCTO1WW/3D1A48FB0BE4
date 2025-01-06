@@ -1,9 +1,9 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xbd67f000
+# dmidecode 3.6
+# SMBIOS entry point at 0xbcf48000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
-70 structures occupying 3482 bytes.
-Table at 0xBD673000.
+70 structures occupying 3497 bytes.
+Table at 0xBCF3C000.
 
 Handle 0x0000, DMI type 222, 14 bytes
 OEM-specific Type
@@ -62,25 +62,25 @@ Handle 0x0005, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0003
 	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: Unknown
+	Total Width: 64 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM1
 	Bank Locator: BANK 1
-	Type: Unknown
-	Type Detail: None
-	Speed: Unknown
-	Manufacturer: Not Specified
+	Type: DDR4
+	Type Detail: Synchronous
+	Speed: 2667 MT/s
+	Manufacturer: 059B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: Not Specified
-	Rank: Unknown
-	Configured Memory Speed: Unknown
+	Part Number: CT32G4SFD8266.16FE2 
+	Rank: 2
+	Configured Memory Speed: 2667 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
-	Configured Voltage: Unknown
+	Configured Voltage: 1.2 V
 
 Handle 0x0006, DMI type 17, 40 bytes
 Memory Device
@@ -112,19 +112,19 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8 GB
+	Size: 32 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM1
 	Bank Locator: BANK 3
 	Type: DDR4
 	Type Detail: Synchronous
-	Speed: 3200 MT/s
-	Manufacturer: Micron
+	Speed: 2667 MT/s
+	Manufacturer: 059B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: 8ATF1G64HZ-3G2J1    
-	Rank: 1
+	Part Number: CT32G4SFD8266.16FE2 
+	Rank: 2
 	Configured Memory Speed: 2667 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
@@ -133,10 +133,10 @@ Memory Device
 Handle 0x0008, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x011FFFFFFFF
-	Range Size: 72 GB
+	Ending Address: 0x01FFFFFFFFF
+	Range Size: 128 GB
 	Physical Array Handle: 0x0003
-	Partition Width: 3
+	Partition Width: 4
 
 Handle 0x0009, DMI type 221, 12 bytes
 OEM-specific Type
@@ -148,8 +148,8 @@ OEM-specific Type
 Handle 0x000A, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 0A 00 03 01 00 07 00 60 20 00 02 00 00 00
-		00 CA 00 03 00 01 06 00 00 00
+		DD 1A 0A 00 03 01 00 07 00 68 40 00 02 00 00 00
+		00 EA 00 03 00 01 06 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -158,7 +158,7 @@ OEM-specific Type
 Handle 0x000B, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
-		DD 1A 0B 00 03 01 00 07 00 60 20 00 02 00 0C 00
+		DD 1A 0B 00 03 01 00 07 00 68 40 00 02 00 0C 00
 		00 0A 00 03 04 0C 00 31 FE 05
 	Strings:
 		Reference Code - ME
@@ -169,7 +169,7 @@ OEM-specific Type
 Handle 0x000C, DMI type 221, 82 bytes
 OEM-specific Type
 	Header and Data:
-		DD 52 0C 00 0B 01 00 07 00 60 20 00 02 03 FF FF
+		DD 52 0C 00 0B 01 00 07 00 68 40 00 02 03 FF FF
 		FF FF FF 04 00 FF FF FF 10 00 05 00 FF FF FF 10
 		00 06 00 02 0A 00 00 00 07 00 02 00 00 00 00 08
 		00 09 00 00 00 00 09 00 0A 00 00 00 00 0A 00 07
@@ -192,10 +192,10 @@ OEM-specific Type
 Handle 0x000D, DMI type 221, 54 bytes
 OEM-specific Type
 	Header and Data:
-		DD 36 0D 00 07 01 00 07 00 60 20 00 02 00 00 07
-		01 6A 00 03 00 07 00 60 20 00 04 05 FF FF FF FF
+		DD 36 0D 00 07 01 00 07 00 68 40 00 02 00 00 07
+		01 6E 00 03 00 07 00 68 40 00 04 05 FF FF FF FF
 		FF 06 00 00 00 00 07 00 07 00 00 00 00 07 00 08
-		00 00 00 00 03 00
+		00 FF FF FF FF FF
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC
@@ -299,7 +299,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
-	Voltage: 0.8 V
+	Voltage: 0.9 V
 	External Clock: 100 MHz
 	Max Speed: 2600 MHz
 	Current Speed: 2600 MHz
@@ -325,8 +325,8 @@ Processor Information
 Handle 0x0013, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: N2NET35W (1.20 )
-	Release Date: 01/08/2020
+	Version: N2NET45W (1.30 )
+	Release Date: 04/22/2021
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 32 MB
@@ -349,8 +349,8 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.20
-	Firmware Revision: 1.9
+	BIOS Revision: 1.30
+	Firmware Revision: 1.14
 
 Handle 0x0014, DMI type 1, 27 bytes
 System Information
@@ -492,6 +492,7 @@ Handle 0x002A, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Media Card Slot
 	Type: Other
+	Data Bus Width: Other
 	Current Usage: Available
 	Length: Other
 	Characteristics:
@@ -502,6 +503,7 @@ Handle 0x002B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SimCard Slot
 	Type: Other
+	Data Bus Width: Other
 	Current Usage: Available
 	Length: Other
 	Characteristics: None
@@ -539,8 +541,8 @@ OEM-specific Type
 	Header and Data:
 		8C 0F 30 00 4C 45 4E 4F 56 4F 0B 09 01 01 02
 	Strings:
-		1.20 
-		1.20 
+		1.30 
+		1.30 
 
 Handle 0x0031, DMI type 133, 5 bytes
 OEM-specific Type
@@ -617,14 +619,14 @@ OEM-specific Type
 
 Handle 0x003C, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 2050 bytes
+	Area Length: 2098 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x0000007F
+	Change Token: 0x00000082
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error
@@ -664,7 +666,7 @@ Handle 0x0041, DMI type 219, 106 bytes
 OEM-specific Type
 	Header and Data:
 		DB 6A 41 00 01 04 01 45 02 00 90 06 01 85 30 20
-		00 00 00 00 40 00 00 01 1F 00 00 C9 0A 40 44 02
+		00 00 00 04 40 00 00 01 1F 00 00 C9 0A 40 44 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -678,21 +680,21 @@ OEM-specific Type
 
 Handle 0x0042, DMI type 140, 15 bytes
 ThinkPad Embedded Controller Program
-	Version ID: N2NHT24W
-	Release Date: 01/08/2020
+	Version ID: N2NHT29W
+	Release Date: 06/19/2020
 
 Handle 0x0043, DMI type 140, 43 bytes
 OEM-specific Type
 	Header and Data:
-		8C 2B 43 00 4C 45 4E 4F 56 4F 0B 08 01 03 21 05
-		05 01 22 03 21 05 04 11 45 03 21 04 30 09 51 03
-		21 04 28 19 37 03 21 04 26 04 40
+		8C 2B 43 00 4C 45 4E 4F 56 4F 0B 08 01 03 21 06
+		18 14 34 03 21 06 17 06 22 03 21 06 17 04 25 03
+		21 06 17 04 22 03 21 06 16 02 10
 
 Handle 0x0044, DMI type 135, 18 bytes
 OEM-specific Type
 	Header and Data:
-		87 12 44 00 54 50 07 01 01 00 00 00 02 00 00 00
-		02 00
+		87 12 44 00 54 50 07 01 01 00 00 00 0B 00 00 00
+		0B 00
 
 Handle 0xFEFF, DMI type 127, 4 bytes
 End Of Table

@@ -1,9 +1,9 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0x5de02000
+# dmidecode 3.5
+# SMBIOS entry point at 0x6de02000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
 68 structures occupying 3295 bytes.
-Table at 0x5DDF6000.
+Table at 0x6DDF6000.
 
 Handle 0x0000, DMI type 222, 14 bytes
 OEM-specific Type
@@ -25,7 +25,7 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: None
-	Maximum Capacity: 32 GB
+	Maximum Capacity: 16 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 2
 
@@ -96,7 +96,7 @@ Handle 0x0007, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
 		DD 1A 07 00 03 01 00 07 00 68 40 00 02 00 00 00
-		00 D6 00 03 00 01 06 00 00 00
+		00 EA 00 03 00 01 06 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -246,7 +246,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz
-	Voltage: 0.8 V
+	Voltage: 0.7 V
 	External Clock: 100 MHz
 	Max Speed: 1900 MHz
 	Current Speed: 1600 MHz
@@ -277,8 +277,8 @@ OEM-specific Type
 Handle 0x0011, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: N2IET90W (1.68 )
-	Release Date: 07/06/2020
+	Version: N2IET97W (1.75 )
+	Release Date: 10/09/2021
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 32 MB
@@ -301,8 +301,8 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.68
-	Firmware Revision: 1.16
+	BIOS Revision: 1.75
+	Firmware Revision: 1.24
 
 Handle 0x0012, DMI type 1, 27 bytes
 System Information
@@ -491,8 +491,8 @@ OEM-specific Type
 	Header and Data:
 		8C 0F 2E 00 4C 45 4E 4F 56 4F 0B 09 01 01 02
 	Strings:
-		1.68 
-		1.68 
+		1.75 
+		1.75 
 
 Handle 0x002F, DMI type 133, 5 bytes
 OEM-specific Type
@@ -510,8 +510,8 @@ OEM-specific Type
 Handle 0x0031, DMI type 130, 20 bytes
 OEM-specific Type
 	Header and Data:
-		82 14 31 00 24 41 4D 54 01 01 01 01 01 A5 AF 02
-		C0 00 01 00
+		82 14 31 00 24 41 4D 54 01 00 01 00 01 A5 AF 02
+		C0 00 00 00
 
 Handle 0x0032, DMI type 131, 64 bytes
 OEM-specific Type
@@ -622,8 +622,8 @@ OEM-specific Type
 
 Handle 0x003F, DMI type 140, 15 bytes
 ThinkPad Embedded Controller Program
-	Version ID: N2IHT32W
-	Release Date: 10/17/2019
+	Version ID: N2IHT40W
+	Release Date: 02/18/2021
 
 Handle 0x0040, DMI type 140, 43 bytes
 OEM-specific Type
@@ -635,16 +635,16 @@ OEM-specific Type
 Handle 0x0041, DMI type 141, 56 bytes
 OEM-specific Type
 	Header and Data:
-		8D 38 41 00 54 48 4E 4B 00 00 60 00 00 00 00 00
-		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		8D 38 41 00 54 48 4E 4B 00 00 60 00 00 00 02 00
+		21 20 11 17 19 53 17 00 21 20 11 16 23 02 34 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00
 
 Handle 0x0042, DMI type 135, 18 bytes
 OEM-specific Type
 	Header and Data:
-		87 12 42 00 54 50 07 01 01 00 06 00 05 00 00 00
-		05 00
+		87 12 42 00 54 50 07 01 01 00 06 00 0D 00 00 00
+		0D 00
 
 Handle 0xFEFF, DMI type 127, 4 bytes
 End Of Table

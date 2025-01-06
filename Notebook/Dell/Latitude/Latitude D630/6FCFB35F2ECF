@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.4 present.
 62 structures occupying 2889 bytes.
@@ -182,7 +182,7 @@ Processor Information
 	Voltage: 3.3 V
 	External Clock: 200 MHz
 	Max Speed: 2500 MHz
-	Current Speed: 1875 MHz
+	Current Speed: 2500 MHz
 	Status: Populated, Enabled
 	Upgrade: None
 	L1 Cache Handle: 0x0700
@@ -295,7 +295,8 @@ Port Connector Information
 Handle 0x0900, DMI type 9, 13 bytes
 System Slot Information
 	Designation: PCMCIA 0
-	Type: 32-bit PC Card (PCMCIA)
+	Type: PC Card (PCMCIA)
+	Data Bus Width: 32 bit
 	Current Usage: Available
 	Length: Other
 	ID: Adapter 0, Socket 0

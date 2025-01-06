@@ -1,9 +1,9 @@
 # dmidecode 3.5
-# SMBIOS entry point at 0x000f0000
+# SMBIOS entry point at 0x000f05e0
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
 96 structures occupying 5730 bytes.
-Table at 0x000E0000.
+Table at 0x000E80A0.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -657,7 +657,7 @@ Portable Battery
 	Design Capacity: 83990 mWh
 	Design Voltage: 11400 mV
 	SBDS Version: 1.0
-	Maximum Error: 9%
+	Maximum Error: 2%
 	SBDS Chemistry: LION
 	OEM-specific Information: 0x00000801
 
@@ -1003,7 +1003,7 @@ OEM-specific Type
 		CD 36 2B F0 07 01 00 01 08 00 00 00 02 00 01 08
 		00 01 00 03 00 01 08 00 00 00 04 05 FF FF FF FF
 		FF 06 00 FF FF FF 07 00 07 00 FF FF FF 07 00 08
-		00 FF FF FF FF FF
+		00 FF FF FF 49 10
 	Strings:
 		Reference Code - SA - System Agent
 		Reference Code - MRC
@@ -1020,8 +1020,8 @@ OEM-specific Type
 		CD 60 2C F0 0D 01 00 00 00 00 00 00 02 00 FF FF
 		FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF
 		FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A
-		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00
-		09 00 61 10 0D 00 02 00 00 00 00 0E 00 FF FF FF
+		00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 FF
+		FF FF FF FF 0D 00 02 00 00 00 00 0E 00 FF FF FF
 		FF FF 0F 00 FF FF FF FF FF 10 11 01 02 02 03 00
 	Strings:
 		Lan Phy Version

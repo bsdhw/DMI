@@ -1,9 +1,9 @@
-# dmidecode 3.3
+# dmidecode 3.5
 # SMBIOS entry point at 0xcadb4118
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.6 present.
-78 structures occupying 3718 bytes.
-Table at 0x000F2480.
+79 structures occupying 3797 bytes.
+Table at 0x000F2430.
 
 Handle 0xDA00, DMI type 218, 251 bytes
 OEM-specific Type
@@ -821,6 +821,15 @@ OEM-specific Type
 		DB 0B 00 DB 03 01 02 03 FF 00 00
 	Strings:
 		System Device Bay
+		CD-ROM,CD-RW,DVD,DVD+RW,DVD+/-RW,Hard Disk
+		CD-ROM
+
+Handle 0xDB01, DMI type 219, 11 bytes
+OEM-specific Type
+	Header and Data:
+		DB 0B 01 DB 03 01 02 03 FF 00 00
+	Strings:
+		System eSATA Bay
 		CD-ROM,CD-RW,DVD,DVD+RW,DVD+/-RW,Hard Disk
 		EMPTY     
 

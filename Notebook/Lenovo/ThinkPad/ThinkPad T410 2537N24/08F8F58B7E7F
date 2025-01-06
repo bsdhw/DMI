@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 78 structures occupying 2863 bytes.
@@ -326,7 +326,8 @@ Inactive
 Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: ExpressCard Slot
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Other
 	ID: 0
@@ -338,6 +339,7 @@ Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Media Card Slot
 	Type: Other
+	Data Bus Width: Other
 	Current Usage: Available
 	Length: Other
 	Characteristics:

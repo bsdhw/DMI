@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0x9a66b000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
-63 structures occupying 3084 bytes.
+63 structures occupying 3079 bytes.
 Table at 0x9A669000.
 
 Handle 0x0000, DMI type 222, 14 bytes
@@ -40,20 +40,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8 GB
+	Size: 32 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelA-DIMM0
 	Bank Locator: BANK 0
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2133 MT/s
-	Manufacturer: 0443
+	Speed: 2400 MT/s
+	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: RMSA3260ME78HAF-2666
-	Rank: 1
-	Configured Memory Speed: 2133 MT/s
+	Part Number: CT32G4SFD832A.M16FE 
+	Rank: 2
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -64,20 +64,20 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 8 GB
+	Size: 32 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: ChannelB-DIMM0
 	Bank Locator: BANK 2
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2133 MT/s
-	Manufacturer: Samsung
+	Speed: 2400 MT/s
+	Manufacturer: 859B
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M471A1K43BB0-CPB    
-	Rank: 1
-	Configured Memory Speed: 2133 MT/s
+	Part Number: CT32G4SFD832A.M16FE 
+	Rank: 2
+	Configured Memory Speed: 2400 MT/s
 	Minimum Voltage: Unknown
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
@@ -85,8 +85,8 @@ Memory Device
 Handle 0x0006, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x003FFFFFFFF
-	Range Size: 16 GB
+	Ending Address: 0x00FFFFFFFFF
+	Range Size: 64 GB
 	Physical Array Handle: 0x0003
 	Partition Width: 2
 
@@ -391,29 +391,29 @@ BIOS Language Information
 Handle 0x0024, DMI type 22, 26 bytes
 Portable Battery
 	Location: Front
-	Manufacturer: LGC
-	Name: 01AV489
-	Design Capacity: 23940 mWh
-	Design Voltage: 11400 mV
+	Manufacturer: SZB
+	Name: 01AV421
+	Design Capacity: 21330 mWh
+	Design Voltage: 11100 mV
 	SBDS Version: 03.01
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2019-02-13
+	SBDS Manufacture Date: 2023-03-08
 	SBDS Chemistry: LiP
 	OEM-specific Information: 0x00000000
 
 Handle 0x0025, DMI type 22, 26 bytes
 Portable Battery
 	Location: Rear
-	Manufacturer: Celxpert
-	Name: 01AV424
-	Design Capacity: 24050 mWh
-	Design Voltage: 11400 mV
+	Manufacturer: SANYO
+	Name: 01AV427
+	Design Capacity: 71280 mWh
+	Design Voltage: 11100 mV
 	SBDS Version: 03.01
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2019-01-20
-	SBDS Chemistry: LiP
+	SBDS Manufacture Date: 2022-10-28
+	SBDS Chemistry: LION
 	OEM-specific Information: 0x00000000
 
 Handle 0x0026, DMI type 133, 5 bytes
@@ -506,14 +506,14 @@ OEM-specific Type
 
 Handle 0x002E, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 66 bytes
+	Area Length: 82 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x00000003
+	Change Token: 0x00000004
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error
@@ -614,7 +614,7 @@ Group Associations
 Handle 0x003D, DMI type 219, 81 bytes
 OEM-specific Type
 	Header and Data:
-		DB 51 3D 00 01 03 01 45 02 00 90 06 81 10 82 30
+		DB 51 3D 00 01 03 01 45 02 00 90 06 81 10 89 30
 		00 00 00 04 40 A8 00 01 1F 00 00 C9 0A 40 44 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00

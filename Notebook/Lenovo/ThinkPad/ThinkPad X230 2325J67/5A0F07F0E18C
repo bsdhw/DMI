@@ -1,4 +1,4 @@
-# dmidecode 3.3
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
 70 structures occupying 2755 bytes.
@@ -50,7 +50,7 @@ Processor Information
 		TM (Thermal monitor supported)
 		PBE (Pending break enabled)
 	Version: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
-	Voltage: 0.9 V
+	Voltage: 0.8 V
 	External Clock: 100 MHz
 	Max Speed: 2500 MHz
 	Current Speed: 2500 MHz
@@ -504,7 +504,7 @@ OEM-specific Type
 Handle 0x0036, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 36 00 10 00 00 00 08 00 00 00 00 00 45 00
+		83 40 36 00 31 00 00 00 08 00 00 00 00 00 45 00
 		F8 00 55 1E FF FF FF FF 21 20 00 00 01 00 08 00
 		38 05 14 00 00 00 00 00 C8 00 02 15 00 00 00 00
 		00 00 00 00 62 00 00 00 76 50 72 6F 00 00 00 00
@@ -513,10 +513,10 @@ Handle 0x0037, DMI type 135, 74 bytes
 OEM-specific Type
 	Header and Data:
 		87 4A 37 00 54 50 07 02 42 41 59 20 49 2F 4F 20
-		03 00 06 FF 00 00 00 00 00 00 00 FF 00 00 00 00
-		00 00 00 FF 00 00 00 00 00 00 00 FF 00 00 00 00
-		00 00 00 FF 00 00 00 00 00 00 00 FF 00 00 00 00
-		00 00 00 06 00 02 04 FF 03 FF
+		03 00 06 00 00 0E 00 F0 01 F6 03 02 00 0F 00 70
+		01 76 03 04 01 0E 00 F0 01 F6 03 FF 01 0F 00 70
+		01 76 03 03 00 00 00 C0 50 E2 50 FF 00 00 00 C0
+		50 E2 50 06 00 02 04 FF 03 FF
 
 Handle 0x0038, DMI type 133, 5 bytes
 OEM-specific Type
@@ -599,8 +599,8 @@ System Event Log
 Handle 0x003A, DMI type 140, 67 bytes
 OEM-specific Type
 	Header and Data:
-		8C 43 3A 00 4C 45 4E 4F 56 4F 0B 00 01 0B CE F6
-		26 8D EE 9F 4E 4D 2F 8B A4 34 FF 0D FC 01 00 00
+		8C 43 3A 00 4C 45 4E 4F 56 4F 0B 00 01 00 00 00
+		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00
@@ -648,7 +648,7 @@ Hardware Security
 Handle 0x0041, DMI type 132, 7 bytes
 OEM-specific Type
 	Header and Data:
-		84 07 41 00 01 D8 36
+		84 07 41 00 01 DB 36
 
 Handle 0x0042, DMI type 135, 18 bytes
 OEM-specific Type

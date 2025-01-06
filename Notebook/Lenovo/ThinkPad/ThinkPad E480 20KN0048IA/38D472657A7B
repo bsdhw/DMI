@@ -1,9 +1,9 @@
-# dmidecode 3.3
-# SMBIOS entry point at 0xba88a000
+# dmidecode 3.6
+# SMBIOS entry point at 0xba880000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.0 present.
-58 structures occupying 2959 bytes.
-Table at 0xBA888000.
+58 structures occupying 2933 bytes.
+Table at 0xBA87E000.
 
 Handle 0x0000, DMI type 222, 14 bytes
 OEM-specific Type
@@ -38,13 +38,27 @@ Handle 0x0004, DMI type 17, 40 bytes
 Memory Device
 	Array Handle: 0x0003
 	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: ChannelA-DIMM0
+	Bank Locator: BANK 0
+	Type: Unknown
+	Type Detail: None
+
+Handle 0x0005, DMI type 17, 40 bytes
+Memory Device
+	Array Handle: 0x0003
+	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
 	Size: 16 GB
 	Form Factor: SODIMM
 	Set: None
-	Locator: ChannelA-DIMM0
-	Bank Locator: BANK 0
+	Locator: ChannelB-DIMM0
+	Bank Locator: BANK 2
 	Type: DDR4
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 2400 MT/s
@@ -58,37 +72,13 @@ Memory Device
 	Maximum Voltage: Unknown
 	Configured Voltage: 1.2 V
 
-Handle 0x0005, DMI type 17, 40 bytes
-Memory Device
-	Array Handle: 0x0003
-	Error Information Handle: Not Provided
-	Total Width: 64 bits
-	Data Width: 64 bits
-	Size: 8 GB
-	Form Factor: SODIMM
-	Set: None
-	Locator: ChannelB-DIMM0
-	Bank Locator: BANK 2
-	Type: DDR4
-	Type Detail: Synchronous Unbuffered (Unregistered)
-	Speed: 2400 MT/s
-	Manufacturer: Samsung
-	Serial Number: --
-	Asset Tag: --
-	Part Number: M471A1K43CB1-CRC    
-	Rank: 1
-	Configured Memory Speed: 2400 MT/s
-	Minimum Voltage: Unknown
-	Maximum Voltage: Unknown
-	Configured Voltage: 1.2 V
-
 Handle 0x0006, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x005FFFFFFFF
-	Range Size: 24 GB
+	Ending Address: 0x003FFFFFFFF
+	Range Size: 16 GB
 	Physical Array Handle: 0x0003
-	Partition Width: 2
+	Partition Width: 1
 
 Handle 0x0007, DMI type 7, 27 bytes
 Cache Information
@@ -179,7 +169,7 @@ Processor Information
 	Voltage: 1.0 V
 	External Clock: 100 MHz
 	Max Speed: 1800 MHz
-	Current Speed: 3200 MHz
+	Current Speed: 3300 MHz
 	Status: Populated, Enabled
 	Upgrade: Socket BGA1356
 	L1 Cache Handle: 0x0007
@@ -202,8 +192,8 @@ Processor Information
 Handle 0x000B, DMI type 0, 24 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: R0PET68W (1.45 )
-	Release Date: 04/29/2021
+	Version: R0PET73W (1.50 )
+	Release Date: 11/07/2023
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 16 MB
@@ -226,8 +216,8 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.45
-	Firmware Revision: 1.45
+	BIOS Revision: 1.50
+	Firmware Revision: 1.50
 
 Handle 0x000C, DMI type 1, 27 bytes
 System Information
@@ -405,6 +395,7 @@ Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: Media Card Slot
 	Type: Other
+	Data Bus Width: Other
 	Current Usage: Available
 	Length: Other
 	Characteristics:
@@ -415,6 +406,7 @@ Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: SimCard Slot
 	Type: Other
+	Data Bus Width: Other
 	Current Usage: Available
 	Length: Other
 	Characteristics: None
@@ -481,7 +473,7 @@ Handle 0x0029, DMI type 221, 26 bytes
 OEM-specific Type
 	Header and Data:
 		DD 1A 29 00 03 01 00 02 07 00 00 00 02 00 00 00
-		00 EA 00 03 00 00 05 00 00 00
+		00 F0 00 03 00 00 05 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -567,7 +559,7 @@ Hardware Security
 Handle 0x002F, DMI type 132, 7 bytes
 OEM-specific Type
 	Header and Data:
-		84 07 2F 00 01 DB 36
+		84 07 2F 00 01 18 36
 
 Handle 0x0030, DMI type 18, 23 bytes
 32-bit Memory Error Information
@@ -603,8 +595,8 @@ OEM-specific Type
 
 Handle 0x0035, DMI type 140, 15 bytes
 ThinkPad Embedded Controller Program
-	Version ID: R0PHT68W
-	Release Date: 04/25/2021
+	Version ID: R0PHT73W
+	Release Date: 11/07/2023
 
 Handle 0x0036, DMI type 135, 18 bytes
 OEM-specific Type

@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 32 structures occupying 1400 bytes.
@@ -187,7 +187,8 @@ Cache Information
 Handle 0x0008, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PC Card
-	Type: 32-bit PC Card (PCMCIA)
+	Type: PC Card (PCMCIA)
+	Data Bus Width: 32 bit
 	Current Usage: Unknown
 	Length: Other
 	ID: Adapter 0, Socket 0
@@ -203,7 +204,8 @@ System Slot Information
 Handle 0x0009, DMI type 9, 17 bytes
 System Slot Information
 	Designation: ExpressCard
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Unknown
 	Length: Other
 	ID: 0
@@ -220,9 +222,9 @@ Inactive
 
 Handle 0x000C, DMI type 11, 5 bytes
 OEM Strings
-	String 1: fPtFUQck9byyN
-	String 2: JCYVeQOYTE422
-	String 3: 3nXRuU6pzT5bB
+	String 1: Gze-TFhSo1Y-o
+	String 2: ldhR3dlhY4x3k
+	String 3: DhxlRd4kuDg1q
 
 Handle 0x000D, DMI type 12, 5 bytes
 System Configuration Options
@@ -362,7 +364,7 @@ Portable Battery
 	Manufacturer: Panasonic
 	Name: CF-VZSU71
 	Chemistry: Lithium Ion
-	Design Capacity: 54430 mWh
+	Design Capacity: 68040 mWh
 	Design Voltage: 10800 mV
 	SBDS Version: Not Specified
 	Maximum Error: 0%

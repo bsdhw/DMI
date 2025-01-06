@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.3 present.
 44 structures occupying 1442 bytes.
@@ -41,7 +41,7 @@ System Information
 	Version: 004
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Unknown
+	Wake-up Type: Power Switch
 
 Handle 0x0002, DMI type 2, 8 bytes
 Base Board Information

@@ -1,15 +1,15 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0x7a8aa000
+# dmidecode 3.5
+# SMBIOS entry point at 0x7a8b4000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.1 present.
-121 structures occupying 6810 bytes.
+121 structures occupying 6747 bytes.
 Table at 0x000E9ED0.
 
 Handle 0x0000, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: Dell Inc.
-	Version: 1.11.1
-	Release Date: 11/11/2019
+	Version: 1.27.1
+	Release Date: 05/11/2023
 	Address: 0xF0000
 	Runtime Size: 64 kB
 	ROM Size: 32 MB
@@ -36,7 +36,7 @@ BIOS Information
 		Function key-initiated network boot is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.11
+	BIOS Revision: 1.27
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -60,7 +60,7 @@ Base Board Information
 		Board is a hosting board
 		Board is replaceable
 	Location In Chassis: Not Specified
-	Chassis Handle: 0x0003
+	Chassis Handle: 0x0300
 	Type: Motherboard
 	Contained Object Handles: 0
 
@@ -326,7 +326,7 @@ Handle 0x0022, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B2
 	Type: x16 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Long
 	ID: 0
 	Characteristics:
@@ -339,7 +339,7 @@ Handle 0x0023, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6B1
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 1
 	Characteristics:
@@ -352,7 +352,7 @@ Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 2
 	Characteristics:
@@ -365,7 +365,7 @@ Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J7B1
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 3
 	Characteristics:
@@ -378,7 +378,7 @@ Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B4
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 4
 	Characteristics:
@@ -391,7 +391,7 @@ Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8D1
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 5
 	Characteristics:
@@ -404,7 +404,7 @@ Handle 0x0028, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8D2
 	Type: x1 PCI Express
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 6
 	Characteristics:
@@ -417,7 +417,7 @@ Handle 0x0029, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J8B3
 	Type: 32-bit PCI
-	Current Usage: In Use
+	Current Usage: Available
 	Length: Short
 	ID: 7
 	Characteristics:
@@ -589,7 +589,7 @@ Handle 0x0047, DMI type 205, 26 bytes
 OEM-specific Type
 	Header and Data:
 		CD 1A 47 00 03 01 00 07 00 31 34 00 02 00 00 00
-		00 C6 00 03 00 01 01 00 00 00
+		00 F0 00 03 00 01 08 00 00 00
 	Strings:
 		Reference Code - CPU
 		uCode Version
@@ -599,7 +599,7 @@ Handle 0x0048, DMI type 205, 26 bytes
 OEM-specific Type
 	Header and Data:
 		CD 1A 48 00 03 01 00 07 00 31 34 00 02 00 0C 00
-		00 0A 00 03 04 0C 00 08 64 04
+		00 0B 00 03 04 0C 00 5C 61 08
 	Strings:
 		Reference Code - ME
 		MEBx version
@@ -743,8 +743,8 @@ Processor Information
 	L2 Cache Handle: 0x004C
 	L3 Cache Handle: 0x004D
 	Serial Number: --
-	Asset Tag: --
-	Part Number: To Be Filled By O.E.M.
+	271882FD79060B21C43F805A2DE81148  
+	Part Number:  
 	Core Count: 4
 	Core Enabled: 4
 	Thread Count: 8
@@ -873,7 +873,7 @@ OEM-specific Type
 Handle 0xD000, DMI type 208, 16 bytes
 OEM-specific Type
 	Header and Data:
-		D0 10 00 D0 03 0A FE 00 19 08 01 02 00 00 00 00
+		D0 10 00 D0 03 11 FE 00 19 08 01 02 00 00 00 00
 	Strings:
 		20190109
 		20190222
@@ -1081,7 +1081,7 @@ OEM-specific Type
 Handle 0xDE00, DMI type 222, 16 bytes
 OEM-specific Type
 	Header and Data:
-		DE 10 00 DE 01 04 00 00 20 02 06 16 12 01 00 00
+		DE 10 00 DE 01 04 00 00 23 08 18 11 21 01 00 00
 
 Handle 0xF026, DMI type 218, 77 bytes
 OEM-specific Type
@@ -1101,9 +1101,9 @@ OEM-specific Type
 Handle 0xF028, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 28 F0 35 00 00 00 0C 00 00 00 00 00 0A 00
+		83 40 28 F0 35 00 00 00 0C 00 00 00 00 00 0B 00
 		F8 00 0E A3 00 00 00 00 01 00 00 00 00 00 0C 00
-		64 04 08 00 00 00 00 00 FE 00 BB 15 00 00 00 00
+		61 08 5C 00 00 00 00 00 FE 00 BB 15 00 00 00 00
 		00 00 00 00 26 00 00 00 76 50 72 6F 00 00 00 00
 
 Handle 0xF02D, DMI type 41, 11 bytes
@@ -1294,8 +1294,8 @@ Group Associations
 Handle 0xF04B, DMI type 203, 106 bytes
 OEM-specific Type
 	Header and Data:
-		CB 6A 4B F0 01 04 01 45 02 00 94 06 81 10 89 30
-		00 00 00 00 40 00 00 01 1F 00 00 C9 0B C0 47 02
+		CB 6A 4B F0 01 04 01 45 02 00 90 00 81 85 32 30
+		00 00 00 04 40 00 00 01 1F 00 00 C9 0B C0 47 02
 		FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF
 		FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00

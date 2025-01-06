@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xcbe81818
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.8 present.
@@ -42,7 +42,7 @@ System Information
 	Version: 005
 	Serial Number: --
 	UUID: --
-	Wake-up Type: Power Switch
+	Wake-up Type: Other
 	SKU Number: CF-3113430VM
 	Family: CF31-5
 
@@ -113,9 +113,9 @@ System Slot Information
 Handle 0x0006, DMI type 11, 5 bytes
 OEM Strings
 	String 1: Panasonic Corporation
-	String 2: OVHdUzW5C0Jk0
-	String 3: P4jxhq2d-eml-
-	String 4: PGVRZGpF1Uv0l
+	String 2: HMnJQX5YspqJK
+	String 3: UEYjuwzA-TUNG
+	String 4: 8fZkP7hJYBKs4
 
 Handle 0x0007, DMI type 12, 5 bytes
 System Configuration Options

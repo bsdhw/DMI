@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
 45 structures occupying 1542 bytes.
@@ -303,7 +303,8 @@ Inactive
 Handle 0x0013, DMI type 9, 17 bytes
 System Slot Information
 	Designation: ExpressCard-1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: Unknown
 	Length: Other
 	ID: 0
@@ -314,14 +315,14 @@ System Slot Information
 
 Handle 0x0014, DMI type 11, 5 bytes
 OEM Strings
-	String 1: Ck44bkIwuEN1x
-	String 2: MMW4WgSlF89Fc
-	String 3: iG6jL1kq6Mkkq
+	String 1: Yw+gRaNBKN1AB
+	String 2: g6cxx-RMchXHR
+	String 3: TExotItUgS+nw
 
 Handle 0x0015, DMI type 12, 5 bytes
 System Configuration Options
 	Option 1: SMI:00B2C801
-	Option 2: TIM:202304300338
+	Option 2: TIM:202410100356
 	Option 3: HDD:     WD-WXA1A51W5198
 	Option 4: MEM:HMT325S6BFR8C-H9  6259A129
 

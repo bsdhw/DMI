@@ -1,8 +1,8 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.7 present.
-51 structures occupying 2135 bytes.
-Table at 0x000E6B70.
+51 structures occupying 2130 bytes.
+Table at 0x000E6BD0.
 
 Handle 0x0000, DMI type 0, 24 bytes
 BIOS Information
@@ -117,7 +117,7 @@ Processor Information
 	Voltage: 0.9 V
 	External Clock: 83 MHz
 	Max Speed: 2573 MHz
-	Current Speed: 2428 MHz
+	Current Speed: 2429 MHz
 	Status: Populated, Enabled
 	Upgrade: None
 	L1 Cache Handle: 0x0008
@@ -142,8 +142,8 @@ Memory Module Information
 	Bank Connections: 0 0
 	Current Speed: Unknown
 	Type: None
-	Installed Size: 4096 MB (Single-bank Connection)
-	Enabled Size: 4096 MB (Single-bank Connection)
+	Installed Size: 8192 MB (Single-bank Connection)
+	Enabled Size: 8192 MB (Single-bank Connection)
 	Error Status: OK
 
 Handle 0x0006, DMI type 6, 12 bytes
@@ -359,7 +359,8 @@ Port Connector Information
 Handle 0x001D, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J5C1
-	Type: x4 PCI Express x4
+	Type: PCI Express x4
+	Data Bus Width: 4x or x4
 	Current Usage: Available
 	Length: Other
 	ID: 0
@@ -372,7 +373,8 @@ System Slot Information
 Handle 0x001E, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J4B3
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Other
 	ID: 0
@@ -385,7 +387,8 @@ System Slot Information
 Handle 0x001F, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6C1
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Other
 	ID: 0
@@ -398,7 +401,8 @@ System Slot Information
 Handle 0x0020, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J6D1
-	Type: x1 PCI Express x1
+	Type: PCI Express x1
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Other
 	ID: 0
@@ -463,7 +467,7 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 4 GB
+	Size: 8 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM0
@@ -471,10 +475,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous
 	Speed: 1333 MT/s
-	Manufacturer: Samsung
+	Manufacturer: 21
 	Serial Number: --
 	Asset Tag: --
-	Part Number: M471B5173QHY-YK0  
+	Part Number:                   
 	Rank: Unknown
 	Configured Memory Speed: 1333 MT/s
 
@@ -495,16 +499,16 @@ Memory Device
 Handle 0x0028, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0025
 	Partition Width: 2
 
 Handle 0x0029, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x000FFFFFFFF
-	Range Size: 4 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Device Handle: 0x0026
 	Memory Array Mapped Address Handle: 0x0028
 	Partition Row Position: Unknown

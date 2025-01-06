@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.5
 Scanning /dev/mem for entry point.
 SMBIOS 2.6 present.
-78 structures occupying 2863 bytes.
+78 structures occupying 2861 bytes.
 Table at 0x000E0010.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -134,8 +134,8 @@ Memory Module Information
 	Bank Connections: 0 1
 	Current Speed: 43 ns
 	Type: DIMM SDRAM
-	Installed Size: 2048 MB (Double-bank Connection)
-	Enabled Size: 2048 MB (Double-bank Connection)
+	Installed Size: 4096 MB (Double-bank Connection)
+	Enabled Size: 4096 MB (Double-bank Connection)
 	Error Status: OK
 
 Handle 0x0009, DMI type 6, 12 bytes
@@ -394,18 +394,18 @@ Memory Device
 	Error Information Handle: No Error
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: DIMM 1
 	Bank Locator: Bank 0/1
 	Type: DDR3
 	Type Detail: Synchronous
-	Speed: 1066 MT/s
-	Manufacturer: 02FE            
+	Speed: 1334 MT/s
+	Manufacturer: 80CE            
 	Serial Number: --
 	Asset Tag: --
-	Part Number: EBJ21UE8BDS0-AE-F 
+	Part Number: M471B5273DH0-CH9  
 	Rank: Unknown
 
 Handle 0x002C, DMI type 17, 28 bytes
@@ -441,24 +441,24 @@ Handle 0x002D, DMI type 18, 23 bytes
 Handle 0x002E, DMI type 19, 15 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 6 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x002A
 	Partition Width: 2
 
 Handle 0x002F, DMI type 20, 19 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0007FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x000FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x002B
 	Memory Array Mapped Address Handle: 0x002E
 	Partition Row Position: 1
 
 Handle 0x0030, DMI type 20, 19 bytes
 Memory Device Mapped Address
-	Starting Address: 0x00080000000
-	Ending Address: 0x0017FFFFFFF
+	Starting Address: 0x00100000000
+	Ending Address: 0x001FFFFFFFF
 	Range Size: 4 GB
 	Physical Device Handle: 0x002C
 	Memory Array Mapped Address Handle: 0x002E
@@ -479,14 +479,14 @@ Built-in Pointing Device
 Handle 0x0033, DMI type 22, 26 bytes
 Portable Battery
 	Location: Rear
-	Manufacturer: SANYO
-	Name: 42T4799
-	Design Capacity: 86580 mWh
-	Design Voltage: 11100 mV
+	Manufacturer: LGC
+	Name: 45N1005
+	Design Capacity: 47520 mWh
+	Design Voltage: 10800 mV
 	SBDS Version: 03.01
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2010-11-04
+	SBDS Manufacture Date: 2012-06-27
 	SBDS Chemistry: LION
 	OEM-specific Information: 0x00000000
 
@@ -581,9 +581,9 @@ OEM-specific Type
 Handle 0x0043, DMI type 140, 67 bytes
 OEM-specific Type
 	Header and Data:
-		8C 43 43 00 4C 45 4E 4F 56 4F 0B 00 01 D6 4D 26
-		5A A6 5F 1E D5 2B 37 C1 21 16 6B C9 49 01 00 5A
-		2D 73 61 E7 D8 0A 2B C0 B7 68 27 6C 97 B3 B7 01
+		8C 43 43 00 4C 45 4E 4F 56 4F 0B 00 01 2F 5C 93
+		C7 EB BC AA 61 15 85 2D A2 9C DB D2 FD 01 00 53
+		9B 86 FF EE 52 E3 5A 90 66 5D 34 91 95 2A 1F 01
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00
 
@@ -643,7 +643,7 @@ OEM-specific Type
 Handle 0x004C, DMI type 131, 64 bytes
 OEM-specific Type
 	Header and Data:
-		83 40 4C 00 35 00 00 00 00 00 00 00 00 00 00 00
+		83 40 4C 00 14 00 00 00 00 00 00 00 00 00 00 00
 		F8 00 07 3B 00 00 00 00 09 41 6C 06 00 00 06 00
 		AB 04 03 00 01 00 01 02 C8 00 EA 10 00 00 00 00
 		00 00 00 00 3E 00 00 00 76 50 72 6F 00 00 00 00

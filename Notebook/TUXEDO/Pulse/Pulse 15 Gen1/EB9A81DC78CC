@@ -1,4 +1,4 @@
-# dmidecode 3.5
+# dmidecode 3.6
 # SMBIOS entry point at 0xcd018000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.2 present.
@@ -34,7 +34,7 @@ BIOS Information
 		Targeted content distribution is supported
 		UEFI is supported
 	BIOS Revision: 5.16
-	Firmware Revision: 1.9
+	Firmware Revision: 1.10
 
 Handle 0x0001, DMI type 1, 27 bytes
 System Information
@@ -485,7 +485,8 @@ Port Connector Information
 Handle 0x0024, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3604
-	Type: x8 PCI Express x8
+	Type: PCI Express x8
+	Data Bus Width: 8x or x8
 	Current Usage: Available
 	Length: Short
 	ID: 1
@@ -498,7 +499,8 @@ System Slot Information
 Handle 0x0025, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3711
-	Type: x1 M.2 Socket 1-SD
+	Type: M.2 Socket 1-SD
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	Characteristics:
@@ -510,7 +512,8 @@ System Slot Information
 Handle 0x0026, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3704
-	Type: x2 M.2 Socket 3
+	Type: M.2 Socket 3
+	Data Bus Width: 2x or x2
 	Current Usage: Available
 	Length: Short
 	Characteristics:
@@ -522,7 +525,8 @@ System Slot Information
 Handle 0x0027, DMI type 9, 17 bytes
 System Slot Information
 	Designation: J3709
-	Type: x1 M.2 Socket 1-SD
+	Type: M.2 Socket 1-SD
+	Data Bus Width: 1x or x1
 	Current Usage: Available
 	Length: Short
 	Characteristics:

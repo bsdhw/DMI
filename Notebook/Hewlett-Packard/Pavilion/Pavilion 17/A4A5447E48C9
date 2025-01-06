@@ -1,7 +1,7 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.8 present.
-30 structures occupying 1606 bytes.
+29 structures occupying 1548 bytes.
 Table at 0x000EBF60.
 
 Handle 0x0000, DMI type 0, 24 bytes
@@ -140,7 +140,8 @@ Port Connector Information
 Handle 0x000B, DMI type 9, 17 bytes
 System Slot Information
 	Designation: PCI Express Slot 1
-	Type: x1 PCI Express
+	Type: PCI Express
+	Data Bus Width: 1x or x1
 	Current Usage: In Use
 	Length: Short
 	ID: 0
@@ -193,14 +194,14 @@ Cache Information
 Handle 0x0013, DMI type 22, 26 bytes
 Portable Battery
 	Location: Primary
-	Manufacturer: 11-85
+	Manufacturer: 13-42
 	Name: VI04041
-	Design Capacity: 41440 mWh
+	Design Capacity: 32560 mWh
 	Design Voltage: 14800 mV
-	SBDS Version: 2.1
+	SBDS Version: 3.1
 	Maximum Error: Unknown
 	SBDS Serial Number: --
-	SBDS Manufacture Date: 2014-07-17
+	SBDS Manufacture Date: 2021-12-25
 	SBDS Chemistry: LION
 	OEM-specific Information: 0x000B090E
 
@@ -221,15 +222,15 @@ Physical Memory Array
 	Location: System Board Or Motherboard
 	Use: System Memory
 	Error Correction Type: Multi-bit ECC
-	Maximum Capacity: 6 GB
+	Maximum Capacity: 8 GB
 	Error Information Handle: Not Provided
 	Number Of Devices: 2
 
 Handle 0x0017, DMI type 19, 31 bytes
 Memory Array Mapped Address
 	Starting Address: 0x00000000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 6 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 8 GB
 	Physical Array Handle: 0x0016
 	Partition Width: 255
 
@@ -247,10 +248,10 @@ Memory Device
 	Type: DDR3
 	Type Detail: Synchronous Unbuffered (Unregistered)
 	Speed: 1600 MT/s
-	Manufacturer: A-DATA
+	Manufacturer: Hynix
 	Serial Number: --
 	Asset Tag: --
-	Part Number: AM1L16BC4R1-B1PS  
+	Part Number: HMT451S6BFR8A-PB  
 	Rank: 1
 	Configured Memory Speed: 1333 MT/s
 	Minimum Voltage: 1.35 V
@@ -263,7 +264,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 64 bits
 	Data Width: 64 bits
-	Size: 2 GB
+	Size: 4 GB
 	Form Factor: SODIMM
 	Set: None
 	Locator: Bottom-Slot 2(right)
@@ -274,7 +275,7 @@ Memory Device
 	Manufacturer: Hynix
 	Serial Number: --
 	Asset Tag: --
-	Part Number: HMT325S6EFR8A-PB  
+	Part Number: HMT451S6BFR8A-PB  
 	Rank: 1
 	Configured Memory Speed: 1333 MT/s
 	Minimum Voltage: 1.35 V
@@ -293,21 +294,13 @@ Memory Device Mapped Address
 Handle 0x001B, DMI type 20, 35 bytes
 Memory Device Mapped Address
 	Starting Address: 0x00100000000
-	Ending Address: 0x0017FFFFFFF
-	Range Size: 2 GB
+	Ending Address: 0x001FFFFFFFF
+	Range Size: 4 GB
 	Physical Device Handle: 0x0019
 	Memory Array Mapped Address Handle: 0x0017
 	Partition Row Position: 1
 
 Handle 0x001C, DMI type 41, 11 bytes
-Onboard Device
-	Reference Designation: Realtek Focus RTL8188EE bgn 1x1 PCI-e HMC WW
-	Type: Other
-	Status: Enabled
-	Type Instance: 1
-	Bus Address: 0000:01:00.0
-
-Handle 0x001D, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Realtek PCIe FE Family Controller
 	Type: Ethernet
@@ -315,7 +308,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:02:00.0
 
-Handle 0x001E, DMI type 41, 11 bytes
+Handle 0x001D, DMI type 41, 11 bytes
 Onboard Device
 	Reference Designation: Realtek PCIE CardReader
 	Type: Other
@@ -323,7 +316,7 @@ Onboard Device
 	Type Instance: 1
 	Bus Address: 0000:03:00.0
 
-Handle 0x0021, DMI type 4, 42 bytes
+Handle 0x0020, DMI type 4, 42 bytes
 Processor Information
 	Socket Designation: P0
 	Type: Central Processor
@@ -374,7 +367,7 @@ Processor Information
 	Characteristics:
 		64-bit capable
 
-Handle 0x0022, DMI type 13, 22 bytes
+Handle 0x0021, DMI type 13, 22 bytes
 BIOS Language Information
 	Language Description Format: Long
 	Installable Languages: 5
@@ -385,6 +378,6 @@ BIOS Language Information
 		zh|CN|unicode
 	Currently Installed Language: en|US|iso8859-1
 
-Handle 0x0023, DMI type 127, 4 bytes
+Handle 0x0022, DMI type 127, 4 bytes
 End Of Table
 

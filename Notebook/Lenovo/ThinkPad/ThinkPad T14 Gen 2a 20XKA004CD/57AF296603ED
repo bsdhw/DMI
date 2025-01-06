@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.5
 # SMBIOS entry point at 0xc7c65000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 3.3 present.
@@ -256,8 +256,8 @@ OEM-specific Type
 Handle 0x000E, DMI type 0, 26 bytes
 BIOS Information
 	Vendor: LENOVO
-	Version: R1MET44W (1.14 )
-	Release Date: 01/21/2022
+	Version: R1MET51W (1.21 )
+	Release Date: 09/15/2022
 	Address: 0xE0000
 	Runtime Size: 128 kB
 	ROM Size: 32 MB
@@ -280,8 +280,8 @@ BIOS Information
 		BIOS boot specification is supported
 		Targeted content distribution is supported
 		UEFI is supported
-	BIOS Revision: 1.14
-	Firmware Revision: 1.14
+	BIOS Revision: 1.21
+	Firmware Revision: 1.21
 
 Handle 0x000F, DMI type 1, 27 bytes
 System Information
@@ -305,7 +305,7 @@ Base Board Information
 		Board is a hosting board
 		Board is replaceable
 	Location In Chassis: Not Available
-	Chassis Handle: 0x0000
+	Chassis Handle: 0x0011
 	Type: Motherboard
 	Contained Object Handles: 0
 
@@ -596,8 +596,8 @@ OEM-specific Type
 	Header and Data:
 		8C 0F 2F 00 4C 45 4E 4F 56 4F 0B 09 01 01 02
 	Strings:
-		1.14 
-		1.14 
+		1.21 
+		1.21 
 
 Handle 0x0030, DMI type 135, 19 bytes
 OEM-specific Type
@@ -691,14 +691,14 @@ OEM-specific Type
 Handle 0x003C, DMI type 141, 18 bytes
 OEM-specific Type
 	Header and Data:
-		8D 12 3C 00 54 48 4E 4B 00 00 40 00 00 00 00 00
+		8D 12 3C 00 54 48 4E 4B 00 00 40 00 00 00 06 00
 		00 00
 
 Handle 0x003D, DMI type 141, 30 bytes
 OEM-specific Type
 	Header and Data:
-		8D 1E 3D 00 54 48 4E 4B 00 00 50 00 00 00 C5 DB
-		D2 21 00 00 00 00 D4 3A 0E 25 00 00 00 00
+		8D 1E 3D 00 54 48 4E 4B 00 00 50 00 00 00 4A CF
+		54 2F 00 00 00 00 D3 0C 03 36 00 00 00 00
 
 Handle 0x003E, DMI type 140, 19 bytes
 OEM-specific Type
@@ -716,12 +716,12 @@ Handle 0x0040, DMI type 140, 23 bytes
 OEM-specific Type
 	Header and Data:
 		8C 17 40 00 4C 45 4E 4F 56 4F 0B 06 01 CB 06 51
-		44 03 60 00 00 00 00
+		B4 03 60 00 00 00 00
 
 Handle 0x0041, DMI type 140, 15 bytes
 ThinkPad Embedded Controller Program
-	Version ID: R1MHT44W
-	Release Date: 01/14/2022
+	Version ID: R1MHT51W
+	Release Date: 09/14/2022
 
 Handle 0x0042, DMI type 141, 56 bytes
 OEM-specific Type
@@ -734,7 +734,7 @@ OEM-specific Type
 Handle 0x0043, DMI type 135, 18 bytes
 OEM-specific Type
 	Header and Data:
-		87 12 43 00 54 50 07 01 01 00 06 00 00 00 06 00
+		87 12 43 00 54 50 07 01 01 00 1E 00 00 00 1E 00
 		00 00
 
 Handle 0xFEFF, DMI type 127, 4 bytes

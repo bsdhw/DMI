@@ -1,9 +1,9 @@
-# dmidecode 3.4
-# SMBIOS entry point at 0xbcd3e000
+# dmidecode 3.5
+# SMBIOS entry point at 0xdcd3e000
 Found SMBIOS entry point in EFI, reading table from /dev/mem.
 SMBIOS 2.7 present.
 61 structures occupying 2588 bytes.
-Table at 0xBCD3D000.
+Table at 0xDCD3D000.
 
 Handle 0x0000, DMI type 4, 42 bytes
 Processor Information
@@ -349,7 +349,7 @@ System Slot Information
 Handle 0x0022, DMI type 10, 6 bytes
 On Board Device Information
 	Type: Other
-	Status: Enabled
+	Status: Disabled
 	Description: IBM Embedded Security hardware
 
 Handle 0x0023, DMI type 12, 5 bytes
@@ -414,7 +414,7 @@ OEM-specific Type
 Handle 0x002C, DMI type 134, 16 bytes
 OEM-specific Type
 	Header and Data:
-		86 10 2C 00 00 53 54 4D 20 01 01 00 00 03 01 02
+		86 10 2C 00 00 53 54 4D 20 01 01 00 00 00 01 02
 	Strings:
 		TPM INFO
 		System Reserved
@@ -461,14 +461,14 @@ BIOS Information
 
 Handle 0x0030, DMI type 15, 31 bytes
 System Event Log
-	Area Length: 530 bytes
+	Area Length: 1154 bytes
 	Header Start Offset: 0x0000
 	Header Length: 16 bytes
 	Data Start Offset: 0x0010
 	Access Method: General-purpose non-volatile data functions
 	Access Address: 0x00F0
 	Status: Valid, Not Full
-	Change Token: 0x00000020
+	Change Token: 0x00000047
 	Header Format: Type 1
 	Supported Log Type Descriptors: 4
 	Descriptor 1: POST error

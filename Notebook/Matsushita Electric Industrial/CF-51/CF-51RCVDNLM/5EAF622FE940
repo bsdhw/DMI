@@ -1,4 +1,4 @@
-# dmidecode 3.4
+# dmidecode 3.6
 Scanning /dev/mem for entry point.
 SMBIOS 2.3 present.
 42 structures occupying 1672 bytes.
@@ -268,7 +268,8 @@ OEM-specific Type
 Handle 0x0016, DMI type 9, 13 bytes
 System Slot Information
 	Designation: Lower PC Card
-	Type: 32-bit PC Card (PCMCIA)
+	Type: PC Card (PCMCIA)
+	Data Bus Width: 32 bit
 	Current Usage: Unknown
 	Length: Other
 	ID: Adapter 0, Socket 0
@@ -283,7 +284,8 @@ System Slot Information
 Handle 0x0017, DMI type 9, 13 bytes
 System Slot Information
 	Designation: Upper PC Card
-	Type: 32-bit PC Card (PCMCIA)
+	Type: PC Card (PCMCIA)
+	Data Bus Width: 32 bit
 	Current Usage: Unknown
 	Length: Other
 	ID: Adapter 0, Socket 1
